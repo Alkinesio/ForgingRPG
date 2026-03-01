@@ -1,0 +1,102 @@
+{
+  "id": "skilltree:archer_1",
+  "bonuses": [
+    {
+      "type": "skilltree:crit_chance",
+      "chance": 0.15,
+      "damage_condition": {
+        "type": "skilltree:projectile"
+      }
+    },
+    {
+      "type": "skilltree:damage",
+      "amount": -0.6,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:melee"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "equipment_type": "shield",
+        "type": "skilltree:equipment_type"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "minecraft:bow",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [
+    "skilltree:archer_6",
+    "skilltree:archer_7"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Main Skill"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "the_pillager_legion_:textures/item/legion_toth_bow_pulling_2.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "The Archer",
+  "positionX": -0.9531251,
+  "positionY": 0.0,
+  "buttonSize": 24,
+  "isStartingPoint": true,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+15% Projectile Critical Hit Chance"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "translate": "attribute.modifier.take.1",
+      "with": [
+        "60",
+        {
+          "translate": "damage_condition.skilltree.melee"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "translate": "skill_bonus.skilltree.cant_use_item",
+      "with": [
+        {
+          "translate": "item_condition.skilltree.equipment_type.shield.plural"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "Offensive main class which is specialized to deal damage in ranged fights."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 13434624
+      },
+      "f_131102_": false,
+      "text": "[Early-Mid Game, PvP]"
+    }
+  ]
+}

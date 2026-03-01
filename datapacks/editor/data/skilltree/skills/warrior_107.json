@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:warrior_107",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 0.04,
+      "operation": 1,
+      "player_condition": {
+        "value_provider": {
+          "percentage": true,
+          "missing": false,
+          "type": "skilltree:food_level"
+        },
+        "required_value": 1.0,
+        "logic": "EQUAL",
+        "type": "skilltree:numeric_value"
+      },
+      "damage_condition": {
+        "type": "skilltree:melee"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_106"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "alexscaves:textures/item/sack_of_sating.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Saturation Damage",
+  "positionX": 367.627,
+  "positionY": -261.633,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

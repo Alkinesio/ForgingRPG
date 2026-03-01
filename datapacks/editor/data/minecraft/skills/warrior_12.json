@@ -1,0 +1,16 @@
+{
+  "id": "skilltree:warrior_12",
+  "bonuses": [],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "positionX": -168.0,
+  "positionY": 0.0,
+  "buttonSize": 22,
+  "isStartingPoint": false
+}

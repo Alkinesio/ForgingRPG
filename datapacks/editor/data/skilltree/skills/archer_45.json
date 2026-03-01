@@ -1,0 +1,196 @@
+{
+  "id": "skilltree:archer_45",
+  "bonuses": [
+    {
+      "type": "skilltree:healing",
+      "chance": 1.0,
+      "amount": 1.0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:projectile"
+        },
+        "player_condition": {
+          "value_provider": {
+            "attribute": "minecraft:generic.max_health",
+            "type": "skilltree:attribute_value"
+          },
+          "required_value": 30.0,
+          "logic": "AT_LEAST",
+          "type": "skilltree:numeric_value"
+        },
+        "player_multiplier": {
+          "value_provider": {
+            "attribute": "minecraft:generic.max_health",
+            "type": "skilltree:attribute_value"
+          },
+          "divisor": 10.0,
+          "type": "skilltree:numeric_value"
+        },
+        "target": "player",
+        "type": "skilltree:attack"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "bbe8814e-8fc8-4c61-a375-f774d82993af",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "iter_rpg:flat_ranged_damage",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 0.5,
+        "type": "skilltree:numeric_value"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "iter_rpg:flat_ranged_damage",
+      "id": "adb1ab24-a7fe-438a-867c-5edb26b15105",
+      "name": "Skill",
+      "amount": 4.0,
+      "operation": 0
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "forge:step_height_addition",
+      "id": "df40c999-0bb8-4c10-a072-a5c3384aaf80",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:killed",
+      "statId": "twilightforest:hydra",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [
+    "skilltree:archer_30"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Notable Skill",
+    "Secondary Notable Skill"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "macabre:textures/item/gargamawheart.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Giant Archer",
+  "positionX": 306.23,
+  "positionY": -60.448,
+  "buttonSize": 18,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "value_provider.skilltree.attribute_value.multiplier.player.plural",
+      "with": [
+        {
+          "translate": "value_provider.skilltree.attribute_value.condition.player",
+          "with": [
+            {
+              "translate": "event_listener.skilltree.attack.damage",
+              "with": [
+                {
+                  "translate": "skill_bonus.skilltree.healing.player",
+                  "with": [
+                    "1"
+                  ]
+                },
+                {
+                  "translate": "damage_condition.skilltree.projectile.type"
+                }
+              ]
+            },
+            {
+              "translate": "attribute.name.generic.max_health"
+            },
+            {
+              "translate": "living_condition.skilltree.numeric_value.at_least",
+              "with": [
+                "30"
+              ]
+            }
+          ]
+        },
+        "10",
+        {
+          "translate": "attribute.name.generic.max_health"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "value_provider.skilltree.attribute_value.multiplier.player.plural",
+      "with": [
+        {
+          "translate": "attribute.modifier.plus.0",
+          "with": [
+            "1",
+            {
+              "translate": "attribute.name.generic.max_health"
+            }
+          ]
+        },
+        "0.5",
+        {
+          "translate": "attribute.iter_rpg.flat_ranged_damage"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "attribute.modifier.plus.0",
+      "with": [
+        "4",
+        {
+          "translate": "attribute.iter_rpg.flat_ranged_damage"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "attribute.modifier.plus.0",
+      "with": [
+        "1",
+        {
+          "translate": "forge.step_height"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "Scale damage over Health."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "It is an useful way to scale defense for offensive considering it is a ranged class."
+    }
+  ]
+}

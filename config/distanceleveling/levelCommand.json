@@ -1,0 +1,13 @@
+{
+  // Commands to run on level up.
+  // Format: <command><sep><level>
+  // - Use ',' or '|' for every N levels (e.g., |5 => every 5 levels)
+  // - Use '=' for specific levels (e.g., =10 => only at level 10)
+  // - Use @s to target the leveling player (we replace it with their name).
+  // Examples:
+  //   levelCommands = [
+  //     'title @s actionbar {"text":"LEVEL UP!","color":"gold"}|1',
+  //     'give @s diamond 1=5'
+  //   ]
+  "levelCommands": []
+}

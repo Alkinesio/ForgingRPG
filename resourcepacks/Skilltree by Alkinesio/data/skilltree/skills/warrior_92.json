@@ -1,0 +1,78 @@
+{
+  "id": "skilltree:warrior_92",
+  "bonuses": [
+    {
+      "type": "skilltree:all_attributes",
+      "id": "58d4d6f2-8eb3-44c2-bbb4-01bfee3c28f1",
+      "name": "Skill",
+      "amount": 0.04,
+      "operation": 2,
+      "player_condition": {
+        "value_provider": {
+          "percentage": true,
+          "missing": false,
+          "type": "skilltree:food_level"
+        },
+        "required_value": 1.0,
+        "logic": "EQUAL",
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:custom",
+      "statId": "minecraft:mob_kills",
+      "minValue": 1000
+    }
+  ],
+  "directConnections": [
+    "skilltree:warrior_97"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Notable Skill",
+    "Secondary Notable Skill"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/chicken.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Satiety of War",
+  "positionX": 237.6145,
+  "positionY": -184.558,
+  "buttonSize": 18,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "value_provider.skilltree.food_level.condition.player.full",
+      "with": [
+        {
+          "translate": "attribute.modifier.plus.2",
+          "with": [
+            "4",
+            {
+              "translate": "skill_bonus.skilltree.all_attributes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "Gain a sightly amount of statistics when your stomach is full."
+    }
+  ]
+}

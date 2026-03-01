@@ -1,0 +1,131 @@
+{
+  "id": "skilltree:warrior_228",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "057b33f0-705b-4642-8523-38616c9c29e7",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "minecraft:generic.attack_damage",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 5.0,
+        "type": "skilltree:numeric_value"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:current_hp_damage",
+      "id": "54940b4a-f2b5-430a-b1e1-0cde48f74313",
+      "name": "Skill",
+      "amount": 0.02,
+      "operation": 0
+    },
+    {
+      "type": "skilltree:all_attributes",
+      "id": "420f3a0d-2924-43e6-9002-3145cef39b22",
+      "name": "Skill",
+      "amount": 0.02,
+      "operation": 2
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "61f9c152-3ab4-4c9e-8b49-dacad6450c94",
+      "name": "Skill",
+      "amount": 2.0,
+      "operation": 0
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:life_steal",
+      "id": "f0077eff-ac10-43ff-8c2c-5be317a60d0e",
+      "name": "Skill",
+      "amount": 0.02,
+      "operation": 0
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:custom",
+      "statId": "tombstone:kill_undead_boss",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Notable Skill",
+    "Secondary Notable Skill"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "iceandfire:textures/item/dragonsteel_lightning_helmet.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Darkness Knight",
+  "positionX": -41.425,
+  "positionY": -266.877,
+  "buttonSize": 18,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+1 Armor per 5 Attack Damage"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+2% Current HP Damage"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "attribute.modifier.plus.2",
+      "with": [
+        "2",
+        {
+          "translate": "skill_bonus.skilltree.all_attributes"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "attribute.modifier.plus.0",
+      "with": [
+        "2",
+        {
+          "translate": "attribute.name.generic.attack_damage"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+2% Life Steal"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "Overall statistics for the perfect lifestealer."
+    }
+  ]
+}

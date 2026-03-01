@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:warrior_94",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 0.12,
+      "max_stacks": 1,
+      "effect": "minecraft:speed",
+      "duration": 160,
+      "amplifier": 0,
+      "event_listener": {
+        "item_condition": {
+          "type": "skilltree:food"
+        },
+        "type": "skilltree:item_used"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_85",
+    "skilltree:warrior_86"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:warrior_98"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "endersdelight:textures/item/amberveil_stew_a.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Movement Speed",
+  "titleColor": "",
+  "positionX": 237.49167,
+  "positionY": -111.01933,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:warrior_187",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 0.05,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:poison"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_185"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:warrior_200"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "alexsmobs:textures/item/poison_bottle.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Poison Damage",
+  "positionX": 37.879,
+  "positionY": 277.212,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

@@ -1,0 +1,43 @@
+{
+  "id": "skilltree:warrior_114",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 0.016,
+      "operation": 1,
+      "enemy_multiplier": {
+        "value_provider": {
+          "attribute": "minecraft:generic.max_health",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 20.0,
+        "type": "skilltree:numeric_value"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "axe",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_equipped"
+      },
+      "damage_condition": {
+        "type": "skilltree:melee"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_115"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "macabre:textures/item/bloodiron_axe.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Boss Slayer",
+  "positionX": 366.246,
+  "positionY": -300.316,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

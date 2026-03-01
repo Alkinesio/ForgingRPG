@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:warrior_77",
+  "bonuses": [
+    {
+      "type": "skilltree:damage_taken",
+      "amount": -0.04,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:magic"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_76"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:warrior_78"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "irons_spellbooks:textures/item/wandering_magician_chestplate.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Damage Reduction",
+  "positionX": 104.402,
+  "positionY": -268.544,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

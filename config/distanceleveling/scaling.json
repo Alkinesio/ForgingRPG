@@ -1,0 +1,42 @@
+{
+  // Distance from spawn per level required.
+  //     e.g., blocksPerLevel = 100 => mob spawns 1000 blocks away from spawn will be level 10.
+  "blocksPerLevel": 100,
+  // addtional mob HP per level.
+  "mobHpPerLevel": 0.2,
+  // ADD: mobBaseHeatlth * (1 + mobHpPerLevel * level).
+  // MULT: mobBaseHeatlth * (mobHpPerLevel) ^ level.
+  "mobHpMode": "ADD",
+  // addtional mob ATK per level.
+  "mobAtkPerLevel": 0.2,
+  // ADD: mobBaseAttack * (1 + mobAtkPerLevel * level).
+  // MULT: mobBaseAttack * (mobAtkPerLevel) ^ level.
+  "mobAtkMode": "ADD",
+  // the amount of XP required for first upgrade.
+  "firstUpgradeNeed": 200,
+  // the additional amount of XP required to next level per level.
+  "requireXpToNextLevel": 0.2,
+  // ADD: requireXpToNextLevel = firstUpgradeNeed * (1 + requireXpToNextLevel * level).
+  // MULT: requireXpToNextLevel = firstUpgradeNeed * (requireXpToNextLevel) ^ level.
+  "requireXpMode": "ADD",
+  // the additional amount of XP (xp for distance leveling not vallina) dropped by mob per level.
+  "xpDropPerLevel": 0.2,
+  // ADD: xpDrop = baseMobHealth * (1 + xpDropPerLevel * level).
+  // MULT: xpDrop = baseMobHealth * (xpDropPerLevel) ^ level.
+  "xpDropMode": "ADD",
+  // addtional player HP per level.
+  "playerHpPerLevel": 0.2,
+  // ADD: playerBaseHealth * (1 + playerHpPerLevel * level).
+  // MULT: playerBaseHealth * (playerHpPerLevel) ^ level.
+  "playerHpMode": "ADD",
+  // addtional player ATK per level.
+  "playerAtkPerLevel": 0.2,
+  // ADD: playerBaseAttack * (1 + playerAtkPerLevel * level).
+  // MULT: playerBaseAttack * (playerAtkPerLevel) ^ level.
+  "playerAtkMode": "ADD",
+  // the additional amount of loot dropped by mob per level.
+  "lootPerLevel": 0.2,
+  // ADD: lootAmount = baseLootAmount * (1 + lootPerLevel * level).
+  // MULT: lootAmount = baseLootAmount * (lootPerLevel) ^ level.
+  "lootMode": "ADD"
+}

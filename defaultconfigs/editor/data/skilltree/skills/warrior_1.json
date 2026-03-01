@@ -1,0 +1,93 @@
+{
+  "id": "skilltree:warrior_1",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 0.1,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:melee"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "equipment_type": "ranged_weapon",
+        "type": "skilltree:equipment_type"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:numeric_value",
+      "value_provider": {
+        "attribute": "minecraft:generic.attack_damage",
+        "type": "skilltree:attribute_value"
+      },
+      "required_value": 5.0,
+      "logic": "MORE"
+    }
+  ],
+  "directConnections": [
+    "skilltree:warrior_7",
+    "skilltree:warrior_8",
+    "skilltree:warrior_2",
+    "skilltree:warrior_6"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Main Skill"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "the_pillager_legion_:textures/item/lpt_sword.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "The Warrior",
+  "positionX": 0.0,
+  "positionY": 0.0,
+  "buttonSize": 24,
+  "isStartingPoint": true,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "attribute.modifier.plus.1",
+      "with": [
+        "10",
+        {
+          "translate": "damage_condition.skilltree.melee"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "translate": "skill_bonus.skilltree.cant_use_item",
+      "with": [
+        {
+          "translate": "item_condition.skilltree.equipment_type.ranged_weapon.plural"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "Balanced main class which is specialized to deal and get damage in melee fights."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 65280
+      },
+      "text": "[Early Game]"
+    }
+  ]
+}

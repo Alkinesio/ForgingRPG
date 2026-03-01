@@ -1,0 +1,36 @@
+{
+  "id": "skilltree:utility_27",
+  "bonuses": [
+    {
+      "type": "skilltree:curio_slots",
+      "slot": "ring",
+      "amount": 1,
+      "modifier_id": "15e0d0c1-f83a-4747-aff4-c9a774572945"
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:utility_26"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:utility_30"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "iter_rpg:textures/item/pigboss_ring.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Utility",
+  "positionX": 140.023,
+  "positionY": 12.177,
+  "buttonSize": 14,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+1 Ring Slots"
+    }
+  ]
+}

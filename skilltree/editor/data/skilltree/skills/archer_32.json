@@ -1,0 +1,166 @@
+{
+  "id": "skilltree:archer_32",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor_toughness",
+      "id": "91102dbe-9979-46bb-92da-b43c02e6eef9",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 0,
+      "player_condition": {
+        "item_condition": {
+          "id": "minecraft:leather_helmet",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor_toughness",
+      "id": "f45bbac1-a830-4452-8ee1-b195076454e8",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 0,
+      "player_condition": {
+        "item_condition": {
+          "id": "minecraft:leather_chestplate",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor_toughness",
+      "id": "81eff631-1f6b-4f36-8119-d0c23dfb21de",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 0,
+      "player_condition": {
+        "item_condition": {
+          "id": "minecraft:leather_leggings",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor_toughness",
+      "id": "f5a0002f-c7d9-45e9-8cba-e9377c456bd3",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 0,
+      "player_condition": {
+        "item_condition": {
+          "id": "minecraft:leather_boots",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor_toughness",
+      "id": "bfd193d3-d3b5-4ecc-b6cc-f9139b28c6c0",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 0,
+      "player_condition": {
+        "item_condition": {
+          "id": "minecraft:chainmail_helmet",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor_toughness",
+      "id": "239770e6-0d7b-4c4e-aa1c-2114b82e701d",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 0,
+      "player_condition": {
+        "item_condition": {
+          "id": "minecraft:chainmail_chestplate",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor_toughness",
+      "id": "969f09e0-4772-4a85-a892-fde5239fac74",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 0,
+      "player_condition": {
+        "item_condition": {
+          "id": "minecraft:chainmail_leggings",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor_toughness",
+      "id": "d17e0861-b7cf-4f7e-9f0b-cf034cf67182",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 0,
+      "player_condition": {
+        "item_condition": {
+          "id": "minecraft:chainmail_boots",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:archer_31"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "iceandaddon:textures/item/rhino_leather_chestplate.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Armor Thoughness",
+  "positionX": 332.23,
+  "positionY": 36.77,
+  "buttonSize": 14,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+0.5 Armor Toughness with Chainmail Helmet or Leather Cap equipped"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+0.5 Armor Toughness with Chainmail Chestplate or Leather Tunic equipped"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+0.5 Armor Toughness with Chainmail Leggings or Leather Pants equipped"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+0.5 Armor Toughness with Chainmail or Leather Boots equipped"
+    }
+  ]
+}

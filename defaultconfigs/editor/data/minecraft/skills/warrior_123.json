@@ -1,0 +1,145 @@
+{
+  "id": "skilltree:warrior_123",
+  "bonuses": [
+    {
+      "type": "skilltree:crit_damage",
+      "amount": 0.012,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "minecraft:generic.armor_toughness",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 1.0,
+        "type": "skilltree:numeric_value"
+      },
+      "damage_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:damage",
+      "amount": 0.006,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "minecraft:generic.armor",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 1.0,
+        "type": "skilltree:numeric_value"
+      },
+      "damage_condition": {
+        "type": "skilltree:melee"
+      }
+    },
+    {
+      "type": "skilltree:damage_taken",
+      "amount": -0.1,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:fire"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:numeric_value",
+      "value_provider": {
+        "attribute": "minecraft:generic.armor",
+        "type": "skilltree:attribute_value"
+      },
+      "required_value": 10.0,
+      "logic": "AT_LEAST"
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:warrior_16",
+    "skilltree:warrior_124"
+  ],
+  "tags": [
+    "Notable Skill",
+    "Primary Notable Skill"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "magistuarmoryaddon:textures/item/steel_sickle.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Critical Heartsteel",
+  "titleColor": "",
+  "positionX": 118.891,
+  "positionY": -1.265,
+  "buttonSize": 18,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "value_provider.skilltree.attribute_value.multiplier.player",
+      "with": [
+        {
+          "translate": "attribute.modifier.plus.1",
+          "with": [
+            "1.2",
+            {
+              "translate": "skill_bonus.skilltree.crit_damage"
+            }
+          ]
+        },
+        {
+          "translate": "attribute.name.generic.armor_toughness"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "value_provider.skilltree.attribute_value.multiplier.player",
+      "with": [
+        {
+          "translate": "attribute.modifier.plus.2",
+          "with": [
+            "0.6",
+            {
+              "translate": "damage_condition.skilltree.melee"
+            }
+          ]
+        },
+        {
+          "translate": "attribute.name.generic.armor"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "attribute.modifier.take.2",
+      "with": [
+        "10",
+        {
+          "translate": "skill_bonus.skilltree.damage_taken",
+          "with": [
+            {
+              "translate": "damage_condition.skilltree.fire"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "Get this to scale damage via Armor and reduce fire damage."
+    }
+  ]
+}

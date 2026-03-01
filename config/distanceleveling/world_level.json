@@ -1,0 +1,8 @@
+{
+  // World level system is a system that increase the minumum level over time until it reaches the player with highest level.
+  "worldLevelingSystem": true,
+  // Time interval between world level updates (24000 = 1 minecraft day).
+  "timePerLevel": 24000,
+  // Amount of the world level increases each update.
+  "levelPerUpdate": 1
+}

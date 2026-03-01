@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:warrior_208",
+  "bonuses": [
+    {
+      "type": "skilltree:damage_taken",
+      "amount": -0.05,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:projectile"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_207"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/arrow_bronze.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Damage Reduction",
+  "positionX": -52.0,
+  "positionY": -122.0,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

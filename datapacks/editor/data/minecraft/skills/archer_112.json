@@ -1,0 +1,146 @@
+{
+  "id": "skilltree:archer_112",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 0.15,
+      "max_stacks": 1,
+      "effect": "relics:bleeding",
+      "duration": 400,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:projectile"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    },
+    {
+      "type": "skilltree:damage",
+      "amount": 0.02,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "type": "skilltree:distance_to_target"
+        },
+        "divisor": 1.0,
+        "type": "skilltree:numeric_value"
+      },
+      "damage_condition": {
+        "type": "skilltree:projectile"
+      }
+    },
+    {
+      "type": "skilltree:crit_chance",
+      "chance": 0.1,
+      "damage_condition": {
+        "type": "skilltree:projectile"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:crafted",
+      "statId": "apotheosis:obsidian_arrow",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [
+    "skilltree:archer_111",
+    "skilltree:archer_126"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Notable Skill"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "iceandfire:textures/item/cyclops_eye.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "The Sniper",
+  "positionX": 106.77,
+  "positionY": -106.776,
+  "buttonSize": 18,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "event_listener.skilltree.attack.damage",
+      "with": [
+        {
+          "translate": "attribute.modifier.plus.1",
+          "with": [
+            "15",
+            {
+              "translate": "skill_bonus.skilltree.inflict_effect.enemy.chance",
+              "with": [
+                {
+                  "translate": "effect.relics.bleeding"
+                },
+                {
+                  "translate": "skill_bonus.skilltree.inflict_effect.seconds",
+                  "with": [
+                    "20"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "translate": "damage_condition.skilltree.projectile.type"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "value_provider.skilltree.distance_to_target.multiplier.player",
+      "with": [
+        {
+          "translate": "attribute.modifier.plus.1",
+          "with": [
+            "2",
+            {
+              "translate": "damage_condition.skilltree.projectile"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "attribute.modifier.plus.1",
+      "with": [
+        "10",
+        {
+          "translate": "skill_bonus.skilltree.crit_chance.damage",
+          "with": [
+            {
+              "translate": "damage_condition.skilltree.projectile.type"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "Get damage scaling on the distance from the target."
+    }
+  ]
+}

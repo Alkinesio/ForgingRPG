@@ -1,0 +1,32 @@
+{
+  "id": "skilltree:archer_88",
+  "bonuses": [
+    {
+      "type": "skilltree:healing",
+      "chance": 1.0,
+      "amount": 1.0,
+      "event_listener": {
+        "item_condition": {
+          "id": "iter_rpg:dwarven_handcannon",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:item_used"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:archer_94"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "born_in_chaos_v1:textures/item/bombbotl.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Healing",
+  "positionX": -65.123,
+  "positionY": -163.201,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

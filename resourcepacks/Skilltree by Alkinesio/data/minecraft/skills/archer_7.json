@@ -1,0 +1,105 @@
+{
+  "id": "skilltree:archer_7",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "iter_rpg:flat_ranged_damage",
+      "id": "ac8b6cc5-76ca-4967-b5c5-60de34dd5e57",
+      "name": "Skill",
+      "amount": 2.0,
+      "operation": 0,
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "crossbow",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "equipment_type": "bow",
+        "type": "skilltree:equipment_type"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:killed",
+      "statId": "guardvillagers:guard",
+      "minValue": 2
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Archer Sub-class"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "irons_spellbooks:textures/item/autoloader_crossbow_arrow.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "The Crossbower",
+  "positionX": 31.817,
+  "positionY": -31.823,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "living_condition.skilltree.has_item_in_hand",
+      "with": [
+        {
+          "translate": "attribute.modifier.plus.0",
+          "with": [
+            "2",
+            {
+              "translate": "attribute.iter_rpg.flat_ranged_damage"
+            }
+          ]
+        },
+        {
+          "translate": "living_condition.skilltree.has_item_in_hand.target.player"
+        },
+        {
+          "translate": "item_condition.skilltree.equipment_type.crossbow"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "translate": "skill_bonus.skilltree.cant_use_item",
+      "with": [
+        {
+          "translate": "item_condition.skilltree.equipment_type.bow.plural"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "f_131102_": false,
+      "text": "The Crossbower is specialized to deal flat and critical damage."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 65280
+      },
+      "f_131102_": false,
+      "text": "[Early Game, PvP/PvE]"
+    }
+  ]
+}

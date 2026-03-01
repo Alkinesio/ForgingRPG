@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:warrior_145",
+  "bonuses": [
+    {
+      "type": "skilltree:command",
+      "command": "give @p minecraft:totem_of_undying",
+      "description": "Grants a Totem of Undying when learned",
+      "event_listener": {
+        "type": "skilltree:skill_learned"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_144"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "ancient_temples:textures/item/totem.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Utility",
+  "positionX": 327.0,
+  "positionY": 21.0,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

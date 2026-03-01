@@ -1,0 +1,108 @@
+{
+  "id": "skilltree:warrior_227",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_speed",
+      "id": "691248a3-e213-402c-9261-9580a2f41962",
+      "name": "Skill",
+      "amount": 0.02,
+      "operation": 0,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "attributeslib:life_steal",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 0.05,
+        "type": "skilltree:numeric_value"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "7133fd38-fcbe-4850-8561-342e869958d4",
+      "name": "Skill",
+      "amount": 0.02,
+      "operation": 0,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "attributeslib:life_steal",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 0.05,
+        "type": "skilltree:numeric_value"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:life_steal",
+      "id": "af8192b0-50ec-47df-adf2-7be7082fa7e1",
+      "name": "Skill",
+      "amount": 0.02,
+      "operation": 0,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "minecraft:generic.attack_damage",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 5.0,
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:killed",
+      "statId": "minecraft:blaze",
+      "minValue": 40
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Notable Skill",
+    "Secondary Notable Skill"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "regions_unexplored:textures/item/hanging_earlight_fruit.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Light Lifestealer",
+  "positionX": 41.425,
+  "positionY": -266.88,
+  "buttonSize": 18,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+2% Attack Speed per 5% Life Steal"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+2% Speed per 5% Life Steal"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+2% Life Steal per 5 Attack Damage"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "Rapid lifestealer focused to hit multiple times own opponents."
+    }
+  ]
+}

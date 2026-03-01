@@ -1,0 +1,24 @@
+{
+  "id": "skilltree:warrior_59",
+  "bonuses": [
+    {
+      "type": "skilltree:incoming_healing",
+      "multiplier": 0.04
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Third Branch"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "artifacts:textures/item/crystal_heart.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Healing",
+  "positionX": 149.197,
+  "positionY": -178.203,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

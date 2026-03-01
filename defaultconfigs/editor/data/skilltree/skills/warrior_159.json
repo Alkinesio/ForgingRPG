@@ -1,0 +1,60 @@
+{
+  "id": "skilltree:warrior_159",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 0.2,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "x_player_info:attribute.name.extend.jump.extra_count",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 1.0,
+        "type": "skilltree:numeric_value"
+      },
+      "damage_condition": {
+        "type": "skilltree:fall"
+      }
+    },
+    {
+      "type": "skilltree:damage_taken",
+      "amount": -0.2,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:fall"
+      }
+    },
+    {
+      "type": "skilltree:jump_height",
+      "multiplier": 1.0
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "x_player_info:attribute.name.extend.jump.extra_count",
+      "id": "b7432825-81d7-4ac0-a787-769cce337764",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_158",
+    "skilltree:warrior_154"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Notable Skill",
+    "Secondary Notable Skill"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "moreartifacts:textures/item/high_jumpers.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "The Rabbit Angel",
+  "positionX": 496.082,
+  "positionY": -77.922,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

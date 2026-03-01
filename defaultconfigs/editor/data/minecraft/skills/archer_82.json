@@ -1,0 +1,224 @@
+{
+  "id": "skilltree:archer_82",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_knockback",
+      "id": "1297111a-0677-4594-ac32-d83db115a527",
+      "name": "Skill",
+      "amount": 4.0,
+      "operation": 0,
+      "player_condition": {
+        "item_condition": {
+          "id": "iter_rpg:dwarven_handcannon",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "iter_rpg:bullet_damage",
+      "id": "baaa033e-397c-41a6-97b5-173baa9e7a89",
+      "name": "Skill",
+      "amount": 0.02,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "type": "skilltree:distance_to_target"
+        },
+        "divisor": 1.0,
+        "type": "skilltree:numeric_value"
+      }
+    },
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 1.0,
+      "max_stacks": 1,
+      "effect": "minecraft:weakness",
+      "duration": 80,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "item_condition": {
+            "id": "iter_rpg:dwarven_handcannon",
+            "type": "skilltree:item_id"
+          },
+          "type": "skilltree:has_item_in_hand"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    },
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 1.0,
+      "max_stacks": 1,
+      "effect": "minecraft:slowness",
+      "duration": 80,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "item_condition": {
+            "id": "iter_rpg:dwarven_handcannon",
+            "type": "skilltree:item_id"
+          },
+          "type": "skilltree:has_item_in_hand"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:custom",
+      "statId": "minecraft:damage_dealt",
+      "minValue": 1000
+    }
+  ],
+  "directConnections": [
+    "skilltree:archer_80"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Notable Skill"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "classicexploration:textures/item/cannon.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "The Cannoner",
+  "positionX": -56.569,
+  "positionY": -101.569,
+  "buttonSize": 18,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "living_condition.skilltree.has_item_in_hand",
+      "with": [
+        {
+          "translate": "attribute.modifier.plus.0",
+          "with": [
+            "4",
+            {
+              "translate": "attribute.name.generic.attack_knockback"
+            }
+          ]
+        },
+        {
+          "translate": "living_condition.skilltree.has_item_in_hand.target.player"
+        },
+        {
+          "translate": "item.iter_rpg.dwarven_handcannon"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "value_provider.skilltree.distance_to_target.multiplier.player",
+      "with": [
+        {
+          "translate": "attribute.modifier.plus.1",
+          "with": [
+            "2",
+            {
+              "translate": "attribute.iter_rpg.bullet_damage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "living_condition.skilltree.has_item_in_hand",
+      "with": [
+        {
+          "translate": "event_listener.skilltree.attack",
+          "with": [
+            {
+              "translate": "skill_bonus.skilltree.inflict_effect.enemy",
+              "with": [
+                {
+                  "translate": "effect.minecraft.weakness"
+                },
+                {
+                  "translate": "skill_bonus.skilltree.inflict_effect.seconds",
+                  "with": [
+                    "4"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "translate": "living_condition.skilltree.has_item_in_hand.target.player"
+        },
+        {
+          "translate": "item.iter_rpg.dwarven_handcannon"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "living_condition.skilltree.has_item_in_hand",
+      "with": [
+        {
+          "translate": "event_listener.skilltree.attack",
+          "with": [
+            {
+              "translate": "skill_bonus.skilltree.inflict_effect.enemy",
+              "with": [
+                {
+                  "translate": "effect.minecraft.slowness"
+                },
+                {
+                  "translate": "skill_bonus.skilltree.inflict_effect.seconds",
+                  "with": [
+                    "4"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "translate": "living_condition.skilltree.has_item_in_hand.target.player"
+        },
+        {
+          "translate": "item.iter_rpg.dwarven_handcannon"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "f_131102_": false,
+      "text": "The Cannoner is a Pyrotechnician specialized to fire on long distance."
+    }
+  ]
+}

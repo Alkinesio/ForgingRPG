@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:archer_51",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "combatroll:recharge",
+      "id": "68c3f959-333e-4391-84b0-814767fd797d",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:archer_50"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "ftblibrary:textures/icons/refresh.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Roll Cooldown",
+  "positionX": 70.007,
+  "positionY": 70.001,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

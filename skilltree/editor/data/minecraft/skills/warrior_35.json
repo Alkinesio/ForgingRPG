@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:warrior_35",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_speed",
+      "id": "11219ede-c8e7-4659-bafa-bc31e56e4a79",
+      "name": "Skill",
+      "amount": 0.024,
+      "operation": 2
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_41"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:warrior_48"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "goety:textures/item/fanged_dagger.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Attack Speed",
+  "positionX": 68.587,
+  "positionY": -68.593,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

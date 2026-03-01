@@ -1,0 +1,18 @@
+{
+  // XP HUD config.
+  "xpHudRounded": true,
+  "xpHudWidth": 140,
+  "xpHudHeight": 7,
+  "xpHudAnchorX": "CENTER",
+  "xpHudAnchorY": "BOTTOM",
+  "xpHudOffsetX": -232,
+  "xpHudOffsetY": -15,
+  "xpHudTextOffsetX": -139,
+  "xpHudTextOffsetY1": -10,
+  "xpHudTextOffsetY2": 10,
+  "xpHudEnabled": true,
+  "xpHudShine": true,
+  "xpHudShinePeriodTicks": 60,
+  "xpHudShineWidth": 18,
+  "xpHudShineAlpha": 110
+}

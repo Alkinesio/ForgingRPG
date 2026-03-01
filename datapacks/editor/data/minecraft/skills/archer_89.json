@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:archer_89",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "570d2727-d720-4c50-99ca-1e1a665da62e",
+      "name": "Skill",
+      "amount": 0.04,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:archer_87"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "magistuarmory:textures/item/brigandine_boots.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Movement Speed",
+  "positionX": 82.689,
+  "positionY": -182.372,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

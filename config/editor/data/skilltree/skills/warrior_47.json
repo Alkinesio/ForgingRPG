@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:warrior_47",
+  "bonuses": [
+    {
+      "type": "skilltree:damage_taken",
+      "amount": -0.04,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:fire"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Secondary Branch"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "stalwart_dungeons:textures/item/ancient_fire.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Damage Reduction",
+  "positionX": 122.081,
+  "positionY": -99.087,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

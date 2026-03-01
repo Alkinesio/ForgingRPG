@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:warrior_200",
+  "bonuses": [
+    {
+      "type": "skilltree:damage_taken",
+      "amount": -0.02,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_199"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:warrior_193"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "magistuarmory:textures/item/steel_plate.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Damage Reduction",
+  "positionX": 0.0,
+  "positionY": 298.311,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

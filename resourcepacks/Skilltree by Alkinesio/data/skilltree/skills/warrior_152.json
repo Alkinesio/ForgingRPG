@@ -1,0 +1,35 @@
+{
+  "id": "skilltree:warrior_152",
+  "bonuses": [
+    {
+      "type": "skilltree:crit_chance",
+      "chance": 0.01,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "minecraft:generic.attack_damage",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 5.0,
+        "type": "skilltree:numeric_value"
+      },
+      "damage_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_144"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "fantasy_weapons:textures/item/weapon_fog_guard_dagger.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Critical Damage",
+  "positionX": 327.0,
+  "positionY": 0.0,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

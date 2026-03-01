@@ -1,0 +1,110 @@
+{
+  "id": "skilltree:warrior_225",
+  "bonuses": [
+    {
+      "type": "skilltree:grant_item",
+      "item_id": "minecraft:elytra",
+      "amount": 1
+    },
+    {
+      "type": "skilltree:damage_taken",
+      "amount": -0.95,
+      "operation": 2,
+      "damage_condition": {
+        "type": "skilltree:fall"
+      }
+    },
+    {
+      "type": "skilltree:healing",
+      "chance": 1.0,
+      "amount": 1.0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:melee"
+        },
+        "target": "player",
+        "type": "skilltree:attack"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:used",
+      "statId": "minecraft:totem_of_undying",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "minecraft:textures/item/bat_spawn_egg.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Vampiric Lifestealer",
+  "positionX": 0.0,
+  "positionY": -252.738,
+  "buttonSize": 22,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "skill_bonus.skilltree.grant_item",
+      "with": [
+        {
+          "translate": "item.minecraft.elytra"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "attribute.modifier.take.2",
+      "with": [
+        "95",
+        {
+          "translate": "skill_bonus.skilltree.damage_taken",
+          "with": [
+            {
+              "translate": "damage_condition.skilltree.fall"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "event_listener.skilltree.attack.damage",
+      "with": [
+        {
+          "translate": "skill_bonus.skilltree.healing.player",
+          "with": [
+            "1"
+          ]
+        },
+        {
+          "translate": "damage_condition.skilltree.melee.type"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "f_131102_": false,
+      "text": "Flying slayer, hit, raise and hit again to kill and never die."
+    }
+  ]
+}

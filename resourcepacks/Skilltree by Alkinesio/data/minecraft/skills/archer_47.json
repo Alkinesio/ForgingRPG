@@ -1,0 +1,126 @@
+{
+  "id": "skilltree:archer_47",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 1.0,
+      "max_stacks": 1,
+      "effect": "relics:anti_heal",
+      "duration": 160,
+      "amplifier": 1,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:projectile"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "x_player_info:attribute.name.extend.armor_penetration",
+      "id": "f88b3ef7-9be4-44f6-a8be-e0034688bec1",
+      "name": "Skill",
+      "amount": 0.3,
+      "operation": 0
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:arrow_damage",
+      "id": "eea77542-0492-45c5-8883-e8c4c14900fe",
+      "name": "Skill",
+      "amount": 0.3,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:jump_height",
+      "multiplier": 0.2
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "3019ca57-c1be-40f0-a423-e34fb4de40d2",
+      "name": "Skill",
+      "amount": 6.0,
+      "operation": 0,
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "armor",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:killed",
+      "statId": "goety:skull_lord",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "knightquest:textures/item/bow_helmet_icon.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Noble Archer",
+  "positionX": 421.0,
+  "positionY": 0.0,
+  "buttonSize": 22,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Inflict Anti-Heal II for 8 seconds on Projectile hit"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+6 Armor with Armor equipped"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+30% Armor Penetration"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+30% Arrow Damage"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+20% Jump Height"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "f_131102_": false,
+      "text": "The Noble Archer provide several offensive benefits to fight certain opponents."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "A small amount of defensive statistics provide a better survivability."
+    }
+  ]
+}

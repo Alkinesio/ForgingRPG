@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:archer_107",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 0.06,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:fire"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "0746562b-6e29-44b7-b3b0-265c0f1f1a81",
+      "name": "Skill",
+      "amount": -0.02,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:archer_105"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:archer_115"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "minecraft:textures/item/excalibur/firework_rocket/flight_duration_2.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Fire Damage",
+  "positionX": 18.175,
+  "positionY": -343.197,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

@@ -1,0 +1,163 @@
+{
+  "id": "skilltree:warrior_78",
+  "bonuses": [
+    {
+      "type": "skilltree:healing",
+      "chance": 1.0,
+      "amount": 1.0,
+      "event_listener": {
+        "player_condition": {
+          "value_provider": {
+            "percentage": true,
+            "missing": false,
+            "type": "skilltree:health_level"
+          },
+          "required_value": 0.4,
+          "logic": "LESS",
+          "type": "skilltree:numeric_value"
+        },
+        "type": "skilltree:ticking"
+      }
+    },
+    {
+      "type": "skilltree:damage_taken",
+      "amount": -0.05,
+      "operation": 1,
+      "player_condition": {
+        "value_provider": {
+          "percentage": true,
+          "missing": false,
+          "type": "skilltree:health_level"
+        },
+        "required_value": 0.4,
+        "logic": "LESS",
+        "type": "skilltree:numeric_value"
+      },
+      "damage_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.knockback_resistance",
+      "id": "27f217ac-5ac9-4ce2-b52b-4c37b4bbee2b",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 1,
+      "player_condition": {
+        "value_provider": {
+          "percentage": true,
+          "missing": false,
+          "type": "skilltree:health_level"
+        },
+        "required_value": 0.4,
+        "logic": "LESS",
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:killed",
+      "statId": "minecraft:wither",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [
+    "skilltree:warrior_96"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Notable Skill",
+    "Secondary Notable Skill"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "relics:textures/item/rage_glove.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Protective Rage",
+  "positionX": 130.402,
+  "positionY": -268.544,
+  "buttonSize": 18,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "value_provider.skilltree.health_level.condition.player",
+      "with": [
+        {
+          "translate": "event_listener.skilltree.ticking",
+          "with": [
+            {
+              "translate": "skill_bonus.skilltree.healing.player",
+              "with": [
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "translate": "living_condition.skilltree.numeric_value.less",
+          "with": [
+            "40%"
+          ]
+        },
+        {
+          "translate": "value_provider.skilltree.health_level.percentage.plural"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "value_provider.skilltree.health_level.condition.player",
+      "with": [
+        {
+          "translate": "attribute.modifier.take.1",
+          "with": [
+            "5",
+            {
+              "translate": "skill_bonus.skilltree.damage_taken",
+              "with": [
+                {
+                  "translate": "damage_condition.skilltree.none"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "translate": "living_condition.skilltree.numeric_value.less",
+          "with": [
+            "40%"
+          ]
+        },
+        {
+          "translate": "value_provider.skilltree.health_level.percentage.plural"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Double Knockback Resistance if you have less than 40% health"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "Barbarian is now harder to kill on rage."
+    }
+  ]
+}

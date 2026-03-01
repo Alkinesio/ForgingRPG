@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:warrior_91",
+  "bonuses": [
+    {
+      "type": "skilltree:damage_taken",
+      "amount": -0.024,
+      "operation": 1,
+      "player_condition": {
+        "effect": "minecraft:fire_resistance",
+        "amplifier": 0,
+        "type": "skilltree:has_effect"
+      },
+      "damage_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_80",
+    "skilltree:warrior_79"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:warrior_95"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "enigmaticlegacy:textures/item/redemption_potion.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Damage Reduction",
+  "titleColor": "",
+  "positionX": 167.171,
+  "positionY": -246.775,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

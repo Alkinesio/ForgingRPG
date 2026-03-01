@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:archer_127",
+  "bonuses": [
+    {
+      "type": "skilltree:damage_taken",
+      "amount": -0.05,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:fall"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:archer_112"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Primary Branch"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "ftblibrary:textures/icons/feather.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Damage Reduction",
+  "positionX": 80.77,
+  "positionY": -106.776,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

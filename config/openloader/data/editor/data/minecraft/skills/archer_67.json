@@ -1,0 +1,25 @@
+{
+  "id": "skilltree:archer_67",
+  "bonuses": [
+    {
+      "type": "skilltree:lethal_poison"
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:archer_66"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    ""
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "enigmaticlegacy:textures/item/twisted_potion.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Utility",
+  "positionX": 105.362,
+  "positionY": 159.356,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

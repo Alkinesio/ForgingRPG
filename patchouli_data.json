@@ -1,0 +1,32 @@
+{
+  "bookGuiScale": 4,
+  "clickedVisualize": false,
+  "bookData": {
+    "simplyswords:runic_grimoire": {
+      "viewedEntries": [
+        "simplyswords:weapon_variants/entry_cutlass"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "enigmaticlegacy:the_acknowledgment": {
+      "viewedEntries": [],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "irons_spellbooks:iss_guide_book": {
+      "viewedEntries": [
+        "irons_spellbooks:spell_books/casting_implements"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "ice_and_fire_delight:cookbook": {
+      "viewedEntries": [
+        "ice_and_fire_delight:drinks/fire_lily_extract"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}

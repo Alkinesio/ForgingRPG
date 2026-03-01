@@ -1,0 +1,98 @@
+{
+  "id": "skilltree:warrior_8",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 0.12,
+      "operation": 1,
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "armor",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_equipped"
+      },
+      "damage_condition": {
+        "type": "skilltree:melee"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:experience_gained",
+      "id": "341ad945-ce3a-41e4-b65b-07835f29e855",
+      "name": "Skill",
+      "amount": -0.3,
+      "operation": 1
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:killed",
+      "statId": "minecraft:zombie",
+      "minValue": 1
+    },
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:killed",
+      "statId": "minecraft:skeleton",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [
+    "skilltree:warrior_32",
+    "skilltree:warrior_31"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Sub-class"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "undead_unleashed:textures/item/grave_iron_chestplate.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "The Knight",
+  "positionX": 43.0,
+  "positionY": -0.5,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+12% Melee Damage with Armor equipped"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "text": "-30% Experience Gained"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "The Knight is specialized to deal damage with sword while shielding."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 12632256
+      },
+      "f_131103_": true,
+      "text": "Pro: Overall stats \\ Cons: Lack of mobility, Armor breaking"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 13434624
+      },
+      "text": "[Early-Mid Game, PvP]"
+    }
+  ]
+}

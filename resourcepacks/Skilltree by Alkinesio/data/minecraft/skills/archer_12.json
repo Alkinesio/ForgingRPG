@@ -1,0 +1,59 @@
+{
+  "id": "skilltree:archer_12",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "001cf1e3-5f5d-4dc8-8588-3e71e77a0156",
+      "name": "Skill",
+      "amount": 0.06,
+      "operation": 1,
+      "player_condition": {
+        "item_condition": {
+          "id": "minecraft:leather_boots",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "496fe161-2d3b-48d0-a259-09240abe7078",
+      "name": "Skill",
+      "amount": 0.06,
+      "operation": 1,
+      "player_condition": {
+        "item_condition": {
+          "id": "minecraft:chainmail_boots",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:archer_13",
+    "skilltree:archer_10"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "moreartifacts:textures/item/leather_treads.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Movement Speed",
+  "positionX": 61.08,
+  "positionY": -21.92,
+  "buttonSize": 14,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+6% Speed with Chainmail or Leather Boots equipped"
+    }
+  ]
+}

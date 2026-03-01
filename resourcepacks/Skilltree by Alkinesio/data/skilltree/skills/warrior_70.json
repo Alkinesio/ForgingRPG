@@ -1,0 +1,29 @@
+{
+  "id": "skilltree:warrior_70",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "c8ef0b1c-2233-471b-a4e3-3aa10f06392c",
+      "name": "Skill",
+      "amount": 0.8,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_69",
+    "skilltree:warrior_71"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "minecraft:textures/item/iron_chestplate.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Armor",
+  "positionX": 93.339,
+  "positionY": -231.067,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

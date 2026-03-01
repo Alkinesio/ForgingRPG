@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:warrior_96",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "d85da379-1889-4c4b-af33-ee7feede473c",
+      "name": "Skill",
+      "amount": 0.4,
+      "operation": 0
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "624d9b27-8f4e-4862-91e8-047a4c41d5a1",
+      "name": "Skill",
+      "amount": 0.002,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_99"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Fourth Branch"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "mobstein:textures/item/heart.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Maximum Life",
+  "positionX": 170.707,
+  "positionY": -308.849,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

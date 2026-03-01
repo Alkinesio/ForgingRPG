@@ -1,0 +1,31 @@
+{
+  "id": "skilltree:archer_59",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 0.05,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:projectile"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:archer_58"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:archer_77",
+    "skilltree:archer_76"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "iceandfire:textures/item/dragonbone_bow_pulling_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Damage",
+  "positionX": 217.085,
+  "positionY": 217.079,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

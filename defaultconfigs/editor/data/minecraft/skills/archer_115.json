@@ -1,0 +1,169 @@
+{
+  "id": "skilltree:archer_115",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 1.0,
+      "max_stacks": 1,
+      "effect": "born_in_chaos_v1:living_bomb",
+      "duration": 40,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    },
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 1.0,
+      "max_stacks": 20,
+      "effect": "minecraft:poison",
+      "duration": 400,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    },
+    {
+      "type": "skilltree:damage",
+      "amount": 0.8,
+      "operation": 2,
+      "damage_condition": {
+        "type": "skilltree:projectile"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "iter_rpg:bullet_damage",
+      "id": "27597366-623b-4763-8ef3-0d832efe7f3c",
+      "name": "Skill",
+      "amount": 0.8,
+      "operation": 2
+    },
+    {
+      "type": "skilltree:damage",
+      "amount": 0.8,
+      "operation": 2,
+      "damage_condition": {
+        "type": "skilltree:fire"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:killed",
+      "statId": "born_in_chaos_v1:lord_pumpkinhead",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "born_in_chaos_v1:textures/item/smoldering_infernal_ember.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Infernal Pyrotechnician",
+  "positionX": -0.393,
+  "positionY": -368.588,
+  "buttonSize": 22,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "event_listener.skilltree.attack",
+      "with": [
+        {
+          "translate": "skill_bonus.skilltree.inflict_effect.enemy",
+          "with": [
+            {
+              "translate": "effect.born_in_chaos_v1.living_bomb"
+            },
+            {
+              "translate": "skill_bonus.skilltree.inflict_effect.seconds",
+              "with": [
+                "2"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "skill_bonus.skilltree.inflict_effect.stacks",
+      "with": [
+        {
+          "translate": "event_listener.skilltree.attack",
+          "with": [
+            {
+              "translate": "skill_bonus.skilltree.inflict_effect.enemy",
+              "with": [
+                {
+                  "translate": "effect.minecraft.poison"
+                },
+                {
+                  "translate": "skill_bonus.skilltree.inflict_effect.seconds",
+                  "with": [
+                    "20"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "20"
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+80% Total Projectile Damage"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+80% Total Bullet Damage"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+80% Total Fire Damage"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "f_131103_": true,
+      "text": "Suffer the flames of the Hell! HaHaHaHa!!!"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "f_131102_": false,
+      "text": "Deal massive explosion damage and get stackable poison damage"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:warrior_153",
+  "bonuses": [
+    {
+      "type": "skilltree:command",
+      "command": "give @p enchanted_book{StoredEnchantments:[{id:\"apotheosis:life_mending\",lvl:2s}]} 1",
+      "description": "Grants an Life Mending II Enchanted Book on skill learned",
+      "event_listener": {
+        "type": "skilltree:skill_learned"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_135"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "minecraft:textures/item/excalibur/enchanted_book/lunge.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Utility",
+  "positionX": 379.0,
+  "positionY": 0.0,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

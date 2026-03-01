@@ -1,0 +1,139 @@
+{
+  "id": "skilltree:warrior_157",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 1.0,
+      "max_stacks": 1,
+      "effect": "minecraft:wither",
+      "duration": 160,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "target": "enemy",
+        "type": "skilltree:damage_taken"
+      }
+    },
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 1.0,
+      "max_stacks": 1,
+      "effect": "goety:freezing",
+      "duration": 160,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    },
+    {
+      "type": "skilltree:damage_taken",
+      "amount": -0.2,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:magic"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_24"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Notable Skill",
+    "Secondary Notable Skill"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "cataclysm:textures/item/abyssal_sacrifice.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "The Dark Ice",
+  "positionX": 518.0,
+  "positionY": 56.0,
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "event_listener.skilltree.damage_taken",
+      "with": [
+        {
+          "translate": "skill_bonus.skilltree.inflict_effect.enemy",
+          "with": [
+            {
+              "translate": "effect.minecraft.wither"
+            },
+            {
+              "translate": "skill_bonus.skilltree.inflict_effect.seconds",
+              "with": [
+                "8"
+              ]
+            }
+          ]
+        },
+        {
+          "translate": "damage_condition.skilltree.none"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "event_listener.skilltree.attack",
+      "with": [
+        {
+          "translate": "skill_bonus.skilltree.inflict_effect.enemy",
+          "with": [
+            {
+              "translate": "effect.goety.freezing"
+            },
+            {
+              "translate": "skill_bonus.skilltree.inflict_effect.seconds",
+              "with": [
+                "8"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "attribute.modifier.take.1",
+      "with": [
+        "20",
+        {
+          "translate": "skill_bonus.skilltree.damage_taken",
+          "with": [
+            {
+              "translate": "damage_condition.skilltree.magic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "Freeze your opponents on hit and get more resistance."
+    }
+  ]
+}

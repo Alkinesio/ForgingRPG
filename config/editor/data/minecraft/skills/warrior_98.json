@@ -1,0 +1,131 @@
+{
+  "id": "skilltree:warrior_98",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 0.008,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "minecraft:generic.movement_speed",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 0.2,
+        "type": "skilltree:numeric_value"
+      },
+      "damage_condition": {
+        "type": "skilltree:melee"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_speed",
+      "id": "89d0693d-b35e-4b5e-a1ca-eeef13662d39",
+      "name": "Skill",
+      "amount": 0.008,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "minecraft:generic.movement_speed",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 0.2,
+        "type": "skilltree:numeric_value"
+      }
+    },
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 0.12,
+      "max_stacks": 1,
+      "effect": "minecraft:speed",
+      "duration": 100,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "type": "skilltree:on_kill"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:killed",
+      "statId": "bosses_of_mass_destruction:gauntlet",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [
+    "skilltree:warrior_93"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Notable Skill",
+    "Secondary Notable Skill"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "supplementaries:textures/item/wind_vane.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Wind Favor",
+  "titleColor": "",
+  "positionX": 235.705,
+  "positionY": -64.806,
+  "buttonSize": 18,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+0.8% Melee Damage per 20% Base Speed"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+0.8% Attack Speed per 20% Base Speed"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "event_listener.skilltree.on_kill",
+      "with": [
+        {
+          "translate": "attribute.modifier.plus.1",
+          "with": [
+            "12",
+            {
+              "translate": "skill_bonus.skilltree.inflict_effect.player.chance",
+              "with": [
+                {
+                  "translate": "effect.minecraft.speed"
+                },
+                {
+                  "translate": "skill_bonus.skilltree.inflict_effect.seconds",
+                  "with": [
+                    "5"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "Play on the speed to be the strongest."
+    }
+  ]
+}

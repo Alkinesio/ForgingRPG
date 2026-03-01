@@ -1,0 +1,68 @@
+{
+  "id": "skilltree:warrior_211",
+  "bonuses": [
+    {
+      "type": "skilltree:crit_chance",
+      "chance": 0.02,
+      "player_condition": {
+        "value_provider": {
+          "attribute": "attributeslib:life_steal",
+          "type": "skilltree:attribute_value"
+        },
+        "required_value": 0.25,
+        "logic": "LESS",
+        "type": "skilltree:numeric_value"
+      },
+      "damage_condition": {
+        "type": "skilltree:melee"
+      }
+    },
+    {
+      "type": "skilltree:crit_chance",
+      "chance": 0.07,
+      "player_condition": {
+        "value_provider": {
+          "attribute": "attributeslib:life_steal",
+          "type": "skilltree:attribute_value"
+        },
+        "required_value": 0.25,
+        "logic": "AT_LEAST",
+        "type": "skilltree:numeric_value"
+      },
+      "damage_condition": {
+        "type": "skilltree:melee"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_14"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:warrior_218"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "born_in_chaos_v1:textures/item/dark_ritual_dagger.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Critical Damage",
+  "positionX": 43.331,
+  "positionY": -202.717,
+  "buttonSize": 14,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+2% Melee Critical Hit Chance if Life Steal is less than 25%"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+7% Melee Critical Hit Chance if Life Steal is at least 25%"
+    }
+  ]
+}

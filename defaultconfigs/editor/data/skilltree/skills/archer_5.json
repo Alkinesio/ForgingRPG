@@ -1,0 +1,18 @@
+{
+  "id": "skilltree:archer_5",
+  "bonuses": [],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Archer Sub-class"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "positionX": -31.82,
+  "positionY": -31.82,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

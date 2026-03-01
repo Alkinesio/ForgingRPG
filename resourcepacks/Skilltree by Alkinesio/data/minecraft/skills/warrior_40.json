@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:warrior_40",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "d4f7e046-6dc2-45da-a4e6-b8bc76d52a67",
+      "name": "Skill",
+      "amount": 0.032,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Primary Branch"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "magistuarmory:textures/item/brigandine_boots.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Movement Speed",
+  "positionX": 53.403,
+  "positionY": -30.409,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

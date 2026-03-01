@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:archer_75",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "x_player_info:attribute.name.extend.jump.extra_count",
+      "id": "7a3f4aca-0d1c-4562-8276-2f7132629295",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:archer_58"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "moreartifacts:textures/item/high_jumpers.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Jump",
+  "positionX": 216.378,
+  "positionY": 181.016,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

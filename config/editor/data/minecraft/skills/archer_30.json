@@ -1,0 +1,29 @@
+{
+  "id": "skilltree:archer_30",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:life_steal",
+      "id": "aff0c444-173b-469d-ae1f-dc044122b00a",
+      "name": "Skill",
+      "amount": 0.02,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:archer_29",
+    "skilltree:archer_40"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "uniqueaccessories:textures/item/bloody_knife.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Lifesteal",
+  "positionX": 332.23,
+  "positionY": -36.77,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

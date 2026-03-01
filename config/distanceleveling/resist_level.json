@@ -1,0 +1,28 @@
+{
+  // Resist Leveling System is a system make mob stronger over time
+  // base on player kills in certain region.
+  // When enabled, mobs will gain resistances and deal more damage.
+  "resistLevelingSystem": true,
+  // The maximum weight a region can have.
+  "maxWeight": 20.0,
+  // The number of regions to track.
+  // if the numbers of regions exceed this value, the oldest region will be removed.
+  "regionListSize": 10,
+  // The radius of initial region.
+  "initial_region": 50,
+  // The amount the region radius increases per weight unit.
+  "regionIncreasePerWeight": 50,
+  // The amount of damage resistance gained per weight unit. (e.g., 0.05 = 5% damage resist per weight unit)
+  // mobs will become immortal if weight * resistPerWeight >= 1.0
+  "resistPerWeight": 0.045,
+  // The amount of bonus damage gained per weight unit. (e.g., 0.05 = 5% bonus damage per weight unit)
+  "damagePerWeight": 0.05,
+  // The number of player kills required to create or increase region weight.
+  "killToUpdateWeight": 25,
+  // The amount the region weight increases per update.
+  // the regions where you are gain more weight when you kill mobs in it.
+  "weightIncreasePerUpdate": 1.0,
+  // The amount the region weight decreases per update.
+  // the regions where you are not in lose weight when you kill mobs somewhere else.
+  "weightDecreasePerUpdate": 0.1
+}

@@ -1,0 +1,35 @@
+{
+  "id": "skilltree:warrior_144",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 0.05,
+      "max_stacks": 1,
+      "effect": "minecraft:strength",
+      "duration": 600,
+      "amplifier": 1,
+      "event_listener": {
+        "item_condition": {
+          "potion_type": "any",
+          "type": "skilltree:potion"
+        },
+        "type": "skilltree:item_used"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_146"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "enigmaticdelicacy:textures/item/curse_potion.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Buff Damage",
+  "positionX": 353.0,
+  "positionY": 21.0,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

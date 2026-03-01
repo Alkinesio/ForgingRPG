@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:warrior_75",
+  "bonuses": [
+    {
+      "type": "skilltree:damage_taken",
+      "amount": -0.04,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:fall"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_74"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "ftblibrary:textures/icons/feather.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Damage Reduction",
+  "positionX": 67.632,
+  "positionY": -231.775,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

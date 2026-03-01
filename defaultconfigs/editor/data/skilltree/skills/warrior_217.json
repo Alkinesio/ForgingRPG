@@ -1,0 +1,25 @@
+{
+  "id": "skilltree:warrior_217",
+  "bonuses": [
+    {
+      "type": "skilltree:all_attributes",
+      "id": "af5bc57b-7bb2-4312-b89e-377e4997948d",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 2
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "minecraft:textures/item/nether_star.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Overall",
+  "positionX": -25.653,
+  "positionY": -220.393,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

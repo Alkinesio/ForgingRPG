@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:archer_54",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "combatroll:count",
+      "id": "11fac97c-0dc0-431f-a2a0-a30d01926f82",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:archer_53"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "ftblibrary:textures/icons/right.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Roll Count",
+  "positionX": 125.161,
+  "positionY": 125.155,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

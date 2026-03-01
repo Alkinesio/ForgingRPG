@@ -1,0 +1,26 @@
+{
+  "id": "skilltree:archer_72",
+  "bonuses": [
+    {
+      "type": "skilltree:can_poison_anyone"
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:archer_71"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:archer_77",
+    "skilltree:archer_76"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "deep_aether:textures/item/poison_bucket.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Utility",
+  "positionX": 204.901,
+  "positionY": 232.895,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

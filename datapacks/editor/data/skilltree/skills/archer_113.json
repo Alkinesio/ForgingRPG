@@ -1,0 +1,43 @@
+{
+  "id": "skilltree:archer_113",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 0.02,
+      "operation": 1,
+      "enemy_multiplier": {
+        "value_provider": {
+          "attribute": "minecraft:generic.max_health",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 20.0,
+        "type": "skilltree:numeric_value"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "crossbow",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      },
+      "damage_condition": {
+        "type": "skilltree:projectile"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:archer_127"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/arrow_steel.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Boss Slayer",
+  "positionX": 98.448,
+  "positionY": -124.454,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

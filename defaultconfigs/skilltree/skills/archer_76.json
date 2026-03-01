@@ -1,0 +1,214 @@
+{
+  "id": "skilltree:archer_76",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 0.5,
+      "max_stacks": 1,
+      "effect": "born_in_chaos_v1:detonation",
+      "duration": 20,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:projectile"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    },
+    {
+      "type": "skilltree:inflict_ignite",
+      "chance": 0.5,
+      "duration": 8,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:projectile"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    },
+    {
+      "type": "skilltree:damage",
+      "amount": 0.1,
+      "operation": 1,
+      "enemy_multiplier": {
+        "value_provider": {
+          "attribute": "minecraft:generic.max_health",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 120.0,
+        "type": "skilltree:numeric_value"
+      },
+      "damage_condition": {
+        "type": "skilltree:projectile"
+      }
+    },
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 1.0,
+      "max_stacks": 1,
+      "effect": "minecraft:slowness",
+      "duration": 160,
+      "amplifier": 1,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:projectile"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:killed",
+      "statId": "minecraft:pillager",
+      "minValue": 100
+    },
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:killed",
+      "statId": "minecraft:villager",
+      "minValue": 100
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Secondary Branch"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "knightquest:textures/item/pirate_helmet_icon.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Pirate Ranger",
+  "positionX": 274.361,
+  "positionY": 233.343,
+  "buttonSize": 22,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "event_listener.skilltree.attack.damage",
+      "with": [
+        {
+          "translate": "attribute.modifier.plus.1",
+          "with": [
+            "50",
+            {
+              "translate": "skill_bonus.skilltree.inflict_effect.enemy.chance",
+              "with": [
+                {
+                  "translate": "effect.born_in_chaos_v1.detonation"
+                },
+                {
+                  "translate": "skill_bonus.skilltree.inflict_effect.seconds",
+                  "with": [
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "translate": "damage_condition.skilltree.projectile.type"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "event_listener.skilltree.attack.damage",
+      "with": [
+        {
+          "translate": "attribute.modifier.plus.1",
+          "with": [
+            "50",
+            {
+              "translate": "skill_bonus.skilltree.inflict_ignite.enemy.chance",
+              "with": [
+                "00:08"
+              ]
+            }
+          ]
+        },
+        {
+          "translate": "damage_condition.skilltree.projectile.type"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "value_provider.skilltree.attribute_value.multiplier.enemy.plural",
+      "with": [
+        {
+          "translate": "attribute.modifier.plus.1",
+          "with": [
+            "10",
+            {
+              "translate": "damage_condition.skilltree.projectile"
+            }
+          ]
+        },
+        "120",
+        {
+          "translate": "attribute.name.generic.max_health"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "event_listener.skilltree.attack.damage",
+      "with": [
+        {
+          "translate": "skill_bonus.skilltree.inflict_effect.enemy",
+          "with": [
+            {
+              "translate": "potion.withAmplifier",
+              "with": [
+                {
+                  "translate": "effect.minecraft.slowness"
+                },
+                {
+                  "translate": "potion.potency.1"
+                }
+              ]
+            },
+            {
+              "translate": "skill_bonus.skilltree.inflict_effect.seconds",
+              "with": [
+                "8"
+              ]
+            }
+          ]
+        },
+        {
+          "translate": "damage_condition.skilltree.projectile.type"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "f_131102_": false,
+      "text": "Deal more splash damage to targets with much Health and apply slowness."
+    }
+  ]
+}

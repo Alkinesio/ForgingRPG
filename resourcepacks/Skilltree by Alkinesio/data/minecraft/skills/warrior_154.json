@@ -1,0 +1,191 @@
+{
+  "id": "skilltree:warrior_154",
+  "bonuses": [
+    {
+      "type": "skilltree:damage_taken",
+      "amount": -0.2,
+      "operation": 1,
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "shield",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      },
+      "damage_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:damage_taken",
+      "amount": -0.5,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:fall"
+      }
+    },
+    {
+      "type": "skilltree:damage_conversion",
+      "amount": 0.5,
+      "original_damage": {
+        "type": "skilltree:melee"
+      },
+      "result_damage": {
+        "type": "skilltree:fall"
+      }
+    },
+    {
+      "type": "skilltree:damage",
+      "amount": 0.5,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:melee"
+      }
+    },
+    {
+      "type": "skilltree:command",
+      "command": "give @p minecraft:elytra",
+      "description": "Grants Elytra when learned",
+      "event_listener": {
+        "type": "skilltree:skill_learned"
+      }
+    },
+    {
+      "type": "skilltree:effect_duration",
+      "effect_type": "harmful",
+      "duration": -0.5,
+      "target": "player"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:killed",
+      "statId": "aether:valkyrie_queen",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "enigmaticlegacy:textures/item/angel_blessing.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Sacred Angel",
+  "titleColor": "",
+  "positionX": 518.0,
+  "positionY": -21.0,
+  "buttonSize": 24,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "living_condition.skilltree.has_item_in_hand",
+      "with": [
+        {
+          "translate": "attribute.modifier.take.2",
+          "with": [
+            "20",
+            {
+              "translate": "skill_bonus.skilltree.damage_taken",
+              "with": [
+                {
+                  "translate": "damage_condition.skilltree.none"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "translate": "living_condition.skilltree.has_item_in_hand.target.player"
+        },
+        {
+          "translate": "item_condition.skilltree.equipment_type.shield"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "attribute.modifier.take.2",
+      "with": [
+        "50",
+        {
+          "translate": "skill_bonus.skilltree.damage_taken",
+          "with": [
+            {
+              "translate": "damage_condition.skilltree.fall"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "skill_bonus.skilltree.damage_conversion",
+      "with": [
+        "50",
+        {
+          "translate": "damage_condition.skilltree.melee"
+        },
+        {
+          "translate": "damage_condition.skilltree.fall"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "attribute.modifier.plus.2",
+      "with": [
+        "50",
+        {
+          "translate": "damage_condition.skilltree.melee"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "Grants Elytra when learned"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "attribute.modifier.take.1",
+      "with": [
+        "10",
+        {
+          "translate": "skill_bonus.skilltree.effect_duration.player",
+          "with": [
+            {
+              "translate": "effect_type.harmful.plural"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "f_131102_": false,
+      "text": "Sacred Angel reduce damage using Shield and increase Damage specialized on fall."
+    }
+  ]
+}

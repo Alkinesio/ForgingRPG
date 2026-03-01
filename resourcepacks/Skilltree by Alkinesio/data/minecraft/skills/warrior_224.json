@@ -1,0 +1,40 @@
+{
+  "id": "skilltree:warrior_224",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:dodge_chance",
+      "id": "8832386a-e79d-4448-a261-52834375e740",
+      "name": "Skill",
+      "amount": 0.03,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_215",
+    "skilltree:warrior_213"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:warrior_225",
+    "skilltree:warrior_240"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "farmersrespite:textures/item/green_tea_leaves.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Dodge Chance",
+  "positionX": 28.283,
+  "positionY": -252.738,
+  "buttonSize": 14,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+3% Dodge Chance"
+    }
+  ]
+}

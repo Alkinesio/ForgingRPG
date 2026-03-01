@@ -1,0 +1,26 @@
+{
+  "id": "skilltree:utility_18",
+  "bonuses": [
+    {
+      "type": "skilltree:repair_efficiency",
+      "multiplier": 0.05
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:utility_20"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:utility_30"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "minecraft:textures/item/excalibur/custom_name/iron_hammer.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Item Restoration",
+  "positionX": 174.536,
+  "positionY": 13.253,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

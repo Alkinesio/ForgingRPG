@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:warrior_88",
+  "bonuses": [
+    {
+      "type": "skilltree:healing",
+      "chance": 1.0,
+      "amount": 1.0,
+      "event_listener": {
+        "item_condition": {
+          "potion_type": "any",
+          "type": "skilltree:potion"
+        },
+        "type": "skilltree:item_used"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "irons_spellbooks:textures/item/greater_healing_potion.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Healing",
+  "positionX": 218.213,
+  "positionY": 0.213,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

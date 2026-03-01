@@ -1,0 +1,11 @@
+{
+  // greeting messages when player joins the game.
+  "firstJoinMessage": "Welcome, %player%! (Lv.%level%)",
+  "rejoinMessages": [
+    "Welcome back, %player%! (Lv.%level%)",
+    "Good to see you, %player%.",
+    "Ready to grind, %player%?",
+    "The wilds await, %player%—go get 'em!",
+    "%player%, your journey continues…"
+  ]
+}

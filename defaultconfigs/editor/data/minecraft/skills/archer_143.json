@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:archer_143",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:arrow_velocity",
+      "id": "36567f6f-edb2-4b09-a7bf-4c9c8b2d87a7",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:archer_133"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:archer_145"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "ancient_temples:textures/item/spawner_core_fast.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Projectile Speed",
+  "positionX": 228.127,
+  "positionY": -201.161,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

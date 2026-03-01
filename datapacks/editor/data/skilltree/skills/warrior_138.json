@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:warrior_138",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "45671398-cc31-447f-b4a5-ed7923e6b36e",
+      "name": "Skill",
+      "amount": 1.5,
+      "operation": 0,
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "armor",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_137",
+    "skilltree:warrior_154"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:warrior_15"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "iceandfire:textures/item/ice_dragon_heart.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Maximum Life",
+  "positionX": 483.0,
+  "positionY": -21.0,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

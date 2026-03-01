@@ -1,0 +1,46 @@
+{
+  "id": "skilltree:warrior_248",
+  "bonuses": [
+    {
+      "type": "skilltree:crit_damage",
+      "amount": 0.12,
+      "player_condition": {
+        "value_provider": {
+          "attribute": "attributeslib:life_steal",
+          "type": "skilltree:attribute_value"
+        },
+        "required_value": 0.1,
+        "logic": "MORE",
+        "type": "skilltree:numeric_value"
+      },
+      "damage_condition": {
+        "type": "skilltree:melee"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_245"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:warrior_22"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "born_in_chaos_v1:textures/item/intoxicating_dagger.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Critical Damage",
+  "positionX": 10.575,
+  "positionY": -473.877,
+  "buttonSize": 14,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+12% Critical Melee Damage Multiplier if Life Steal is more than 10%"
+    }
+  ]
+}

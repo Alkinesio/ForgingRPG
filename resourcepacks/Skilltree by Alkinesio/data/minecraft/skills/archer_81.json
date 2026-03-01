@@ -1,0 +1,112 @@
+{
+  "id": "skilltree:archer_81",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 1.0,
+      "max_stacks": 1,
+      "effect": "born_in_chaos_v1:detonation",
+      "duration": 20,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:projectile"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    },
+    {
+      "type": "skilltree:curio_slots",
+      "slot": "back",
+      "amount": 1,
+      "modifier_id": "12af4753-fa50-4abe-a64c-1cd8027edaf9"
+    },
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 1.0,
+      "max_stacks": 1,
+      "effect": "born_in_chaos_v1:detonation",
+      "duration": 20,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:crafted",
+      "statId": "sophisticatedbackpacks:gold_backpack",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [
+    "skilltree:archer_79"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Notable Skill"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "relics:textures/item/spore_sack.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Pyrofire Equipment",
+  "positionX": 56.569,
+  "positionY": -101.569,
+  "buttonSize": 18,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "event_listener.skilltree.attack.damage",
+      "with": [
+        {
+          "translate": "skill_bonus.skilltree.inflict_effect.enemy",
+          "with": [
+            {
+              "translate": "effect.born_in_chaos_v1.detonation"
+            },
+            {
+              "translate": "skill_bonus.skilltree.inflict_effect.seconds",
+              "with": [
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "translate": "damage_condition.skilltree.projectile.type"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "text": "+1 Back Slots"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "f_131102_": false,
+      "text": "Explode targets and get additionally a back slot."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "skilltree:warrior_158",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_ignite",
+      "chance": 1.0,
+      "duration": 8,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "target": "enemy",
+        "type": "skilltree:damage_taken"
+      }
+    },
+    {
+      "type": "skilltree:inflict_ignite",
+      "chance": 1.0,
+      "duration": 8,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    },
+    {
+      "type": "skilltree:healing",
+      "chance": 1.0,
+      "amount": 2.0,
+      "event_listener": {
+        "player_condition": {
+          "type": "skilltree:burning"
+        },
+        "type": "skilltree:ticking"
+      }
+    },
+    {
+      "type": "skilltree:healing",
+      "chance": 1.0,
+      "amount": 2.0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:burning"
+        },
+        "target": "player",
+        "type": "skilltree:attack"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_154"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Notable Skill",
+    "Secondary Notable Skill"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "irons_spellbooks:textures/item/upgrade_orb_fire.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "The Holy Fire",
+  "positionX": 518.0,
+  "positionY": -56.0,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

@@ -1,0 +1,36 @@
+{
+  "id": "skilltree:warrior_247",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:life_steal",
+      "id": "a8c3fff6-5adb-40ac-9c14-cd3e045c2945",
+      "name": "Skill",
+      "amount": 0.02,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_237"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "uniqueaccessories:textures/item/bloody_knife.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Lifesteal",
+  "positionX": 10.575,
+  "positionY": -396.877,
+  "buttonSize": 14,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+2% Life Steal"
+    }
+  ]
+}

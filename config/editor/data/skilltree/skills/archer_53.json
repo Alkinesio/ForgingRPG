@@ -1,0 +1,44 @@
+{
+  "id": "skilltree:archer_53",
+  "bonuses": [
+    {
+      "type": "skilltree:item_usage_speed",
+      "multiplier": 0.003,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "combatroll:recharge",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 0.1,
+        "type": "skilltree:numeric_value"
+      },
+      "item_condition": {
+        "equipment_type": "bow",
+        "type": "skilltree:equipment_type"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:archer_52"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "minecraft:textures/item/excalibur/bow/infinity_pulling_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Attack Speed",
+  "positionX": 106.776,
+  "positionY": 106.77,
+  "buttonSize": 14,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "You use Bows 0.3% faster per 10% Roll Recharge (by default +3% base)"
+    }
+  ]
+}

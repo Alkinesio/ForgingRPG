@@ -1,0 +1,22 @@
+{
+  "id": "skilltree:warrior_218",
+  "bonuses": [
+    {
+      "type": "skilltree:item_usage_speed",
+      "multiplier": 0.02
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "artifacts:textures/item/vampiric_glove.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Utility",
+  "positionX": 25.653,
+  "positionY": -220.395,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

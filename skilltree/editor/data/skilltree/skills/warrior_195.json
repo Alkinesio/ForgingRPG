@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:warrior_195",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor_toughness",
+      "id": "cf7bb631-5b91-455a-9ae9-fe38b2913688",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:warrior_196"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "advancednetherite:textures/item/netherite_iron_chestplate.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Armor Thougness",
+  "positionX": 21.879,
+  "positionY": 200.928,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

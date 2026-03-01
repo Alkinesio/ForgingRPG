@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:warrior_182",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 0.05,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:fire"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_180"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "minecraft:textures/item/flint_and_steel.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Fire Damage",
+  "positionX": -57.778,
+  "positionY": 229.169,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

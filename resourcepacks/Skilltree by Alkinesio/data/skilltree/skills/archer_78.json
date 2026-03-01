@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:archer_78",
+  "bonuses": [
+    {
+      "type": "skilltree:command",
+      "command": "give @p iter_rpg:dwarven_handcannon{rarity_class:\"COMMON\"}",
+      "description": "Grants a Common Dwarven Handcannon when learned",
+      "event_listener": {
+        "type": "skilltree:skill_learned"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:archer_6"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Primary Branch"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "supplementaries:textures/item/cannon.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Utility",
+  "positionX": -19.799,
+  "positionY": -64.799,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

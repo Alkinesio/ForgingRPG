@@ -1,0 +1,264 @@
+{
+  "id": "skilltree:warrior_177",
+  "bonuses": [
+    {
+      "type": "skilltree:healing",
+      "chance": 1.0,
+      "amount": 2.0,
+      "event_listener": {
+        "player_condition": {
+          "effect": "minecraft:poison",
+          "amplifier": 0,
+          "type": "skilltree:has_effect"
+        },
+        "player_multiplier": {
+          "value_provider": {
+            "effect_type": "harmful",
+            "type": "skilltree:effect_amount"
+          },
+          "divisor": 1.0,
+          "type": "skilltree:numeric_value"
+        },
+        "type": "skilltree:ticking"
+      }
+    },
+    {
+      "type": "skilltree:incoming_healing",
+      "multiplier": 0.1,
+      "player_multiplier": {
+        "value_provider": {
+          "effect_type": "harmful",
+          "type": "skilltree:effect_amount"
+        },
+        "divisor": 1.0,
+        "type": "skilltree:numeric_value"
+      },
+      "player_condition": {
+        "effect": "minecraft:poison",
+        "amplifier": 0,
+        "type": "skilltree:has_effect"
+      }
+    },
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 0.1,
+      "max_stacks": 5,
+      "effect": "minecraft:poison",
+      "duration": 160,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "target": "enemy",
+        "type": "skilltree:damage_taken"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "77babf90-c63f-41e4-9015-380bc626020e",
+      "name": "Skill",
+      "amount": 0.2,
+      "operation": 1,
+      "player_condition": {
+        "effect": "minecraft:poison",
+        "amplifier": 0,
+        "type": "skilltree:has_effect"
+      }
+    },
+    {
+      "type": "skilltree:damage_taken",
+      "amount": -0.1,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:poison"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:numeric_value",
+      "value_provider": {
+        "effect_type": "harmful",
+        "type": "skilltree:effect_amount"
+      },
+      "required_value": 8.0,
+      "logic": "MORE"
+    }
+  ],
+  "directConnections": [
+    "skilltree:warrior_175"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Secondary Branch",
+    "Notable Skill",
+    "Secondary Notable Skill"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "goety:textures/item/poison_quill_seed.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Poisoner",
+  "positionX": 77.678,
+  "positionY": 155.129,
+  "buttonSize": 18,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "value_provider.skilltree.effect_amount.multiplier.player",
+      "with": [
+        {
+          "translate": "living_condition.skilltree.has_effect",
+          "with": [
+            {
+              "translate": "event_listener.skilltree.ticking",
+              "with": [
+                {
+                  "translate": "skill_bonus.skilltree.healing.player",
+                  "with": [
+                    "2"
+                  ]
+                }
+              ]
+            },
+            {
+              "translate": "living_condition.skilltree.has_effect.target.player"
+            },
+            {
+              "translate": "effect.minecraft.poison"
+            }
+          ]
+        },
+        {
+          "translate": "effect_type.harmful"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "living_condition.skilltree.has_effect",
+      "with": [
+        {
+          "translate": "value_provider.skilltree.effect_amount.multiplier.player",
+          "with": [
+            {
+              "translate": "attribute.modifier.plus.1",
+              "with": [
+                "10",
+                {
+                  "translate": "skill_bonus.skilltree.incoming_healing"
+                }
+              ]
+            },
+            {
+              "translate": "effect_type.harmful"
+            }
+          ]
+        },
+        {
+          "translate": "living_condition.skilltree.has_effect.target.player"
+        },
+        {
+          "translate": "effect.minecraft.poison"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "skill_bonus.skilltree.inflict_effect.stacks",
+      "with": [
+        {
+          "translate": "event_listener.skilltree.damage_taken",
+          "with": [
+            {
+              "translate": "attribute.modifier.plus.1",
+              "with": [
+                "10",
+                {
+                  "translate": "skill_bonus.skilltree.inflict_effect.enemy.chance",
+                  "with": [
+                    {
+                      "translate": "effect.minecraft.poison"
+                    },
+                    {
+                      "translate": "skill_bonus.skilltree.inflict_effect.seconds",
+                      "with": [
+                        "8"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "translate": "damage_condition.skilltree.none"
+            }
+          ]
+        },
+        "5"
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "living_condition.skilltree.has_effect",
+      "with": [
+        {
+          "translate": "attribute.modifier.plus.1",
+          "with": [
+            "20",
+            {
+              "translate": "attribute.name.generic.movement_speed"
+            }
+          ]
+        },
+        {
+          "translate": "living_condition.skilltree.has_effect.target.player"
+        },
+        {
+          "translate": "effect.minecraft.poison"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "attribute.modifier.take.1",
+      "with": [
+        "10",
+        {
+          "translate": "skill_bonus.skilltree.damage_taken",
+          "with": [
+            {
+              "translate": "damage_condition.skilltree.poison"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "f_131102_": false,
+      "text": "Corin Reveck would approve this. Time to poison everyone!"
+    }
+  ]
+}

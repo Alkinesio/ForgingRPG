@@ -1,0 +1,97 @@
+{
+  "id": "skilltree:archer_6",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_ignite",
+      "chance": 1.0,
+      "duration": 8,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    },
+    {
+      "type": "skilltree:damage",
+      "amount": -0.2,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:melee"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:killed",
+      "statId": "biomeswevegone:pumpkin_warden",
+      "minValue": 4
+    }
+  ],
+  "directConnections": [
+    "skilltree:archer_140"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Archer Sub-class"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "minecraft:textures/item/crossbow_firework.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "The Pyrotechnician",
+  "positionX": 0.0,
+  "positionY": -45.0,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "event_listener.skilltree.attack",
+      "with": [
+        {
+          "translate": "skill_bonus.skilltree.inflict_ignite.enemy",
+          "with": [
+            "00:08"
+          ]
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "translate": "attribute.modifier.take.1",
+      "with": [
+        "20",
+        {
+          "translate": "damage_condition.skilltree.melee"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "f_131102_": false,
+      "text": "The Pyrotechnician is specialized to deal splash damage and on-hit effects."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 65280
+      },
+      "f_131102_": false,
+      "text": "[Early Game, PvE]"
+    }
+  ]
+}

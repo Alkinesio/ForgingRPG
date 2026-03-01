@@ -1,0 +1,18 @@
+{
+  "id": "skilltree:utility_8",
+  "bonuses": [],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:utility_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "ftblibrary:textures/icons/online_red.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "positionX": 4.898587E-15,
+  "positionY": -40.0,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

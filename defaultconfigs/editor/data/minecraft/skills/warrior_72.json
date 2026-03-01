@@ -1,0 +1,32 @@
+{
+  "id": "skilltree:warrior_72",
+  "bonuses": [
+    {
+      "type": "skilltree:damage_taken",
+      "amount": -0.024,
+      "operation": 1,
+      "player_condition": {
+        "type": "skilltree:burning"
+      },
+      "damage_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_56",
+    "skilltree:warrior_71"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "minecraft:textures/item/bolt_armor_trim_smithing_template.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Damage Reduction",
+  "positionX": 128.691,
+  "positionY": -219.709,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

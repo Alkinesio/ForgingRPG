@@ -1,0 +1,32 @@
+{
+  "id": "skilltree:warrior_164",
+  "bonuses": [
+    {
+      "type": "skilltree:healing",
+      "chance": 1.0,
+      "amount": 1.0,
+      "event_listener": {
+        "item_condition": {
+          "type": "skilltree:food"
+        },
+        "type": "skilltree:item_used"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_2",
+    "skilltree:warrior_161"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "ice_and_fire_delight:textures/item/fire_heart_with_mushroom_sauce.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Healing",
+  "positionX": 19.799,
+  "positionY": 62.799,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

@@ -1,0 +1,26 @@
+{
+  "id": "skilltree:warrior_136",
+  "bonuses": [
+    {
+      "type": "skilltree:item_use_movement_speed",
+      "multiplier": -0.2,
+      "item_condition": {
+        "potion_type": "any",
+        "type": "skilltree:potion"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "twilightforest:textures/item/fiery_boots.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Tenacity",
+  "positionX": 431.0,
+  "positionY": -21.0,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

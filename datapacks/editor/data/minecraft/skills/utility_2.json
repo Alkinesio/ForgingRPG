@@ -1,0 +1,84 @@
+{
+  "id": "skilltree:utility_2",
+  "bonuses": [
+    {
+      "type": "skilltree:item_durability_loss_avoidance",
+      "chance": 0.1,
+      "item_condition": {
+        "equipment_type": "any",
+        "type": "skilltree:equipment_type"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "potion_type": "any",
+        "type": "skilltree:potion"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:mined",
+      "statId": "minecraft:iron_ore",
+      "minValue": 9
+    }
+  ],
+  "directConnections": [
+    "skilltree:utility_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "minecraft:textures/item/excalibur/custom_name/netherite_hammer.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "The Blacksmith",
+  "positionX": 40.0,
+  "positionY": -0.86435986,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "attribute.modifier.plus.1",
+      "with": [
+        "10",
+        {
+          "translate": "skill_bonus.skilltree.item_durability_loss_avoidance.chance",
+          "with": [
+            {
+              "translate": "item_condition.skilltree.equipment_type.any"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "translate": "skill_bonus.skilltree.cant_use_item",
+      "with": [
+        {
+          "translate": "item_condition.skilltree.potion.any.plural"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "The Blacksmith allow you to reduce item consuming and upgrade equipment."
+    }
+  ]
+}

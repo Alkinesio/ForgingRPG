@@ -1,0 +1,34 @@
+{
+  "id": "skilltree:archer_144",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "additionalentityattributes:lava_speed",
+      "id": "25e5c84f-2db8-4cec-94a8-2d99770d539c",
+      "name": "Skill",
+      "amount": 0.06,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "raccompat:textures/item/polar_boot_red.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Movement Speed",
+  "positionX": 0.0,
+  "positionY": -103.0,
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+6% Lava Speed"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "skilltree:warrior_163",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "9ca70573-cb25-4318-b69f-179a91934afd",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0
+    },
+    {
+      "type": "skilltree:healing",
+      "chance": 0.02,
+      "amount": 1.0,
+      "event_listener": {
+        "type": "skilltree:ticking"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_speed",
+      "id": "59eecaf1-0702-48ec-8b13-e1f0e82f65ca",
+      "name": "Skill",
+      "amount": -0.03,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_170"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:warrior_10"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "iceandfire:textures/item/fire_dragon_heart.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Maximum Life \u0026 Healing",
+  "positionX": 0.0,
+  "positionY": 149.0,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

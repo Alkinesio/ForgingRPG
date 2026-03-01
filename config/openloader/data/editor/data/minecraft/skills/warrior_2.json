@@ -1,0 +1,112 @@
+{
+  "id": "skilltree:warrior_2",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "306d6e75-13d9-47fb-bb48-966d00601653",
+      "name": "Skill",
+      "amount": 0.08,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor_toughness",
+      "id": "a1b872f2-3ba9-4f13-830a-1cce02d1d75a",
+      "name": "Skill",
+      "amount": 0.08,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "equipment_type": "weapon",
+        "type": "skilltree:equipment_type"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:custom",
+      "statId": "minecraft:damage_taken",
+      "minValue": 800
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Sub-class"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "goety:textures/item/magic_shield.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "The Tank",
+  "positionX": 0.0,
+  "positionY": 43.0,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "attribute.modifier.plus.2",
+      "with": [
+        "8",
+        {
+          "translate": "attribute.name.generic.armor"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "attribute.modifier.plus.2",
+      "with": [
+        "8",
+        {
+          "translate": "attribute.name.generic.armor_toughness"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "translate": "skill_bonus.skilltree.cant_use_item",
+      "with": [
+        {
+          "translate": "item_condition.skilltree.equipment_type.weapon.plural"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "The Tank is specialized to resist damage while dealing based on it."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 12632256
+      },
+      "f_131103_": true,
+      "text": "Pro: Damage resistance \\ Cons: Lack of damage, Lack of mobility"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 65280
+      },
+      "text": "[Early Game, PvP/PvE]"
+    }
+  ]
+}

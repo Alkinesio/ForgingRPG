@@ -1,0 +1,22 @@
+{
+  "id": "skilltree:warrior_9",
+  "bonuses": [],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_17"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Bruiser",
+    "Warrior Sub-class"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "iceandaddon:textures/item/tide_trident.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "The Aquaman",
+  "positionX": 30.409,
+  "positionY": 30.403,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

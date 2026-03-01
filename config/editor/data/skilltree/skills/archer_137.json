@@ -1,0 +1,166 @@
+{
+  "id": "skilltree:archer_137",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 1.0,
+      "max_stacks": 1,
+      "effect": "relics:anti_heal",
+      "duration": 160,
+      "amplifier": 1,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:projectile"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "27310e2b-45f6-46a1-952f-ec9c7ba5539d",
+      "name": "Skill",
+      "amount": 6.0,
+      "operation": 0,
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "armor",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "x_player_info:attribute.name.extend.armor_penetration",
+      "id": "a41130ca-3ab0-4bf0-9128-29a2fdf1eb2a",
+      "name": "Skill",
+      "amount": 0.3,
+      "operation": 0
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:arrow_damage",
+      "id": "fff26277-ae99-4c5b-a2c8-c55e542e0c72",
+      "name": "Skill",
+      "amount": 0.3,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:jump_height",
+      "multiplier": 0.2
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:killed",
+      "statId": "bosses_of_mass_destruction:gauntlet",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "iter_rpg:textures/item/gobsteel_crossbow.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Noble Crossbower",
+  "positionX": 253.127,
+  "positionY": -149.161,
+  "buttonSize": 22,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "event_listener.skilltree.attack.damage",
+      "with": [
+        {
+          "translate": "skill_bonus.skilltree.inflict_effect.enemy",
+          "with": [
+            {
+              "translate": "potion.withAmplifier",
+              "with": [
+                {
+                  "translate": "effect.relics.anti_heal"
+                },
+                {
+                  "translate": "potion.potency.1"
+                }
+              ]
+            },
+            {
+              "translate": "skill_bonus.skilltree.inflict_effect.seconds",
+              "with": [
+                "8"
+              ]
+            }
+          ]
+        },
+        {
+          "translate": "damage_condition.skilltree.projectile.type"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+6 Armor with Armor equipped"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+30% Armor Penetration"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "attribute.modifier.plus.1",
+      "with": [
+        "30",
+        {
+          "translate": "attributeslib:arrow_damage"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "attribute.modifier.plus.1",
+      "with": [
+        "20",
+        {
+          "translate": "skill_bonus.skilltree.jump_height"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "f_131102_": false,
+      "text": "The Noble Crossbower provide several offensive benefits to fight certain opponents."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "f_131102_": false,
+      "text": "A small amount of defensive statistics provide a better survivability."
+    }
+  ]
+}

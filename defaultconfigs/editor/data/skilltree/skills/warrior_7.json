@@ -1,0 +1,138 @@
+{
+  "id": "skilltree:warrior_7",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_speed",
+      "id": "223c0ac7-f87d-4545-af9c-85f8ab4223af",
+      "name": "Skill",
+      "amount": 0.004,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "percentage": true,
+          "missing": true,
+          "type": "skilltree:health_level"
+        },
+        "divisor": 0.02,
+        "type": "skilltree:numeric_value"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "axe",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "equipment_type": "shield",
+        "type": "skilltree:equipment_type"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:killed",
+      "statId": "minecraft:sheep",
+      "minValue": 2
+    },
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:killed",
+      "statId": "minecraft:pig",
+      "minValue": 2
+    }
+  ],
+  "directConnections": [
+    "skilltree:warrior_39",
+    "skilltree:warrior_41",
+    "skilltree:warrior_40"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Sub-class"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "iter_rpg:textures/item/dwarven_battleaxe.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "The Barbarian",
+  "positionX": 30.403,
+  "positionY": -30.409,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "living_condition.skilltree.has_item_in_hand",
+      "with": [
+        {
+          "translate": "value_provider.skilltree.health_level.multiplier.player.plural.missing",
+          "with": [
+            {
+              "translate": "attribute.modifier.plus.1",
+              "with": [
+                "0.4",
+                {
+                  "translate": "attribute.name.generic.attack_speed"
+                }
+              ]
+            },
+            "2%",
+            {
+              "translate": "value_provider.skilltree.health_level.percentage.plural"
+            }
+          ]
+        },
+        {
+          "translate": "living_condition.skilltree.has_item_in_hand.target.player"
+        },
+        {
+          "translate": "item_condition.skilltree.equipment_type.axe"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "translate": "skill_bonus.skilltree.cant_use_item",
+      "with": [
+        {
+          "translate": "item_condition.skilltree.equipment_type.shield.plural"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "The Barbarian is specialized to deal damage while taking damage with axe."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 12632256
+      },
+      "f_131103_": true,
+      "text": "Pro: Many skill points, fire resistance \\ Cons: 20% less skill points effects, poison damage"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16776960
+      },
+      "text": "[Mid Game, PvE]"
+    }
+  ]
+}

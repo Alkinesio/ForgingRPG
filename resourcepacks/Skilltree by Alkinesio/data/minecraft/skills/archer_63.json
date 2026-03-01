@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:archer_63",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 0.05,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:poison"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:archer_62"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "alexsmobs:textures/item/poison_bottle.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Poison Damage",
+  "positionX": 31.823,
+  "positionY": 85.817,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

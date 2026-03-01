@@ -1,0 +1,82 @@
+{
+  "id": "skilltree:archer_9",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:dodge_chance",
+      "id": "1f269ec9-9e73-406b-928b-dcd48cb30144",
+      "name": "Skill",
+      "amount": 0.15,
+      "operation": 0
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "equipment_type": "crossbow",
+        "type": "skilltree:equipment_type"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:used",
+      "statId": "minecraft:bow",
+      "minValue": 8
+    }
+  ],
+  "directConnections": [
+    "skilltree:archer_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Archer Sub-class"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "twilightforest:textures/item/steeleaf_ingot.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "The Ranger",
+  "positionX": 31.823,
+  "positionY": 31.817,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+15% Dodge Chance"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "translate": "skill_bonus.skilltree.cant_use_item",
+      "with": [
+        {
+          "translate": "item_condition.skilltree.equipment_type.crossbow.plural"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "The Ranger get additional dodge chance and on-hit effects."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 65280
+      },
+      "f_131102_": false,
+      "text": "[Early Game, PvP/PvE]"
+    }
+  ]
+}

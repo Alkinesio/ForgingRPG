@@ -1,0 +1,17 @@
+{
+  // config for indicators.
+  "disableVanillaDamageHearts": false,
+  "enableDamageNumbers": true,
+  "onlyPlayerRelatedDamageNumbers": true,
+  "damageNumberColor": -43691,
+  "damageNumberLifespan": 20,
+  "damageNumberMinRatio": 0.5,
+  "damageNumberMaxRatio": 3.0,
+  "damageNumberRise": 0.6,
+  "healthIndicator": true,
+  "healthIndicatorOffsetX": -232,
+  "healthIndicatorOffsetY": -15,
+  "enableLevelNameTag": true,
+  "levelNameTagColor": -1,
+  "showDistance": 32.0
+}

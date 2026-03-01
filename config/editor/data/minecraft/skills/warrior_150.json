@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:warrior_150",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:life_steal",
+      "id": "c5d4d45a-2765-4bfd-afb3-df5ea2907e39",
+      "name": "Skill",
+      "amount": 0.03,
+      "operation": 1,
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "armor",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_149",
+    "skilltree:warrior_24"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:warrior_15"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "uniqueaccessories:textures/item/bloody_knife.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Lifesteal",
+  "positionX": 483.0,
+  "positionY": 21.0,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

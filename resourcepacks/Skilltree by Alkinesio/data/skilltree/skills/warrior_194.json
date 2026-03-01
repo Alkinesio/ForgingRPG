@@ -1,0 +1,33 @@
+{
+  "id": "skilltree:warrior_194",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 0.05,
+      "operation": 2,
+      "damage_condition": {
+        "type": "skilltree:thorns"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:warrior_173"
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:warrior_196"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "alexscaves:textures/item/thornwood_branch.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Thorns Damage",
+  "positionX": -21.879,
+  "positionY": 200.926,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

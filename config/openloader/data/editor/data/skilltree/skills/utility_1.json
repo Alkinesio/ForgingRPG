@@ -1,0 +1,75 @@
+{
+  "id": "skilltree:utility_1",
+  "bonuses": [
+    {
+      "type": "skilltree:item_usage_speed",
+      "multiplier": 0.05
+    },
+    {
+      "type": "skilltree:item_durability_loss_avoidance",
+      "chance": -0.1
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:advancement",
+      "advancement": "morevillagers:first_trade"
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "minecraft:textures/item/excalibur/enchanted_book/fortune.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "The Worker",
+  "positionX": 0.0,
+  "positionY": 0.0,
+  "buttonSize": 24,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "skill_bonus.skilltree.item_usage_speed.positive",
+      "with": [
+        {
+          "translate": "item_condition.skilltree.none.plural"
+        },
+        "5"
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "translate": "attribute.modifier.take.1",
+      "with": [
+        "10",
+        {
+          "translate": "skill_bonus.skilltree.item_durability_loss_avoidance.chance",
+          "with": [
+            {
+              "translate": "item_condition.skilltree.none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "f_131102_": false,
+      "text": "The Utility class is a secondary class for everyone that specialize a work activity."
+    }
+  ]
+}

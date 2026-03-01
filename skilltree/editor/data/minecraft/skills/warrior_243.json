@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:warrior_243",
+  "bonuses": [
+    {
+      "type": "skilltree:command",
+      "command": "give @p aether:vampire_blade{rarity_class:\"LEGENDARY\", rarity_max_durability: 3000}",
+      "description": "Grants a Legendary Vampire Blade when learned",
+      "event_listener": {
+        "type": "skilltree:skill_learned"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_242"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:warrior_22"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "born_in_chaos_v1:textures/item/spiritsword.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Utility",
+  "positionX": -15.425,
+  "positionY": -473.877,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

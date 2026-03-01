@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:warrior_82",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 0.08,
+      "max_stacks": 1,
+      "effect": "aethergearexpansion:berserk",
+      "duration": 160,
+      "amplifier": 4,
+      "event_listener": {
+        "item_condition": {
+          "type": "skilltree:food"
+        },
+        "type": "skilltree:item_used"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_63"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:warrior_92"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "endersdelight:textures/item/amberveiled_curry_a.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Berserker Food",
+  "titleColor": "",
+  "positionX": 213.553,
+  "positionY": -184.559,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

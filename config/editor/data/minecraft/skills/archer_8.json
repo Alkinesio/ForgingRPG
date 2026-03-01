@@ -1,0 +1,121 @@
+{
+  "id": "skilltree:archer_8",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 0.2,
+      "max_stacks": 1,
+      "effect": "relics:bleeding",
+      "duration": 100,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:projectile"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    },
+    {
+      "type": "skilltree:damage_taken",
+      "amount": 0.15,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:melee"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:killed",
+      "statId": "minecraft:pillager",
+      "minValue": 2
+    }
+  ],
+  "directConnections": [
+    "skilltree:archer_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Archer Sub-class"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "ancient_tools:textures/item/ancient_bow_item_default.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "The Steel-Archer",
+  "titleColor": "",
+  "positionX": 45.0,
+  "positionY": 0.0,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "event_listener.skilltree.attack.damage",
+      "with": [
+        {
+          "translate": "attribute.modifier.plus.1",
+          "with": [
+            "20",
+            {
+              "translate": "skill_bonus.skilltree.inflict_effect.enemy.chance",
+              "with": [
+                {
+                  "translate": "effect.relics.bleeding"
+                },
+                {
+                  "translate": "skill_bonus.skilltree.inflict_effect.seconds",
+                  "with": [
+                    "5"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "translate": "damage_condition.skilltree.projectile.type"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "translate": "attribute.modifier.plus.1",
+      "with": [
+        "15",
+        {
+          "translate": "skill_bonus.skilltree.damage_taken",
+          "with": [
+            {
+              "translate": "damage_condition.skilltree.melee"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "The Steel Archer deal massive ranged damage and on-hit effects."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 13434624
+      },
+      "text": "[Early-Mid Game, PvP]"
+    }
+  ]
+}

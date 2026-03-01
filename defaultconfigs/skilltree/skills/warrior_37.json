@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:warrior_37",
+  "bonuses": [
+    {
+      "type": "skilltree:item_use_movement_speed",
+      "multiplier": -0.16,
+      "item_condition": {
+        "type": "skilltree:food"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_40",
+    "skilltree:warrior_43"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "minecraft:textures/item/golden_boots.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Tenacity",
+  "positionX": 74.616,
+  "positionY": -51.622,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

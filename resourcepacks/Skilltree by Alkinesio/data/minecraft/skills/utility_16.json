@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:utility_16",
+  "bonuses": [
+    {
+      "type": "skilltree:command",
+      "command": "give @p sophisticatedbackpacks:anvil_upgrade",
+      "description": "Grants an Anvil Upgrade when learned",
+      "event_listener": {
+        "type": "skilltree:skill_learned"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:utility_15"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "sophisticatedbackpacks:textures/item/anvil_upgrade.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Anvil Upgrade",
+  "positionX": 198.0,
+  "positionY": -26.0,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

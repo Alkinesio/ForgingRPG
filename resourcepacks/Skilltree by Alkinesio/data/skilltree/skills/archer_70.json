@@ -1,0 +1,164 @@
+{
+  "id": "skilltree:archer_70",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 0.12,
+      "max_stacks": 1,
+      "effect": "minecraft:poison",
+      "duration": 160,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:projectile"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    },
+    {
+      "type": "skilltree:crit_chance",
+      "chance": 0.05,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "attributeslib:dodge_chance",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 0.04,
+        "type": "skilltree:numeric_value"
+      },
+      "damage_condition": {
+        "type": "skilltree:poison"
+      }
+    },
+    {
+      "type": "skilltree:crit_damage",
+      "amount": 0.1,
+      "player_multiplier": {
+        "value_provider": {
+          "item_condition": {
+            "equipment_type": "bow",
+            "type": "skilltree:equipment_type"
+          },
+          "type": "skilltree:enchantment_levels"
+        },
+        "divisor": 5.0,
+        "type": "skilltree:numeric_value"
+      },
+      "damage_condition": {
+        "type": "skilltree:poison"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:advancement",
+      "advancement": "minecraft:adventure/sniper_duel"
+    },
+    {
+      "type": "skilltree:numeric_value",
+      "value_provider": {
+        "item_condition": {
+          "equipment_type": "bow",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:enchantment_amount"
+      },
+      "required_value": 5.0,
+      "logic": "AT_LEAST"
+    }
+  ],
+  "directConnections": [
+    "skilltree:archer_69"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Notable Skill"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "iceandfire:textures/item/hydra_arrow.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Poison Archery",
+  "positionX": 160.516,
+  "positionY": 214.51,
+  "buttonSize": 18,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "event_listener.skilltree.attack.damage",
+      "with": [
+        {
+          "translate": "attribute.modifier.plus.1",
+          "with": [
+            "12",
+            {
+              "translate": "skill_bonus.skilltree.inflict_effect.enemy.chance",
+              "with": [
+                {
+                  "translate": "effect.minecraft.poison"
+                },
+                {
+                  "translate": "skill_bonus.skilltree.inflict_effect.seconds",
+                  "with": [
+                    "8"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "translate": "damage_condition.skilltree.projectile.type"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+5% Poison Critical Hit Chance per 4% Dodge Chance"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "value_provider.skilltree.enchantment_levels.multiplier.player.plural",
+      "with": [
+        {
+          "translate": "attribute.modifier.plus.1",
+          "with": [
+            "10",
+            {
+              "translate": "skill_bonus.skilltree.crit_damage.damage",
+              "with": [
+                {
+                  "translate": "damage_condition.skilltree.poison.type"
+                }
+              ]
+            }
+          ]
+        },
+        "5",
+        {
+          "translate": "item_condition.skilltree.equipment_type.bow"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "Get additional chance to deal Poison damage and Critical Damage based on."
+    }
+  ]
+}

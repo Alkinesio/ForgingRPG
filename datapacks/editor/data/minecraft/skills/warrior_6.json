@@ -1,0 +1,87 @@
+{
+  "id": "skilltree:warrior_6",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:life_steal",
+      "id": "c6205d87-5e13-4d47-843f-a27a0c5dd4a8",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 0
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "potion_type": "beneficial",
+        "type": "skilltree:potion"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:killed",
+      "statId": "minecraft:bat",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Sub-class"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "wrd:textures/item/bloodgusher.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "The Lifestealer",
+  "positionX": 0.0,
+  "positionY": -43.0,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+5% Life Steal"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "translate": "skill_bonus.skilltree.cant_use_item",
+      "with": [
+        {
+          "translate": "item_condition.skilltree.potion.beneficial.plural"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "The Lifestealer is specialized to deal damage while healing self."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 12632256
+      },
+      "f_131102_": false,
+      "f_131103_": true,
+      "text": "Pro: Sustain, fall resistance \\ Cons: Antiheal, fire damage"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16776960
+      },
+      "text": "[Mid Game, PvP/PvE]"
+    }
+  ]
+}

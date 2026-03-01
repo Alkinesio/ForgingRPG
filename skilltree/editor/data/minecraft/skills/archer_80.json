@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:archer_80",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "iter_rpg:bullet_damage",
+      "id": "cb63a70a-886f-490d-a46c-0a55e2bcd23e",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:archer_78"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "monster_hunter_villager:textures/item/bomb.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Flat Damage",
+  "positionX": -38.184,
+  "positionY": -83.184,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

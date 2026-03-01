@@ -1,0 +1,116 @@
+{
+  "id": "skilltree:warrior_121",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 1.0,
+      "max_stacks": 1,
+      "effect": "minecraft:regeneration",
+      "duration": 20,
+      "amplifier": 0,
+      "event_listener": {
+        "type": "skilltree:ticking"
+      }
+    },
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 1.0,
+      "max_stacks": 1,
+      "effect": "minecraft:absorption",
+      "duration": 20,
+      "amplifier": 0,
+      "event_listener": {
+        "type": "skilltree:ticking"
+      }
+    },
+    {
+      "type": "skilltree:crit_chance",
+      "chance": 0.01,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "minecraft:generic.max_health",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 10.0,
+        "type": "skilltree:numeric_value"
+      },
+      "damage_condition": {
+        "type": "skilltree:melee"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:killed",
+      "statId": "minecraft:iron_golem",
+      "minValue": 2
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Holy Knight"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "macabre:textures/item/valamonheart.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Holy Knight",
+  "positionX": 167.84114,
+  "positionY": -20.84127,
+  "buttonSize": 22,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Gain Regeneration I permanently"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Gain Absorption I permanently"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "value_provider.skilltree.attribute_value.multiplier.player.plural",
+      "with": [
+        {
+          "translate": "attribute.modifier.plus.1",
+          "with": [
+            "1",
+            {
+              "translate": "skill_bonus.skilltree.crit_chance.damage",
+              "with": [
+                {
+                  "translate": "damage_condition.skilltree.melee.type"
+                }
+              ]
+            }
+          ]
+        },
+        "10",
+        {
+          "translate": "attribute.name.generic.max_health"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "text": "Holy Knight specializes on the use of Shield scaling damage and mainly defense."
+    }
+  ]
+}
