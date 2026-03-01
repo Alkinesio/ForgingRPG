@@ -1,0 +1,33 @@
+
+["Bug Phobia Settings"]
+	#Enable phobia-friendly textures
+	#These textures are much less realistic and extremely simple to lessen any fear of insects
+	#Use phobia-friendly texture for Silk Moths
+	silkMothPhobiaFriendly = false
+	#Use phobia-friendly texture for Silkworms
+	silkwormPhobiaFriendly = false
+	#Use phobia-friendly texture for Beetles
+	beetlePhobiaFriendly = false
+	#Use phobia-friendly texture for Ladybugs
+	ladybugPhobiaFriendly = false
+	#Use phobia-friendly texture for Weevils
+	weevilPhobiaFriendly = false
+	#Use phobia-friendly texture for Beeflies
+	beeflyPhobiaFriendly = false
+	#Use phobia-friendly texture for Mantises
+	mantisPhobiaFriendly = false
+	#Use phobia-friendly texture for Dragonflies
+	dragonflyPhobiaFriendly = false
+	#Use phobia-friendly texture for Lacewings
+	lacewingPhobiaFriendly = false
+	#Use phobia-friendly texture for Stick Bugs
+	stickbugPhobiaFriendly = false
+	#Use phobia-friendly texture for Leaf Insects
+	leafinsectPhobiaFriendly = false
+	#Use phobia-friendly texture for Grasshoppers
+	grasshopperPhobiaFriendly = false
+	#Use phobia-friendly texture for Millipedes
+	millipedePhobiaFriendly = false
+	#Use phobia-friendly texture for Roly Polys
+	rolypolyPhobiaFriendly = false
+

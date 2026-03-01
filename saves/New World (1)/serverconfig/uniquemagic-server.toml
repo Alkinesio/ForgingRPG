@@ -1,0 +1,90 @@
+
+["Configs for Unique Magic Mod"]
+	#Base chance for Execute enchantment to trigger.
+	#Range: 1 ~ 20
+	"Execute base chance" = 1
+	#Base damage-to-heal conversion ratio for Life Steal enchantment.
+	#Range: 1 ~ 20
+	"Life Steal base ratio" = 5
+	#Base chance for Withering enchantment to trigger.
+	#Range: 1 ~ 20
+	"Withering base chance" = 5
+	#Base duration for Withering enchantment in seconds.
+	#Range: 1 ~ 60
+	"Withering base duration" = 3
+	#Base chance for Poison enchantment to trigger.
+	#Range: 1 ~ 20
+	"Poison base chance" = 5
+	#Base duration for Poison enchantment in seconds.
+	#Range: 1 ~ 60
+	"Poison base duration" = 3
+	#Base chance for Blind enchantment to trigger.
+	#Range: 1 ~ 20
+	"Blind base chance" = 5
+	#Base duration for Blind enchantment in seconds.
+	#Range: 1 ~ 60
+	"Blind base duration" = 3
+	#Base chance for Confuse enchantment to trigger.
+	#Range: 1 ~ 20
+	"Confuse base chance" = 5
+	#Base duration for Confuse enchantment in seconds.
+	#Range: 1 ~ 60
+	"Confuse base duration" = 3
+	#Base chance for Curse Of Slowness enchantment to trigger.
+	#Range: 1 ~ 20
+	"Curse Of Slowness base chance" = 5
+	#Base duration for Curse Of Slowness enchantment in seconds.
+	#Range: 1 ~ 60
+	"Curse Of Slowness base duration" = 3
+	#Base chance for Harm enchantment to trigger.
+	#Range: 1 ~ 20
+	"Harm base chance" = 5
+	#Base duration for Harm enchantment in seconds.
+	#Range: 1 ~ 60
+	"Harm base duration" = 3
+	#Base chance for Levitate enchantment to trigger.
+	#Range: 1 ~ 20
+	"Levitate base chance" = 5
+	#Base duration for Levitate enchantment in seconds.
+	#Range: 1 ~ 60
+	"Levitate base duration" = 3
+	#Base chance for Lightning Striker enchantment to trigger.
+	#Range: 1 ~ 20
+	"Lightning Striker base chance" = 5
+	#Base duration for Lightning Striker enchantment in seconds.
+	#Range: 1 ~ 60
+	"Lightning Striker base duration" = 3
+	#Base chance for Slow enchantment to trigger.
+	#Range: 1 ~ 20
+	"Slow base chance" = 5
+	#Base duration for Slow enchantment in seconds.
+	#Range: 1 ~ 60
+	"Slow base duration" = 3
+	#Base chance for Starve enchantment to trigger.
+	#Range: 1 ~ 20
+	"Starve base chance" = 5
+	#Base duration for Starve enchantment in seconds.
+	#Range: 1 ~ 60
+	"Starve base duration" = 3
+	#Base chance for Tempo Theft enchantment to trigger.
+	#Range: 1 ~ 20
+	"Tempo Theft base chance" = 5
+	#Base duration for Tempo Theft enchantment in seconds.
+	#Range: 1 ~ 60
+	"Tempo Theft base duration" = 3
+	#Base chance for Weaken enchantment to trigger.
+	#Range: 1 ~ 20
+	"Weaken base chance" = 5
+	#Base duration for Weaken enchantment in seconds.
+	#Range: 1 ~ 60
+	"Weaken base duration" = 3
+	#Base chance for Stun enchantment to trigger.
+	#Range: 1 ~ 20
+	"Stun base chance" = 5
+	#Base duration for Stun enchantment in seconds.
+	#Range: 1 ~ 60
+	"Stun base duration" = 3
+	#Base chance for Disarm enchantment to trigger.
+	#Range: 1 ~ 20
+	"Disarm base chance" = 5
+

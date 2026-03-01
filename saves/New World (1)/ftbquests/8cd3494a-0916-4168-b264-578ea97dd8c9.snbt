@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "8cd3494a09164168b264578ea97dd8c9"
+	name: "Alkinesio#8cd3494a"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

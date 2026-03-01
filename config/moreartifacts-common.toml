@@ -11,36 +11,38 @@
 	Max_Damage_Increase = 2.0
 	#Enable debugging
 	Debug = false
+	#Stop the endermen from being able to target or be hurt by the ender dragon/dragon breath
+	Ender_Tweaks = true
 
 [Artifacts]
 
 	[Artifacts.Hero_Shield]
 		#Amount of hits taken until damage is ignored
 		Hits = 5
-		#Explosion damage taken in percentage
-		Explosion_Damage_Taken = 0.25
 		#Level of resistance hero shield provides
 		Level = 1
 		#Enable compat to disable explosion overlay from enhanced visuals
 		EnhancedVisuals_Compat = true
+		#Explosion damage reduction in percentage
+		Explosion_Damage_Reduction = 0.75
 
 	[Artifacts.Obsidian_Skull]
-		#Fire damage taken in percentage
-		Fire_Damage_Taken = 0.5
+		#Fire damage reduction in percentage
+		Fire_Damage_Reduction = 0.5
 
 	[Artifacts.Obsidian_Shield]
-		#Fire damage taken in percentage
-		Fire_Damage_Taken = 0.5
+		#Fire damage reduction in percentage
+		Fire_Damage_Reduction = 0.5
 
 	[Artifacts.Ankh_Charm]
 		#List of additional effects the ankh charm grants immunity to (e.g., minecraft:glowing, minecraft:slow_falling etc)
 		Additional_Effects = ["moreartifacts:virulent"]
 
 	[Artifacts.Ankh_Shield]
-		#Fire damage taken in percentage
-		Fire_Damage_Taken = 0.5
 		#List of additional effects the ankh shield grants immunity to (e.g., minecraft:glowing, minecraft:slow_falling etc)
 		Additional_Effects = ["moreartifacts:virulent"]
+		#Fire damage reduction in percentage
+		Fire_Damage_Reduction = 0.5
 
 	[Artifacts.Venom_Amulet]
 		#Chance to apply poison
@@ -125,24 +127,24 @@
 		Regen_Level = 1
 
 	[Artifacts.Enderian_Scarf]
-		#Damage taken in percentage
-		Damage_Taken = 0.92
+		#Damage reduction in percentage
+		Damage_Reduction = 0.08
 
 	[Artifacts.True_Enderian_Scarf]
-		#Damage taken in percentage
-		Damage_Taken = 0.9
 		#Chance to evade an attack
 		Evade_Chance = 0.1
 		#Amount of reach gain
 		Reach_Gain = 1.0
 		#Enable compat to disable endermen static from enhanced visuals
 		EnhancedVisuals_Compat = true
+		#Damage reduction in percentage
+		Damage_Reduction = 0.1
 
 	[Artifacts.Gilded_Scarf]
-		#Damage taken in percentage
-		Damage_Taken = 0.88
 		#Increased damage dealt in percentage
 		Damage_Dealt = 1.1
+		#Damage reduction in percentage
+		Damage_Reduction = 0.12
 
 	[Artifacts.Lucky_Emerald_Ring]
 		#Increased damage dealt against illagers in percentage
@@ -335,6 +337,14 @@
 	[Artifacts.Sculk_Treads]
 		#Speed increase gained in percentage
 		Speed_Increase = 0.25
+
+	[Artifacts.Ender_Dragon_Eye]
+		#Chance to summon endermen to fight for you when hit in percentage
+		Summon_Chance = 0.01
+		#Distance at which endermen can follow you from in blocks
+		Follow_Distance = 20.0
+		#Enable compat to disable endermen static from enhanced visuals
+		EnhancedVisuals_Compat = true
 
 [Loot]
 

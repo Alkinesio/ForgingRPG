@@ -1,0 +1,9 @@
+
+["Bed Cooldown Settings"]
+	#Default cooldown in hours before a player can set a new bed spawn.
+	#Range: 0 ~ 1000
+	cooldownHours = 0
+	#Default cooldown in minutes before a player can set a new bed spawn.
+	#Range: 0 ~ 59
+	cooldownMinutes = 10
+

@@ -2,7 +2,7 @@
 [pregnantbabies]
 	#Maximum number of babies a pregnant could spawn
 	"Maximum numbers of summonings pregnant can spawn" = 10.0
-	#disable the bility entirely
+	#disable the ability entirely
 	"Disable spawning of summonings" = false
 	#Example: 80 meaning 20 percent of sucker spawing and 80 of bidys. (by setting to 100 no sucker willl spawn)
 	"Bidy spawning percentage pool" = 80.0
@@ -70,4 +70,20 @@
 ["The Rabidus"]
 	#Per hit
 	"Change of inflicting rabies" = 0.12
+
+[wheezer]
+	#amount of hit to pop it's pore rendering its ability useless
+	"Wheezer spores hitpoints" = 15.0
+	#how long the fumes stay in taget's body (in ticks)
+	"Wheezer spore duration" = 300.0
+
+["Skeeper/Somnolence"]
+	#(In ticks: 20 ticks = 1 second)
+	"how long typnomiasis last in ticks?" = 100.0
+	#(In ticks: 20 ticks = 1 second)
+	"how long sleepi walking last in ticks?" = 100.0
+
+["The Ordure"]
+	#explosion
+	"Ordure death explosion damage" = 30.0
 

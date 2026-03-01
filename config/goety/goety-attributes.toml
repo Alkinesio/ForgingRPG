@@ -267,6 +267,34 @@
 			#Range: 1.0 ~ 1.7976931348623157E308
 			hauntedArmorDamage = 3.0
 
+		[Attributes.General."Cairn Necromancer"]
+			#How much Max Health Cairn Necromancers have, Default: 50.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			cairnNecromancerHealth = 50.0
+			#How much natural Armor Cairn Necromancers have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			cairnNecromancerArmor = 0.0
+			#How much following/detection range Cairn Necromancers have, Default: 16.0
+			#Range: 1.0 ~ 2048.0
+			cairnNecromancerFollowRange = 16.0
+			#How much damage Cairn Necromancers deals, Default: 3.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			cairnNecromancerDamage = 3.0
+
+		[Attributes.General."Mossy Necromancer"]
+			#How much Max Health Mossy Necromancers have, Default: 50.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			mossyNecromancerHealth = 50.0
+			#How much natural Armor Mossy Necromancers have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			mossyNecromancerArmor = 0.0
+			#How much following/detection range Mossy Necromancers have, Default: 16.0
+			#Range: 1.0 ~ 2048.0
+			mossyNecromancerFollowRange = 16.0
+			#How much damage Mossy Necromancers deals, Default: 3.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			mossyNecromancerDamage = 3.0
+
 	[Attributes."Summoned Mobs"]
 
 		[Attributes."Summoned Mobs"."Zombie Servant"]
@@ -982,6 +1010,75 @@
 			#How much following/detection range Witch Servants have, Default: 16.0
 			#Range: 0.0 ~ 1.7976931348623157E308
 			witchServantFollowRange = 16.0
+
+		[Attributes."Summoned Mobs"."Frayed Servant"]
+			#How much Max Health Frayed Servants have, Default: 20.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			frayedServantHealth = 20.0
+			#How much natural armor points Frayed Servants have, Default: 2.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			frayedServantArmor = 2.0
+			#How much damage Frayed Servants deals, Default: 3.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			frayedServantDamage = 3.0
+
+		[Attributes."Summoned Mobs"."Rattled Servant"]
+			#How much Max Health Rattled Servants have, Default: 20.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			rattledServantHealth = 20.0
+			#How much natural Armor Rattled Servants have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			rattledServantArmor = 0.0
+			#How much damage Rattled Servants deals, Default: 2.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			rattledServantDamage = 2.0
+			#How much extra damage Rattled Servants range attack deals, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			rattledServantRangeDamage = 0.0
+
+		[Attributes."Summoned Mobs"."Signaler Servant"]
+			#How much Max Health Signaler Servants have, Default: 24.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			signalerServantHealth = 24.0
+			#How much natural Armor Signaler Servants have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			signalerServantArmor = 0.0
+			#How much initial following/detection range Signaler Servants have, Default: 32.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			signalerServantFollowRange = 32.0
+
+		[Attributes."Summoned Mobs".Gnasher]
+			#How much Max Health Gnashers have, Default: 30.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			gnasherHealth = 30.0
+			#How much natural Armor Gnashers have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			gnasherArmor = 0.0
+			#How much damage Gnashers melee attack deals, Default: 6.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			gnasherDamage = 6.0
+
+		[Attributes."Summoned Mobs"."Carrion Maggot"]
+			#How much Max Health Carrion Maggots have, Default: 8.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			carrionMaggotHealth = 8.0
+			#How much natural Armor Carrion Maggots have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			carrionMaggotArmor = 0.0
+			#How much damage Carrion Maggots melee attack deals, Default: 2.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			carrionMaggotDamage = 2.0
+
+		[Attributes."Summoned Mobs"."Carrion Fly"]
+			#How much Max Health Carrion Flies have, Default: 8.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			carrionFlyHealth = 8.0
+			#How much natural Armor Carrion Flies have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			carrionFlyArmor = 0.0
+			#How much damage Carrion Flies melee attack deals, Default: 3.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			carrionFlyDamage = 3.0
 
 	[Attributes.Mini-Bosses]
 

@@ -36,3 +36,7 @@
 	#Enable enhanced grass and flower growth during warm seasons.
 	enabled = true
 
+[seasonSync]
+	#Lock seasons to current Canadian calendar months (Eastern time).
+	realTimeCanadianSeasons = false
+

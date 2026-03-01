@@ -37,3 +37,11 @@
 	#List of specific items (namespace:path) that should be ignored.
 	item_blacklist = ["minecraft:stick"]
 
+[names]
+	broken = "Broken"
+	damaged = "Damaged"
+	common = "Common"
+	rare = "Rare"
+	epic = "Epic"
+	legendary = "Legendary"
+

@@ -1,6 +1,6 @@
 
 [General]
-	#Multiplies the damage of spells by this amount, Default: 1
+	#Multiplies the damage of spells by this amount, this will will be multiplied by 'spellDamageMultiplierDecimal', Default: 1
 	#Range: > 1
 	spellDamageMultiplier = 1
 	#Whether Servants change navigation modes by hitting them, put false to make them change by right-clicking on them, Default: true
@@ -18,6 +18,11 @@
 	spellDamageEnderDragon = true
 	#Casting Spells will cause the caster to completely stop moving, Default: false
 	fullStopCast = false
+	#Multiplies the damage of spells by this amount in decimals, this will will be multiplied by 'spellDamageMultiplier', Default: 1.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	spellDamageMultiplierDecimal = 1.0
+	#Whether explosions made by SpellExplosion class has double the radius, Default: false
+	spellExplosionDouble = false
 
 [Spells]
 
@@ -232,7 +237,7 @@
 		#Killing Spell Cooldown, Default: 200
 		#Range: > 0
 		killingCoolDown = 200
-		#How much damage percentage multiplier of the target's health is applied back to caster, Default: 1.25
+		#How much damage percentage multiplier of the target's health is applied back to caster, Default: 1.1
 		#Range: 0.0 ~ 1.7976931348623157E308
 		killingFeedback = 1.25
 
@@ -375,7 +380,7 @@
 		#How many shots are allowed to be fired before spell ends, set 0 to allow spell to be cast indefinitely, Default: 6
 		#Range: 0 ~ 72000
 		bombardmentShots = 6
-		#Time to cast Bombardment Spell per second, Default: 6
+		#Time to cast Bombardment Spell per tick, Default: 6
 		#Range: 0 ~ 72000
 		bombardmentTime = 6
 		#Bombardment Spell Cooldown, Default: 100
@@ -457,6 +462,12 @@
 		#How much base damage Necro Bolts deals, Default: 12.0
 		#Range: 1.0 ~ 1.7976931348623157E308
 		necroBoltDamage = 12.0
+		#How much base damage Poison Bolts deals, Default: 3.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		poisonBoltDamage = 3.0
+		#How much base damage Wither Bolts deals directly, Default: 4.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		witherBoltDamage = 4.0
 
 	[Spells."Magic Bolt Spell"]
 		#Magic Bolt Spell Cost, Default: 8
@@ -659,7 +670,7 @@
 		#Time to cast Hail Spell, Default: 40
 		#Range: 0 ~ 72000
 		hailTime = 40
-		#Hail Spell Cooldown, Default: 20
+		#Hail Spell Cooldown, Default: 100
 		#Range: > 0
 		hailCoolDown = 20
 		#How much base damage Hail deals, Default: 1.0
@@ -1251,6 +1262,12 @@
 		#Biomine Spell Cooldown, Default: 200
 		#Range: > 0
 		biomineCoolDown = 200
+		#How much base damage Biomine explosion deals, Default: 3.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		biomineDamage = 3.0
+		#How much base damage Biomine acid cloud deals, Default: 2.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		biomineAcidDamage = 2.0
 
 	[Spells."Tidal Spell"]
 		#Tidal Spell Cost, Default: 24
@@ -1485,6 +1502,9 @@
 		#Initial lifespan of the Bulwark Spell's shields, count in ticks, Default: 1500
 		#Range: > 1
 		bulwarkShieldTime = 1500
+		#If damage received exceeds this amount, an additional shield will be broken per exceeded amount. Set to 0.0 to disable, Default: 15.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		bulwarkShieldBreakExtra = 15.0
 
 	[Spells."Soul Heal Spell"]
 		#Soul Heal Spell Cost, Default: 250
@@ -1617,19 +1637,84 @@
 		#Range: 1.0 ~ 1.7976931348623157E308
 		thunderstormDamage = 5.0
 
-	[Spells."Void Shock Spell(NYI)"]
-		#Void Shock Spell Cost, Default: 32
+	[Spells."Carrion Spell"]
+		#Carrion Spell Cost, Default: 16
 		#Range: > 0
-		voidShockCost = 32
-		#Time to cast Void Shock Spell, Default: 35
+		carrionCost = 16
+		#Time to cast Carrion Spell, Default: 100
 		#Range: 0 ~ 72000
-		voidShockDuration = 35
-		#Void Shock Spell Cooldown, Default: 100
+		carrionTime = 100
+		#Carrion Spell Cooldown, Default: 300
 		#Range: > 0
-		voidShockCoolDown = 100
-		#How much base damage the Void Shocks deals, Default: 6.0
+		carrionCoolDown = 300
+		#Carrion Spell Summon Down, Default: 200
+		#Range: 0 ~ 72000
+		carrionSummonDown = 200
+		#Number of Carrion Maggots and Flies a player can have, Default: 32
+		#Range: > 1
+		carrionLimit = 32
+
+	[Spells."Surging Spell"]
+		#Surging Spell Cost, Default: 24
+		#Range: > 0
+		surgingCost = 24
+		#How many ticks the Surging Spell much charge before casting, Default: 80
+		#Range: > 0
+		surgingChargeUp = 80
+		#How many shots are allowed to be fired before spell ends, set 0 to allow spell to be cast indefinitely, Default: 0
+		#Range: 0 ~ 72000
+		surgingShots = 0
+		#Time to cast Surging Spell per tick, Default: 6
+		#Range: 0 ~ 72000
+		surgingTime = 6
+		#Surging Spell Cooldown, Default: 200
+		#Range: 0 ~ 72000
+		surgingCoolDown = 200
+		#How much base damage Surging Orbs deals, Default: 3.0
 		#Range: 1.0 ~ 1.7976931348623157E308
-		voidShockDamage = 6.0
+		surgingDamage = 3.0
+
+	[Spells."Water Whip Spell"]
+		#Water Whip Spell Cost, Default: 16
+		#Range: > 0
+		waterWhipCost = 16
+		#Time to cast Water Whip Spell, Default: 0
+		#Range: 0 ~ 72000
+		waterWhipTime = 0
+		#Water Whip Spell Cooldown, Default: 10
+		#Range: > 0
+		waterWhipCoolDown = 10
+		#How much base damage the spell deals, Default: 4.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		waterWhipDamage = 4.0
+
+	[Spells."Stellar Spell"]
+		#Stellar Spell Cost, Default: 16
+		#Range: > 0
+		stellarCost = 16
+		#Time to cast Stellar Spell, Default: 35
+		#Range: 15 ~ 72000
+		stellarDuration = 35
+		#Stellar Spell Cooldown, Default: 100
+		#Range: > 0
+		stellarCoolDown = 100
+		#How much base damage the Void Shocks from Stellar spell deals, Default: 7.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		stellarDamage = 7.0
+
+	[Spells."Void Flash Spell"]
+		#Void Flash Spell Cost, Default: 32
+		#Range: > 0
+		voidFlashCost = 32
+		#Time to cast Void Flash Spell, Default: 86
+		#Range: 0 ~ 72000
+		voidFlashDuration = 86
+		#Void Flash Spell Cooldown, Default: 200
+		#Range: > 0
+		voidFlashCoolDown = 200
+		#How much base damage the Void Shock Bombs from Void Flash spell deals, Default: 7.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		voidFlashDamage = 7.0
 
 ["Servant Limits"]
 	#Number of Spider Servants that an individual player can have in total, Default: 32
@@ -1647,7 +1732,7 @@
 	#Number of Wither Necromancer Servants that an individual player can have in total, Default: 2
 	#Range: > 1
 	witherNecromancerLimit = 2
-	#Number of Bound Illager Servants that an individual player can have in total, Default: 2
+	#Number of Bound Illager Servants that an individual player can have in total, Default: 8
 	#Range: > 1
 	boundIllagerLimit = 2
 	#Number of Black Beast Servants that an individual player can have in total, Default: 2
@@ -1682,7 +1767,7 @@
 	#Radius Maximum Enchantment Level, Default: 2
 	#Range: 1 ~ 10
 	maxRadiusLevel = 2
-	#Range Maximum Enchantment Level, Default: 10
+	#Range Maximum Enchantment Level, Default: 5
 	#Range: 1 ~ 10
 	maxRangeLevel = 10
 	#Duration Maximum Enchantment Level, Default: 3
@@ -1694,4 +1779,9 @@
 	#Velocity Maximum Enchantment Level, Default: 5
 	#Range: 1 ~ 10
 	maxVelocityLevel = 5
+	#Whether Focus Enchantments can appear on Villager Trade Pools, Default: true
+	focusEnchantsTrades = true
+	#How much power Potency increases, Default: 1
+	#Range: > 1
+	potencyPower = 1
 

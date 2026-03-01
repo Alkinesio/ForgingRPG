@@ -54,16 +54,6 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
-  "jadeaddons.create": {
-    "filter": true,
-    "backtank_capacity": true,
-    "goggles.requires_goggles": true,
-    "goggles": false,
-    "blaze_burner": true,
-    "exact_block": true,
-    "goggles.detailed": false,
-    "placard": true
-  },
   "hammerlib": {
     "root": true
   },
@@ -97,6 +87,7 @@
     "block_owner": true,
     "soul_energy": true,
     "raider_leader": true,
+    "hostile": true,
     "servant_mode": true,
     "capture_mode": true,
     "zombie_villager": true,
@@ -104,6 +95,9 @@
     "train_to": true,
     "summon_lifespan": true,
     "trainable": true
+  },
+  "beer": {
+    "beer": true
   },
   "balm": {
     "jade": true
