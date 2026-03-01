@@ -1,0 +1,234 @@
+{
+	id: "64F200E1EC0EEB2D"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "knightquest:spider_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "knightquest:spider_chestplate"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "knightquest:spider_leggings"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "knightquest:spider_boots"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{ count: 2, item: "minecraft:coal" }
+		{ count: 4, item: "minecraft:coal", weight: 0.5f }
+		{ count: 2, item: "minecraft:gold_nugget" }
+		{ count: 4, item: "minecraft:gold_nugget", weight: 0.5f }
+		{ item: "born_in_chaos_v1:dark_metal_nugget" }
+		{ item: "born_in_chaos_v1:diamond_termite_shard", weight: 4.0f }
+		{ count: 2, item: "born_in_chaos_v1:diamond_termite_shard", weight: 2.0f }
+		{ item: "minecraft:diamond", weight: 0.5f }
+		{ count: 4, item: "minecraft:string", weight: 1.5f }
+		{ count: 6, item: "minecraft:string" }
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Potion: "alexsmobs:poison_resistance"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Potion: "alexsmobs:long_poison_resistance"
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"undermod:capability_item_life_leech": {
+						power: 1
+					}
+				}
+				id: "fantasy_weapons:weapon_spider_fang"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			weight: 0.2f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"undermod:capability_item_life_leech": {
+						power: 1
+					}
+				}
+				id: "born_in_chaos_v1:spider_bite_sword"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			weight: 0.1f
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:poisonward_ring"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			weight: 0.1f
+		}
+		{
+			item: {
+				Count: 1
+				id: "spider_caves:spider_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "spider_caves:spider_chestplate"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "spider_caves:spider_leggings"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "spider_caves:spider_boots"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "enigmaticlegacy:iron_ring"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{ count: 4, item: "farmersdelight:rope" }
+		{ count: 8, item: "farmersdelight:rope", weight: 0.5f }
+		{ item: "minecraft:slime_ball", weight: 0.5f }
+		{ count: 2, item: "minecraft:slime_ball", weight: 0.25f }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "elite_enchantments:bait"
+						lvl: 1s
+					}]
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "infinite_durability_enchant:infinitedurability"
+						lvl: 1s
+					}]
+				}
+			}
+			weight: 0.05f
+		}
+		{ count: 3, item: "minecraft:fermented_spider_eye" }
+		{ count: 6, item: "minecraft:fermented_spider_eye", weight: 0.5f }
+		{ count: 4, item: "minecraft:spider_eye" }
+		{ count: 8, item: "minecraft:spider_eye", weight: 0.5f }
+		{ count: 2, item: "minecraft:sugar" }
+		{ count: 4, item: "minecraft:sugar", weight: 0.5f }
+	]
+	title: "Random eye Reward"
+}

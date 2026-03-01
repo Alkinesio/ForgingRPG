@@ -1,0 +1,133 @@
+{
+	id: "01CD8E6A7C21E428"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:smite"
+						lvl: 4s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:smite"
+						lvl: 5s
+					}]
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "elite_enchantments:life_steal"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "elite_enchantments:life_steal"
+						lvl: 4s
+					}]
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "goety:burning"
+						lvl: 4s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "goety:burning"
+						lvl: 5s
+					}]
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:piercing"
+						lvl: 4s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:piercing"
+						lvl: 5s
+					}]
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 5s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "infinite_durability_enchant:infinitedurability"
+						lvl: 1s
+					}]
+				}
+			}
+			weight: 0.1f
+		}
+	]
+	title: "Random Fallen Reign Reward"
+}

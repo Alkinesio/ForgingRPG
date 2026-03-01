@@ -1,0 +1,136 @@
+{
+	id: "35A40886F75C5CA4"
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{ count: 2, item: "the_pillager_legion_:coin_copper_tpl", weight: 4.0f }
+		{ item: "the_pillager_legion_:coin_silver_tpl", weight: 2.0f }
+		{ item: "the_pillager_legion_:coin_gold_tpl" }
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:emerald_stoneplate_ring"
+				tag: { }
+			}
+			weight: 0.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "moreartifacts:lucky_emerald_ring"
+				tag: { }
+			}
+			weight: 0.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "iter_rpg:iron_ring_emerald"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "iter_rpg:gold_ring_emerald"
+				tag: { }
+			}
+			weight: 0.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "iter_rpg:netherite_ring_emerald"
+				tag: { }
+			}
+			weight: 0.1f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"undermod:capability_item_life_leech": {
+						power: 1
+					}
+				}
+				id: "undeadweapons:u_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.2f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"undermod:capability_item_life_leech": {
+						power: 1
+					}
+				}
+				id: "undeadweapons:u_great_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.2f
+		}
+		{
+			item: {
+				Count: 1
+				id: "aethergearexpansion:lucky_ring"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:luck"
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"undermod:capability_item_life_leech": {
+						power: 1
+					}
+				}
+				id: "deep_aether:blade_of_luck"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.8f
+		}
+		{ item: "skilltree:amnesia_scroll", weight: 0.01f }
+		{
+			item: {
+				Count: 1
+				id: "macabre:grossbow"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.01f
+		}
+		{ count: 6, item: "expanded_combat:iron_arrow" }
+		{ count: 3, item: "expanded_combat:diamond_arrow", weight: 0.5f }
+		{
+			item: {
+				Count: 1
+				id: "iter_rpg:blessed_apple"
+				tag: { }
+			}
+			weight: 0.1f
+		}
+		{ item: "paraglider:spirit_orb", weight: 0.5f }
+	]
+	title: "Random Green Jewels Reward"
+}

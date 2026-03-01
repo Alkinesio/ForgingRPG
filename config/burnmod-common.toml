@@ -1,0 +1,14 @@
+
+#Burnmod Configuration
+[general]
+	#Radius around soul campfire (default: 48)
+	#Range: 1 ~ 128
+	radius = 48
+	#Effect duration in ticks (20 ticks = 1 second)
+	#Range: 20 ~ 6000
+	effectDuration = 600
+	#Effect ID to apply (e.g. 'minecraft:wither')
+	effectType = "minecraft:wither"
+	#List of affected mobs (default: 'minecraft:zombie')
+	affectedMobs = ["minecraft:zombie"]
+

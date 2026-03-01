@@ -1,0 +1,1244 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	default_repeatable_quest: true
+	filename: "repeatable"
+	group: "128D85F361410B35"
+	hide_quest_until_deps_complete: true
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"undermod:capability_item_life_leech": {
+				power: 1
+			}
+		}
+		id: "simplyswords:ribboncleaver"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "145DD90FDC7B0C96"
+	images: [
+		{
+			height: 1.0d
+			image: "quark:textures/emote/zombie.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Beginning chapter in the Campaign and AARGH! quest."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.8d
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "immersive_armors:item/warrior_helmet"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "born_in_chaos_v1:item/shattered_skull"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated The Sniper quest."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.8d
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Those Eyes... quest."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.8d
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/spider_eye"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Mythological Warrior quest."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.8d
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/1"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/bloodiedbricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			height: 4.0d
+			image: "alexscaves:block/cave_painting/dark"
+			rotation: 0.0d
+			width: 4.0d
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/1"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/1"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/1"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/1"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/bloodiedbricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/bloodiedbricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/bloodiedbricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/bloodiedbricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/1"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/1"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/1"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/1"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/1"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/1"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/1"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/1"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/1"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/1"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/1"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/1"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/1"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/1"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/1"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/1"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/1"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/1"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/1"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/1"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			height: 2.0d
+			image: "magistuarmory:item/stone_lochaberaxe"
+			order: -1
+			rotation: 120.0d
+			width: 2.0d
+			x: -2.65d
+			y: -1.65d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/bloodlog"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/bloodlog"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/bloodlog"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/bloodlog"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/bloodlog"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/bloodlog"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/bloodlog"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/bloodlog"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/bloodlog"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/bloodlog"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/bloodlog"
+			order: -1
+			rotation: 90.0d
+			width: 1.15d
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/bloodlog"
+			order: -1
+			rotation: 90.0d
+			width: 1.15d
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/bloodlog"
+			order: -1
+			rotation: 90.0d
+			width: 1.15d
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/bloodlog"
+			order: -1
+			rotation: 90.0d
+			width: 1.15d
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/bloodlog"
+			order: -1
+			rotation: 90.0d
+			width: 1.15d
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/bloodlog"
+			order: -1
+			rotation: 90.0d
+			width: 1.15d
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/bloodlog"
+			order: -1
+			rotation: 90.0d
+			width: 1.15d
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/bloodlog"
+			order: -1
+			rotation: 90.0d
+			width: 1.15d
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/bloodlog"
+			order: -1
+			rotation: 90.0d
+			width: 1.15d
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/bloodlog"
+			order: -1
+			rotation: 90.0d
+			width: 1.15d
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/bloodlog"
+			order: -1
+			rotation: 90.0d
+			width: 1.15d
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/bloodlog"
+			order: -1
+			rotation: 90.0d
+			width: 1.15d
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/l2t"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/l2t"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: -6.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/l2t"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/l2t"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.5d
+			y: -0.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: [
+				"0A96869D676BDBB5"
+				"4181BBC66ED4D202"
+			]
+			icon: { Count: 8, id: "minecraft:zombie_head" }
+			id: "2EA15FC0C39072FE"
+			rewards: [
+				{
+					id: "3B9CF5362219F806"
+					type: "xp"
+					xp: 8
+				}
+				{
+					exclude_from_claim_all: true
+					id: "234A3C564D50B083"
+					table_id: 6438649289557568240L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "7714C16CFF0D5795"
+					item: "coinsje:copper_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Kill and gather zombie flesh"
+			tasks: [
+				{
+					count: 20L
+					id: "1AAA31CF5811D9E5"
+					item: { Count: 20, id: "minecraft:rotten_flesh" }
+					type: "item"
+				}
+				{
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "02085770278D9375"
+					type: "kill"
+					value: 8L
+				}
+			]
+			title: "Fresh Meat"
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["2EA15FC0C39072FE"]
+			icon: {
+				Count: 1
+				id: "knightquest:zombie_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "66DAC1C2EC97F5AA"
+			rewards: [
+				{
+					id: "571FB8797731AB9B"
+					item: {
+						Count: 1
+						id: "knightquest:zombie_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2113F713B0D87BE8"
+					item: {
+						Count: 1
+						id: "knightquest:zombie_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1106E87AD27F27C2"
+					item: {
+						Count: 1
+						id: "knightquest:zombie_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15BD64D040CF9595"
+					item: {
+						Count: 1
+						id: "knightquest:zombie_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5DB27987C73ABE58"
+					item: {
+						Count: 1
+						id: "twilightforest:zombie_scepter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "01DD255F40E71597"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:withered_tome"
+						tag: { }
+					}
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					count: 5
+					id: "17DE22A1668774E5"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Annihilate x250 Zombies"
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_head"
+				id: "7656F045438FC25A"
+				type: "kill"
+				value: 250L
+			}]
+			title: "Zombie Slayer"
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0CC0D8AE78819F30"]
+			icon: { Count: 20, id: "minecraft:skeleton_skull" }
+			id: "699E45F851247CA9"
+			rewards: [
+				{
+					id: "3CB03F7145135CB2"
+					type: "xp"
+					xp: 24
+				}
+				{
+					id: "5F98DB5502F9C610"
+					table_id: 7856589902171298164L
+					type: "random"
+				}
+				{
+					id: "64F7163D0B2A0446"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Kill and gather skeleton skull"
+			tasks: [
+				{
+					count: 8L
+					id: "0C1023B3F68771C1"
+					item: "born_in_chaos_v1:shattered_skull"
+					type: "item"
+				}
+				{
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "2FDCC06ACCAD0E97"
+					type: "kill"
+					value: 20L
+				}
+			]
+			title: "Bone Collection"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["699E45F851247CA9"]
+			icon: {
+				Count: 1
+				id: "knightquest:skeleton_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "656BB4438A03F05D"
+			rewards: [
+				{
+					id: "462CCD0B62984DA2"
+					item: {
+						Count: 1
+						id: "knightquest:skeleton_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1559CE0D9AB8C863"
+					item: {
+						Count: 1
+						id: "knightquest:skeleton_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A2B59BBD32FACD8"
+					item: {
+						Count: 1
+						id: "knightquest:skeleton_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7590B720EFA0D77E"
+					item: {
+						Count: 1
+						id: "knightquest:skeleton_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41809B54B88BB57C"
+					item: {
+						Count: 1
+						id: "iter_rpg:sacred_bow"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "56AB44C3E5C6B23B"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:withered_tome"
+						tag: { }
+					}
+					random_bonus: 12
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3D95AB538F93308E"
+					item: "coinsje:gold_coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Annihilate x400 Skeletons"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: "minecraft:skeleton_skull"
+				id: "1949902B46BB01CF"
+				type: "kill"
+				value: 400L
+			}]
+			title: "Skeleton Slayer"
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["14AFDEBA6C6ABEE2"]
+			icon: { Count: 20, id: "minecraft:spider_eye" }
+			id: "6018F00DAE02A29F"
+			rewards: [
+				{
+					id: "277BEEBD5A752780"
+					type: "xp"
+					xp: 24
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B83F526D6609364"
+					table_id: 7273877318484814637L
+					type: "random"
+				}
+				{
+					id: "135E5DF74137B26B"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Kill and gather spider eye"
+			tasks: [
+				{
+					count: 20L
+					id: "555949D45775DAE7"
+					item: { Count: 20, id: "minecraft:spider_eye" }
+					type: "item"
+				}
+				{
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_spawn_egg"
+					id: "270BD382E8CFEE02"
+					type: "kill"
+					value: 20L
+				}
+			]
+			title: "Hundred Eyes"
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["6018F00DAE02A29F"]
+			icon: {
+				Count: 1
+				id: "knightquest:spider_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "7827B1002D19C5D5"
+			rewards: [
+				{
+					id: "71EDA57AAF713D79"
+					item: {
+						Count: 1
+						id: "knightquest:spider_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6868E9CBBB87C963"
+					item: {
+						Count: 1
+						id: "knightquest:spider_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15621DD152AA5A7C"
+					item: {
+						Count: 1
+						id: "knightquest:spider_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46F8B5A3631B0896"
+					item: {
+						Count: 1
+						id: "knightquest:spider_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "479EFFD7ECD5CB30"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"undermod:capability_item_life_leech": {
+								power: 1
+							}
+						}
+						id: "born_in_chaos_v1:spider_bite_sword"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "13CB5FF97282A186"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:withered_tome"
+						tag: { }
+					}
+					random_bonus: 12
+					type: "item"
+				}
+				{
+					count: 2
+					id: "09B5101AC2C5A057"
+					item: "coinsje:gold_coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Annihilate x400 Spiders"
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "106E0CD362E23E64"
+				type: "kill"
+				value: 400L
+			}]
+			title: "Spider Slayer"
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["14AFDEBA6C6ABEE2"]
+			icon: { Count: 20, id: "twilightforest:maze_map_focus" }
+			id: "0A5F38020533BDD3"
+			rewards: [
+				{
+					id: "7BB657F71BD7B551"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "176684645C2AA5A6"
+					table_id: 2712499313389834944L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "6133A093B3D9AD60"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Kill and gather minotaur maze map"
+			tasks: [
+				{
+					id: "2653F079C9EF4579"
+					item: "twilightforest:maze_map_focus"
+					type: "item"
+				}
+				{
+					entity: "twilightforest:minotaur"
+					icon: "twilightforest:minotaur_spawn_egg"
+					id: "1B97FEB8A9885D19"
+					type: "kill"
+					value: 20L
+				}
+			]
+			title: "Bull Horns"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["0A5F38020533BDD3"]
+			icon: {
+				Count: 1
+				id: "immersive_armors:warrior_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5C7785C2A2202078"
+			rewards: [
+				{
+					id: "6C9293E51F5E9CBA"
+					item: {
+						Count: 1
+						id: "immersive_armors:warrior_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "207BC3E27DB70509"
+					item: {
+						Count: 1
+						id: "immersive_armors:warrior_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B7A59BFDC09E1CE"
+					item: {
+						Count: 1
+						id: "immersive_armors:warrior_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C3FF27246BCD4E6"
+					item: {
+						Count: 1
+						id: "immersive_armors:warrior_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47434D7802483795"
+					item: {
+						Count: 1
+						id: "macabre:valamon_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "606FAEBE65799F11"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:withered_tome"
+						tag: { }
+					}
+					random_bonus: 18
+					type: "item"
+				}
+				{
+					id: "7A2CCB0D277E9B7F"
+					item: "coinsje:netherite_coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Annihilate x400 Minotaurs"
+			tasks: [{
+				entity: "twilightforest:minotaur"
+				id: "776949AC593055C4"
+				type: "kill"
+				value: 400L
+			}]
+			title: "Minotaur Slayer"
+			x: 1.5d
+			y: -4.5d
+		}
+	]
+	title: "Slayer"
+}

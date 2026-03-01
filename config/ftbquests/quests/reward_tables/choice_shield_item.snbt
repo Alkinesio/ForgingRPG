@@ -1,0 +1,98 @@
+{
+	id: "144A93B80BD6F3A5"
+	loot_size: 1
+	order_index: 20
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "expanded_combat:shield_1"
+				tag: {
+					DL_Material: "Oak Plank"
+					DR_Material: "Oak Plank"
+					Damage: 0
+					Last_Repair_Number: 0
+					M_Material: "Oak Plank"
+					UL_Material: "Oak Plank"
+					UR_Material: "Oak Plank"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "expanded_combat:shield_1"
+				tag: {
+					DL_Material: "Acacia Plank"
+					DR_Material: "Acacia Plank"
+					Damage: 0
+					Last_Repair_Number: 0
+					M_Material: "Acacia Plank"
+					UL_Material: "Acacia Plank"
+					UR_Material: "Acacia Plank"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "expanded_combat:shield_1"
+				tag: {
+					DL_Material: "Birch Plank"
+					DR_Material: "Birch Plank"
+					Damage: 0
+					Last_Repair_Number: 0
+					M_Material: "Birch Plank"
+					UL_Material: "Birch Plank"
+					UR_Material: "Birch Plank"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "expanded_combat:shield_1"
+				tag: {
+					DL_Material: "Dark Oak Plank"
+					DR_Material: "Dark Oak Plank"
+					Damage: 0
+					Last_Repair_Number: 0
+					M_Material: "Dark Oak Plank"
+					UL_Material: "Dark Oak Plank"
+					UR_Material: "Dark Oak Plank"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "expanded_combat:shield_1"
+				tag: {
+					DL_Material: "Spruce Plank"
+					DR_Material: "Spruce Plank"
+					Damage: 0
+					Last_Repair_Number: 0
+					M_Material: "Spruce Plank"
+					UL_Material: "Spruce Plank"
+					UR_Material: "Spruce Plank"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "expanded_combat:shield_1"
+				tag: {
+					DL_Material: "Jungle Plank"
+					DR_Material: "Jungle Plank"
+					Damage: 0
+					Last_Repair_Number: 0
+					M_Material: "Jungle Plank"
+					UL_Material: "Jungle Plank"
+					UR_Material: "Jungle Plank"
+				}
+			}
+		}
+	]
+	title: "Choice Shield Item"
+}

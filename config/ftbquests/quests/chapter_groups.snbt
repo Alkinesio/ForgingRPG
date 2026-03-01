@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "190C1B658A12FCC7", title: "Shop" }
+		{ id: "128D85F361410B35", title: "Repetitive" }
+		{ id: "4EAC48A88230D604", title: "Campaign" }
+	]
+}

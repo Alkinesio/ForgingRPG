@@ -1,0 +1,4442 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	default_repeatable_quest: true
+	filename: "starter"
+	group: "190C1B658A12FCC7"
+	hide_quest_until_deps_complete: true
+	icon: {
+		Count: 1
+		id: "minecraft:writable_book"
+		tag: { }
+	}
+	id: "6B3E9CDBC0E48186"
+	images: [
+		{
+			height: 1.0d
+			hover: ["Beginning Shop"]
+			image: "minecraft:item/chainmail_chestplate"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			height: 0.5d
+			image: "iter_rpg:item/coin_pile_item"
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.25d
+			y: 0.75d
+		}
+		{
+			height: 0.8d
+			hover: ["Delver Shop"]
+			image: "minecraft:item/golden_pickaxe"
+			rotation: 0.0d
+			width: 0.8d
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			height: 0.5d
+			image: "iter_rpg:item/coin_pile_item"
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.25d
+			y: 3.25d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Beginning chapter in the Campaign and Healing Rest quest."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.8d
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/campfire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Beginning chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.8d
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:item/golden_pickaxe"
+			rotation: 0.0d
+			width: 0.8d
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Beginning chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.8d
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Beginning chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.8d
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Beginning chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.8d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Beginning chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.8d
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Beginning chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.8d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:item/golden_pickaxe"
+			rotation: 0.0d
+			width: 0.8d
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:item/golden_pickaxe"
+			rotation: 0.0d
+			width: 0.8d
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:item/golden_pickaxe"
+			rotation: 0.0d
+			width: 0.8d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:item/golden_pickaxe"
+			rotation: 0.0d
+			width: 0.8d
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:item/golden_pickaxe"
+			rotation: 0.0d
+			width: 0.8d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Beginning chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.8d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Beginning chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.8d
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Beginning chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.8d
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Beginning chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.8d
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Beginning chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.8d
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:item/golden_pickaxe"
+			rotation: 0.0d
+			width: 0.8d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:item/golden_pickaxe"
+			rotation: 0.0d
+			width: 0.8d
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:item/golden_pickaxe"
+			rotation: 0.0d
+			width: 0.8d
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:item/golden_pickaxe"
+			rotation: 0.0d
+			width: 0.8d
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:item/golden_pickaxe"
+			rotation: 0.0d
+			width: 0.8d
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Beginning chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.8d
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Beginning chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.8d
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:item/golden_pickaxe"
+			rotation: 0.0d
+			width: 0.8d
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:item/golden_pickaxe"
+			rotation: 0.0d
+			width: 0.8d
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/twilight_oak_sapling"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/twilight_oak_sapling"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/twilight_oak_sapling"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/twilight_oak_sapling"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/twilight_oak_sapling"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/twilight_oak_sapling"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/twilight_oak_sapling"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ancient_temples:item/desert_gold_upgrade"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/twilight_oak_sapling"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/twilight_oak_sapling"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/twilight_oak_sapling"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/twilight_oak_sapling"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/twilight_oak_sapling"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Delver Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Delver Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Delver Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Delver Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Delver Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Delver Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Delver Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Delver Age chapter and The Shard Collector quest in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Delver Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			height: 0.75d
+			hover: ["Sell Items"]
+			image: "iter_rpg:item/coin_pile_item"
+			rotation: 0.0d
+			width: 0.75d
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:item/misc/loot_bag"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:item/misc/loot_bag"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Delver Age chapter and Holy Gold quest in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Delver Age chapter and Holy Gold quest in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Delver Age chapter and Holy Gold quest in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Delver Age chapter and Holy Gold quest in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Delver Age chapter and Holy Gold quest in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "ancient_temples:item/desert_gold_upgrade"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "ancient_temples:item/desert_gold_upgrade"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "ancient_temples:item/desert_gold_upgrade"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "ancient_temples:item/desert_gold_upgrade"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:item/amethyst_shard"
+			rotation: 0.0d
+			width: 1.25d
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "tmg:item/trade"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			height: 0.75d
+			hover: ["Trade Items"]
+			image: "desert_villager_trader:block/traderblockdesertfront"
+			rotation: 0.0d
+			width: 0.75d
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Beginning chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.8d
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:item/golden_pickaxe"
+			rotation: 0.0d
+			width: 0.8d
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "tmg:item/trade"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Delver Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.8d
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Elven Shop"]
+			image: "twilightforest:block/twilight_oak_sapling"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			height: 0.5d
+			image: "iter_rpg:item/coin_pile_item"
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.25d
+			y: 5.75d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign and a certain secret quest."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:item/misc/loot_bag"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "tmg:item/trade"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			height: 1.15d
+			image: "goety:item/frost_crown"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			height: 4.0d
+			image: "toomanypaintings:textures/painting/villager.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.5d
+			y: 6.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.5d
+			y: 6.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			height: 0.75d
+			hover: ["Buy Items"]
+			image: "seadwellers:item/collector_loot_crate"
+			rotation: 0.0d
+			width: 0.75d
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.5d
+			y: 6.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.5d
+			y: 5.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log_top"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log_top"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 90.0d
+			width: 1.15d
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 90.0d
+			width: 1.15d
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 90.0d
+			width: 1.15d
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 90.0d
+			width: 1.15d
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 90.0d
+			width: 1.15d
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 90.0d
+			width: 1.15d
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 90.0d
+			width: 1.15d
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 90.0d
+			width: 1.15d
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 90.0d
+			width: 1.15d
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 90.0d
+			width: 1.15d
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 90.0d
+			width: 1.15d
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 90.0d
+			width: 1.15d
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -0.5d
+			y: 7.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.5d
+			y: 7.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.5d
+			y: 7.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: 8.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.5d
+			y: 8.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0A96869D676BDBB5"]
+			description: ["Buy a discounted Iron sword to defend yourself in critical situations! Can be used by some classes. It deals melee damage."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"undermod:capability_item_life_leech": {
+						power: 1
+					}
+				}
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "48E15C55AEBDFA9B"
+			rewards: [{
+				id: "597F48E666048940"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"undermod:capability_item_life_leech": {
+							power: 1
+						}
+					}
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy an Iron Sword"
+			tasks: [{
+				count: 2L
+				id: "6E358641E2A2A19E"
+				item: { Count: 2, id: "coinsje:iron_coin" }
+				type: "item"
+			}]
+			title: "Iron Sword"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A96869D676BDBB5"]
+			description: ["Buy a discounted Iron helmet to defend yourself in critical situations!"]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "3E03A329D76F7DDD"
+			rewards: [{
+				id: "2733D14AF84E78B6"
+				item: {
+					Count: 1
+					id: "minecraft:iron_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy an Iron Helmet"
+			tasks: [{
+				count: 4L
+				id: "19E1FC1CD9967F4F"
+				item: { Count: 2, id: "coinsje:iron_coin" }
+				type: "item"
+			}]
+			title: "Iron Helmet"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A96869D676BDBB5"]
+			description: ["Buy a discounted Iron chestplate to defend yourself in critical situations!"]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_chestplate"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "169E1ED2FB4D32C6"
+			rewards: [{
+				id: "58E8B9C8455E2073"
+				item: {
+					Count: 1
+					id: "minecraft:iron_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy an Iron Chestplate"
+			tasks: [{
+				count: 7L
+				id: "3C83C6832D4392EC"
+				item: { Count: 2, id: "coinsje:iron_coin" }
+				type: "item"
+			}]
+			title: "Iron Chestplate"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A96869D676BDBB5"]
+			description: ["Buy discounted Iron leggings to defend yourself in critical situations!"]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_leggings"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "3AD56CC25DFA9D85"
+			rewards: [{
+				id: "2CEF1C38F35A7A6B"
+				item: {
+					Count: 1
+					id: "minecraft:iron_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy Iron Leggings"
+			tasks: [{
+				count: 6L
+				id: "66A988F3E4754E62"
+				item: { Count: 2, id: "coinsje:iron_coin" }
+				type: "item"
+			}]
+			title: "Iron Leggings"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A96869D676BDBB5"]
+			description: ["Buy discounted Iron boots to defend yourself in critical situations!"]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_boots"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "2F75CE82EB765FE0"
+			rewards: [{
+				id: "1EC919F31F3796E2"
+				item: {
+					Count: 1
+					id: "minecraft:iron_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy Iron Boots"
+			tasks: [{
+				count: 3L
+				id: "1B45EF7B815F55F5"
+				item: { Count: 2, id: "coinsje:iron_coin" }
+				type: "item"
+			}]
+			title: "Iron Boots"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A96869D676BDBB5"]
+			description: ["Buy an Apple to avoid dying hungry in critical situations! Can be used to craft different items included the Golden Apple which is an upgraded version and provide additional buffs."]
+			icon: "minecraft:apple"
+			id: "7F2CB20F9D637D3F"
+			rewards: [{
+				id: "1C1576BE5671111F"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			subtitle: "Buy an Apple"
+			tasks: [{
+				count: 4L
+				id: "115F658CBB7733D2"
+				item: { Count: 4, id: "coinsje:copper_coin" }
+				type: "item"
+			}]
+			title: "Apple"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0A96869D676BDBB5"]
+			description: ["Buy four Sticks as basic utility, useful for critical situations! Material for base crafting tools, weapons, torches and different other items."]
+			icon: { Count: 4, id: "minecraft:stick" }
+			id: "270DE922E1E945E1"
+			rewards: [{
+				count: 4
+				id: "638818B6F84BDFCF"
+				item: "minecraft:stick"
+				type: "item"
+			}]
+			subtitle: "Buy four Sticks"
+			tasks: [{
+				count: 2L
+				id: "7754231038FDCFBA"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			title: "x4 Sticks"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0A96869D676BDBB5"]
+			description: ["Buy a Potion of Healing to avoid dying in critical situations! Drink it to be healed instantly."]
+			icon: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:healing"
+				}
+			}
+			id: "2E74FE3B9E0642E0"
+			rewards: [{
+				id: "5DF4E0A0FC69BF4D"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:healing"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy a Potion of Healing"
+			tasks: [{
+				count: 4L
+				id: "7B0CEFBE39620AA7"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			title: "Healing Potion"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0A96869D676BDBB5"]
+			description: ["Buy a String as basic utility, useful for critical situations! Used to place traps or craft different items including bows and fishing rods."]
+			icon: "minecraft:string"
+			id: "2048D57CC9584DD0"
+			rewards: [{
+				id: "180CD47B25882125"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			subtitle: "Buy a String"
+			tasks: [{
+				id: "7C4774943EF20AF6"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			title: "String"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"0A96869D676BDBB5"
+				"00AFF9AE1F159799"
+			]
+			description: ["Buy a Campfire to heal health over time or cook raw food, useful for critical situations!"]
+			icon: "minecraft:campfire"
+			id: "330B69A73C810E83"
+			rewards: [{
+				id: "1361B4383D826947"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			subtitle: "Buy a Campfire"
+			tasks: [{
+				id: "25046791920C32C5"
+				item: "coinsje:gold_coin"
+				type: "item"
+			}]
+			title: "Campfire"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0A96869D676BDBB5"]
+			description: ["Sell eight Coal to get a coin which is useful to buy items in critical situations! Can be found mining in the caves, killing mobs like Chorts or looting chests."]
+			icon: { Count: 8, id: "minecraft:coal" }
+			id: "40FAB7318B9AA896"
+			rewards: [{
+				id: "5205E3BD4DEA4162"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Sell eight Coal"
+			tasks: [{
+				count: 8L
+				id: "759B42C4EE843D77"
+				item: { Count: 9, id: "minecraft:coal" }
+				type: "item"
+			}]
+			title: "x8 Coal"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A96869D676BDBB5"]
+			description: ["Sell six Bones to get a coin which is useful to buy items in critical situations! Can be found by killing mobs like Skeletons, cutting Ham or looting chests."]
+			icon: { Count: 6, id: "minecraft:bone" }
+			id: "120BF62EDEF1CCD5"
+			rewards: [{
+				id: "6D2BDDEAFC0DC46A"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Sell six Bones"
+			tasks: [{
+				count: 6L
+				id: "02DCACA29CAA36D5"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			title: "x6 Bones"
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0A96869D676BDBB5"]
+			description: ["Buy a discounted Iron axe to defend yourself in critical situations!"]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_axe"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "6F9C697459C676D8"
+			rewards: [{
+				id: "796209B5235EC95A"
+				item: {
+					Count: 1
+					id: "minecraft:iron_axe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy an Iron Axe"
+			tasks: [{
+				count: 3L
+				id: "03B4E222428CF758"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			title: "Iron Axe"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A96869D676BDBB5"]
+			description: ["Buy four Ropes as basic utility, useful for critical situations! Can be placed to climb blocks or descending safetely."]
+			icon: { Count: 4, id: "farmersdelight:rope" }
+			id: "67EC072F62676BA9"
+			rewards: [{
+				count: 4
+				id: "719172129EF1616A"
+				item: "farmersdelight:rope"
+				type: "item"
+			}]
+			subtitle: "Buy four Ropes"
+			tasks: [{
+				id: "71DD0D7BFA1ECE39"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			title: "x4 Ropes"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2DA6AEA322B2298B"]
+			description: ["Buy a Lantern as light source for better visibility and prevent some mobs to spawn. Can be equipped to belt slot or be placed, useful for critical situations!"]
+			icon: "minecraft:lantern"
+			id: "385F55CD7DCAE176"
+			rewards: [{
+				id: "215E49D9F83CC9E7"
+				item: "minecraft:lantern"
+				type: "item"
+			}]
+			subtitle: "Buy a Lantern"
+			tasks: [{
+				id: "38149F7EF19CAD75"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			title: "Lantern"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2DA6AEA322B2298B"]
+			description: ["Useful for critical situations!"]
+			icon: {
+				Count: 1
+				id: "minecraft:water_bucket"
+				tag: { }
+			}
+			id: "1A4E1E99AD2D9917"
+			rewards: [{
+				id: "29BD52B5B58193EC"
+				item: {
+					Count: 1
+					id: "minecraft:water_bucket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Buy a Water Bucket"
+			tasks: [{
+				count: 3L
+				id: "543BDFFBF1C64547"
+				item: { Count: 3, id: "coinsje:iron_coin" }
+				type: "item"
+			}]
+			title: "Water Bucket"
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2DA6AEA322B2298B"]
+			description: ["Useful for critical situations!"]
+			icon: {
+				Count: 1
+				id: "minecraft:lava_bucket"
+				tag: { }
+			}
+			id: "5E302469809F72C1"
+			rewards: [{
+				id: "6621C2D6E66D4A40"
+				item: {
+					Count: 1
+					id: "minecraft:lava_bucket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Buy a Lava Bucket"
+			tasks: [{
+				count: 5L
+				id: "400946EC0B5308B2"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			title: "Lava Bucket"
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2DA6AEA322B2298B"]
+			description: ["Buy six Glow Berries to avoid dying hungry in critical situations! Can be plant placed at the bottom of the most blocks."]
+			icon: { Count: 6, id: "minecraft:glow_berries" }
+			id: "6A50765EAFC57EF1"
+			rewards: [{
+				count: 6
+				id: "42BA1DF5FFFDABD7"
+				item: "minecraft:glow_berries"
+				type: "item"
+			}]
+			subtitle: "Buy six Glow Berries"
+			tasks: [{
+				id: "6B3741299C6EF7E7"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			title: "x6 Glow Berries"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"71B3E5BE25AB3A30"
+				"2DA6AEA322B2298B"
+			]
+			description: ["Buy an Enchanted Golden Desert Helmet, which is an upgraded version of the golden one to defend yourself in critical situations!"]
+			icon: {
+				Count: 1
+				id: "ancient_temples:desert_armor_helmet"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "minecraft:projectile_protection"
+							lvl: 1
+						}
+						{
+							id: "combatroll:acrobat"
+							lvl: 1
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 1
+						}
+						{
+							id: "minecraft:blast_protection"
+							lvl: 2
+						}
+					]
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "4F75D49527FE9708"
+			rewards: [{
+				id: "763CA2594E3E38A6"
+				item: {
+					Count: 1
+					id: "ancient_temples:desert_armor_helmet"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:projectile_protection"
+								lvl: 1
+							}
+							{
+								id: "combatroll:acrobat"
+								lvl: 1
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 1
+							}
+							{
+								id: "minecraft:blast_protection"
+								lvl: 2
+							}
+						]
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy an Enchanted Desert Gold Helmet"
+			tasks: [
+				{
+					count: 2L
+					id: "4D080CA4E62309E9"
+					item: { Count: 2, id: "coinsje:gold_coin_pile" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6B0FC314E5BB13A7"
+					item: { Count: 4, id: "coinsje:gold_coin" }
+					type: "item"
+				}
+			]
+			title: "Enchanted Desert Gold Helmet"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"71B3E5BE25AB3A30"
+				"2DA6AEA322B2298B"
+			]
+			description: ["Buy an Enchanted Golden Desert Chestplate, which is an upgraded version of the golden one to defend yourself in critical situations!"]
+			icon: {
+				Count: 1
+				id: "ancient_temples:desert_armor_chestplate"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "minecraft:projectile_protection"
+							lvl: 1
+						}
+						{
+							id: "combatroll:acrobat"
+							lvl: 1
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 1
+						}
+						{
+							id: "minecraft:blast_protection"
+							lvl: 2
+						}
+					]
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "7B05E4EC16DF6850"
+			rewards: [{
+				id: "565D7AC0B80433B2"
+				item: {
+					Count: 1
+					id: "ancient_temples:desert_armor_chestplate"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:projectile_protection"
+								lvl: 1
+							}
+							{
+								id: "combatroll:acrobat"
+								lvl: 1
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 1
+							}
+							{
+								id: "minecraft:blast_protection"
+								lvl: 2
+							}
+						]
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy an Enchanted Desert Gold Chestplate"
+			tasks: [
+				{
+					count: 3L
+					id: "7406B8405C9098B2"
+					item: { Count: 3, id: "coinsje:gold_coin_pile" }
+					type: "item"
+				}
+				{
+					id: "622CDD079DE4C417"
+					item: "coinsje:gold_coin"
+					type: "item"
+				}
+			]
+			title: "Enchanted Desert Gold Chestplate"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"71B3E5BE25AB3A30"
+				"2DA6AEA322B2298B"
+			]
+			description: ["Buy Enchanted Golden Desert Leggings, which are an upgraded version of the golden one to defend yourself in critical situations!"]
+			icon: {
+				Count: 1
+				id: "ancient_temples:desert_armor_leggings"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "minecraft:projectile_protection"
+							lvl: 1
+						}
+						{
+							id: "combatroll:acrobat"
+							lvl: 1
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 1
+						}
+						{
+							id: "minecraft:blast_protection"
+							lvl: 2
+						}
+					]
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "23ED9D4C57CAFFF0"
+			rewards: [{
+				id: "5B1C955537F9FCC7"
+				item: {
+					Count: 1
+					id: "ancient_temples:desert_armor_leggings"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:projectile_protection"
+								lvl: 1
+							}
+							{
+								id: "combatroll:acrobat"
+								lvl: 1
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 1
+							}
+							{
+								id: "minecraft:blast_protection"
+								lvl: 2
+							}
+						]
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy Enchanted Desert Gold Leggings"
+			tasks: [
+				{
+					count: 2L
+					id: "4050F007FD0BB0F4"
+					item: { Count: 2, id: "coinsje:gold_coin_pile" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7BF6E67CB7732F8E"
+					item: { Count: 8, id: "coinsje:gold_coin" }
+					type: "item"
+				}
+			]
+			title: "Enchanted Desert Gold Leggings"
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"71B3E5BE25AB3A30"
+				"2DA6AEA322B2298B"
+			]
+			description: ["Buy Enchanted Golden Desert Boots, which are an upgraded version of the golden one to defend yourself in critical situations!"]
+			icon: {
+				Count: 1
+				id: "ancient_temples:desert_armor_boots"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "minecraft:projectile_protection"
+							lvl: 1
+						}
+						{
+							id: "combatroll:acrobat"
+							lvl: 1
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 1
+						}
+						{
+							id: "minecraft:blast_protection"
+							lvl: 2
+						}
+					]
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "1CB97CC02B1AC55A"
+			rewards: [{
+				id: "4ADFD878F8CFBDEA"
+				item: {
+					Count: 1
+					id: "ancient_temples:desert_armor_boots"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:projectile_protection"
+								lvl: 1
+							}
+							{
+								id: "combatroll:acrobat"
+								lvl: 1
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 1
+							}
+							{
+								id: "minecraft:blast_protection"
+								lvl: 2
+							}
+						]
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy Enchanted Desert Gold Boots"
+			tasks: [
+				{
+					count: 2L
+					id: "5FE4F71D30C1FB7F"
+					item: { Count: 2, id: "coinsje:gold_coin_pile" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "46E1FB555B6C1AC6"
+					item: { Count: 2, id: "coinsje:gold_coin" }
+					type: "item"
+				}
+			]
+			title: "Enchanted Desert Gold Boots"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2DA6AEA322B2298B"]
+			description: ["Buy a Flint and Steel to trigger TNT's or light on burnable entities and blocks. Place fire on interact the top of most blocks. Useful for critical situations!"]
+			icon: {
+				Count: 1
+				id: "minecraft:flint_and_steel"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5187403AB72451F3"
+			rewards: [{
+				id: "7898C41794C7D916"
+				item: {
+					Count: 1
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy a Flint and Steel"
+			tasks: [
+				{
+					id: "1E03D9194B1B9127"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3D8C2262E48A386E"
+					item: { Count: 2, id: "coinsje:copper_coin" }
+					type: "item"
+				}
+			]
+			title: "Flint and Steel"
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"71B3E5BE25AB3A30"
+				"2DA6AEA322B2298B"
+			]
+			description: [
+				"Buy an Enchanted Golden Desert Pickaxe, which is an upgraded version of the golden one to mine hard blocks, useful for critical situations!"
+				""
+				"&5Golden Time enchantment&r"
+				"Repair item over time."
+				""
+				"&5Random Stone enchantment&r"
+				"Give a small chance of generating a random mineral or gem."
+			]
+			icon: {
+				Count: 1
+				id: "ancient_temples:desert_pickaxe"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 0
+					}
+				}
+			}
+			id: "3B6326485A2FD2F5"
+			rewards: [{
+				id: "5F826384A1E55072"
+				item: {
+					Count: 1
+					id: "ancient_temples:desert_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "elite_enchantments:golden_time"
+								lvl: 1
+							}
+							{
+								id: "elite_enchantments:random_stone"
+								lvl: 1
+							}
+						]
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy an Enchanted Desert Gold Pickaxe"
+			tasks: [{
+				count: 2L
+				id: "044083D93A3D2895"
+				item: "coinsje:gold_coin_pile"
+				type: "item"
+			}]
+			title: "Enchanted Desert Gold Pickaxe"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2DA6AEA322B2298B"]
+			description: ["Buy a discounted Shield to defend yourself in critical situations! Can be used by some classes and having weapons one-handed. It blocks incoming attacks while pressing key."]
+			icon: {
+				Count: 1
+				id: "expanded_combat:shield_1"
+				tag: {
+					DL_Material: "Leather"
+					DR_Material: "Leather"
+					Damage: 0
+					Last_Repair_Number: 0
+					M_Material: "Iron"
+					UL_Material: "Leather"
+					UR_Material: "Leather"
+				}
+			}
+			id: "53D1EF4F1E173722"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40E422509BF46B97"
+				table_id: 1462143447717049253L
+				type: "choice"
+			}]
+			subtitle: "Buy a Shield"
+			tasks: [{
+				id: "63665C6BEDA25D3F"
+				item: { Count: 4, id: "coinsje:iron_coin" }
+				type: "item"
+			}]
+			title: "Shield"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2DA6AEA322B2298B"
+				"3B472F2E4B335EA1"
+			]
+			icon: { Count: 6, id: "minecraft:amethyst_shard" }
+			id: "6D8851364198A537"
+			rewards: [{
+				id: "5760861C7F990974"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Sell six Amethyst Shards"
+			tasks: [{
+				count: 6L
+				id: "0FBC2DE0B1543DE8"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2DA6AEA322B2298B"]
+			icon: { Count: 3, id: "minecraft:gunpowder" }
+			id: "271EB2B49D16C077"
+			rewards: [{
+				id: "0DC1D3B37F5171F9"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Sell four Gunpowder"
+			tasks: [{
+				count: 3L
+				id: "532A1D37FE0762D8"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2DA6AEA322B2298B"]
+			description: ["Buy a TNT Crate which can explode by triggering it using a Flint and Steel. Damage all entities in the surrounding area and destroying blocks, useful for critical situations!"]
+			icon: "minecraft:tnt"
+			id: "556005F3041218AC"
+			rewards: [{
+				id: "129DBC6479DF2EF2"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			subtitle: "Buy a TNT Crate"
+			tasks: [{
+				id: "362C39DA518E5898"
+				item: "coinsje:gold_coin"
+				type: "item"
+			}]
+			title: "TNT Crate"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0A96869D676BDBB5"]
+			description: ["Trade four Strings and a Stick to get a Feather. Used as ingredient to craft arrows to attack on long range or for other useful items."]
+			icon: "minecraft:feather"
+			id: "31D3F1EE5843F679"
+			rewards: [{
+				id: "656657EB6484875A"
+				item: "minecraft:feather"
+				type: "item"
+			}]
+			subtitle: "Trade for a Feather"
+			tasks: [
+				{
+					id: "03D251A9D361EE30"
+					item: "minecraft:stick"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "55431887A59615DF"
+					item: "minecraft:string"
+					type: "item"
+				}
+			]
+			title: "Feather"
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0A96869D676BDBB5"]
+			description: ["Trade eight Iron Nuggets to get a Flint. Used as ingredient to craft arrows to attack on long range, Flint and Steel to trigger fire and other useful items."]
+			icon: "minecraft:flint"
+			id: "6831A493E317FD93"
+			rewards: [{
+				id: "4FDA997334546AB7"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			subtitle: "Trade for a Flint"
+			tasks: [{
+				count: 8L
+				id: "09F66649EA649A12"
+				item: "minecraft:iron_nugget"
+				type: "item"
+			}]
+			title: "Flint"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4DF06510F7AA7E23"]
+			description: ["Buy a Crossbow to defend yourself in critical situations! Can be used by some classes when an arrow is present in the inventory. It deals ranged damage."]
+			icon: {
+				Count: 1
+				id: "minecraft:crossbow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3E3E73D9DE1985AD"
+			rewards: [{
+				id: "3252E010511153B6"
+				item: {
+					Count: 1
+					id: "minecraft:crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy a Crossbow"
+			tasks: [{
+				count: 2L
+				id: "60F57DE196F37A81"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			title: "Crossbow"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4DF06510F7AA7E23"
+				"469F2D35E66FA36B"
+			]
+			description: ["Buy a Seeker Bow to defend yourself in critical situations! The arrows fired by this bow will stalk close enemies."]
+			icon: {
+				Count: 1
+				id: "twilightforest:seeker_bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "09CEC83AB79AA409"
+			rewards: [{
+				id: "0E8C0D96704CC220"
+				item: {
+					Count: 1
+					id: "twilightforest:seeker_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy a Seeker Bow"
+			tasks: [{
+				count: 6L
+				id: "11A8E3ABED0F2DC6"
+				item: "coinsje:diamond_coin"
+				type: "item"
+			}]
+			title: "Seeker Bow"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2DA6AEA322B2298B"]
+			description: ["Buy an Enchanted Leather Cap to defend yourself in critical situations!"]
+			icon: {
+				Count: 1
+				id: "minecraft:leather_helmet"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "minecraft:unbreaking"
+							lvl: 3
+						}
+						{
+							id: "expanded_combat:agility"
+							lvl: 3
+						}
+						{
+							id: "minecraft:protection"
+							lvl: 3
+						}
+						{
+							id: "dungeonsenchantments:cowardice"
+							lvl: 1
+						}
+					]
+					display: {
+						color: 6192150
+					}
+				}
+			}
+			id: "19645803CAE28A8B"
+			rewards: [{
+				id: "105F7375B87C3F47"
+				ignore_reward_blocking: true
+				item: {
+					Count: 1
+					id: "minecraft:leather_helmet"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3
+							}
+							{
+								id: "expanded_combat:agility"
+								lvl: 3
+							}
+							{
+								id: "minecraft:protection"
+								lvl: 3
+							}
+							{
+								id: "dungeonsenchantments:cowardice"
+								lvl: 1
+							}
+						]
+						display: {
+							color: 6192150
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy an Enchanted Leather Cap"
+			tasks: [{
+				count: 8L
+				id: "0BCD523DBF3B8FDB"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			title: "Enchanted Leather Cap"
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2DA6AEA322B2298B"]
+			description: ["Buy an Enchanted Leather Tunic to defend yourself in critical situations!"]
+			icon: {
+				Count: 1
+				id: "minecraft:leather_chestplate"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "minecraft:unbreaking"
+							lvl: 3
+						}
+						{
+							id: "expanded_combat:agility"
+							lvl: 3
+						}
+						{
+							id: "minecraft:protection"
+							lvl: 3
+						}
+						{
+							id: "dungeonsenchantments:recycler"
+							lvl: 3
+						}
+					]
+					display: {
+						color: 6192150
+					}
+				}
+			}
+			id: "309BF9A9CDA24600"
+			rewards: [{
+				id: "4232C0B78EFA8E55"
+				ignore_reward_blocking: true
+				item: {
+					Count: 1
+					id: "minecraft:leather_chestplate"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3
+							}
+							{
+								id: "expanded_combat:agility"
+								lvl: 3
+							}
+							{
+								id: "minecraft:protection"
+								lvl: 3
+							}
+							{
+								id: "dungeonsenchantments:recycler"
+								lvl: 3
+							}
+						]
+						display: {
+							color: 6192150
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy an Enchanted Leather Tunic"
+			tasks: [
+				{
+					id: "15EDDEA1C4C18C30"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3447DE249CE0F8CB"
+					item: { Count: 4, id: "coinsje:copper_coin" }
+					type: "item"
+				}
+			]
+			title: "Enchanted Leather Tunic"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2DA6AEA322B2298B"]
+			description: ["Buy Enchanted Leather Pants to defend yourself in critical situations!"]
+			icon: {
+				Count: 1
+				id: "minecraft:leather_leggings"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "minecraft:unbreaking"
+							lvl: 3
+						}
+						{
+							id: "expanded_combat:agility"
+							lvl: 3
+						}
+						{
+							id: "minecraft:protection"
+							lvl: 3
+						}
+						{
+							id: "x_enchantment:climber"
+							lvl: 1
+						}
+					]
+					display: {
+						color: 6192150
+					}
+				}
+			}
+			id: "46DB508F460F5307"
+			rewards: [{
+				id: "02F78FCFCC948DA0"
+				ignore_reward_blocking: true
+				item: {
+					Count: 1
+					id: "minecraft:leather_leggings"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3
+							}
+							{
+								id: "expanded_combat:agility"
+								lvl: 3
+							}
+							{
+								id: "minecraft:protection"
+								lvl: 3
+							}
+							{
+								id: "x_enchantment:climber"
+								lvl: 1
+							}
+						]
+						display: {
+							color: 6192150
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy Enchanted Leather Pants"
+			tasks: [
+				{
+					id: "559E7B82D5CBDEDA"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7460AD19C4FD60A3"
+					item: { Count: 2, id: "coinsje:copper_coin" }
+					type: "item"
+				}
+			]
+			title: "Enchanted Leather Pants"
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2DA6AEA322B2298B"]
+			description: ["Buy an Enchanted Leather Tunic to defend yourself in critical situations!"]
+			icon: {
+				Count: 1
+				id: "minecraft:leather_boots"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "minecraft:unbreaking"
+							lvl: 3
+						}
+						{
+							id: "expanded_combat:agility"
+							lvl: 3
+						}
+						{
+							id: "minecraft:protection"
+							lvl: 3
+						}
+					]
+					display: {
+						color: 6192150
+					}
+				}
+			}
+			id: "28E5DED9DB058A7D"
+			rewards: [{
+				id: "4536DA2966EE1DE9"
+				ignore_reward_blocking: true
+				item: {
+					Count: 1
+					id: "minecraft:leather_boots"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3
+							}
+							{
+								id: "expanded_combat:agility"
+								lvl: 3
+							}
+							{
+								id: "minecraft:protection"
+								lvl: 3
+							}
+							{
+								id: "minecraft:feather_falling"
+								lvl: 3
+							}
+						]
+						display: {
+							color: 6192150
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy Enchanted Leather Boots"
+			tasks: [{
+				count: 6L
+				id: "0623F5D43C1F8D2F"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			title: "Enchanted Leather Boots"
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0A96869D676BDBB5"]
+			description: ["Buy a Fletching Table as basic utility, useful for critical situations! Interact and use ingrendients to craft arrows to be fired by Bows and Crossbows."]
+			icon: "minecraft:fletching_table"
+			id: "753E400FAB48D759"
+			rewards: [{
+				id: "0184F29D4FA5A6C0"
+				item: "minecraft:fletching_table"
+				type: "item"
+			}]
+			subtitle: "Buy a Fletching Table"
+			tasks: [{
+				id: "241937A15CDF4938"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			title: "Fletching Table"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0A96869D676BDBB5"]
+			description: ["Buy an Enchanting Table as basic utility, useful for critical situations! Interact and use lapis to enchant your items. Build libraries close to it to enchant the power."]
+			icon: "minecraft:enchanting_table"
+			id: "5E743B3D8C775E1A"
+			rewards: [{
+				id: "56C966E7C5BB3144"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			subtitle: "Buy an Enchanting Table"
+			tasks: [{
+				count: 2L
+				id: "23D0695E91BC58E0"
+				item: "coinsje:diamond_coin"
+				type: "item"
+			}]
+			title: "Enchanting Table"
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0A96869D676BDBB5"]
+			description: ["Buy two Arrows which are useful for critical situations! Consumed when firing with a Bow or Crossbow."]
+			icon: { Count: 2, id: "minecraft:arrow" }
+			id: "20B09B0CFBD090D2"
+			rewards: [{
+				count: 2
+				id: "1EAB5FF5567FE099"
+				item: "minecraft:arrow"
+				type: "item"
+			}]
+			subtitle: "Buy two Arrows"
+			tasks: [{
+				count: 4L
+				id: "1A805B5E2A576790"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			title: "x2 Arrows"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0A96869D676BDBB5"]
+			description: ["Buy a Charm of Slow Falling to avoid dying in critical situations! While in the inventory, it consumes over time but reduce fall damage."]
+			icon: {
+				Count: 1
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Potion: "minecraft:slow_falling"
+				}
+			}
+			id: "10602F8636148936"
+			rewards: [{
+				id: "51043C299A3B4893"
+				item: {
+					Count: 1
+					id: "apotheosis:potion_charm"
+					tag: {
+						Damage: 0
+						Potion: "minecraft:slow_falling"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy a Charm of Slow Falling"
+			tasks: [{
+				count: 6L
+				id: "2FC2A9C24075DF71"
+				item: "coinsje:gold_coin"
+				type: "item"
+			}]
+			title: "Charm of Slow Falling"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0A96869D676BDBB5"]
+			description: ["Buy a Smithing Table as basic utility, useful for critical situations! Interact and use ingrendients to upgrade weapons using templates and gems."]
+			icon: "minecraft:smithing_table"
+			id: "01E636DD1ABA0EAE"
+			rewards: [{
+				id: "1C916CAB0D55A3D1"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			subtitle: "Buy a Smithing Table"
+			tasks: [
+				{
+					count: 2L
+					id: "1F45F081AB3DC024"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "250888F2559A468A"
+					item: { Count: 4, id: "coinsje:copper_coin" }
+					type: "item"
+				}
+			]
+			title: "Smithing Table"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2DA6AEA322B2298B"]
+			description: ["Buy a Water Bottle to avoid dying thirsty in critical situations! Can be used as material to craft potions too."]
+			icon: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:water"
+				}
+			}
+			id: "2CE1AA96B81435DB"
+			rewards: [{
+				id: "77E616D3456AE1BD"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:water"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy a Water Bottle"
+			tasks: [{
+				id: "4B78B56709E090F2"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			title: "Water Bottle"
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2DA6AEA322B2298B"
+				"3B472F2E4B335EA1"
+			]
+			icon: { Count: 8, id: "minecraft:lapis_lazuli" }
+			id: "05B23E1F6E1966F9"
+			rewards: [{
+				id: "03AE5A16FD501484"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Sell nine Lapis Lazuli"
+			tasks: [{
+				count: 8L
+				id: "28C05CC041400E34"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"2DA6AEA322B2298B"
+				"3B472F2E4B335EA1"
+			]
+			icon: { Count: 12, id: "minecraft:redstone" }
+			id: "178DD480348F234F"
+			rewards: [{
+				id: "5AEA168FFB057DFE"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Sell twelve Redstone Dust"
+			tasks: [{
+				count: 12L
+				id: "490F2D2FEDBE910B"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2DA6AEA322B2298B"
+				"3B472F2E4B335EA1"
+			]
+			description: ["Trade a Honey Bottle to get a Slimeball. Utility item used as material for several crafting recipes."]
+			icon: "minecraft:slime_ball"
+			id: "61EC438201266937"
+			rewards: [{
+				id: "44735AACD95EF6CE"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			subtitle: "Trade for a Slimeball"
+			tasks: [{
+				id: "641F8766C4B0C42C"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			title: "Slimeball"
+			x: 9.0d
+			y: 5.5d
+		}
+	]
+	title: "Starter"
+}

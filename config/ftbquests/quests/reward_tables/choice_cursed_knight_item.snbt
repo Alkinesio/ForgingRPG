@@ -1,0 +1,236 @@
+{
+	id: "0F05864183E6B621"
+	loot_size: 1
+	order_index: 15
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:custom_1"
+					}
+					gem: "apotheosis:core/ballast"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:custom_1"
+					}
+					gem: "apotheosis:core/brawlers"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:custom_1"
+					}
+					gem: "apotheosis:core/breach"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:custom_1"
+					}
+					gem: "apotheosis:core/guardian"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:custom_1"
+					}
+					gem: "apotheosis:core/lightning"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:custom_1"
+					}
+					gem: "apotheosis:core/lunar"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:custom_1"
+					}
+					gem: "apotheosis:core/samurai"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:custom_1"
+					}
+					gem: "apotheosis:core/slipstream"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:custom_1"
+					}
+					gem: "apotheosis:core/solar"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:custom_1"
+					}
+					gem: "apotheosis:core/splendor"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:custom_1"
+					}
+					gem: "apotheosis:core/tyrannical"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:custom_1"
+					}
+					gem: "apotheosis:core/warlord"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:custom_1"
+					}
+					gem: "apotheosis:overworld/earth"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:custom_1"
+					}
+					gem: "apotheosis:the_end/endersurge"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:custom_1"
+					}
+					gem: "apotheosis:the_end/mageslayer"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:custom_1"
+					}
+					gem: "apotheosis:the_nether/blood_lord"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:custom_1"
+					}
+					gem: "apotheosis:the_nether/inferno"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:custom_1"
+					}
+					gem: "apotheosis:twilight/forest"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:custom_1"
+					}
+					gem: "apotheosis:twilight/queen"
+				}
+			}
+		}
+	]
+	title: "Choice Cursed Knight? Item"
+}

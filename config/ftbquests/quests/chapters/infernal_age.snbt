@@ -1,0 +1,16 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "infernal_age"
+	group: "4EAC48A88230D604"
+	icon: {
+		Count: 1
+		id: "enigmaticaddons:hell_blade_charm"
+		tag: { }
+	}
+	id: "59BF8A44081A402B"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Infernal Age"
+}

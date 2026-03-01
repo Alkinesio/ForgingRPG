@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "macabre_age"
+	group: "4EAC48A88230D604"
+	id: "2DFBA688EE55B1B4"
+	order_index: 8
+	quest_links: [ ]
+	quests: [ ]
+	title: "Macabre Age"
+}

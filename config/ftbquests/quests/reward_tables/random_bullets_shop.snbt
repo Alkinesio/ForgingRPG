@@ -1,0 +1,14 @@
+{
+	id: "24FF85CA2125711E"
+	loot_size: 1
+	order_index: 22
+	rewards: [
+		{ count: 24, item: "iter_rpg:seeds_round", weight: 6.0f }
+		{ count: 6, item: "iter_rpg:flint_round", weight: 5.0f }
+		{ count: 3, item: "iter_rpg:dwarven_round", weight: 4.0f }
+		{ count: 4, item: "iter_rpg:iron_round", weight: 3.0f }
+		{ count: 3, item: "iter_rpg:magmanum_round", weight: 2.0f }
+		{ count: 2, item: "iter_rpg:diamond_round", weight: 0.75f }
+	]
+	title: "Random Bullets Shop"
+}

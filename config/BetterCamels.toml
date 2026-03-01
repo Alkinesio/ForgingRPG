@@ -1,0 +1,13 @@
+
+[CamelSpeed]
+	#Minimum Speed for Camels
+	MinSpeed = 1.0
+	#Maximum Speed for Camels
+	MaxSpeed = 3.0
+
+[CamelDashDistance]
+	#Minimum Dash Distance for Camels
+	MinDistance = 8.0
+	#Maximum Dash Distance for Camels
+	MaxDistance = 12.0
+

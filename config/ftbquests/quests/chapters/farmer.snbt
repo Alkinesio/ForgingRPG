@@ -1,0 +1,552 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "farmer"
+	group: "128D85F361410B35"
+	icon: "enigmaticaddons:earth_heart_fragment"
+	id: "0D202D00F43212CA"
+	images: [
+		{
+			height: 1.15d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/wheat_stage7"
+			rotation: 0.0d
+			width: 1.15d
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/pumpkin_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			height: 1.15d
+			image: "biomeswevegone:block/blueberry_bush_stage3"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			height: 0.65d
+			image: "croptopia:item/grape"
+			rotation: 0.0d
+			width: 0.65d
+			x: 2.75d
+			y: -0.75d
+		}
+		{
+			height: 1.15d
+			image: "croptopia:block/onion_crop_stage3"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			height: 0.65d
+			image: "minecraft:item/apple"
+			rotation: 0.0d
+			width: 0.65d
+			x: 0.3d
+			y: -0.7d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:item/wooden_hoe"
+			order: -1
+			rotation: 135.0d
+			width: 1.15d
+			x: 1.0d
+			y: -0.85d
+		}
+		{
+			height: 4.0d
+			image: "darkpaintings:textures/painting/silent_watcher.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "enigmaticdelicacy:block/enigmatic_bush_stage7"
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.5d
+			y: 0.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: [
+				"0A96869D676BDBB5"
+				"42463DE1888CC21E"
+			]
+			icon: { Count: 32, id: "minecraft:wheat" }
+			id: "187BA908B33D745B"
+			rewards: [
+				{
+					id: "32786CCA45EF55C1"
+					type: "xp"
+					xp: 2
+				}
+				{
+					id: "2A7DEBD31B4DBB7F"
+					item: "coinsje:copper_coin"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3886B3F1E547932A"
+					table_id: 4663029009880983731L
+					type: "random"
+				}
+			]
+			subtitle: "Collect wheat and seeds"
+			tasks: [
+				{
+					count: 32L
+					id: "5E812704A0D5F83C"
+					item: { Count: 32, id: "minecraft:wheat" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "7D3DEDB6E7EC558E"
+					item: { Count: 16, id: "minecraft:wheat_seeds" }
+					type: "item"
+				}
+			]
+			title: "Daily Bread"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0A96869D676BDBB5"
+				"42463DE1888CC21E"
+			]
+			icon: { Count: 40, id: "minecraft:apple" }
+			id: "74CE026449B64812"
+			rewards: [
+				{
+					id: "154383435AAD225F"
+					type: "xp"
+					xp: 2
+				}
+				{
+					count: 2
+					id: "2A55923D28B4B506"
+					item: "coinsje:copper_coin"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13D30A782D41385C"
+					table_id: 4663029009880983731L
+					type: "random"
+				}
+			]
+			subtitle: "Collect apples"
+			tasks: [{
+				count: 40L
+				id: "3245F293AB2ADC21"
+				item: { Count: 40, id: "minecraft:apple" }
+				type: "item"
+			}]
+			title: "Apples Raining"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0A96869D676BDBB5"
+				"42463DE1888CC21E"
+			]
+			icon: { Count: 9, id: "farmersdelight:onion" }
+			id: "3A34EFE6A1CC01FC"
+			rewards: [
+				{
+					id: "61D97AB25763E702"
+					type: "xp"
+					xp: 9
+				}
+				{
+					id: "38CC8B29D4715320"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10436C75ABB57B2C"
+					table_id: 4663029009880983731L
+					type: "random"
+				}
+			]
+			subtitle: "Collect several types of vegetables"
+			tasks: [
+				{
+					count: 9L
+					id: "14F43C16E5FA0158"
+					item: { Count: 9, id: "minecraft:carrot" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "7083C89E13C6AC04"
+					item: { Count: 9, id: "minecraft:potato" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "28525769C844CBEB"
+					item: { Count: 9, id: "minecraft:melon_slice" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "77C511C1A14E6FB2"
+					item: { Count: 9, id: "minecraft:beetroot" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "76EB74206BD51326"
+					item: { Count: 9, id: "farmersdelight:onion" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "66B9C31A84400AFD"
+					item: { Count: 9, id: "croptopia:garlic" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "6308FF108CA4B377"
+					item: { Count: 9, id: "croptopia:radish" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "207176104ABB11AC"
+					item: { Count: 9, id: "croptopia:rutabaga" }
+					type: "item"
+				}
+			]
+			title: "Gnam, Vegetables!"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0A96869D676BDBB5"
+				"42463DE1888CC21E"
+			]
+			icon: { Count: 9, id: "croptopia:grape" }
+			id: "7D5E921FA38139DD"
+			rewards: [
+				{
+					id: "7B9FA107C3E4A978"
+					type: "xp"
+					xp: 9
+				}
+				{
+					id: "5CCAF439FE7B9C38"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58A52F14F10777D4"
+					table_id: 4663029009880983731L
+					type: "random"
+				}
+			]
+			subtitle: "Collect several types of fruits"
+			tasks: [
+				{
+					count: 9L
+					id: "3B03732328AB281C"
+					item: { Count: 9, id: "croptopia:banana" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "3D2F080F3598A899"
+					item: { Count: 9, id: "croptopia:orange" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "6CCCE8B7CC4572E5"
+					item: { Count: 9, id: "croptopia:pear" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "74139E09FFB4D1F5"
+					item: { Count: 9, id: "croptopia:strawberry" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "717B794CA89EF034"
+					item: { Count: 9, id: "croptopia:grape" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "6E362257C9AD7A25"
+					item: { Count: 9, id: "croptopia:peach" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "5411A828396C55E6"
+					item: { Count: 9, id: "croptopia:pineapple" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "1B90B136967873D4"
+					item: { Count: 9, id: "croptopia:kiwi" }
+					type: "item"
+				}
+			]
+			title: "Gnam, Fruits!"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0A96869D676BDBB5"
+				"42463DE1888CC21E"
+			]
+			icon: { Count: 60, id: "croptopia:blueberry" }
+			id: "5E6E1113F5724A4A"
+			rewards: [
+				{
+					id: "5C470AFCE2A6B3DA"
+					type: "xp"
+					xp: 2
+				}
+				{
+					count: 2
+					id: "52A4BFEE9515C6BC"
+					item: "coinsje:copper_coin"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BEB8E4BABCCCE72"
+					table_id: 4663029009880983731L
+					type: "random"
+				}
+			]
+			subtitle: "Collect blueberries"
+			tasks: [{
+				count: 60L
+				id: "5C6DD7340B44D6BC"
+				item: "croptopia:blueberry"
+				type: "item"
+			}]
+			title: "Berries, Blue"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0A96869D676BDBB5"
+				"42463DE1888CC21E"
+			]
+			icon: { Count: 60, id: "minecraft:pumpkin_seeds" }
+			id: "0803C2A7ECBF3DFD"
+			rewards: [
+				{
+					count: 2
+					id: "6738F4CF00218160"
+					item: "coinsje:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "027C7B131649B241"
+					table_id: 4663029009880983731L
+					type: "random"
+				}
+			]
+			subtitle: "Collect pumpkin seeds"
+			tasks: [{
+				count: 60L
+				id: "2678AC0E1CDD1237"
+				item: { Count: 60, id: "minecraft:pumpkin_seeds" }
+				type: "item"
+			}]
+			title: "Hollow Farmer"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0A96869D676BDBB5"
+				"42463DE1888CC21E"
+			]
+			icon: { Count: 3, id: "enigmaticdelicacy:enigmatic_seed" }
+			id: "1FA3A357AD55D472"
+			rewards: [
+				{
+					id: "606C3C7DEF33350D"
+					item: "coinsje:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EBE1231A6894A41"
+					table_id: 4663029009880983731L
+					type: "random"
+				}
+			]
+			subtitle: "Collect enigmatic seeds"
+			tasks: [{
+				count: 3L
+				id: "1F8767CE3FA6CE5C"
+				item: "enigmaticdelicacy:enigmatic_seed"
+				type: "item"
+			}]
+			title: "Enigmatic Farmer"
+			x: 5.5d
+			y: 0.0d
+		}
+	]
+	title: "Farmer"
+}

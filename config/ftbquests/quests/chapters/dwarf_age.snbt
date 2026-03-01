@@ -1,0 +1,1689 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dwarf_age"
+	group: "4EAC48A88230D604"
+	hide_quest_until_deps_complete: true
+	icon: {
+		Count: 1
+		id: "minecraft:golden_pickaxe"
+		tag: {
+			Damage: 0
+			affix_data: {
+				sockets: 0
+			}
+		}
+	}
+	id: "4894E9D09384608B"
+	images: [
+		{
+			height: 1.15d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "magistuarmory:item/medieval_bag"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -0.95d
+		}
+		{
+			height: 1.0d
+			image: "toomanypaintings:textures/painting/villager.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -1.75d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:item/armor_stand"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			height: 0.5d
+			image: "relics:textures/gui/description/cards/villager_hat/discount.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -0.6d
+			y: -1.15d
+		}
+		{
+			height: 2.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/copper_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/gold_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "chestedcompanions:textures/chest_icon.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/cobble_wall_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/amethyst_block"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			height: 1.15d
+			image: "born_in_chaos_v1:item/shattered_skull"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: -0.8d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/cobweb"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/coal_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/coal_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/amethyst_block"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/amethyst_block"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/amethyst_block"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/amethyst_block"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/amethyst_cluster"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/amethyst_block"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/amethyst_block"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/amethyst_block"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/amethyst_block"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/amethyst_block"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/amethyst_block"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/amethyst_cluster"
+			rotation: 180.0d
+			width: 1.15d
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/large_amethyst_bud"
+			rotation: 180.0d
+			width: 1.15d
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/medium_amethyst_bud"
+			rotation: 180.0d
+			width: 1.15d
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/cobble_mossy_wall"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/spawner"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/diamond_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/cobble_mossy_wall"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/cobble_mossy_wall"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/cobble_mossy_wall"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/obsidian"
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/crying_obsidian"
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/crying_obsidian"
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/crying_obsidian"
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/crying_obsidian"
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/obsidian"
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			height: 1.15d
+			image: "twilightforest:block/portal_barrier"
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dandelion"
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/poppy"
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/great_temple_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/sandstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/sandstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/sandstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/great_temple_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/great_temple_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/sandstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/sandstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/coal_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			height: 0.8d
+			image: "twilightforest:block/twilight_oak_sapling"
+			rotation: 0.0d
+			width: 0.8d
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			height: 0.5d
+			image: "alexscaves:item/pure_darkness"
+			rotation: 0.0d
+			width: 0.5d
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/water_still"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			height: 1.15d
+			image: "waystones:block/mossy_waystone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "realmrpg_skeletons:block/swimmer_skeleton_seagrass"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			height: 1.15d
+			image: "realmrpg_skeletons:block/swimmer_skeleton_seagrass"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "born_in_chaos_v1:item/shattered_skull"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "iceandfire:item/troll_skull"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "iceandfire:item/troll_skull"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "iceandfire:item/troll_skull"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/great_temple_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/cobble_wall_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: 4.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0A96869D676BDBB5"]
+			description: ["Collect a Backpack by crafting using Leather, Strings and Chest, looting it in chests or by mob drops."]
+			id: "4DC890DD2BEA535A"
+			rewards: [
+				{
+					id: "5E48E510FB9E242D"
+					type: "xp"
+					xp: 4
+				}
+				{
+					count: 2
+					id: "4ABAF77CB2A0DFCE"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5BE693C9B9B30A2A"
+					table_id: 7942966175377045601L
+					type: "choice"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Collect a Backpack"
+			tasks: [{
+				id: "6BDF1D34E0B2AE35"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:backpack"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Too many items!"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DC890DD2BEA535A"]
+			description: ["Collect a Copper Ingot looting chests or smelting a Copper Ore found in the caves."]
+			id: "1588265E0D609247"
+			rewards: [
+				{
+					id: "2B7E9CD096F4F0BE"
+					item: "minecraft:experience_bottle"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "32E02390BAD8F43E"
+					item: "coinsje:copper_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Collect a Copper Ingot"
+			tasks: [{
+				id: "2CDC2090ACDCE166"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: "Copper Business"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1588265E0D609247"]
+			description: ["Collect a Gold Ingot looting chests or smelting a Gold Ore found in the deepest caves."]
+			id: "59915BA84A26F2A0"
+			rewards: [
+				{
+					count: 2
+					id: "56CADE5A33B7828A"
+					item: "minecraft:experience_bottle"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "702FEFC27025CA63"
+					item: "coinsje:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Collect a Gold Ingot"
+			tasks: [{
+				id: "60DFEED6B8CC707E"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			title: "Golden Business"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["59915BA84A26F2A0"]
+			description: ["Collect a Diamond looting chests or mining a Diamond Ore found in the deepest caves."]
+			id: "742AEB24ECA66980"
+			rewards: [
+				{
+					count: 3
+					id: "4F7F8B7680734B69"
+					item: "minecraft:experience_bottle"
+					random_bonus: 6
+					type: "item"
+				}
+				{
+					id: "39B389ABF88C59A0"
+					item: "coinsje:diamond_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Collect a Diamond"
+			tasks: [{
+				id: "715DF3FA5735901A"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "Royal Business"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4DC890DD2BEA535A"]
+			description: ["Trade successfully with a trader which can be found in a villager on the surface."]
+			icon: {
+				Count: 1
+				id: "artifacts:villager_hat"
+				tag: {
+					abilities: {
+						discount: {
+							points: 0
+							stats: {
+								multiplier: 16.63026d
+							}
+						}
+					}
+				}
+			}
+			id: "6E86AEC0B52028CC"
+			rewards: [
+				{
+					count: 3
+					id: "69E69B84282739E1"
+					item: "the_pillager_legion_:coin_copper_tpl"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6E00ADCDB1E7F10C"
+					item: "the_pillager_legion_:coin_silver_tpl"
+					type: "item"
+				}
+				{
+					id: "1D536572228F162A"
+					item: "the_pillager_legion_:coin_gold_tpl"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Successfully trade with a Villager"
+			tasks: [
+				{
+					advancement: "minecraft:adventure/trade"
+					criterion: ""
+					icon: {
+						Count: 1
+						id: "artifacts:villager_hat"
+						tag: {
+							abilities: {
+								discount: {
+									points: 0
+									stats: {
+										multiplier: 16.63026d
+									}
+								}
+							}
+						}
+					}
+					id: "6E83543A4B471BE7"
+					type: "advancement"
+				}
+				{
+					id: "1F6A7720668A7698"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1588265E0D609247"]
+			description: [
+				"Collect an Amethyst Shard looting chests or mining Amethysts in an Amethyst cave."
+				""
+				"&6Unlock amethyst shard in the Starter Shop.&r"
+			]
+			id: "3B472F2E4B335EA1"
+			optional: true
+			rewards: [
+				{
+					id: "4C325CC85343C37B"
+					type: "xp"
+					xp: 12
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31911C411F827180"
+					table_id: 4218140695497179829L
+					type: "random"
+				}
+				{
+					id: "075AA4C65D89A6CF"
+					item: "minecraft:golden_carrot"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Collect an Amethyst Shard"
+			tasks: [{
+				id: "692FAAD738578A10"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			title: "The Shard Collector"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3B472F2E4B335EA1"]
+			description: ["Collect a Spyglass which can be crafted using Amethyst Shards and Copper Ingots or by looting."]
+			id: "08AABF8C799C649E"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "60365EF5CA088B99"
+					table_id: 7933268089010874916L
+					type: "random"
+				}
+				{
+					id: "1045E6BD01B7AEA3"
+					item: "coinsje:copper_coin_pile"
+					random_bonus: 8
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Collect a Spyglass"
+			tasks: [{
+				id: "6062F421B9CA4182"
+				item: {
+					Count: 1
+					id: "minecraft:spyglass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Spy"
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1588265E0D609247"]
+			description: ["Find and kill a mimic which can be found in the deepest caves."]
+			id: "1EE26CA319FDB321"
+			optional: true
+			rewards: [
+				{
+					id: "267FF9B3752BBB82"
+					type: "xp"
+					xp: 8
+				}
+				{
+					count: 4
+					id: "46CC68BCC080A77D"
+					item: "iceandfire:copper_nugget"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1087D01CE5A28A5B"
+					item: "minecraft:iron_nugget"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 4
+					id: "020D8025E341DFC3"
+					item: "minecraft:gold_nugget"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "6DEC9231EA6417B7"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Kill a Mimic"
+			tasks: [{
+				advancement: "artifacts:chest_slayer"
+				criterion: ""
+				id: "09BFE0F3EBDAF972"
+				type: "advancement"
+			}]
+			title: "Chest Slayer"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["742AEB24ECA66980"]
+			description: ["Enter in the portal of Twilight Forest dimension which can be made using a Diamond, Water, Dandelion and Poppy flowers placed Grass blocks. The Diamond must be dropped in the water in order to open it."]
+			icon: "twilightforest:hollow_oak_sapling"
+			id: "679118BA35BBBB17"
+			rewards: [{
+				id: "0A20943F6FC90C33"
+				item: {
+					Count: 1
+					id: "relics:magic_mirror"
+					tag: {
+						abilities: {
+							teleport: {
+								points: 0
+								stats: {
+									cooldown: 98.99309d
+									distance: 589.0307d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Enter the Twilight Forest dimension"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				icon: "twilightforest:hollow_oak_sapling"
+				id: "179E6177063138FF"
+				title: "Visit the Twilight Forest dimension"
+				type: "dimension"
+			}]
+			title: "The Fairy World"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["679118BA35BBBB17"]
+			description: [
+				"Click on the button and progress to the next chapter quest."
+				""
+				"&6Unlock new items in the Starter Shop.&r"
+				"&6Unlock Miner in the Repetitive quests.&r"
+			]
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "2DA6AEA322B2298B"
+			rewards: [{
+				count: 2
+				id: "659A7506696F0E4C"
+				item: "skilltree:wisdom_scroll"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Click on the left button!"
+			tasks: [{
+				id: "4E4AAAF1FDDE097B"
+				title: "Click me!"
+				type: "checkmark"
+			}]
+			title: "Progress to the Elven Age"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59915BA84A26F2A0"]
+			description: ["Find a Desert Temple in the Desert biome on the surface."]
+			id: "3CCBD2EA43F0DEF2"
+			optional: true
+			rewards: [
+				{
+					id: "30EFC40FAFA784CF"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "5B3B54735590787A"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Find a Desert Temple"
+			tasks: [{
+				id: "511C2F912E89CE35"
+				structure: "ancient_temples:desert_temple"
+				title: "Find a Desert Temple"
+				type: "structure"
+			}]
+			title: "The Forgotten Temple"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CCBD2EA43F0DEF2"]
+			description: [
+				"Collect a Smithing Template (Desert Gold upgrade) that can be found by looting chests in the Desert Gold Temple."
+				""
+				"&6Unlock desert gold items in the Starter Shop.&r"
+			]
+			id: "71B3E5BE25AB3A30"
+			optional: true
+			rewards: [
+				{
+					id: "242FCAEB981A3D7A"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "4F9D8DF25B402DCA"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "7E11300E8A256430"
+					item: "coinsje:gold_coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Collect a Smithing Template"
+			tasks: [{
+				id: "6E4C4965BE717E0C"
+				item: "ancient_temples:desert_gold_upgrade"
+				type: "item"
+			}]
+			title: "Holy Gold!"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6E86AEC0B52028CC"]
+			description: [
+				"Find and kill a Skeleton. Can be easily found in the Plains biomes on the night."
+				""
+				"&6Unlock Bone Collection in Repetitive Quests.&r"
+			]
+			id: "0CC0D8AE78819F30"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69C0D2233114FFD9"
+				table_id: 7856589902171298164L
+				type: "random"
+			}]
+			shape: "rsquare"
+			subtitle: "Kill a Skeleton"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: "minecraft:skeleton_skull"
+				id: "0DCD51498883F41B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Sniper"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["742AEB24ECA66980"]
+			description: ["Collect an Obsidian block looting chests. It forms by the direct union of lava and water."]
+			id: "6B783D5F1580B249"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "4356397384B41939"
+					item: "minecraft:pointed_dripstone"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					count: 7
+					id: "47B77744399E0273"
+					item: "minecraft:iron_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 2
+					id: "479B67F5B5D0C40C"
+					item: {
+						Count: 1
+						id: "ironchest:diamond_to_obsidian_chest_upgrade"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Collect an Obsidian block"
+			tasks: [{
+				id: "1A9EA1AA13D01A74"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			title: "HARD ROCK"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6B783D5F1580B249"]
+			description: ["Collect a Crying Obsidian block looting chests. Can be found on the natural ancient Nether portals on the surface."]
+			id: "3BC305E2FF5B5029"
+			optional: true
+			rewards: [
+				{
+					id: "250FE5D2045777C3"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "0DF06952899FA4D6"
+					item: "skilltree:amnesia_scroll"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Collect a Crying Obsidian block"
+			tasks: [{
+				id: "22BC028640EC14DE"
+				item: "minecraft:crying_obsidian"
+				type: "item"
+			}]
+			title: "Crying hard rock?"
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1EE26CA319FDB321"]
+			description: ["Observe a Mob Spawner which can be found in most of dungeons."]
+			icon: "minecraft:spawner"
+			id: "54F2B0342422E7EE"
+			optional: true
+			rewards: [
+				{
+					id: "168A7200F8F1F8CA"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "16E9B561FFE3D936"
+					type: "xp"
+					xp: 16
+				}
+				{
+					count: 2
+					id: "355E9AE6F213F02B"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Find a Mob Spawner"
+			tasks: [{
+				icon: "minecraft:spawner"
+				id: "536AB8BA9AE8ADAC"
+				observe_type: 0
+				timer: 0L
+				title: "Observe a Mob Spawner"
+				to_observe: "minecraft:spawner"
+				type: "observation"
+			}]
+			title: "Trap Room"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6E86AEC0B52028CC"]
+			description: [
+				"Find and kill a Spider Can be easily found in the Plains biomes on the night."
+				""
+				"&6Unlock Hundred Eyes in Repetitive Quests.&r"
+			]
+			icon: "minecraft:spider_eye"
+			id: "14AFDEBA6C6ABEE2"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6455A4929AC8D88F"
+				table_id: 7273877318484814637L
+				type: "random"
+			}]
+			shape: "rsquare"
+			subtitle: "Kill a Spider"
+			tasks: [{
+				entity: "minecraft:spider"
+				icon: "minecraft:spider_eye"
+				id: "2EBF9007AEB650A7"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Those Eyes..."
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["14AFDEBA6C6ABEE2"]
+			description: ["You found a secret quest! You annihilated an ARMY OF FALLEN CHAOS KNIGHTS!"]
+			id: "0B1E372CCB764533"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					id: "72930184CF94F5C8"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:dark_metal_armor_helmet"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "apotheosis:life_mending"
+									lvl: 3
+								}
+								{
+									id: "apotheosis:berserkers_fury"
+									lvl: 3
+								}
+								{
+									id: "minecraft:protection"
+									lvl: 8
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "350F0DA27D8307D0"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:dark_metal_armor_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "apotheosis:life_mending"
+									lvl: 3
+								}
+								{
+									id: "apotheosis:berserkers_fury"
+									lvl: 3
+								}
+								{
+									id: "minecraft:protection"
+									lvl: 8
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0570B2C20DC789B0"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:dark_metal_armor_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "apotheosis:life_mending"
+									lvl: 3
+								}
+								{
+									id: "apotheosis:berserkers_fury"
+									lvl: 3
+								}
+								{
+									id: "minecraft:protection"
+									lvl: 8
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5BAFA2D0A2CA0D76"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:dark_metal_armor_boots"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "apotheosis:life_mending"
+									lvl: 3
+								}
+								{
+									id: "apotheosis:berserkers_fury"
+									lvl: 3
+								}
+								{
+									id: "minecraft:protection"
+									lvl: 8
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "53E8DF304FF0F323"
+					item: "alexscaves:pure_darkness"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "11A0C24339D1C6D6"
+					item: "born_in_chaos_v1:dark_upgrade"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5F41561D3E45DB10"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:corrupted_tome"
+						tag: { }
+					}
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "12E21F1F60FCCC64"
+					item: "coinsje:netherite_coin_pile"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Annihilate x400 Fallen Chaos Knights"
+			tasks: [{
+				entity: "born_in_chaos_v1:fallen_chaos_knight"
+				icon: {
+					Count: 1
+					id: "goety:cursed_knight_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7595BDDCF3865C51"
+				type: "kill"
+				value: 400L
+			}]
+			title: "The Darkest Eyes (Secret)"
+			x: -5.0d
+			y: -2.0d
+		}
+	]
+	title: "Delver Age"
+}

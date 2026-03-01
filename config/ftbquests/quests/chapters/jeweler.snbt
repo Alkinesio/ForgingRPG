@@ -1,0 +1,2143 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	default_repeatable_quest: true
+	filename: "jeweler"
+	group: "190C1B658A12FCC7"
+	hide_quest_until_deps_complete: true
+	icon: {
+		Count: 1
+		id: "apotheosis:gem"
+		tag: {
+			affix_data: {
+				rarity: "apotheosis:ancient"
+			}
+			gem: "apotheosis:the_end/endersurge"
+		}
+	}
+	id: "7C035B7E5659AA9F"
+	images: [
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			hover: ["Elven Shop"]
+			image: "twilightforest:block/twilight_oak_sapling"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			height: 0.5d
+			image: "iter_rpg:item/coin_pile_item"
+			rotation: 0.0d
+			width: 0.5d
+			x: -3.25d
+			y: -0.75d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_brick_pillar"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_brick_pillar"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_brick_pillar"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_brick_pillar"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			height: 4.0d
+			image: "twilightforest:block/pedestal/hydra_flat"
+			rotation: 0.0d
+			width: 4.0d
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			height: 0.75d
+			hover: ["Buy Items"]
+			image: "seadwellers:item/collector_loot_crate"
+			rotation: 0.0d
+			width: 0.75d
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_brick_pillar"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_brick_pillar"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_brick_pillar"
+			order: -1
+			rotation: 90.0d
+			width: 1.15d
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_brick_pillar"
+			order: -1
+			rotation: 90.0d
+			width: 1.15d
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_brick_pillar"
+			order: -1
+			rotation: 90.0d
+			width: 1.15d
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_brick_pillar"
+			order: -1
+			rotation: 90.0d
+			width: 1.15d
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_brick_pillar"
+			order: -1
+			rotation: 90.0d
+			width: 1.15d
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_brick_pillar"
+			order: -1
+			rotation: 90.0d
+			width: 1.15d
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_brick_pillar"
+			order: -1
+			rotation: 90.0d
+			width: 1.15d
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_brick_pillar"
+			order: -1
+			rotation: 90.0d
+			width: 1.15d
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_brick_pillar"
+			order: -1
+			rotation: 90.0d
+			width: 1.15d
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_brick_pillar"
+			order: -1
+			rotation: 90.0d
+			width: 1.15d
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_brick_pillar"
+			order: -1
+			rotation: 90.0d
+			width: 1.15d
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_brick_pillar"
+			order: -1
+			rotation: 90.0d
+			width: 1.15d
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_brick_pillar"
+			order: -1
+			rotation: 90.0d
+			width: 1.15d
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_brick_pillar_top"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_brick_pillar_top"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_brick_pillar"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_brick_pillar"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_brick_pillar"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_brick_pillar"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_brick_pillar"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "wrd:block/gemstone_brick_pillar"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.0d
+			y: 2.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["4DF06510F7AA7E23"]
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "apotheosis:core/brawlers"
+				}
+			}
+			id: "4330174B547699AC"
+			rewards: [{
+				id: "1A472C1229FE8024"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:common"
+						}
+						gem: "apotheosis:core/brawlers"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy a Cracked Brawler's Gem"
+			tasks: [{
+				id: "75A28D841200E229"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			title: "Cracked Brawler's Gem"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4DF06510F7AA7E23"]
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "apotheosis:core/ballast"
+				}
+			}
+			id: "381EEF5FB2AD5C2C"
+			rewards: [{
+				id: "0180D02E53F3345A"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:common"
+						}
+						gem: "apotheosis:core/ballast"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy a Cracked Ballast Gem"
+			tasks: [{
+				id: "1F08A661A8C73C81"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			title: "Cracked Ballast Gem"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4DF06510F7AA7E23"]
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "apotheosis:core/breach"
+				}
+			}
+			id: "64A17BA9910C3EC5"
+			rewards: [{
+				id: "744FE126EF12F479"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:common"
+						}
+						gem: "apotheosis:core/breach"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy a Cracked Breached Gem"
+			tasks: [{
+				id: "27AD27DB4926441D"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			title: "Cracked Breach Gem"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4DF06510F7AA7E23"]
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "apotheosis:core/guardian"
+				}
+			}
+			id: "4EE7502EB918BE93"
+			rewards: [{
+				id: "3AFA18A015760440"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:common"
+						}
+						gem: "apotheosis:core/guardian"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy a Cracked Guardian Gem"
+			tasks: [{
+				id: "41CA60E7EE66B727"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			title: "Cracked Guardian Gem"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4DF06510F7AA7E23"]
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "apotheosis:core/lightning"
+				}
+			}
+			id: "4B8B68E30C9B70A3"
+			rewards: [{
+				id: "36278C385727E774"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:common"
+						}
+						gem: "apotheosis:core/lightning"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy a Lightning Gem"
+			tasks: [{
+				id: "7E626B70B041D287"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			title: "Cracked Lightning Gem"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4DF06510F7AA7E23"]
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "apotheosis:core/lunar"
+				}
+			}
+			id: "2CE837618ED8625A"
+			rewards: [{
+				id: "7A1600B7D844E651"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:common"
+						}
+						gem: "apotheosis:core/lunar"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy a Lunar Gem"
+			tasks: [{
+				id: "6F0F78A6709E584F"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			title: "Cracked Lunar Gem"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4DF06510F7AA7E23"]
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "apotheosis:core/samurai"
+				}
+			}
+			id: "66B8E97BE48B13E0"
+			rewards: [{
+				id: "4A4C7B2D241EBBE7"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:common"
+						}
+						gem: "apotheosis:core/samurai"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy a Cracked Gem of the Samurai"
+			tasks: [{
+				id: "28F6B9B42041B572"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			title: "Cracked Gem of the Samurai"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4DF06510F7AA7E23"]
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "apotheosis:core/slipstream"
+				}
+			}
+			id: "4FF526048B43F4BF"
+			rewards: [{
+				id: "2A0E624E5F597880"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:common"
+						}
+						gem: "apotheosis:core/slipstream"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy a Slipstream Gem"
+			tasks: [{
+				id: "22F30781B20A216C"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			title: "Cracked Slipstream Gem"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4DF06510F7AA7E23"]
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "apotheosis:core/solar"
+				}
+			}
+			id: "2EF60B750EC850CE"
+			rewards: [{
+				id: "524DBA53DCF95807"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:common"
+						}
+						gem: "apotheosis:core/solar"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy a Cracked Solar Gem"
+			tasks: [{
+				id: "08E4653B787E28B3"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			title: "Cracked Solar Gem"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4DF06510F7AA7E23"]
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "apotheosis:core/splendor"
+				}
+			}
+			id: "50956CA9243C3AD8"
+			rewards: [{
+				id: "30EA67319D201EFA"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:common"
+						}
+						gem: "apotheosis:core/splendor"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy a Cracked Splendor Gem"
+			tasks: [{
+				id: "0E373942EDBB9BD7"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			title: "Cracked Splendor Gem"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4DF06510F7AA7E23"]
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "apotheosis:core/tyrannical"
+				}
+			}
+			id: "3F4D240748B018C5"
+			rewards: [{
+				id: "6ABA40983F777BEC"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:common"
+						}
+						gem: "apotheosis:core/tyrannical"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy a Tyrannical Gem"
+			tasks: [{
+				id: "357ADD9C96C4EBCC"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			title: "Cracked Tyrannical Gem"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4DF06510F7AA7E23"]
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "apotheosis:core/warlord"
+				}
+			}
+			id: "4ED88F41223EFB47"
+			rewards: [{
+				id: "38C600B08377DC18"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:common"
+						}
+						gem: "apotheosis:core/warlord"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy a Cracked Gem of the Warlord"
+			tasks: [{
+				id: "419E6635F96833CB"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			title: "Cracked Gem of the Warlord"
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4DF06510F7AA7E23"]
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "apotheosis:overworld/earth"
+				}
+			}
+			id: "083B21E459B69BD7"
+			rewards: [{
+				id: "467B70A8D3B2BE41"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:common"
+						}
+						gem: "apotheosis:overworld/earth"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy a Cracked Gem of the Earth"
+			tasks: [{
+				id: "57537D62EC250D22"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			title: "Cracked Gem of the Earth"
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4DF06510F7AA7E23"]
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "apotheosis:the_end/endersurge"
+				}
+			}
+			id: "7B7DB8985094A9A3"
+			rewards: [{
+				id: "42A4BA1552D4D730"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:common"
+						}
+						gem: "apotheosis:the_end/endersurge"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy a Cracked Endersurge Gem"
+			tasks: [{
+				id: "40B51F3132484811"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			title: "Cracked Endersurge Gem"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4DF06510F7AA7E23"]
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "apotheosis:the_end/mageslayer"
+				}
+			}
+			id: "52A6B0F562F2C1D4"
+			rewards: [{
+				id: "19A8007F4870FB6C"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:common"
+						}
+						gem: "apotheosis:the_end/mageslayer"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy a Cracked Gem of the Mageslayer"
+			tasks: [{
+				id: "5FD97A4679B5D130"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			title: "Cracked Gem of the Mageslayer"
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4DF06510F7AA7E23"]
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "apotheosis:the_nether/blood_lord"
+				}
+			}
+			id: "17EB14C479BDA93E"
+			rewards: [{
+				id: "3F34BAA34EC3D328"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:common"
+						}
+						gem: "apotheosis:the_nether/blood_lord"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy a Cracked Gem of the Ravenous Blood Lord"
+			tasks: [{
+				id: "262CDAAADFE3C9FE"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			title: "Cracked Gem of the Ravenous Blood Lord"
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4DF06510F7AA7E23"]
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "apotheosis:the_nether/inferno"
+				}
+			}
+			id: "1AC572C68478E589"
+			rewards: [{
+				id: "0B41712BB7F7AE82"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:common"
+						}
+						gem: "apotheosis:the_nether/inferno"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy a Cracked Gem of the Incandescent Inferno"
+			tasks: [{
+				id: "7008623FB0F2285A"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			title: "Cracked Gem of the Incandescent Inferno"
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4DF06510F7AA7E23"]
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "apotheosis:twilight/forest"
+				}
+			}
+			id: "45865C2387BAFC5F"
+			rewards: [{
+				id: "28B3A96D7BD8AA55"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:common"
+						}
+						gem: "apotheosis:twilight/forest"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy a Cracked Gem of the Twilight Forest"
+			tasks: [{
+				id: "6D0F888F6B72BA2D"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			title: "Cracked Gem of the Twilight Forest"
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4DF06510F7AA7E23"]
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "apotheosis:twilight/queen"
+				}
+			}
+			id: "0AE10845CC9BCAD0"
+			rewards: [{
+				id: "34F1CD4D13ED691C"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:common"
+						}
+						gem: "apotheosis:twilight/queen"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy a Cracked Gem of the Twilight Forest"
+			tasks: [{
+				id: "742A696568484168"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			title: "Cracked Gem of the Frozen Queen"
+			x: 7.0d
+			y: -0.5d
+		}
+	]
+	title: "Jeweler"
+}

@@ -1,0 +1,12 @@
+{
+	id: "6E3B15A7224AB861"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ count: 2, icon: { Count: 4, id: "coinsje:copper_coin" }, item: "coinsje:copper_coin", random_bonus: 2 }
+		{ count: 2, icon: { Count: 3, id: "minecraft:string" }, item: "minecraft:string", random_bonus: 1 }
+		{ count: 2, icon: { Count: 3, id: "farmersdelight:rope" }, item: "farmersdelight:rope", random_bonus: 1 }
+		{ item: "farmersdelight:noodle_soup" }
+	]
+	title: "Choice for Too Many Items"
+}

@@ -1,0 +1,66 @@
+{
+	id: "28E1313F6CB10CA0"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:silver_axe"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:smite"
+						lvl: 5
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"undermod:capability_item_life_leech": {
+						power: 1
+					}
+				}
+				id: "iceandfire:silver_sword"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:smite"
+						lvl: 5
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ec_iaf_plugin:silver_bow"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:power"
+						lvl: 2
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ec_iaf_plugin:silver_crossbow"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:quick_charger"
+						lvl: 2
+					}]
+				}
+			}
+		}
+		{ icon: { Count: 9, id: "coinsje:iron_coin_pile" }, item: "coinsje:iron_coin_pile", random_bonus: 8 }
+	]
+	title: "Choice Fallen Reign Item"
+}

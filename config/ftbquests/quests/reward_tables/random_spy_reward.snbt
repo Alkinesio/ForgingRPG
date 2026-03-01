@@ -1,0 +1,23 @@
+{
+	id: "6E18A14B716F6A24"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "moreartifacts:sunglasses"
+				tag: { }
+			}
+			weight: 9.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "enigmaticlegacy:mining_charm"
+				tag: { }
+			}
+		}
+	]
+	title: "Random spy Reward"
+}

@@ -1,0 +1,44 @@
+{
+	id: "30B8E6C3E0076BBE"
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"undermod:capability_item_life_leech": {
+						power: 1
+					}
+				}
+				id: "fantasy_weapons:weapon_cursed_blade"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "cataclysm:cursed_bow"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "expanded_combat:shield_3"
+				tag: {
+					DL_Material: "Netherite"
+					DR_Material: "Netherite"
+					Damage: 0
+					Last_Repair_Number: 0
+					M_Material: "Netherite"
+					UL_Material: "Netherite"
+					UR_Material: "Netherite"
+				}
+			}
+		}
+	]
+	title: "Choice Cursed Knight? Item"
+}

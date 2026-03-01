@@ -1,0 +1,50 @@
+{
+	id: "5FA9098D79A896A3"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "expanded_combat:iron_bow"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "expanded_combat:iron_crossbow"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"undermod:capability_item_life_leech": {
+						power: 1
+					}
+				}
+				id: "ec_tf_plugin:ironwood_dagger"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:shield"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 2, item: "coinsje:iron_coin" }
+	]
+	title: "Choice Iron Item"
+}

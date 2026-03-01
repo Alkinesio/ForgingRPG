@@ -1,0 +1,95 @@
+{
+	id: "3A89D89D27BA82B5"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "iter_rpg:iron_ring_amethyst"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "iter_rpg:gold_ring_amethyst"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "iter_rpg:netherite_ring_amethyst"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:amethyst_resonance_charm"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "goety:amethyst_necklace"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			weight: 0.25f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"undermod:capability_item_life_leech": {
+						power: 1
+					}
+				}
+				id: "irons_spellbooks:amethyst_rapier"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:echoing_strikes"
+							index: 0
+							level: 5
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 1b
+					}
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			weight: 0.5f
+		}
+	]
+	title: "Random Amethyst Item"
+}

@@ -1,0 +1,1 @@
+You can find data packs loaded in the `..\config\openloader\data` folder.

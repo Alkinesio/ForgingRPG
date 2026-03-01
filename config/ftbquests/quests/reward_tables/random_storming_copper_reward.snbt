@@ -1,0 +1,102 @@
+{
+	id: "5D8BDBA05C91FA1A"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ item: "coinsje:copper_coin", weight: 4.0f }
+		{ item: "coinsje:copper_coin_pile" }
+		{
+			item: {
+				Count: 1
+				id: "iceandfire_curios:copper_amulet"
+				tag: { }
+			}
+			weight: 0.1f
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire_curios:infused_copper_amulet"
+				tag: { }
+			}
+			weight: 0.01f
+		}
+		{ item: "minecraft:paper", weight: 3.0f }
+		{ count: 3, item: "minecraft:paper", weight: 2.0f }
+		{ count: 9, item: "minecraft:paper" }
+		{ item: "minecraft:leather", weight: 2.0f }
+		{ count: 2, item: "minecraft:leather" }
+		{
+			item: {
+				Count: 1
+				id: "ec_iaf_plugin:copper_gauntlet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "ec_iaf_plugin:copper_dragon_scale_gauntlet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.1f
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:armor_copper_metal_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:armor_copper_metal_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:armor_copper_metal_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:armor_copper_metal_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "sophisticatedbackpacks:copper_backpack"
+				tag: { }
+			}
+			weight: 0.5f
+		}
+		{ count: 2, item: "minecraft:gold_nugget" }
+		{ count: 4, item: "minecraft:gold_nugget", weight: 0.5f }
+		{ item: "minecraft:redstone" }
+		{ count: 3, item: "minecraft:redstone", weight: 0.5f }
+		{ count: 3, item: "minecraft:iron_nugget", weight: 2.0f }
+		{ count: 4, item: "minecraft:iron_nugget" }
+		{ item: "minecraft:flint" }
+	]
+	title: "Random Storming Copper Reward"
+}

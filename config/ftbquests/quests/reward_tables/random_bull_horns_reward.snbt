@@ -1,0 +1,350 @@
+{
+	id: "25A4BBC10C1792C0"
+	loot_size: 1
+	order_index: 17
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "twilightforest:gold_minotaur_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 4.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "twilightforest:diamond_minotaur_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 2, item: "minecraft:leather", weight: 3.0f }
+		{ count: 4, item: "minecraft:leather", weight: 2.0f }
+		{ count: 8, item: "iceandfire:copper_nugget", weight: 2.0f }
+		{ count: 6, item: "minecraft:gold_nugget", weight: 2.0f }
+		{ count: 5, item: "magistuarmory:steel_nugget" }
+		{ item: "minecraft:diamond" }
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:copper_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:netherite_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"undermod:capability_item_life_leech": {
+						power: 1
+					}
+				}
+				id: "fantasy_weapons:weapon_golden_horns_battleaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.05f
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:infinity_ham"
+				tag: {
+					abilities: {
+						autophagy: {
+							points: 0
+							stats: {
+								feed: 1.73868d
+							}
+						}
+						infusion: {
+							points: 0
+							stats: {
+								duration: 1.05182d
+							}
+						}
+					}
+					pieces: 10
+				}
+			}
+			weight: 0.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "uniqueaccessories:championship_belt"
+				tag: { }
+			}
+			weight: 0.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:bastion_ring"
+				tag: {
+					abilities: {
+						trade: {
+							points: 0
+							stats: {
+								rolls: 0.85755d
+							}
+						}
+					}
+				}
+			}
+			weight: 0.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "illagerinvasion:horn_of_sight"
+				tag: { }
+			}
+			weight: 0.25f
+		}
+		{ count: 2, item: "farmersdelight:roast_chicken" }
+		{
+			item: {
+				Count: 1
+				id: "potion_amulets:warrior_amulet"
+				tag: { }
+			}
+			weight: 0.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersive_armors:warrior_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersive_armors:warrior_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersive_armors:warrior_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersive_armors:warrior_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"undermod:capability_item_life_leech": {
+						power: 1
+					}
+				}
+				id: "expanded_combat:gold_mace"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"undermod:capability_item_life_leech": {
+						power: 1
+					}
+				}
+				id: "expanded_combat:netherite_mace"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "aether:leather_gloves"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "apotheosis:the_nether/inferno"
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "apotheosis:the_nether/inferno"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:rare"
+					}
+					gem: "apotheosis:the_nether/inferno"
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "apotheosis:the_nether/inferno"
+				}
+			}
+			weight: 0.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:mythic"
+					}
+					gem: "apotheosis:the_nether/inferno"
+				}
+			}
+			weight: 0.125f
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "apotheosis:twilight/forest"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "apotheosis:twilight/forest"
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:rare"
+					}
+					gem: "apotheosis:twilight/forest"
+				}
+			}
+			weight: 0.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "apotheosis:twilight/forest"
+				}
+			}
+			weight: 0.125f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "apotheosis:berserkers_fury"
+						lvl: 1s
+					}]
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "apotheosis:berserkers_fury"
+						lvl: 2s
+					}]
+				}
+			}
+			weight: 0.25f
+		}
+	]
+	title: "Random Bull Horns Reward"
+}

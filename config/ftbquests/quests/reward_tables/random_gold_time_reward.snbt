@@ -1,0 +1,256 @@
+{
+	id: "71FD0A3954882553"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{ item: "coinsje:copper_coin" }
+		{ item: "coinsje:iron_coin", weight: 2.0f }
+		{ item: "coinsje:gold_coin", weight: 4.0f }
+		{ item: "coinsje:diamond_coin", weight: 0.5f }
+		{ item: "coinsje:netherite_coin", weight: 0.05f }
+		{ item: "minecraft:golden_apple" }
+		{ item: "minecraft:enchanted_golden_apple", weight: 0.1f }
+		{ count: 2, item: "minecraft:golden_carrot", weight: 0.25f }
+		{ count: 3, item: "minecraft:golden_carrot", weight: 0.1f }
+		{ count: 4, item: "ancient_temples:desert_gold_nugget", weight: 2.0f }
+		{ count: 8, item: "ancient_temples:desert_gold_nugget" }
+		{ icon: { Count: 2, id: "ancient_temples:desert_gold_ingot" }, item: "ancient_temples:desert_gold_ingot", random_bonus: 1 }
+		{ item: "ancient_temples:desert_gold_upgrade", weight: 0.05f }
+		{
+			item: {
+				Count: 1
+				id: "expanded_combat:gold_gauntlet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:holy_locket"
+				tag: {
+					abilities: {
+						belief: {
+							points: 0
+							stats: {
+								amount: 0.19504d
+								capacity: 9.31751d
+								count: 1.78618d
+								radius: 4.5089d
+							}
+						}
+						blessing: {
+							points: 0
+							stats: {
+								consumption: 6.29089d
+							}
+							temp: {
+								ticking: 1b
+							}
+						}
+						repentance: {
+							points: 0
+							stats: {
+								damage: 0.14687d
+								radius: 2.58921d
+							}
+						}
+					}
+				}
+			}
+			weight: 0.05f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"undermod:capability_item_life_leech": {
+						power: 1
+					}
+				}
+				id: "simplyswords:righteous_relic"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.05f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"undermod:capability_item_life_leech": {
+						power: 1
+					}
+				}
+				id: "simplyswords:decaying_relic"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.05f
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:divine_smite"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:divine_smite"
+							index: 0
+							level: 2
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:divine_smite"
+							index: 0
+							level: 3
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+			weight: 0.33333334f
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:divine_smite"
+							index: 0
+							level: 4
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+			weight: 0.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:divine_smite"
+							index: 0
+							level: 5
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+			weight: 0.2f
+		}
+		{
+			item: {
+				Count: 1
+				id: "origins:orb_of_origin"
+				tag: { }
+			}
+			weight: 0.05f
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire_curios:gold_amulet"
+				tag: { }
+			}
+			weight: 0.1f
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire_curios:infused_gold_amulet"
+				tag: { }
+			}
+			weight: 0.01f
+		}
+		{ item: "skilltree:wisdom_scroll", weight: 0.04f }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"undermod:capability_item_life_leech": {
+						power: 1
+					}
+				}
+				id: "better_armory_mod:gilded_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "twilightforest:triple_bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.25f
+		}
+		{ count: 3, icon: { Count: 60, id: "minecraft:spectral_arrow" }, item: "minecraft:spectral_arrow", random_bonus: 57, weight: 0.5f }
+		{ item: "minecraft:ghast_tear", weight: 0.25f }
+		{
+			item: {
+				Count: 1
+				id: "iter_rpg:pigboss_ring"
+				tag: { }
+			}
+			weight: 0.25f
+		}
+	]
+	title: "Random Gold Time Reward"
+}

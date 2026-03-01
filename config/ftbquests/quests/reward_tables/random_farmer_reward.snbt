@@ -1,0 +1,13 @@
+{
+	id: "40B6682DBF4C28B3"
+	loot_size: 1
+	order_index: 19
+	rewards: [
+		{ item: "enigmaticaddons:earth_heart_fragment", weight: 0.005f }
+		{ item: "minecraft:bone_meal" }
+		{ count: 3, item: "minecraft:bone_meal", weight: 0.1f }
+		{ item: "minecraft:iron_nugget", weight: 0.05f }
+		{ item: "minecraft:gold_nugget", weight: 0.02f }
+	]
+	title: "Random Farmer Reward"
+}

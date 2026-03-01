@@ -1,0 +1,2013 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "a_new_beginning"
+	group: "4EAC48A88230D604"
+	hide_quest_until_deps_complete: true
+	icon: {
+		Count: 1
+		id: "minecraft:chainmail_chestplate"
+		tag: {
+			Damage: 0
+			affix_data: {
+				sockets: 1
+			}
+		}
+	}
+	id: "0EE53AFD1914D402"
+	images: [
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/coal_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/iron_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 11.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/iron_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/cobblestone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/iron_block"
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/iron_block"
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/iron_block"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/iron_block"
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/iron_block"
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/iron_block"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: 11.5d
+			y: -4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 11.5d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:item/bed"
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "leaf_villager:block/crafting_table_front"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "realmrpg_skeletons:block/swimmer_skeleton_seagrass"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/coal_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			height: 1.4d
+			image: "minecraft:item/chain"
+			rotation: 0.0d
+			width: 1.4d
+			x: 7.5d
+			y: -7.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/iron_block"
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.5d
+			y: -8.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/white_wool"
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			height: 4.0d
+			image: "biomeswevegone:block/yellow_sakura_leaves"
+			rotation: 0.0d
+			width: 4.0d
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			height: 4.0d
+			image: "biomeswevegone:block/yellow_sakura_leaves"
+			rotation: 0.0d
+			width: 4.0d
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			height: 4.0d
+			image: "biomeswevegone:block/yellow_sakura_leaves"
+			rotation: 0.0d
+			width: 4.0d
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			height: 4.0d
+			image: "biomeswevegone:block/yellow_sakura_leaves"
+			rotation: 0.0d
+			width: 4.0d
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			height: 4.0d
+			image: "biomeswevegone:block/yellow_sakura_leaves"
+			rotation: 0.0d
+			width: 4.0d
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			height: 4.0d
+			image: "biomeswevegone:block/yellow_sakura_leaves"
+			rotation: 0.0d
+			width: 4.0d
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			height: 4.0d
+			image: "biomeswevegone:block/yellow_sakura_leaves"
+			rotation: 45.0d
+			width: 4.0d
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			height: 1.15d
+			image: "realmrpg_skeletons:block/swimmer_skeleton_seagrass"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "realmrpg_skeletons:block/swimmer_skeleton_seagrass"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			height: 2.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "iceandfire:item/troll_skull"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "iceandfire:item/troll_skull"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:item/armor_stand"
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.5d
+			y: -5.5d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:item/chainmail_helmet"
+			rotation: 0.0d
+			width: 0.8d
+			x: 9.5d
+			y: -6.0d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:item/campfire"
+			rotation: 0.0d
+			width: 1.25d
+			x: -0.5d
+			y: 0.02d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/iron_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: 11.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/wheat_stage7"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 12.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 12.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 12.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: 12.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: 12.5d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 12.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/tall_grass_bottom"
+			rotation: 0.0d
+			width: 1.15d
+			x: 12.5d
+			y: -4.5d
+		}
+		{
+			height: 1.15d
+			image: "regions_unexplored:block/steppe_tall_grass_top"
+			rotation: 0.0d
+			width: 1.15d
+			x: 12.5d
+			y: -5.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 11.5d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/cobblestone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/cobblestone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/cobblestone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/cobblestone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:item/golden_pickaxe"
+			rotation: 0.0d
+			width: 0.8d
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "iceandfire:item/sheep_helmet"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: -3.15d
+		}
+		{
+			height: 1.15d
+			image: "realmrpg_skeletons:block/swimmer_skeleton_seagrass"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:item/wooden_hoe"
+			rotation: 135.0d
+			width: 1.15d
+			x: -1.5d
+			y: 1.6d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "handcrafted:block/shelf/oak/shelf_side_left"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/grass"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/grass"
+			rotation: 0.0d
+			width: 1.15d
+			x: 11.5d
+			y: -5.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/coal_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: 3.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1C63FA4B20A2A0D6"]
+			description: ["You can get sticks by crafting them from the wooden logs you collect from trees or find them in looting chests."]
+			icon: "minecraft:stick"
+			id: "3366CC722945F06A"
+			rewards: [
+				{
+					id: "0C396334B8C72C97"
+					type: "xp"
+					xp: 4
+				}
+				{
+					id: "5C5AA49BCCC55AEC"
+					table_id: 767562082729373559L
+					type: "random"
+				}
+			]
+			subtitle: "Collect two Sticks"
+			tasks: [{
+				count: 2L
+				id: "31C3DFFE7521592F"
+				item: { Count: 2, id: "minecraft:stick" }
+				type: "item"
+			}]
+			title: "Flour of the Wood"
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["32E72DF3D3976083"]
+			description: ["Collect a Wooden Sword by crafting using Sticks and Wooden Planks or looting it in chests."]
+			id: "2305020B157FCBE1"
+			optional: true
+			rewards: [
+				{
+					id: "384EACBA1FB5FD46"
+					type: "xp"
+					xp: 2
+				}
+				{
+					count: 6
+					id: "496BF88B41741DE3"
+					item: "coinsje:copper_coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Collect a Wooden Sword"
+			tasks: [{
+				id: "2075495305D4BCB3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"undermod:capability_item_life_leech": {
+							power: 1
+						}
+					}
+					id: "minecraft:wooden_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Initial Defense"
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["32E72DF3D3976083"]
+			description: ["Collect a Wooden Pickaxe by crafting using Sticks and Wooden Planks or looting it in chests."]
+			id: "3C9E4F6D81FEEE5D"
+			rewards: [
+				{
+					count: 2
+					id: "3D773BCA70B709EF"
+					item: "minecraft:coal"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1C9FB3277AC15104"
+					item: "farmersdelight:rope"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7BF33C8800AD0F88"
+					item: "minecraft:flint"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Collect a Wooden Pickaxe"
+			tasks: [{
+				id: "25D46FCEBFD432A1"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "First Mining"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3C9E4F6D81FEEE5D"]
+			description: ["Collect Cobblestone blocks by breaking stone using a Pickaxe or looting them in chests."]
+			id: "0212C07B54E5C240"
+			rewards: [
+				{
+					id: "725E7A2623FC5C1C"
+					type: "xp"
+					xp: 9
+				}
+				{
+					id: "140DD92E85773372"
+					item: {
+						Count: 1
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Collect three Cobblestone"
+			tasks: [{
+				count: 3L
+				id: "65EC2CA587446244"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			title: "Hard Rock"
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0212C07B54E5C240"]
+			description: [
+				"Collect a Stone Sword by crafting using Sticks and Cobblestone blocks or looting it in chests."
+				""
+				"&eThe item will be lost to get the reward!&r"
+			]
+			id: "76188A2E4C6E5379"
+			rewards: [
+				{
+					id: "20892C8BC5E35CD3"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F5BC562919576BA"
+					table_id: 6457543713124568714L
+					type: "choice"
+				}
+			]
+			subtitle: "Collect a Stone Sword"
+			tasks: [{
+				consume_items: true
+				id: "26843073B402222A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"undermod:capability_item_life_leech": {
+							power: 1
+						}
+					}
+					id: "minecraft:stone_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "An upgrade for the Attack"
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0212C07B54E5C240"]
+			description: ["Collect a Furnace by crafting using Cobblestone blocks, griefing around or looting it in chests."]
+			id: "132A0653A3AFB335"
+			rewards: [
+				{
+					id: "01257BF35E012D0B"
+					type: "xp"
+					xp: 8
+				}
+				{
+					id: "593BC49248E4DF50"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+			]
+			subtitle: "Collect a Furnace"
+			tasks: [{
+				id: "618F1F47DBE0C9C9"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "BURN 'EM ALL!"
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["132A0653A3AFB335"]
+			description: ["Collect an Iron Ingot by smelting Iron Ore using Furnace or looting it in chests."]
+			id: "6F472DEDADF69337"
+			rewards: [
+				{
+					count: 2
+					id: "5AC696280F152307"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5E729155FF1F476D"
+					item: "farmersdelight:rope"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Collect an Iron Ingot"
+			tasks: [{
+				id: "2B06DCFCBAE2C0D0"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "First Ingot"
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6F472DEDADF69337"]
+			description: ["Collect Iron Gloves by crafting using Iron Ingots or looting it in chests."]
+			id: "0849483EF1105D5E"
+			optional: true
+			rewards: [{
+				id: "274B376073DF9EC0"
+				item: "skilltree:wisdom_scroll"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Collect Iron Gloves"
+			tasks: [{
+				id: "346A8EA03B6863C9"
+				item: {
+					Count: 1
+					id: "aether:iron_gloves"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Medieval Boxer"
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"76188A2E4C6E5379"
+				"6F472DEDADF69337"
+			]
+			description: ["Collect an Iron Sword by crafting using Sticks and Iron Ingots or looting it in chests."]
+			id: "28F103D7897D0152"
+			rewards: [{
+				id: "1C92AD89A20B07ED"
+				item: {
+					Count: 1
+					id: "expanded_combat:iron_gauntlet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Collect an Iron Sword"
+			tasks: [{
+				id: "5E0E69998DC92112"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"undermod:capability_item_life_leech": {
+							power: 1
+						}
+					}
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "The Iron Knight"
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6F472DEDADF69337"
+				"28F103D7897D0152"
+			]
+			description: [
+				"Collect one Iron Block by crafting using Iron Ingots or looting it in chests."
+				""
+				"&eThe item will be lost to get the reward!&r"
+			]
+			id: "5B14E29FBD4D1061"
+			rewards: [
+				{
+					id: "0A25426E6B185804"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "752164CDA80FF83B"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F5595DD95CEFA5E"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DD22AE748B07067"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "208CB835AB34B8CA"
+					table_id: 6893051207903385251L
+					type: "choice"
+				}
+			]
+			subtitle: "Collect one Block of Iron"
+			tasks: [{
+				consume_items: true
+				id: "1CE6FC3DAC82ED5F"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			title: "The Iron Blacksmith"
+			x: 9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"5B14E29FBD4D1061"
+				"7E0A0FE14BFAC4D4"
+			]
+			description: [
+				"Click on the button and progress to the next chapter quest."
+				""
+				"&6Unlock Starter Shop.&r"
+				"&6Unlock Repetitive Quests.&r"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:golden_pickaxe"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 0
+					}
+				}
+			}
+			id: "0A96869D676BDBB5"
+			rewards: [{
+				count: 2
+				id: "48946C55234A883E"
+				item: "skilltree:wisdom_scroll"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Click on the left button!"
+			tasks: [{
+				id: "47E0C8E0A3F743CF"
+				title: "Click me!"
+				type: "checkmark"
+			}]
+			title: "Progress to the Delver Age"
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["76188A2E4C6E5379"]
+			description: ["Find and kill a Sheep. Can be easily found in the Plains biomes."]
+			id: "10A5D7550BED7DB2"
+			rewards: [
+				{
+					id: "6E900343963BCFCD"
+					type: "xp"
+					xp: 12
+				}
+				{
+					count: 2
+					id: "482DCFC92E80D843"
+					item: "minecraft:string"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Kill a Sheep"
+			tasks: [{
+				entity: "minecraft:sheep"
+				icon: {
+					Count: 1
+					id: "iceandfire:sheep_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "30D2C005FEE99206"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Softy Sheep ☺"
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["10A5D7550BED7DB2"]
+			description: ["Collect an Yellow Bed by crafting using Wool, Wooden Planks and Yellow Dye or looting it in chests. Then interact to sleep during night and get the achievement."]
+			id: "7E0A0FE14BFAC4D4"
+			rewards: [
+				{
+					id: "1E57EEC5B8C8F5BF"
+					type: "xp"
+					xp: 8
+				}
+				{
+					count: 3
+					id: "557E0A75CECA9C06"
+					item: "minecraft:feather"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Collect a Yellow Bed and Sleep"
+			tasks: [
+				{
+					id: "39C1CE3E27F9880C"
+					item: {
+						Count: 1
+						id: "minecraft:yellow_bed"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					advancement: "minecraft:adventure/sleep_in_bed"
+					criterion: ""
+					id: "73EC8A259A4DE780"
+					type: "advancement"
+				}
+			]
+			title: "ZzZzZz..."
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3366CC722945F06A"]
+			description: ["Collect a Crafting Table by crafting wooden planks, griefing around or finding it in chests."]
+			id: "32E72DF3D3976083"
+			rewards: [
+				{
+					id: "0B7257BA77C5069D"
+					type: "xp"
+					xp: 4
+				}
+				{
+					count: 3
+					id: "3D3003D27D1800C4"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "62636E5BB06099BD"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+			]
+			subtitle: "Collect a Crafting Table"
+			tasks: [{
+				id: "3AACADB6532F775B"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "Crafting Time"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			description: ["Click on the left button to accept the quest and get your reward on the right icon."]
+			icon: {
+				Count: 1
+				id: "origins:orb_of_origin"
+				tag: { }
+			}
+			id: "1C63FA4B20A2A0D6"
+			rewards: [
+				{
+					id: "75C0C318E26C7689"
+					item: {
+						Count: 1
+						id: "minecraft:writable_book"
+						tag: {
+							Enchantments: [{
+								id: "tombstone:soulbound"
+								lvl: 1
+							}]
+							display: {
+								Name: "{\"text\":\"Adventure Diary\",\"color\":\"brown\",\"bold\":true}"
+							}
+							pages: ["☺ My Diary\n\nDay 01: My adventure has just begun ..."]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C4845849B1FABB7"
+					item: "minecraft:apple"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Start a new adventure!"
+			tasks: [{
+				id: "7A754404D3D20801"
+				title: "Click me!"
+				type: "checkmark"
+			}]
+			title: "A new beginning"
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["32E72DF3D3976083"]
+			description: [
+				"Collect a Campfire by crafting using Sticks, Coal and Wooden Logs or looting it in chests. Campfire can heal health over time and cook raw food."
+				""
+				"&6Unlock campfire in the Starter Shop.&r"
+			]
+			id: "00AFF9AE1F159799"
+			optional: true
+			rewards: [
+				{
+					id: "47C14059FB911992"
+					type: "xp"
+					xp: 4
+				}
+				{
+					count: 2
+					id: "7C271A47D6E31DDE"
+					item: "minecraft:coal"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					count: 2
+					id: "427D0BE4D9CED1DB"
+					item: "minecraft:chicken"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0413EA5045A29A20"
+					item: {
+						Count: 1
+						id: "thirst:terracotta_water_bowl"
+						tag: {
+							Purity: 0
+						}
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Collect a Campfire"
+			tasks: [{
+				id: "1069C7D5AC006E11"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			title: "Healing Rest"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["142132158DBA7CE1"]
+			description: [
+				"Collect a seed and plant to a dirt block which have been hoed by a Hoe. The dirt block must be close to a water source."
+				""
+				"&6Unlock Farmer Quests in Repetitive Quests.&r"
+			]
+			id: "42463DE1888CC21E"
+			optional: true
+			rewards: [
+				{
+					id: "4201381D974BF2EE"
+					type: "xp"
+					xp: 16
+				}
+				{
+					count: 4
+					id: "5E2D46594342B34C"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Plant a seed and watch it grow"
+			tasks: [{
+				advancement: "minecraft:husbandry/plant_seed"
+				criterion: ""
+				id: "258C0C116F9D4847"
+				type: "advancement"
+			}]
+			title: "First Seed"
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["76188A2E4C6E5379"]
+			description: [
+				"Find and kill a Zombie. Can be easily found in the Plains biomes on the night."
+				""
+				"&6Unlock Fresh Meat in Repetitive Quests.&r"
+			]
+			id: "4181BBC66ED4D202"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C1CF04E749F33C2"
+				table_id: 6438649289557568240L
+				type: "random"
+			}]
+			shape: "rsquare"
+			subtitle: "Kill a Zombie"
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_head"
+				id: "3E3676D3FC1505FE"
+				type: "kill"
+				value: 1L
+			}]
+			title: "AARGH!"
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0212C07B54E5C240"]
+			description: ["You found a secret quest! You collected a full inventory of Stone blocks, amazing!"]
+			id: "06FE08891EFCA904"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					id: "7058D5020036605F"
+					type: "xp"
+					xp: 115
+				}
+				{
+					id: "6B39D7CAF1303282"
+					item: {
+						Count: 1
+						id: "twilightforest:giant_pickaxe"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 9
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Collect a full inventory of Stone!"
+			tasks: [{
+				count: 2304L
+				id: "70F7C0D496892E25"
+				item: { Count: 2304, id: "minecraft:stone" }
+				type: "item"
+			}]
+			title: "Mountain Miner (Secret)"
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["32E72DF3D3976083"]
+			description: ["Collect a Wooden Hoe by crafting using Sticks and Wooden Planks or looting it in chests."]
+			id: "142132158DBA7CE1"
+			rewards: [
+				{
+					count: 2
+					id: "51DFB84FBD2F96C2"
+					item: "minecraft:wheat_seeds"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1A9EB76C5B6CAF02"
+					item: "minecraft:beetroot_seeds"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6F8FB99A16D35007"
+					item: "minecraft:melon_seeds"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "69CD09475AEF485F"
+					item: {
+						Count: 1
+						id: "thirst:terracotta_water_bowl"
+						tag: {
+							Purity: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Collect a Wooden Hoe"
+			tasks: [{
+				id: "75CB64488F3AF572"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Farmer Life"
+			x: -1.5d
+			y: 2.5d
+		}
+	]
+	title: "Beginning"
+}

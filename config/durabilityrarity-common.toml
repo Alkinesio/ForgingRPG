@@ -1,0 +1,39 @@
+
+[multipliers]
+	#Range: 0.01 ~ 10.0
+	broken = 0.3
+	#Range: 0.01 ~ 10.0
+	damaged = 0.6
+	#Range: 0.01 ~ 10.0
+	common = 1.0
+	#Range: 0.01 ~ 10.0
+	rare = 1.3
+	#Range: 0.01 ~ 10.0
+	epic = 1.6
+	#Range: 0.01 ~ 10.0
+	legendary = 1.9
+
+[chances]
+	#Range: 0 ~ 100
+	broken = 15
+	#Range: 0 ~ 100
+	damaged = 20
+	#Range: 0 ~ 100
+	common = 30
+	#Range: 0 ~ 100
+	rare = 20
+	#Range: 0 ~ 100
+	epic = 10
+	#Range: 0 ~ 100
+	legendary = 5
+
+["attack and miningspeed multiplier"]
+	#Range: 0.0 ~ 10.0
+	legendary = 1.1
+
+[blacklists]
+	#List of mod IDs whose items should be ignored.
+	modid_blacklist = ["examplemod"]
+	#List of specific items (namespace:path) that should be ignored.
+	item_blacklist = ["minecraft:stick"]
+

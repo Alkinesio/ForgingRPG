@@ -1,0 +1,61 @@
+{
+	id: "371EE8578F6EFCCC"
+	loot_size: 1
+	order_index: 21
+	rewards: [
+		{ count: 9, item: "minecraft:arrow", weight: 7.0f }
+		{
+			count: 3
+			item: {
+				Count: 1
+				id: "minecraft:tipped_arrow"
+				tag: {
+					Potion: "yungscavebiomes:strong_frost"
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				id: "minecraft:tipped_arrow"
+				tag: {
+					Potion: "apotheosis:strong_grievous"
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				id: "minecraft:tipped_arrow"
+				tag: {
+					Potion: "minecraft:slowness"
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				id: "minecraft:tipped_arrow"
+				tag: {
+					Potion: "minecraft:poison"
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				id: "minecraft:tipped_arrow"
+				tag: {
+					Potion: "minecraft:weakness"
+				}
+			}
+		}
+		{ count: 3, item: "apotheosis:explosive_arrow" }
+		{ count: 3, item: "apotheosis:obsidian_arrow" }
+	]
+	title: "Random Arrows Shop"
+}

@@ -1,0 +1,16 @@
+{
+	id: "30DCBF0EC239FD83"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "origins:orb_of_origin"
+				tag: { }
+			}
+		}
+		{ item: "skilltree:amnesia_scroll" }
+	]
+	title: "Choice The Walking Mushroom Item"
+}

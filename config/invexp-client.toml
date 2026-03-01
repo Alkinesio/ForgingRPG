@@ -1,0 +1,3 @@
+#If sack data for the item should be displayed in the advanced tooltip (for debugging)
+displaySackDataInTooltip = false
+

@@ -1,0 +1,545 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	default_repeatable_quest: true
+	filename: "mine"
+	group: "128D85F361410B35"
+	hide_quest_until_deps_complete: true
+	icon: {
+		Count: 1
+		id: "deeperdarker:warden_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "3A978591675009EC"
+	images: [
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Delver Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/twilight_oak_sapling"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Delver Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Delver Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/twilight_oak_sapling"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/twilight_oak_sapling"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate_iron_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate_iron_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate_iron_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate_iron_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate_gold_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate_gold_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate_gold_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate_diamond_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate_diamond_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate_diamond_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate_gold_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate_copper_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate_copper_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate_copper_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate_copper_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate_emerald_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate_emerald_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate_emerald_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate_emerald_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.15d
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.15d
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			height: 1.5d
+			image: "aether:item/tools/valkyrie_pickaxe"
+			rotation: 90.0d
+			width: 1.5d
+			x: 5.34d
+			y: 2.34d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:item/lantern"
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			height: 4.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			order: -1
+			rotation: 0.0d
+			width: 4.0d
+			x: 1.5d
+			y: -0.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["2DA6AEA322B2298B"]
+			icon: { Count: 12, id: "minecraft:copper_ingot" }
+			id: "1C3C3C56F9BEB5D3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6726273885545E13"
+				table_id: 6740722749084400154L
+				type: "random"
+			}]
+			subtitle: "Gather x12 Copper Ingots"
+			tasks: [{
+				count: 12L
+				id: "499A845819BE126D"
+				item: { Count: 20, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			title: "Storming Copper"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2DA6AEA322B2298B"]
+			icon: { Count: 18, id: "minecraft:gold_ingot" }
+			id: "0EEBAF5234731E53"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38BFE05565BA63B0"
+				table_id: 8213732536741274963L
+				type: "random"
+			}]
+			subtitle: "Gather x18 Gold Ingots"
+			tasks: [{
+				count: 18L
+				id: "3026F68F05AB72A9"
+				item: { Count: 18, id: "minecraft:gold_ingot" }
+				type: "item"
+			}]
+			title: "Gold Time"
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2DA6AEA322B2298B"]
+			icon: { Count: 20, id: "minecraft:diamond" }
+			id: "095DB9D7DBB909B1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C16B53CC13F53E9"
+				table_id: 3001329891538670849L
+				type: "random"
+			}]
+			subtitle: "Gather x20 Diamonds"
+			tasks: [{
+				count: 20L
+				id: "171621615C255EB9"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "The Millionaire"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4DF06510F7AA7E23"]
+			icon: { Count: 20, id: "minecraft:emerald" }
+			id: "4AB438B8C4E3CC70"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E8CAFD64600F198"
+				table_id: 3865223755959393444L
+				type: "random"
+			}]
+			subtitle: "Gather x20 Emeralds"
+			tasks: [{
+				count: 20L
+				id: "636C3646E5117F0E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "Green Jewels"
+			x: 2.5d
+			y: 1.5d
+		}
+	]
+	title: "Miner"
+}

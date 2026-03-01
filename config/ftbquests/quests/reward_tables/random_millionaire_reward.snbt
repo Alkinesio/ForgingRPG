@@ -1,0 +1,427 @@
+{
+	id: "29A6DDA276EC9501"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{ item: "coinsje:diamond_coin", weight: 4.0f }
+		{ count: 2, item: "coinsje:diamond_coin", weight: 2.0f }
+		{ item: "coinsje:diamond_coin_pile", weight: 0.5f }
+		{
+			item: {
+				Count: 1
+				id: "aquaculture:diamond_fishing_rod"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "minecraft:unbreaking,"
+							lvl: 3
+						}
+						{
+							id: "x_enchantment:auto_fish"
+							lvl: 1
+						}
+						{
+							id: "minecraft:luck_of_the_sea"
+							lvl: 2
+						}
+					]
+				}
+			}
+			weight: 0.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "aether:diamond_gloves"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "tombstone:soulbound"
+						lvl: 1
+					}]
+				}
+			}
+			weight: 0.5f
+		}
+		{ item: "tombstone:book_of_disenchantment", weight: 0.25f }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 4s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 5s
+					}]
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 6s
+					}]
+				}
+			}
+			weight: 0.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:silk_touch"
+						lvl: 1s
+					}]
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "tombstone:soulbound"
+						lvl: 1s
+					}]
+				}
+			}
+			weight: 0.2f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:infinity"
+						lvl: 1s
+					}]
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:mending"
+						lvl: 1s
+					}]
+				}
+			}
+			weight: 0.25f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"undermod:capability_item_life_leech": {
+						power: 1
+					}
+				}
+				id: "blades_of_the_fallen:scorched_katana"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "expanded_combat:netherite_crossbow"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.25f
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				id: "expanded_combat:tipped_netherite_arrow"
+				tag: {
+					Potion: "yungscavebiomes:strong_frost"
+				}
+			}
+			random_bonus: 6
+			weight: 0.5f
+		}
+		{
+			icon: {
+				Count: 3
+				id: "enigmaticaddons:ultimate_potion"
+				tag: {
+					EnigmaticPotion: "extreme_strength"
+				}
+			}
+			item: {
+				Count: 1
+				id: "enigmaticaddons:ultimate_potion"
+				tag: {
+					EnigmaticPotion: "extreme_strength"
+				}
+			}
+			random_bonus: 2
+		}
+		{
+			icon: {
+				Count: 3
+				id: "enigmaticaddons:ultimate_potion"
+				tag: {
+					EnigmaticPotion: "extreme_regeneration"
+				}
+			}
+			item: {
+				Count: 1
+				id: "enigmaticaddons:ultimate_potion"
+				tag: {
+					EnigmaticPotion: "extreme_regeneration"
+				}
+			}
+			random_bonus: 2
+		}
+		{
+			icon: {
+				Count: 3
+				id: "enigmaticlegacy:ultimate_potion"
+				tag: {
+					EnigmaticPotion: "ultimate_water_breathing"
+				}
+			}
+			item: {
+				Count: 1
+				id: "enigmaticlegacy:ultimate_potion"
+				tag: {
+					EnigmaticPotion: "ultimate_water_breathing"
+				}
+			}
+			random_bonus: 2
+		}
+		{
+			icon: {
+				Count: 3
+				id: "enigmaticlegacy:ultimate_potion"
+				tag: {
+					EnigmaticPotion: "ultimate_healing"
+				}
+			}
+			item: {
+				Count: 1
+				id: "enigmaticlegacy:ultimate_potion"
+				tag: {
+					EnigmaticPotion: "ultimate_healing"
+				}
+			}
+			random_bonus: 2
+		}
+		{ item: "skilltree:amnesia_scroll", weight: 0.15f }
+		{ count: 8, icon: { Count: 12, id: "minecraft:ender_eye" }, item: "minecraft:ender_eye", random_bonus: 4, weight: 0.4f }
+		{
+			type: "xp_levels"
+			weight: 0.5f
+			xp_levels: 20
+		}
+		{
+			type: "xp_levels"
+			weight: 0.25f
+			xp_levels: 30
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:netherite_upgrade_smithing_template"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.25f
+		}
+		{ item: "minecraft:dragon_breath", weight: 0.05f }
+		{
+			item: {
+				Count: 1
+				id: "ec_iaf_plugin:lightning_dragon_steel_gauntlet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.01f
+		}
+		{
+			item: {
+				Count: 1
+				id: "ec_iaf_plugin:fire_dragon_steel_gauntlet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.01f
+		}
+		{
+			item: {
+				Count: 1
+				id: "ec_iaf_plugin:ice_dragon_steel_gauntlet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.01f
+		}
+		{
+			item: {
+				Count: 1
+				id: "ec_iaf_plugin:lightning_dragon_steel_bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.005f
+		}
+		{
+			item: {
+				Count: 1
+				id: "ec_iaf_plugin:fire_dragon_steel_bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.005f
+		}
+		{
+			item: {
+				Count: 1
+				id: "ec_iaf_plugin:ice_dragon_steel_bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.005f
+		}
+		{
+			item: {
+				Count: 1
+				id: "ec_iaf_plugin:lightning_dragon_steel_crossbow"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.005f
+		}
+		{
+			item: {
+				Count: 1
+				id: "ec_iaf_plugin:fire_dragon_steel_crossbow"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.005f
+		}
+		{
+			item: {
+				Count: 1
+				id: "ec_iaf_plugin:ice_dragon_steel_crossbow"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.005f
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:dragonsteel_fire_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.01f
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:dragonsteel_ice_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.01f
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:dragonsteel_lightning_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.01f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"undermod:capability_item_life_leech": {
+						power: 1
+					}
+				}
+				id: "simplyswords:tainted_relic"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.15f
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:infinity_ham"
+				tag: {
+					abilities: {
+						autophagy: {
+							points: 0
+							stats: {
+								feed: 1.51216d
+							}
+						}
+						infusion: {
+							points: 0
+							stats: {
+								duration: 2.32188d
+							}
+						}
+					}
+					pieces: 10
+				}
+			}
+			weight: 0.25f
+		}
+	]
+	title: "Random Millionaire Reward"
+}

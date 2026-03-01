@@ -1,0 +1,187 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	default_repeatable_quest: true
+	filename: "unique"
+	group: "190C1B658A12FCC7"
+	hide_quest_until_deps_complete: true
+	icon: {
+		Count: 1
+		id: "enigmaticlegacy:cursed_ring"
+		tag: {
+			affix_data: {
+				sockets: 1
+			}
+		}
+	}
+	id: "67FEE081225A10EA"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["4DF06510F7AA7E23"]
+			icon: {
+				Count: 1
+				id: "enigmaticlegacy:cursed_ring"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "282AA8E2E68A875F"
+			rewards: [{
+				id: "177582EE80EAC717"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:cursed_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Buy a Ring of the Seven Curses"
+			tasks: [
+				{
+					id: "3DB716F515A85EE2"
+					item: "coinsje:netherite_coin_pile"
+					type: "item"
+				}
+				{
+					id: "4D2A2322643F6D94"
+					item: {
+						Count: 1
+						id: "origins:orb_of_origin"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4B5F8E7EC69F405F"
+					item: "minecraft:dragon_head"
+					type: "item"
+				}
+				{
+					id: "6ECA5BEC47979D37"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:iron_ring"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73705AE474C17858"
+					item: {
+						Count: 1
+						id: "macabre:crystalized_blood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A05A4CA2D4BCF9D"
+					points: false
+					type: "xp"
+					value: 225L
+				}
+			]
+			title: "Ring of the Seven Curses"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4DF06510F7AA7E23"]
+			icon: "skilltree:amnesia_scroll"
+			id: "75294F0DD9611700"
+			rewards: [{
+				id: "44B0230A76060949"
+				item: "skilltree:amnesia_scroll"
+				type: "item"
+			}]
+			subtitle: "Buy an Amnesia Scroll"
+			tasks: [
+				{
+					count: 2L
+					id: "7B7CB7D860D86404"
+					item: "coinsje:netherite_coin"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "3EB33941A5EA3807"
+					item: "improvableskills:parchment_fragment"
+					type: "item"
+				}
+				{
+					id: "12B99CFA219E88D4"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "25FB5F55614F88D9"
+					points: false
+					type: "xp"
+					value: 30L
+				}
+			]
+			title: "Amnesia Scroll"
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4DF06510F7AA7E23"]
+			icon: "skilltree:wisdom_scroll"
+			id: "08A0F4902D74850C"
+			rewards: [{
+				id: "38958165D0AE2A04"
+				item: "skilltree:wisdom_scroll"
+				type: "item"
+			}]
+			subtitle: "Buy a Wisdom Scroll"
+			tasks: [
+				{
+					count: 2L
+					id: "1F0771DB28AF4CE1"
+					item: "coinsje:netherite_coin"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "43137D474EF106C2"
+					item: "improvableskills:parchment_fragment"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "33022122B1923ACA"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					id: "4EA20B1345F37DEE"
+					points: false
+					type: "xp"
+					value: 30L
+				}
+			]
+			title: "Wisdom Scroll"
+			x: -4.5d
+			y: -0.5d
+		}
+	]
+	title: "Legendary"
+}

@@ -1,0 +1,1987 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "elfic_age"
+	group: "4EAC48A88230D604"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	id: "3BC165659AEA42F4"
+	images: [
+		{
+			height: 2.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/bone_block_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/mushroom_stem"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/mushroom_stem"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/mushroom_stem"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/mushroom_stem"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/mushroom_stem"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/mushroom_stem"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/mushroom_stem"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/brown_mushroom_block"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/brown_mushroom_block"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/brown_mushroom_block"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "twilightforest:block/rainbow_oak_sapling"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "twilightforest:block/etched_nagastone_down"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "twilightforest:block/nagastone_face_front"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "twilightforest:block/etched_nagastone_down"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "twilightforest:block/nagastone_pillar_side_mossy"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "realmrpg_skeletons:block/swimmer_skeleton_seagrass"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "iter_rpg:block/demonbones"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "realmrpg_skeletons:block/swimmer_skeleton_seagrass"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "realmrpg_skeletons:block/swimmer_skeleton_seagrass"
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "realmrpg_skeletons:block/swimmer_skeleton_seagrass"
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			height: 2.0d
+			image: "aquamirae:textures/particle/shine.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			height: 1.5d
+			image: "wrd:block/golden_crown"
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "twilightforest:block/cracked_underbrick"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "twilightforest:block/cracked_underbrick"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "twilightforest:block/cracked_underbrick"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "twilightforest:block/cracked_underbrick"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "twilightforest:block/cracked_underbrick"
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "twilightforest:block/cracked_underbrick"
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "twilightforest:block/cracked_underbrick"
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "twilightforest:block/cracked_underbrick"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "twilightforest:block/cracked_underbrick"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "twilightforest:block/cracked_underbrick"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:item/gold_minotaur_axe"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "twilightforest:block/cracked_underbrick"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "farmersdelight:block/brown_mushroom_colony_stage3"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 11.0d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.0d
+			y: 5.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 11.0d
+			y: 5.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "realmrpg_skeletons:block/swimmer_skeleton_seagrass"
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "toomanypaintings:textures/painting/ghast.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 15.0d
+			y: -8.0d
+		}
+		{
+			height: 1.0d
+			image: "bosses_of_mass_destruction:textures/particle/rod-1.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: 16.0d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "bosses_of_mass_destruction:textures/particle/rod-1.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: 16.0d
+			y: -8.0d
+		}
+		{
+			height: 1.0d
+			image: "bosses_of_mass_destruction:textures/particle/rod-1.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: 16.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "bosses_of_mass_destruction:textures/particle/rod-1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "bosses_of_mass_destruction:textures/particle/rod-1.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: 14.0d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "bosses_of_mass_destruction:textures/particle/rod-1.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: 14.0d
+			y: -8.0d
+		}
+		{
+			height: 1.0d
+			image: "bosses_of_mass_destruction:textures/particle/rod-1.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: 14.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "bosses_of_mass_destruction:textures/particle/rod-1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "bosses_of_mass_destruction:textures/particle/rod-1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: -7.0d
+		}
+		{
+			height: 4.0d
+			image: "darkpaintings:textures/painting/santa_moon.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 19.0d
+			y: -9.0d
+		}
+		{
+			height: 1.0d
+			image: "wrd:item/blood_footsteps"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: -8.0d
+		}
+		{
+			height: 1.0d
+			image: "wrd:item/darkstonebrazierblue"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: 0.56d
+		}
+		{
+			height: 1.0d
+			image: "wrd:item/darkstonebrazierblue"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.0d
+			y: 0.56d
+		}
+		{
+			height: 1.15d
+			image: "iter_rpg:block/ornate_blue_ice_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "iter_rpg:block/ornate_blue_ice_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: 20.0d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "iter_rpg:block/ornate_blue_ice_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: 18.0d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "iter_rpg:block/ornate_blue_ice_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: 18.0d
+			y: 5.5d
+		}
+		{
+			height: 1.15d
+			image: "iter_rpg:block/ornate_blue_ice_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: 20.0d
+			y: 5.5d
+		}
+		{
+			height: 1.15d
+			image: "iter_rpg:block/ornate_blue_ice_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: 20.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "wrd:item/darkstonebrazierblue"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: 2.56d
+		}
+		{
+			height: 1.0d
+			image: "wrd:item/darkstonebrazierblue"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: 4.56d
+		}
+		{
+			height: 1.0d
+			image: "wrd:item/darkstonebrazierblue"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.0d
+			y: 4.56d
+		}
+		{
+			height: 1.0d
+			image: "wrd:item/darkstonebrazierblue"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.0d
+			y: 2.56d
+		}
+		{
+			height: 1.0d
+			image: "iceandfire:item/troll_skull"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "iceandfire:item/troll_skull"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/iron_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/iron_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/iron_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/diamond_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/gold_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "goety:item/frost_crown"
+			order: 1
+			rotation: 0.0d
+			width: 1.15d
+			x: 19.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/gold_block"
+			rotation: 0.0d
+			width: 1.15d
+			x: 19.0d
+			y: 5.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "twilightforest:block/twilight_oak_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "twilightforest:block/twilight_oak_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "twilightforest:block/twilight_oak_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "twilightforest:block/twilight_oak_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			height: 4.0d
+			image: "twilightforest:block/time_leaves"
+			rotation: 45.0d
+			width: 4.0d
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			height: 3.0d
+			image: "twilightforest:block/time_leaves"
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			height: 4.0d
+			image: "twilightforest:block/time_leaves"
+			rotation: 0.0d
+			width: 4.0d
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			height: 4.0d
+			image: "twilightforest:block/time_leaves"
+			rotation: 0.0d
+			width: 4.0d
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			height: 1.15d
+			image: "realmrpg_skeletons:block/swimmer_skeleton_seagrass"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "realmrpg_skeletons:block/swimmer_skeleton_seagrass"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.0d
+			y: 2.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0A96869D676BDBB5"]
+			description: ["Observe a Naga Boss which can be found in the Twilight Forest in a stone labyrinth."]
+			id: "4093DBB385EF8233"
+			rewards: [
+				{
+					id: "0D81D5B68F68138E"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "7D60A3912C7BC39F"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Find Naga"
+			tasks: [{
+				icon: "twilightforest:naga_trophy"
+				id: "4565D6082A0EF3B0"
+				observe_type: 0
+				timer: 0L
+				title: "Observe a Naga Boss"
+				to_observe: "twilightforest:naga"
+				type: "observation"
+			}]
+			title: "Medusa's Child"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4093DBB385EF8233"]
+			id: "10EF84344D9CF64E"
+			rewards: [
+				{
+					id: "406694F7662DD2F8"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "74E3595EED711440"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					id: "1178D5F039D24B43"
+					item: "minecraft:diamond"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Kill Naga Boss"
+			tasks: [{
+				entity: "twilightforest:naga"
+				icon: "twilightforest:naga_trophy"
+				id: "14AC1AE84D01C1F9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Snake Head"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["10EF84344D9CF64E"]
+			description: ["Observe a Lich King which can be found in the Twilight Forest on the last floor of a castle."]
+			id: "34F0B24186BA97F2"
+			rewards: [
+				{
+					id: "73D56A4E5CEF99D0"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "6DB2293049D04CE2"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "combatroll:multi_roll"
+								lvl: 1s
+							}]
+						}
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Find Lich King"
+			tasks: [{
+				icon: "twilightforest:lich_trophy"
+				id: "260680643012AC8B"
+				observe_type: 0
+				timer: 0L
+				title: "Observe a Lich King"
+				to_observe: "twilightforest:lich"
+				type: "observation"
+			}]
+			title: "Adventure Time!"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["34F0B24186BA97F2"]
+			id: "60D42F74C64B854E"
+			rewards: [
+				{
+					id: "1100C61AC05E71A9"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "3417303B2037E2DC"
+					type: "xp"
+					xp: 40
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2AF9A1FFD02E41B3"
+					table_id: 2945689779753258144L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7BF554771730F63F"
+					table_id: 129916552263885864L
+					type: "random"
+				}
+				{
+					id: "6C7378DA4C1DDE19"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+			]
+			subtitle: "Kill Lich King"
+			tasks: [{
+				entity: "twilightforest:lich"
+				icon: "twilightforest:lich_trophy"
+				id: "1453D7107539333C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Fallen Reign"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["60D42F74C64B854E"]
+			description: ["Observe a Minoshroom which can be found in the Twilight Forest in a dungeon located in a Swamp."]
+			id: "3A705F8133F8E837"
+			rewards: [
+				{
+					id: "15F1F4B08F37C0C8"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7DD3D43B27CA89CD"
+					table_id: 3520899078805912963L
+					type: "choice"
+				}
+				{
+					id: "416FF7FAA00215D2"
+					type: "xp"
+					xp: 12
+				}
+			]
+			subtitle: "Find Minoshroom"
+			tasks: [{
+				icon: "twilightforest:minoshroom_trophy"
+				id: "7B678E439E3EB78D"
+				observe_type: 0
+				timer: 0L
+				title: "Observe a Minoshroom"
+				to_observe: "twilightforest:minoshroom"
+				type: "observation"
+			}]
+			title: "The Walking Mushroom"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3A705F8133F8E837"]
+			id: "193A15FE9EE68289"
+			rewards: [
+				{
+					id: "27207B7C852DADE4"
+					item: "dungeonnowloading:great_experience_bottle"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4C4F134D3B2E9E21"
+					item: "enigmaticdelicacy:balanced_stewed_soup"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "5896D4C45AD1A639"
+					item: {
+						Count: 1
+						id: "caverns_and_chasms:netherite_horse_armor"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0B71CA900253C1CD"
+					item: "minecraft:mushroom_stew"
+					type: "item"
+				}
+			]
+			subtitle: "Kill Minoshroom"
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				icon: "twilightforest:minoshroom_trophy"
+				id: "2ED64BF0F80D3017"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Hate Minos 'n Mushrooms"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["193A15FE9EE68289"]
+			description: ["Observe a Hydra which can be found in the Twilight Forest in an open cavern."]
+			id: "76A50E60C7197816"
+			rewards: [
+				{
+					id: "582BDCB7824D115F"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4BF466B91B3D47FE"
+					item: {
+						Count: 1
+						id: "ice_and_fire_delight:fire_dragon_ramen"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0449F7D7073B03EE"
+					item: {
+						Count: 1
+						id: "thirst:terracotta_water_bowl"
+						tag: {
+							Purity: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Find Hydra"
+			tasks: [{
+				icon: "twilightforest:hydra_trophy"
+				id: "1DB59623B6A1C267"
+				observe_type: 0
+				timer: 0L
+				title: "Observe a Hydra"
+				to_observe: "twilightforest:minoshroom"
+				type: "observation"
+			}]
+			title: "The ancient Hell guardian"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["76A50E60C7197816"]
+			id: "63E05EA448DAFAC7"
+			rewards: [
+				{
+					id: "74D1C7F67E8C1081"
+					item: "skilltree:wisdom_scroll"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "1ACE0336F4AC1F58"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:fireward_ring"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "50CDBA3D6FCE5175"
+					item: {
+						Count: 1
+						id: "artifacts:fire_gauntlet"
+						tag: {
+							abilities: {
+								caster: {
+									points: 0
+									stats: {
+										chance: 0.21376d
+										damage: 0.1175d
+										duration: 30.18516d
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E714031CA12B3AB"
+					item: {
+						Count: 1
+						id: "potion_amulets:fire_amulet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5B2109A32CD41DF8"
+					item: "twilightforest:fiery_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "23B280F488C5A8AB"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:custom_1"
+							}
+							gem: "apotheosis:core/solar"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Kill Hydra"
+			tasks: [{
+				entity: "iceandfire:hydra"
+				icon: "twilightforest:hydra_trophy"
+				id: "78BF03BA02456508"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Heroic Knight"
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["63E05EA448DAFAC7"]
+			description: [
+				"Click on the button and progress to the next chapter quest."
+				""
+				"&6Unlock Green Jewels in Repetitive Quests.&r"
+				"&6Unlock new items in the Starter Shop.&r"
+				"&6Unlock Jeweler in the Shop.&r"
+				"&6Unlock Legendary Shop.&r"
+			]
+			icon: "goety:mystic_core"
+			id: "4DF06510F7AA7E23"
+			rewards: [{
+				count: 2
+				id: "574807B8226526B7"
+				item: "skilltree:wisdom_scroll"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Click on the left button!"
+			tasks: [{
+				id: "2B7E253FA67686CA"
+				title: "Click me!"
+				type: "checkmark"
+			}]
+			title: "Progress to the Mystic Age"
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["63E05EA448DAFAC7"]
+			description: ["Observe an Ur-Ghast which can be found in the Twilight Forest upon the tower in the Dark Forest."]
+			icon: "twilightforest:ur_ghast_trophy"
+			id: "77C5ED0CF1477E97"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "2E7C0BF603B7AC25"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4D86D5DAC14C3912"
+					item: "minecraft:ghast_tear"
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					count: 6
+					id: "203A0B75AD1BF873"
+					item: "minecraft:phantom_membrane"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Find Ur-Ghast"
+			tasks: [{
+				icon: "twilightforest:ur_ghast_trophy"
+				id: "74A881D4E2ACA494"
+				observe_type: 0
+				timer: 0L
+				title: "Observe a Hydra"
+				to_observe: "twilightforest:ur_ghast"
+				type: "observation"
+			}]
+			title: "Forgotten Banshees"
+			x: 14.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["77C5ED0CF1477E97"]
+			description: ["What ... have you done? You should not follow this path ... Err404!"]
+			id: "3EDCDDA7281BA540"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					id: "461F8CF581E7126B"
+					item: {
+						Count: 1
+						id: "enigmaticdelicacy:curse_crystal_pendant"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 9
+					id: "26A1DFCD5C586C24"
+					item: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							CustomPotionColor: -16777216
+							CustomPotionEffects: [
+								{
+									Ambient: 0b
+									Amplifier: 1b
+									CurativeItems: [{
+										Count: 1b
+										id: "minecraft:milk_bucket"
+									}]
+									Duration: 1
+									Id: 466
+									ShowIcon: 1b
+									ShowParticles: 1b
+									"forge:id": "upgrade_aquatic:insomnia"
+								}
+								{
+									Ambient: 0b
+									Amplifier: 0b
+									CurativeItems: [{
+										Count: 1b
+										id: "minecraft:milk_bucket"
+									}]
+									Duration: 3200
+									Id: 120
+									ShowIcon: 1b
+									ShowParticles: 1b
+									"forge:id": "wrd:drownage"
+								}
+								{
+									Ambient: 0b
+									Amplifier: 4b
+									CurativeItems: [ ]
+									Duration: 3200
+									Id: 305
+									ShowIcon: 1b
+									ShowParticles: 1b
+									"forge:id": "goety:sun_allergy"
+								}
+								{
+									Ambient: 0b
+									Amplifier: 1b
+									CurativeItems: [{
+										Count: 1b
+										id: "minecraft:milk_bucket"
+									}]
+									Duration: 3200
+									Id: 484
+									ShowIcon: 1b
+									ShowParticles: 1b
+									"forge:id": "undead_unleashed:entombed"
+								}
+								{
+									Ambient: 0b
+									Amplifier: 0b
+									CurativeItems: [{
+										Count: 1b
+										id: "minecraft:milk_bucket"
+									}]
+									Duration: 3200
+									Id: 122
+									ShowIcon: 1b
+									ShowParticles: 1b
+									"forge:id": "moreartifacts:virulent"
+								}
+							]
+							enchanted_arrow: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FE9B6B91EE97812"
+					table_id: 1082418901396403745L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "546D82B3929AEAE9"
+					table_id: 3510809638486895550L
+					type: "choice"
+				}
+				{
+					count: 4
+					id: "34B5143CA3B441D0"
+					item: "alexscaves:pure_darkness"
+					type: "item"
+				}
+				{
+					id: "1AB16DAF36FDD874"
+					item: {
+						Count: 1
+						id: "entropy:dark_heart"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A4D840E7A47964D"
+					item: {
+						Count: 1
+						id: "enigmaticaddons:chaos_elytra"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Kill Ur-Ghast"
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				icon: "twilightforest:ur_ghast_trophy"
+				id: "57F9A4D826C32159"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Cursed Knight?"
+			x: 16.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3EDCDDA7281BA540"]
+			description: [
+				"Observe a ... STOP-! Queen ... was the left princ- ERR404! Abort-"
+				""
+				"-- Please do not complete these quests before it is too late, adventurer ... Reward is worthless compared to."
+			]
+			icon: "twilightforest:snow_queen_trophy"
+			id: "011ACE5020BCA33F"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "6EFF67B925385C24"
+				item: {
+					Count: 1
+					id: "uniqueaccessories:still_beating_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Find Snow Queen"
+			tasks: [{
+				icon: "twilightforest:snow_queen_trophy"
+				id: "58D2FD3B24742558"
+				observe_type: 0
+				timer: 0L
+				title: "Observe a Snow Queen"
+				to_observe: "twilightforest:snow_queen"
+				type: "observation"
+			}]
+			title: "The Crying Princess"
+			x: 19.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["011ACE5020BCA33F"]
+			description: ["0seuSzTmDxKgC1zg1ATSFxIf1loH1nYMF4kQfmQNzzp6KbNvAY7a5Lc085x8UPYcz8u3PypS768cWALW75tt9FXvfYK5lupv5qCHVJdl27yoi15rWtbUNRm1udurDVESBtKTiQR9kPW40RgVR6ibSFaEJzbWH652iJMm2eMCdmSAO51nMQDo1IaLLmJuwpQ7zrxwCcJXGnV1axmyCyic5szkQR20jUubH1N2aFHP2EtaUaXpePFmHBLcOUUvdHz2GSTdQDIdwuTElMPbjghEcR0QTN3RF26pDkAlpndB7RcAWoZF7g6aP4FuWS8A4GjjLERFPSRyjLEd2ZHSV22wSerrZZEML13fmQqWkkNOG0YDOKNK7xVGpp9EPce6jIPfGvDOvz9DCsDu8mNdgRKe8PeIKu01BzCmckSVYfJCtNd3Dpfp5pDAvchVIwIVBYgIfqhfG4KNqncl9j7HQmJzYEl6uzLI1wm84rZH2fqj9IKIgtCJl63Efi6E"]
+			id: "469F2D35E66FA36B"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					id: "57683E1D9233CBD5"
+					item: "skilltree:wisdom_scroll"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "1A82DD652EE2D4AE"
+					item: {
+						Count: 1
+						id: "enigmaticaddons:void_tome"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0B9EBE7688263CE5"
+					item: {
+						Count: 1
+						id: "enigmaticaddons:forgotten_ice"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5CFBFD5B4FC5974A"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:corrupted_tome"
+						tag: { }
+					}
+					random_bonus: 24
+					type: "item"
+				}
+				{
+					command: "/say Anything is meaningless now... you just killed yourself ..."
+					icon: "twilightforest:raven_feather"
+					id: "0A973592DCCE5E4B"
+					title: "Whispering Air"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "KILL ? Who ... what -Where? Am I!?"
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				icon: "twilightforest:snow_queen_trophy"
+				id: "54EA54076CEDBB0D"
+				title: "KILL HER HAHAHAHA!"
+				type: "kill"
+				value: 1L
+			}]
+			title: "ERR404!"
+			x: 19.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["60D42F74C64B854E"]
+			description: [
+				"Find and kill a Minotaur. Can be found in a Maze in Twilight Forest dimension."
+				""
+				"&6Unlock Bull Horns in Repetitive Quests.&r"
+			]
+			id: "3118FE90931772C6"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44F959B526B1C4D2"
+				table_id: 2712499313389834944L
+				type: "random"
+			}]
+			shape: "rsquare"
+			subtitle: "Kill a Minotaur"
+			tasks: [{
+				entity: "twilightforest:minotaur"
+				icon: {
+					Count: 1
+					id: "immersive_armors:warrior_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3790852C73409B1A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Mythological Warrior"
+			x: 3.5d
+			y: 4.0d
+		}
+	]
+	title: "Elven Age"
+}
