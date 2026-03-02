@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ancient_temples:block/soul_furnace"
+    },
+    "facing=east": {
+      "model": "ancient_temples:block/soul_furnace",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ancient_temples:block/soul_furnace",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ancient_temples:block/soul_furnace",
+      "y": 270
+    }
+  }
+}

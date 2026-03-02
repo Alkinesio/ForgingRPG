@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "ancient_temples:block/cracked_red_sandstone_bircks",
+    "bottom": "ancient_temples:block/cracked_red_sandstone_bircks",
+    "top": "ancient_temples:block/cracked_red_sandstone_bircks",
+    "side": "ancient_temples:block/cracked_red_sandstone_bircks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,7 @@
+
+{
+  "parent": "ancient_temples:displaysettings/copper_jaws_item",
+  "textures": {
+    "particle": "ancient_temples:block/copper_jaws_texture"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ancient_temples:block/chiseled_endstone_top",
+    "up": "ancient_temples:block/chiseled_endstone_top",
+    "north": "ancient_temples:block/chiseled_endstone",
+    "east": "ancient_temples:block/chiseled_endstone",
+    "south": "ancient_temples:block/chiseled_endstone",
+    "west": "ancient_temples:block/chiseled_endstone",
+    "particle": "ancient_temples:block/chiseled_endstone_top"
+  },
+  "render_type": "solid"
+}

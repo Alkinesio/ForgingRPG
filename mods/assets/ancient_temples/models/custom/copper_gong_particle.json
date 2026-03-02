@@ -1,0 +1,7 @@
+
+{
+  "parent": "ancient_temples:displaysettings/gong_item",
+  "textures": {
+    "particle": "ancient_temples:block/copper_gong_texture"
+  }
+}

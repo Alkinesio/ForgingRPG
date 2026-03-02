@@ -1,0 +1,7 @@
+{
+  "parent": "ancient_temples:custom/sand_launcher",
+  "textures": {
+    "1": "ancient_temples:block/sand_launcher_texture",
+    "particle": "ancient_temples:item/sand_launcher_texture"
+  }
+}

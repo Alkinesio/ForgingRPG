@@ -1,0 +1,9 @@
+{
+  "parent": "ancient_temples:custom/ancient_tomb_-_converted",
+  "textures": {
+    "all": "ancient_temples:block/ancient_jungle_tomb",
+    "particle": "minecraft:block/chiseled_stone_bricks",
+    "0": "ancient_temples:block/ancient_jungle_tomb"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,323 @@
+{
+  "credit": "Made with Blockbench",
+  "texture_size": [
+    64,
+    32
+  ],
+  "elements": [
+    {
+      "name": "Helmet",
+      "from": [
+        3,
+        20,
+        3
+      ],
+      "to": [
+        13,
+        32,
+        13
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          8,
+          2,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            4,
+            4,
+            9
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            0,
+            4,
+            2,
+            9
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            6,
+            4,
+            8,
+            9
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            4,
+            4,
+            6,
+            9
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            4,
+            4,
+            2,
+            0
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            6,
+            0,
+            4,
+            4
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "name": "Hat Layer",
+      "from": [
+        2.5,
+        21,
+        2.5
+      ],
+      "to": [
+        13.5,
+        32,
+        13.5
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          8,
+          0,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            10,
+            4,
+            12,
+            8
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            8,
+            4,
+            10,
+            8
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            14,
+            4,
+            16,
+            8
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            12,
+            4,
+            14,
+            8
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            12,
+            4,
+            10,
+            0
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            14,
+            0,
+            12,
+            4
+          ],
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [
+        0,
+        -7.75,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        0,
+        -7.75,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "firstperson_righthand": {
+      "translation": [
+        0,
+        -7,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "firstperson_lefthand": {
+      "translation": [
+        0,
+        -7,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        -5.75,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "gui": {
+      "rotation": [
+        22,
+        135,
+        0
+      ],
+      "translation": [
+        0,
+        1.25,
+        0
+      ]
+    },
+    "head": {
+      "translation": [
+        0,
+        -24.25,
+        0
+      ],
+      "scale": [
+        1.46,
+        1.46,
+        1.46
+      ]
+    },
+    "fixed": {
+      "translation": [
+        0,
+        -18,
+        -4
+      ]
+    }
+  },
+  "groups": [
+    {
+      "name": "Head",
+      "origin": [
+        8,
+        24,
+        8
+      ],
+      "color": 0,
+      "children": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Body",
+      "origin": [
+        8,
+        24,
+        8
+      ],
+      "color": 0,
+      "children": []
+    },
+    {
+      "name": "RightArm",
+      "origin": [
+        13,
+        22,
+        8
+      ],
+      "color": 0,
+      "children": []
+    },
+    {
+      "name": "LeftArm",
+      "origin": [
+        3,
+        22,
+        8
+      ],
+      "color": 0,
+      "children": []
+    },
+    {
+      "name": "RightLeg",
+      "origin": [
+        9.9,
+        12,
+        8
+      ],
+      "color": 0,
+      "children": []
+    },
+    {
+      "name": "LeftLeg",
+      "origin": [
+        6.1,
+        12,
+        8
+      ],
+      "color": 0,
+      "children": []
+    }
+  ]
+}

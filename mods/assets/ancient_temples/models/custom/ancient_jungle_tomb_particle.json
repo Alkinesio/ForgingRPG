@@ -1,0 +1,7 @@
+
+{
+  "parent": "ancient_temples:displaysettings/pot.animation",
+  "textures": {
+    "particle": "ancient_temples:block/ancient_jungle_tomb"
+  }
+}

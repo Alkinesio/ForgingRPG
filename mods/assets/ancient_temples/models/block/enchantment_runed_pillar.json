@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ancient_temples:block/runed_pillar_top_anim",
+    "up": "ancient_temples:block/runed_pillar_top_anim",
+    "north": "ancient_temples:block/enchantment_rune",
+    "east": "ancient_temples:block/enchantment_rune",
+    "south": "ancient_temples:block/enchantment_rune",
+    "west": "ancient_temples:block/enchantment_rune",
+    "particle": "ancient_temples:block/runed_pillar_top_anim"
+  },
+  "render_type": "solid"
+}

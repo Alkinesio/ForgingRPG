@@ -1,0 +1,20 @@
+{
+  "enderlord_soundtrack": {
+    "subtitle": "subtitles.enderlord_soundtrack",
+    "sounds": [
+      {
+        "name": "ancient_temples:ancient_temple",
+        "stream": true
+      }
+    ]
+  },
+  "gong_sound": {
+    "subtitle": "subtitles.gong_sound",
+    "sounds": [
+      {
+        "name": "ancient_temples:gong_sound",
+        "stream": false
+      }
+    ]
+  }
+}

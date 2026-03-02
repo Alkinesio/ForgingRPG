@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "ancient_temples:item/ancient_tomb"
+  },
+  "render_type": "translucent"
+}

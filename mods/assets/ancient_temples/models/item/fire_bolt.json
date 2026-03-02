@@ -1,0 +1,7 @@
+{
+  "parent": "ancient_temples:custom/lightning_bolt",
+  "textures": {
+    "0": "ancient_temples:block/lightning_bolt",
+    "particle": "ancient_temples:item/fire_bolt_animated"
+  }
+}

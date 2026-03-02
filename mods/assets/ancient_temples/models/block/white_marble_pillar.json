@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ancient_temples:block/white_marble_pillar_top",
+    "up": "ancient_temples:block/white_marble_pillar_top",
+    "north": "ancient_temples:block/white_marble_pillar_side",
+    "east": "ancient_temples:block/white_marble_pillar_side",
+    "south": "ancient_temples:block/white_marble_pillar_side",
+    "west": "ancient_temples:block/white_marble_pillar_side",
+    "particle": "ancient_temples:block/white_marble_pillar_top"
+  },
+  "render_type": "solid"
+}

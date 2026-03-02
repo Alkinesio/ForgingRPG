@@ -1,0 +1,45 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.copper_jaws",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "jaws",
+					"pivot": [0, 0.3, 0]
+				},
+				{
+					"name": "rod",
+					"parent": "jaws",
+					"pivot": [0, 0.3, 0],
+					"cubes": [
+						{"origin": [-1, 0.5, -8.5], "size": [2, 2, 17], "uv": [0, 40]}
+					]
+				},
+				{
+					"name": "jaw2",
+					"parent": "jaws",
+					"pivot": [0, 1.3, 0],
+					"cubes": [
+						{"origin": [-9, 0.3, -8], "size": [10, 4, 16], "inflate": 0.1, "uv": [0, 20]}
+					]
+				},
+				{
+					"name": "jaw1",
+					"parent": "jaws",
+					"pivot": [0, 1.3, 0],
+					"cubes": [
+						{"origin": [-1, 0.3, -8], "size": [10, 4, 16], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ancient_temples:block/desert_gold_lock_block"
+    },
+    "facing=east": {
+      "model": "ancient_temples:block/desert_gold_lock_block",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ancient_temples:block/desert_gold_lock_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ancient_temples:block/desert_gold_lock_block",
+      "y": 270
+    }
+  }
+}

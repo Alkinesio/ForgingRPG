@@ -1,0 +1,6 @@
+{
+  "parent": "ancient_temples:displaysettings/pot.animation",
+  "textures": {
+    "particle": "ancient_temples:block/pot_1_texture"
+  }
+}

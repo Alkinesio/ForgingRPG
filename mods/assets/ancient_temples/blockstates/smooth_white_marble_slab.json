@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ancient_temples:block/smooth_white_marble_slab"
+    },
+    "type=top": {
+      "model": "ancient_temples:block/smooth_white_marble_slab_top"
+    },
+    "type=double": {
+      "model": "ancient_temples:block/smooth_white_marble_slab_full"
+    }
+  }
+}

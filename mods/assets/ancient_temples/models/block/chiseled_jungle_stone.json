@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ancient_temples:block/chiseled_1",
+    "up": "ancient_temples:block/chiseled_1",
+    "north": "ancient_temples:block/chiseled_side",
+    "east": "ancient_temples:block/smooth_jungle_stone",
+    "south": "ancient_temples:block/smooth_jungle_stone",
+    "west": "ancient_temples:block/smooth_jungle_stone",
+    "particle": "ancient_temples:block/chiseled_1"
+  },
+  "render_type": "solid"
+}

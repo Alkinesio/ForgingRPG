@@ -1,0 +1,7 @@
+
+{
+  "parent": "ancient_temples:displaysettings/binding_table_display",
+  "textures": {
+    "particle": "ancient_temples:block/binding_table_revised_texture"
+  }
+}

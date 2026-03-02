@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_side",
+  "textures": {
+    "wall": "ancient_temples:block/cracked_sandstone_bricks",
+    "particle": "ancient_temples:block/cracked_sandstone_bricks"
+  },
+  "render_type": "solid"
+}

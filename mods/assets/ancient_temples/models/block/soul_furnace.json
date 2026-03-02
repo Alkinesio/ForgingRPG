@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/deepslate_top",
+    "up": "ancient_temples:block/soul_furnace_top",
+    "north": "ancient_temples:block/soul_furnace",
+    "east": "minecraft:block/deepslate",
+    "south": "minecraft:block/deepslate",
+    "west": "minecraft:block/deepslate",
+    "particle": "minecraft:block/deepslate_top"
+  },
+  "render_type": "solid"
+}

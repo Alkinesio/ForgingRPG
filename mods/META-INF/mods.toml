@@ -1,0 +1,41 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="ancient_temples"
+version="2.1.1"
+displayName="Ancient Temples"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+credits="Created with help from MCreator - https://mcreator.net/about"
+authors="BattleForge (Rudz\u00EEn Studios), MCreator"
+description="Adds new temples and entities in a Vanilla way."
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.ancient_temples]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+[[dependencies.ancient_temples]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.ancient_temples]]
+    modId="jei"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

@@ -1,0 +1,117 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 192,
+				"texture_height": 192,
+				"visible_bounds_width": 8,
+				"visible_bounds_height": 6.5,
+				"visible_bounds_offset": [0, 2.75, 0]
+			},
+			"bones": [
+				{
+					"name": "head",
+					"pivot": [0, 67, -1],
+					"cubes": [
+						{"origin": [-10, 65, -10], "size": [20, 20, 20], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "mushroom",
+					"parent": "head",
+					"pivot": [-5, 85, -2],
+					"cubes": [
+						{"origin": [-5, 85, -7], "size": [0, 8, 8], "pivot": [-5, 85, -2], "rotation": [0, -5, 0], "uv": [144, 16]},
+						{"origin": [-6, 85, -8], "size": [0, 8, 8], "pivot": [-6, 85, -3], "rotation": [0, -90, 0], "uv": [144, 16]}
+					]
+				},
+				{
+					"name": "right_arm",
+					"pivot": [-32, 64, -1],
+					"cubes": [
+						{"origin": [-40, 48, -8], "size": [16, 16, 16], "uv": [128, 96]},
+						{"origin": [-40, 32, -8], "size": [16, 16, 16], "uv": [128, 128]}
+					]
+				},
+				{
+					"name": "left_arm",
+					"pivot": [32, 64, -1],
+					"cubes": [
+						{"origin": [24, 48, -8], "size": [16, 16, 16], "uv": [0, 136]},
+						{"origin": [24, 32, -8], "size": [16, 16, 16], "uv": [64, 136]}
+					]
+				},
+				{
+					"name": "body",
+					"pivot": [0, 49.6, 0],
+					"cubes": [
+						{"origin": [-16, 32, -8], "size": [16, 16, 16], "uv": [0, 104]},
+						{"origin": [-24, 48, -8], "size": [16, 16, 16], "uv": [128, 64]},
+						{"origin": [-8, 48, -8], "size": [16, 16, 16], "uv": [128, 32]},
+						{"origin": [8, 48, -8], "size": [16, 16, 16], "uv": [64, 104]},
+						{"origin": [0, 32, -8], "size": [16, 16, 16], "uv": [80, 0]},
+						{"origin": [6, 65.2, 7], "size": [16, 16, 0], "pivot": [21, 65, 8], "rotation": [90, 0, 0], "uv": [1, 176]}
+					]
+				},
+				{
+					"name": "vine",
+					"parent": "body",
+					"pivot": [14, 65, 8],
+					"cubes": [
+						{"origin": [6, 48, 11], "size": [16, 16, 0], "pivot": [21, 48, 12], "rotation": [10, 0, 0], "uv": [1, 176]}
+					]
+				},
+				{
+					"name": "vine_extra",
+					"parent": "vine",
+					"pivot": [14, 47, 11],
+					"cubes": [
+						{"origin": [6, 32.3, 13.9], "size": [16, 16, 0], "pivot": [21, 32, 15], "rotation": [10, 0, 0], "uv": [1, 176]}
+					]
+				},
+				{
+					"name": "LeftLeg",
+					"pivot": [15, 31, -1]
+				},
+				{
+					"name": "LeftLegUpper",
+					"parent": "LeftLeg",
+					"pivot": [15, 32, -1],
+					"cubes": [
+						{"origin": [3, 16, -8], "size": [16, 16, 16], "uv": [64, 72]}
+					]
+				},
+				{
+					"name": "LeftLegLower",
+					"parent": "LeftLeg",
+					"pivot": [15, 32, -1],
+					"cubes": [
+						{"origin": [3, 0, -8], "size": [16, 16, 16], "uv": [0, 40]}
+					]
+				},
+				{
+					"name": "RightLeg",
+					"pivot": [17, 32, -1]
+				},
+				{
+					"name": "RightLegUpper",
+					"parent": "RightLeg",
+					"pivot": [17, 32, -1],
+					"cubes": [
+						{"origin": [-19, 16, -8], "size": [16, 16, 16], "uv": [0, 72]}
+					]
+				},
+				{
+					"name": "RightLegLower",
+					"parent": "RightLeg",
+					"pivot": [17, 32, -1],
+					"cubes": [
+						{"origin": [-19, 0, -8], "size": [16, 16, 16], "uv": [64, 40]}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,55 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 48,
+				"texture_height": 48,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "copper_gong",
+					"pivot": [0, 7.5, 0],
+					"cubes": [
+						{"origin": [6, 0, -1], "size": [2, 16, 2], "uv": [18, 12]},
+						{"origin": [-8, 0, -1], "size": [2, 16, 2], "uv": [18, 12]}
+					]
+				},
+				{
+					"name": "chains",
+					"parent": "copper_gong",
+					"pivot": [0, 14.5, 0]
+				},
+				{
+					"name": "chain1",
+					"parent": "chains",
+					"pivot": [4, 13.5, 0],
+					"cubes": [
+						{"origin": [3, 12, 0], "size": [4, 3, 0], "pivot": [5, 13.5, 0], "rotation": [0, 0, -32.5], "uv": [8, 21]}
+					]
+				},
+				{
+					"name": "chain2",
+					"parent": "chains",
+					"pivot": [-5, 13.5, 0],
+					"cubes": [
+						{"origin": [-7, 12, 0], "size": [4, 3, 0], "pivot": [-5, 13.5, 0], "rotation": [0, 0, 32.5], "uv": [9, 21]}
+					]
+				},
+				{
+					"name": "gong",
+					"parent": "copper_gong",
+					"pivot": [0, 13.5, 0],
+					"cubes": [
+						{"origin": [-3, 5, -1.5], "size": [6, 6, 3], "inflate": 0.5, "uv": [0, 12]},
+						{"origin": [-5, 3, -1], "size": [10, 10, 2], "inflate": 0.5, "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

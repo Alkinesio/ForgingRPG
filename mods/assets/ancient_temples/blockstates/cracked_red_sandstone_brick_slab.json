@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ancient_temples:block/cracked_red_sandstone_brick_slab"
+    },
+    "type=top": {
+      "model": "ancient_temples:block/cracked_red_sandstone_brick_slab_top"
+    },
+    "type=double": {
+      "model": "ancient_temples:block/cracked_red_sandstone_brick_slab_full"
+    }
+  }
+}

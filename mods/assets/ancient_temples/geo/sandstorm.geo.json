@@ -1,0 +1,64 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.sandstorm",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "sandstorm",
+					"pivot": [0, 12, 6]
+				},
+				{
+					"name": "head",
+					"parent": "sandstorm",
+					"pivot": [0, 21, 0],
+					"cubes": [
+						{"origin": [-4, 17, -4], "size": [8, 8, 8], "uv": [0, 14]},
+						{"origin": [-3, 18, -3], "size": [6, 6, 6], "uv": [32, 14]}
+					]
+				},
+				{
+					"name": "lowercircle",
+					"parent": "sandstorm",
+					"pivot": [0, 11, 0],
+					"cubes": [
+						{"origin": [-4, 5, -4], "size": [8, 2, 8], "uv": [0, 30]}
+					]
+				},
+				{
+					"name": "uppercircle",
+					"parent": "sandstorm",
+					"pivot": [0, 11, 0],
+					"cubes": [
+						{"origin": [-6, 11, -6], "size": [12, 2, 12], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "sand1",
+					"parent": "sandstorm",
+					"pivot": [0, 6, 0],
+					"cubes": [
+						{"origin": [-6, 2, -1], "size": [4, 4, 4], "pivot": [-4, 2, 0], "rotation": [4.99527, -0.21782, 2.4905], "uv": [32, 26]},
+						{"origin": [-1.5203, 12.48296, 4.54139], "size": [4, 4, 4], "pivot": [0, 7, 0], "rotation": [-4.98107, -0.43523, -4.98107], "uv": [32, 26]}
+					]
+				},
+				{
+					"name": "sand2",
+					"parent": "sandstorm",
+					"pivot": [1, 7, 0],
+					"cubes": [
+						{"origin": [3.9, 8, -2], "size": [4, 4, 4], "pivot": [5.9, 8, -1], "rotation": [2.5, 0, -2.5], "uv": [32, 26]},
+						{"origin": [-0.94683, 5.39223, -7.97336], "size": [4, 4, 4], "pivot": [1, 6, 0], "rotation": [-4.98107, 0.43523, 4.98107], "uv": [32, 26]}
+					]
+				}
+			]
+		}
+	]
+}

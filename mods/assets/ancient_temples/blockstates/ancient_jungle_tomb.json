@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ancient_temples:custom/ancient_jungle_tomb_particle"
+    },
+    "facing=east": {
+      "model": "ancient_temples:custom/ancient_jungle_tomb_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ancient_temples:custom/ancient_jungle_tomb_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ancient_temples:custom/ancient_jungle_tomb_particle",
+      "y": 270
+    }
+  }
+}

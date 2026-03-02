@@ -1,0 +1,9 @@
+{
+  "parent": "ancient_temples:custom/trapped_sand_activated",
+  "textures": {
+    "all": "ancient_temples:block/sand",
+    "particle": "ancient_temples:block/sand",
+    "0": "ancient_temples:block/sand"
+  },
+  "render_type": "solid"
+}

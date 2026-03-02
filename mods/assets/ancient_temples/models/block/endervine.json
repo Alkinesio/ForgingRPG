@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "ancient_temples:block/endervines",
+    "particle": "ancient_temples:block/endervines"
+  },
+  "render_type": "cutout_mipped"
+}

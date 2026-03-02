@@ -1,0 +1,7 @@
+
+{
+  "parent": "ancient_temples:displaysettings/phoenix_egg_item",
+  "textures": {
+    "particle": "ancient_temples:block/phoenix_egg"
+  }
+}

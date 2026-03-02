@@ -1,0 +1,7 @@
+{
+  "parent": "ancient_temples:custom/jungle_shield_blocking",
+  "textures": {
+    "0": "ancient_temples:block/jungle_shield_texture",
+    "particle": "ancient_temples:item/jungle_shield_texture"
+  }
+}

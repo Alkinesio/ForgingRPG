@@ -1,0 +1,11 @@
+{
+  "parent": "ancient_temples:custom/soul_burner",
+  "textures": {
+    "all": "ancient_temples:block/soul_burner_texture",
+    "particle": "minecraft:block/blackstone_top",
+    "0": "ancient_temples:block/soul_burner_texture",
+    "1": "minecraft:block/soul_sand",
+    "2": "ancient_temples:block/soul_flame"
+  },
+  "render_type": "cutout_mipped"
+}

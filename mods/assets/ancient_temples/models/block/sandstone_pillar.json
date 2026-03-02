@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ancient_temples:block/sandstone_pillar_top",
+    "up": "ancient_temples:block/sandstone_pillar_top",
+    "north": "ancient_temples:block/sandstone_pillar_sdie",
+    "east": "ancient_temples:block/sandstone_pillar_sdie",
+    "south": "ancient_temples:block/sandstone_pillar_sdie",
+    "west": "ancient_temples:block/sandstone_pillar_sdie",
+    "particle": "ancient_temples:block/sandstone_pillar_top"
+  },
+  "render_type": "solid"
+}

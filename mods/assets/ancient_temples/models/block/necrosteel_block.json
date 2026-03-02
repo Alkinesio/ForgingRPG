@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ancient_temples:block/necrosteel_block",
+    "particle": "ancient_temples:block/necrosteel_block"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,7 @@
+
+{
+  "parent": "ancient_temples:displaysettings/sarcophagus_item",
+  "textures": {
+    "particle": "ancient_temples:block/sarcophagus_texture"
+  }
+}

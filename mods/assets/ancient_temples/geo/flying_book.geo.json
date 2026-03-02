@@ -1,0 +1,66 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "book",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "spine",
+					"parent": "book",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-1, 1, -4], "size": [2, 0, 8], "uv": [16, 38]},
+						{"origin": [-1, -0.2, -5], "size": [2, 0, 10], "uv": [20, 0]}
+					]
+				},
+				{
+					"name": "back",
+					"parent": "book",
+					"pivot": [-1, 0, 0],
+					"rotation": [0, 0, -50],
+					"cubes": [
+						{"origin": [-1, 0, -4], "size": [1, 6, 8], "uv": [20, 24]},
+						{"origin": [-1.2, 0, -5], "size": [0, 7, 10], "uv": [0, 17]}
+					]
+				},
+				{
+					"name": "back_page",
+					"parent": "back",
+					"pivot": [1, 0, 0],
+					"cubes": [
+						{"origin": [0, 0, -4], "size": [0, 6, 8], "uv": [38, 10]}
+					]
+				},
+				{
+					"name": "front",
+					"parent": "book",
+					"pivot": [1, 0, 0],
+					"rotation": [0, 0, 50],
+					"cubes": [
+						{"origin": [0, 0, -4], "size": [1, 6, 8], "uv": [20, 10]},
+						{"origin": [1.2, 0, -5], "size": [0, 7, 10], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "front_page",
+					"parent": "front",
+					"pivot": [1, 0, 0],
+					"cubes": [
+						{"origin": [0, 0, -4], "size": [0, 6, 8], "uv": [0, 34]}
+					]
+				}
+			]
+		}
+	]
+}

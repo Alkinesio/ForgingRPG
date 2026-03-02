@@ -1,0 +1,15 @@
+{
+  "parent": "ancient_temples:custom/jungle_shield",
+  "textures": {
+    "0": "ancient_temples:block/jungle_shield_texture",
+    "particle": "ancient_temples:item/jungle_shield_texture"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "ancient_temples:item/jungle_shield_0"
+    }
+  ]
+}

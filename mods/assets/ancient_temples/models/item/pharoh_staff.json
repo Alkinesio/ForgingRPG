@@ -1,0 +1,7 @@
+{
+  "parent": "ancient_temples:custom/pharoh_staff",
+  "textures": {
+    "0": "ancient_temples:block/pharoh_staff_texture",
+    "particle": "ancient_temples:item/ankh"
+  }
+}

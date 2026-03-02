@@ -1,0 +1,7 @@
+{
+  "parent": "ancient_temples:custom/endersword",
+  "textures": {
+    "1": "ancient_temples:block/ender_lord_texture",
+    "particle": "minecraft:item/diamond_sword"
+  }
+}

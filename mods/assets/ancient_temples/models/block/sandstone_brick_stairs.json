@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "ancient_temples:block/sandstone_bricks",
+    "bottom": "ancient_temples:block/sandstone_bricks",
+    "top": "ancient_temples:block/sandstone_bricks",
+    "side": "ancient_temples:block/sandstone_bricks"
+  },
+  "render_type": "solid"
+}

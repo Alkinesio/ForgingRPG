@@ -1,0 +1,7 @@
+
+{
+  "parent": "ancient_temples:displaysettings/sandstone_statue_item",
+  "textures": {
+    "particle": "ancient_temples:block/sandstone_statue"
+  }
+}

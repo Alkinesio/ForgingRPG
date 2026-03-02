@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ancient_temples:block/deepslate_ruby_top_bottom",
+    "up": "ancient_temples:block/deepslate_ruby_top_bottom",
+    "north": "ancient_temples:block/deepslate_ruby_side",
+    "east": "ancient_temples:block/deepslate_ruby_side",
+    "south": "ancient_temples:block/deepslate_ruby_side",
+    "west": "ancient_temples:block/deepslate_ruby_side",
+    "particle": "ancient_temples:block/deepslate_ruby_top_bottom"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,91 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "scarab",
+					"pivot": [0, 3, 1]
+				},
+				{
+					"name": "head",
+					"parent": "scarab",
+					"pivot": [0, 3, -3],
+					"cubes": [
+						{"origin": [-1.5, 2, -5], "size": [3, 2, 2], "uv": [0, 17]},
+						{"origin": [0, 2.3, -6.5], "size": [0, 2, 2], "pivot": [0, 2.3, -5.5], "rotation": [-7.5, 0, 0], "uv": [10, 17]}
+					]
+				},
+				{
+					"name": "body",
+					"parent": "scarab",
+					"pivot": [0, 3, -5],
+					"cubes": [
+						{"origin": [-2.5, 2, -3], "size": [5, 3, 8], "inflate": 0.2, "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "legs",
+					"parent": "scarab",
+					"pivot": [0, 3, -5]
+				},
+				{
+					"name": "frl",
+					"parent": "legs",
+					"pivot": [-3, 3, -3],
+					"cubes": [
+						{"origin": [-9.34202, 2.06031, -3], "size": [7, 1, 1], "pivot": [-3, 3, -2], "rotation": [18.44741, -60.87208, -40.90025], "uv": [16, 13]}
+					]
+				},
+				{
+					"name": "fll",
+					"parent": "legs",
+					"pivot": [3, 2, -3],
+					"cubes": [
+						{"origin": [2.34202, 2.06031, -3], "size": [7, 1, 1], "pivot": [3, 3, -2], "rotation": [18.44741, 60.87208, 40.90025], "uv": [16, 15]}
+					]
+				},
+				{
+					"name": "mrl",
+					"parent": "legs",
+					"pivot": [-3, 3, 0],
+					"cubes": [
+						{"origin": [-9, 2.5, 0], "size": [7, 1, 1], "pivot": [-3, 2.5, 0], "rotation": [0, 0, -20], "uv": [0, 11]}
+					]
+				},
+				{
+					"name": "mll",
+					"parent": "legs",
+					"pivot": [2, 2, 0],
+					"cubes": [
+						{"origin": [2, 2.5, 0], "size": [7, 1, 1], "pivot": [2, 2.5, 0], "rotation": [0, 0, 20], "uv": [0, 13]}
+					]
+				},
+				{
+					"name": "brl",
+					"parent": "legs",
+					"pivot": [-3, 3, 3],
+					"cubes": [
+						{"origin": [-9, 2, 3], "size": [7, 1, 1], "pivot": [-3, 2, 3], "rotation": [0, 50, -35], "uv": [16, 11]}
+					]
+				},
+				{
+					"name": "bll",
+					"parent": "legs",
+					"pivot": [3, 3, 3],
+					"cubes": [
+						{"origin": [2, 2, 3], "size": [7, 1, 1], "pivot": [3, 2, 3], "rotation": [0, -50, 35], "uv": [0, 15]}
+					]
+				}
+			]
+		}
+	]
+}

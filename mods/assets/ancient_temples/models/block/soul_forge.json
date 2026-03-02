@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/spawner",
+    "up": "ancient_temples:block/spawn_core_crafter_top",
+    "north": "minecraft:block/spawner",
+    "east": "minecraft:block/spawner",
+    "south": "minecraft:block/spawner",
+    "west": "minecraft:block/spawner",
+    "particle": "minecraft:block/spawner"
+  },
+  "render_type": "cutout_mipped"
+}

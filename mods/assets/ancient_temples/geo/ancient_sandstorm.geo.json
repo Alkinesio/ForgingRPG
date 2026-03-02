@@ -1,0 +1,112 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.ancient sandstorm",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 6.5,
+				"visible_bounds_offset": [0, 2.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bb_main",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-9, 74, -9], "size": [18, 7, 18], "uv": [0, 103]}
+					]
+				},
+				{
+					"name": "ancient_sandstorm",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "head",
+					"parent": "ancient_sandstorm",
+					"pivot": [0, 38, 0],
+					"cubes": [
+						{"origin": [-8, 64, -8], "size": [16, 16, 16], "uv": [0, 24]}
+					]
+				},
+				{
+					"name": "sand1",
+					"parent": "ancient_sandstorm",
+					"pivot": [18, 42, 6],
+					"cubes": [
+						{"origin": [13, 37, 1], "size": [10, 10, 10], "uv": [64, 24]}
+					]
+				},
+				{
+					"name": "sand2",
+					"parent": "ancient_sandstorm",
+					"pivot": [17, 37, 5],
+					"cubes": [
+						{"origin": [-2, 42, -15], "size": [10, 10, 10], "uv": [64, 24]}
+					]
+				},
+				{
+					"name": "sand3",
+					"parent": "ancient_sandstorm",
+					"pivot": [0, 49, 17],
+					"cubes": [
+						{"origin": [-4, 49, 13], "size": [10, 10, 10], "uv": [64, 24]}
+					]
+				},
+				{
+					"name": "sand4",
+					"parent": "ancient_sandstorm",
+					"pivot": [3, 15, 0],
+					"cubes": [
+						{"origin": [-1, 15, -4], "size": [10, 10, 10], "uv": [64, 24]}
+					]
+				},
+				{
+					"name": "sand5",
+					"parent": "ancient_sandstorm",
+					"pivot": [-11, 34, 0],
+					"cubes": [
+						{"origin": [-15, 34, -4], "size": [10, 10, 10], "uv": [64, 24]}
+					]
+				},
+				{
+					"name": "uppercircle",
+					"parent": "ancient_sandstorm",
+					"pivot": [0, 38, 0],
+					"cubes": [
+						{"origin": [-11, 38, -11], "size": [22, 2, 22], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "lowercircle",
+					"parent": "ancient_sandstorm",
+					"pivot": [0, 38, 0],
+					"cubes": [
+						{"origin": [-8, 20, -8], "size": [16, 2, 16], "uv": [0, 56]}
+					]
+				},
+				{
+					"name": "ankh",
+					"parent": "ancient_sandstorm",
+					"pivot": [0, 54.26923, 0],
+					"cubes": [
+						{"origin": [-2, 45, -0.5], "size": [4, 1, 1], "uv": [54, 82]},
+						{"origin": [-2, 60, -0.5], "size": [4, 1, 1], "uv": [88, 4]},
+						{"origin": [-2, 48, -0.5], "size": [4, 3, 1], "uv": [54, 78]},
+						{"origin": [-3, 46, -0.5], "size": [6, 2, 1], "uv": [40, 78]},
+						{"origin": [-3, 55, -0.5], "size": [6, 1, 1], "uv": [40, 81]},
+						{"origin": [-3, 59, -0.5], "size": [6, 1, 1], "uv": [88, 2]},
+						{"origin": [-4, 56, -0.5], "size": [8, 1, 1], "uv": [40, 74]},
+						{"origin": [-4, 58, -0.5], "size": [8, 1, 1], "uv": [40, 76]},
+						{"origin": [-6, 51, -0.5], "size": [12, 1, 1], "uv": [88, 0]},
+						{"origin": [-7, 52, -0.5], "size": [14, 1, 1], "uv": [80, 87]},
+						{"origin": [-8, 53, -0.5], "size": [16, 2, 1], "uv": [80, 84]},
+						{"origin": [1, 57, -0.5], "size": [3, 1, 1], "uv": [88, 6]},
+						{"origin": [-4, 57, -0.5], "size": [3, 1, 1], "uv": [88, 8]}
+					]
+				}
+			]
+		}
+	]
+}

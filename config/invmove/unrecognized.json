@@ -38,7 +38,8 @@
     "io.wispforest.accessories.client.gui.AccessoriesScreen": true,
     "com.github.alexthe666.alexsmobs.client.gui.GUIAnimalDictionary": true,
     "net.minecraft.client.gui.screens.packs.PackSelectionScreen": true,
-    "net.mcreator.realmrpgquests.client.gui.QuestBookPageAScreen": true
+    "net.mcreator.realmrpgquests.client.gui.QuestBookPageAScreen": true,
+    "betteradvancements.common.gui.BetterAdvancementsScreen": true
   },
   "hideBackground": {
     "net.mcreator.monsterhuntervillager.client.gui.HuntersTableGuiScreen": true,

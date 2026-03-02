@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ancient_temples:block/white_marble",
+    "particle": "ancient_temples:block/white_marble"
+  },
+  "render_type": "solid"
+}

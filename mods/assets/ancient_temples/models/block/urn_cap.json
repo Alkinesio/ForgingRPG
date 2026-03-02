@@ -1,0 +1,9 @@
+{
+  "parent": "ancient_temples:custom/pot_top",
+  "textures": {
+    "all": "ancient_temples:block/pot_top_texture",
+    "particle": "ancient_temples:block/block_of_copper_29_je1_be1_1",
+    "0": "ancient_temples:block/pot_top_texture"
+  },
+  "render_type": "solid"
+}

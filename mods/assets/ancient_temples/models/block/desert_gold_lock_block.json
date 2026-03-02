@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ancient_temples:block/more_chiseled_desert_gold_",
+    "up": "ancient_temples:block/more_chiseled_desert_gold_",
+    "north": "ancient_temples:block/desert_gold_lock_block",
+    "east": "ancient_temples:block/more_chiseled_desert_gold_",
+    "south": "ancient_temples:block/more_chiseled_desert_gold_",
+    "west": "ancient_temples:block/more_chiseled_desert_gold_",
+    "particle": "ancient_temples:block/more_chiseled_desert_gold_"
+  },
+  "render_type": "solid"
+}
