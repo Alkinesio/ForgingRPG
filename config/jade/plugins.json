@@ -51,21 +51,12 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "jadeaddons": {
-    "equipment_requirement": ""
-  },
-  "hammerlib": {
-    "root": true
+  "opposing_force": {
+    "skyvern_segment": true
   },
   "tombstone": {
     "decorative_graves": true,
     "player_graves": true
-  },
-  "jadeaddons.lootr": {
-    "info": true
-  },
-  "twilightforest": {
-    "quest_ram_wool": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -79,6 +70,21 @@
     "adventure": true,
     "ench": true,
     "spawner": true
+  },
+  "balm": {
+    "jade": true
+  },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
+  "hammerlib": {
+    "root": true
+  },
+  "jadeaddons.lootr": {
+    "info": true
+  },
+  "twilightforest": {
+    "quest_ram_wool": true
   },
   "waystones": {
     "waystone": true
@@ -98,8 +104,5 @@
   },
   "beer": {
     "beer": true
-  },
-  "balm": {
-    "jade": true
   }
 }
