@@ -1,0 +1,12 @@
+{
+	id: "693811F745CC2B2E"
+	loot_size: 1
+	order_index: 29
+	rewards: [
+		{ item: "minecraft:bone_meal" }
+		{ count: 3, item: "minecraft:bone_meal", weight: 10.0f }
+		{ item: "minecraft:iron_nugget", weight: 0.05f }
+		{ item: "minecraft:gold_nugget", weight: 0.02f }
+	]
+	title: "Random Date of Coconut Reward"
+}

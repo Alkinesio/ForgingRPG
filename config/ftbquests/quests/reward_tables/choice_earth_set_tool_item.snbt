@@ -1,0 +1,44 @@
+{
+	id: "581151FB25F0E8A6"
+	loot_size: 1
+	order_index: 25
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "iter_rpg:earth_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "iter_rpg:earth_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "iter_rpg:earth_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "iter_rpg:earth_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Choice Earth Set Tool Item"
+}

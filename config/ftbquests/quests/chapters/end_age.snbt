@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "end_age"
 	group: "4EAC48A88230D604"
+	icon: "minecraft:ender_eye"
 	id: "24CBED2106EB7CAD"
 	order_index: 5
 	quest_links: [ ]

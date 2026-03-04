@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "opposite_age"
 	group: "4EAC48A88230D604"
+	icon: "blue_skies:everbright_portal"
 	id: "22C78FA6DE83CDCD"
 	order_index: 6
 	quest_links: [ ]

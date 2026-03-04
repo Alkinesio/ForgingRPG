@@ -25,12 +25,12 @@
       "minValue": 9
     }
   ],
-  "directConnections": [
-    "skilltree:utility_1"
-  ],
+  "directConnections": [],
   "longConnections": [],
   "oneWayConnections": [],
-  "tags": [],
+  "tags": [
+    "Sub-class"
+  ],
   "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
   "iconTexture": "minecraft:textures/item/excalibur/custom_name/netherite_hammer.png",
   "borderTexture": "skilltree:textures/tooltip/keystone.png",

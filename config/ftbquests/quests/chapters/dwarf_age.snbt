@@ -1238,23 +1238,10 @@
 			icon: "twilightforest:hollow_oak_sapling"
 			id: "679118BA35BBBB17"
 			rewards: [{
-				id: "0A20943F6FC90C33"
-				item: {
-					Count: 1
-					id: "relics:magic_mirror"
-					tag: {
-						abilities: {
-							teleport: {
-								points: 0
-								stats: {
-									cooldown: 98.99309d
-									distance: 589.0307d
-								}
-							}
-						}
-					}
-				}
-				type: "item"
+				exclude_from_claim_all: true
+				id: "00889504009EBC76"
+				table_id: 1947678754303701807L
+				type: "choice"
 			}]
 			subtitle: "Enter the Twilight Forest dimension"
 			tasks: [{

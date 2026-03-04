@@ -1,0 +1,10 @@
+{
+	id: "7016AD901D8AB8ED"
+	loot_size: 1
+	order_index: 28
+	rewards: [
+		{ item: "coinsje:copper_coin", random_bonus: 4 }
+		{ item: "iceandfire:copper_nugget", random_bonus: 4 }
+	]
+	title: "Random Orange Team, Assemble! Reward"
+}

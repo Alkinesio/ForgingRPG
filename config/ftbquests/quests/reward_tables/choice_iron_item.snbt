@@ -38,9 +38,15 @@
 		{
 			item: {
 				Count: 1
-				id: "minecraft:shield"
+				id: "expanded_combat:shield_1"
 				tag: {
+					DL_Material: "Leather"
+					DR_Material: "Leather"
 					Damage: 0
+					Last_Repair_Number: 0
+					M_Material: "Iron"
+					UL_Material: "Leather"
+					UR_Material: "Leather"
 				}
 			}
 		}

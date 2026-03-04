@@ -3,6 +3,11 @@
 	default_quest_shape: ""
 	filename: "aether_age"
 	group: "4EAC48A88230D604"
+	icon: {
+		Count: 1
+		id: "aether:aether_portal_frame"
+		tag: { }
+	}
 	id: "66174DDCCF657C74"
 	order_index: 7
 	quest_links: [ ]

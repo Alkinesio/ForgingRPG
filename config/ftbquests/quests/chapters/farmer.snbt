@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "farmer"
 	group: "128D85F361410B35"
+	hide_quest_until_deps_complete: true
 	icon: "enigmaticaddons:earth_heart_fragment"
 	id: "0D202D00F43212CA"
 	images: [
@@ -76,7 +77,7 @@
 			image: "biomeswevegone:block/blueberry_bush_stage3"
 			rotation: 0.0d
 			width: 1.15d
-			x: 3.5d
+			x: 3.25d
 			y: -1.0d
 		}
 		{
@@ -192,6 +193,845 @@
 			x: 5.5d
 			y: 0.0d
 		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			height: 5.0d
+			image: "dreamwoods:block/old_oak_leaves"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			height: 5.0d
+			image: "dreamwoods:block/old_oak_leaves"
+			order: -1
+			rotation: 45.0d
+			width: 5.0d
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			height: 0.65d
+			image: "croptopia:item/grapefruit"
+			rotation: 0.0d
+			width: 0.65d
+			x: 2.1d
+			y: -0.7d
+		}
+		{
+			height: 0.75d
+			image: "minecraft:block/sweet_berry_bush_stage3"
+			rotation: 0.0d
+			width: 0.75d
+			x: 3.75d
+			y: -0.8d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:item/wandering_trader_spawn_egg"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.5d
+			y: -2.25d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			height: 0.6d
+			hover: ["Buy Items"]
+			image: "seadwellers:item/collector_loot_crate"
+			rotation: 0.0d
+			width: 0.6d
+			x: 7.25d
+			y: -4.0d
+		}
+		{
+			height: 1.65d
+			image: "minecraft:item/oak_hanging_sign"
+			order: -1
+			rotation: 0.0d
+			width: 1.65d
+			x: 7.5d
+			y: -4.15d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.5d
+			y: -5.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.5d
+			y: -4.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.5d
+			y: -5.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.5d
+			y: -5.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.5d
+			y: -4.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 11.5d
+			y: -4.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 11.5d
+			y: -5.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 12.5d
+			y: -5.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 12.5d
+			y: -4.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 12.5d
+			y: -3.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 14.5d
+			y: -2.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 14.5d
+			y: -3.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 14.5d
+			y: -4.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 14.5d
+			y: -5.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 90.0d
+			width: 1.15d
+			x: 9.5d
+			y: -6.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 90.0d
+			width: 1.15d
+			x: 10.5d
+			y: -6.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 90.0d
+			width: 1.15d
+			x: 11.5d
+			y: -6.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 90.0d
+			width: 1.15d
+			x: 12.5d
+			y: -6.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log_top"
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.5d
+			y: -6.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log_top"
+			rotation: 0.0d
+			width: 1.15d
+			x: 14.5d
+			y: -6.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 12.5d
+			y: -1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 13.5d
+			y: -1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 13.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Beginning Shop"]
+			image: "minecraft:item/chainmail_chestplate"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			height: 0.5d
+			image: "iter_rpg:item/coin_pile_item"
+			rotation: 0.0d
+			width: 0.5d
+			x: 9.75d
+			y: -4.25d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 13.5d
+			y: -5.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 13.5d
+			y: -4.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 13.5d
+			y: -3.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: 13.5d
+			y: -2.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 14.5d
+			y: -1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.15d
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Elven Shop"]
+			image: "twilightforest:block/twilight_oak_sapling"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			height: 0.5d
+			image: "iter_rpg:item/coin_pile_item"
+			rotation: 0.0d
+			width: 0.5d
+			x: 9.75d
+			y: -3.25d
+		}
+		{
+			height: 1.0d
+			hover: ["Infernal Shop"]
+			image: "enigmaticaddons:item/hell_blade_charm"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			height: 0.5d
+			image: "iter_rpg:item/coin_pile_item"
+			rotation: 0.0d
+			width: 0.5d
+			x: 9.75d
+			y: -2.25d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Elven Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 13.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "goety:item/mystic_core"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: -3.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Infernal Age chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.8d
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/ender_eye"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Beginning chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.8d
+			x: 11.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: -4.5d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:item/golden_pickaxe"
+			rotation: 0.0d
+			width: 0.8d
+			x: 11.0d
+			y: -4.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Beginning chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.8d
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			alpha: 200
+			height: 0.8d
+			hover: ["Unlocked after completated Beginning chapter in the Campaign."]
+			image: "relics:textures/hud/abilities/widgets/icons/locked.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.8d
+			x: 13.0d
+			y: -4.5d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:item/golden_pickaxe"
+			rotation: 0.0d
+			width: 0.8d
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:item/golden_pickaxe"
+			rotation: 0.0d
+			width: 0.8d
+			x: 13.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: -4.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/oak_log"
+			rotation: 90.0d
+			width: 1.15d
+			x: 13.5d
+			y: -6.0d
+		}
+		{
+			height: 0.6d
+			image: "enigmaticaddons:item/earth_heart_fragment"
+			rotation: 0.0d
+			width: 0.6d
+			x: 7.8d
+			y: -4.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -287,7 +1127,7 @@
 				"0A96869D676BDBB5"
 				"42463DE1888CC21E"
 			]
-			icon: { Count: 9, id: "farmersdelight:onion" }
+			icon: { Count: 9, id: "farmersdelight:vegetable_soup" }
 			id: "3A34EFE6A1CC01FC"
 			rewards: [
 				{
@@ -368,7 +1208,7 @@
 				"0A96869D676BDBB5"
 				"42463DE1888CC21E"
 			]
-			icon: { Count: 9, id: "croptopia:grape" }
+			icon: { Count: 9, id: "farmersdelight:fruit_salad" }
 			id: "7D5E921FA38139DD"
 			rewards: [
 				{
@@ -449,13 +1289,13 @@
 				"0A96869D676BDBB5"
 				"42463DE1888CC21E"
 			]
-			icon: { Count: 60, id: "croptopia:blueberry" }
+			icon: { Count: 20, id: "croptopia:elderberry" }
 			id: "5E6E1113F5724A4A"
 			rewards: [
 				{
 					id: "5C470AFCE2A6B3DA"
 					type: "xp"
-					xp: 2
+					xp: 4
 				}
 				{
 					count: 2
@@ -471,14 +1311,22 @@
 					type: "random"
 				}
 			]
-			subtitle: "Collect blueberries"
-			tasks: [{
-				count: 60L
-				id: "5C6DD7340B44D6BC"
-				item: "croptopia:blueberry"
-				type: "item"
-			}]
-			title: "Berries, Blue"
+			subtitle: "Collect berries"
+			tasks: [
+				{
+					count: 20L
+					id: "27C95E41C3E5C3A1"
+					item: { Count: 20, id: "croptopia:blackberry" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "035C4700DE7AAC23"
+					item: { Count: 20, id: "croptopia:raspberry" }
+					type: "item"
+				}
+			]
+			title: "Berries of the Woods"
 			x: 3.5d
 			y: 0.0d
 		}
@@ -546,6 +1394,734 @@
 			title: "Enigmatic Farmer"
 			x: 5.5d
 			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0A96869D676BDBB5"
+				"42463DE1888CC21E"
+			]
+			icon: { Count: 22, id: "croptopia:pecan" }
+			id: "0059D00EA4D1CE32"
+			rewards: [
+				{
+					count: 2
+					id: "66127FC4D46D8EB2"
+					item: "coinsje:copper_coin"
+					random_bonus: 6
+					type: "item"
+				}
+				{
+					id: "34537AA10B16D3A7"
+					item: "croptopia:brownies"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35268DD11B8ABCFA"
+					table_id: 4663029009880983731L
+					type: "random"
+				}
+			]
+			subtitle: "Collect apples"
+			tasks: [
+				{
+					count: 22L
+					id: "595047E21983B654"
+					item: "croptopia:cashew"
+					type: "item"
+				}
+				{
+					count: 22L
+					id: "03C5B61987B0AA61"
+					item: "croptopia:nutmeg"
+					type: "item"
+				}
+				{
+					count: 22L
+					id: "32496BB609C1F44D"
+					item: "croptopia:pecan"
+					type: "item"
+				}
+				{
+					count: 22L
+					id: "3E73CA5B5CE41DB5"
+					item: "croptopia:walnut"
+					type: "item"
+				}
+			]
+			title: "Brown Swarm"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0A96869D676BDBB5"
+				"42463DE1888CC21E"
+			]
+			icon: { Count: 45, id: "croptopia:cinnamon" }
+			id: "5D04875982DE8FE9"
+			rewards: [
+				{
+					count: 3
+					id: "4CB2F07AEAB26BDA"
+					item: "coinsje:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "101B4A2A41B9512C"
+					table_id: 4663029009880983731L
+					type: "random"
+				}
+			]
+			subtitle: "Collect cinnamon"
+			tasks: [{
+				count: 45L
+				id: "4DA996561D717E67"
+				item: { Count: 99, id: "croptopia:cinnamon" }
+				type: "item"
+			}]
+			title: "Chinnamon"
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0A96869D676BDBB5"
+				"42463DE1888CC21E"
+			]
+			icon: { Count: 25, id: "croptopia:starfruit" }
+			id: "2AD2B7B713C37651"
+			rewards: [
+				{
+					id: "743A7212A22312DB"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0096FBBF14E629F0"
+					table_id: 4663029009880983731L
+					type: "random"
+				}
+			]
+			subtitle: "Collect star fruits"
+			tasks: [{
+				count: 25L
+				id: "7EA866C7FD0215FA"
+				item: "croptopia:starfruit"
+				type: "item"
+			}]
+			title: "Constellation"
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0A96869D676BDBB5"
+				"42463DE1888CC21E"
+			]
+			icon: { Count: 9, id: "croptopia:dragonfruit" }
+			id: "580FB976EBA3DD28"
+			rewards: [
+				{
+					id: "7C687478A60F0D4E"
+					item: "magistuarmory:steel_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1577AA899E67A352"
+					table_id: 4663029009880983731L
+					type: "random"
+				}
+			]
+			subtitle: "Collect apples"
+			tasks: [{
+				count: 9L
+				id: "32FBC49ACB0BA721"
+				item: { Count: 9, id: "croptopia:dragonfruit" }
+				type: "item"
+			}]
+			title: "Nine Dragons"
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0A96869D676BDBB5"
+				"42463DE1888CC21E"
+			]
+			icon: { Count: 200, id: "croptopia:almond" }
+			id: "41A4D2134E14D4A2"
+			rewards: [
+				{
+					id: "0DA4ED688656BBAC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7561CFC02BB9F5CE"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36B85FC9407694B1"
+					table_id: 1618255666278233167L
+					type: "random"
+				}
+			]
+			subtitle: "Collect a large amount of almonds"
+			tasks: [{
+				count: 200L
+				id: "4419613546767B43"
+				item: "croptopia:almond"
+				type: "item"
+			}]
+			title: "Pile of Almonds"
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0A96869D676BDBB5"
+				"42463DE1888CC21E"
+			]
+			icon: { Count: 5, id: "croptopia:orange" }
+			id: "73C9BE48C122673C"
+			rewards: [
+				{
+					id: "59204888CAA8D33B"
+					type: "xp"
+					xp: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06884801DF44133F"
+					table_id: 8076833816218089709L
+					type: "random"
+				}
+			]
+			subtitle: "Collect apples"
+			tasks: [
+				{
+					count: 5L
+					id: "6E5A8D82F21DF71B"
+					item: "croptopia:apricot"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "1CA9C7FE35E381E1"
+					item: "croptopia:kumquat"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "6E5E338807BC0401"
+					item: "croptopia:orange"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "1D3E7255016540B8"
+					item: "croptopia:persimmon"
+					type: "item"
+				}
+			]
+			title: "Orange Team, Assemble!"
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0A96869D676BDBB5"
+				"42463DE1888CC21E"
+			]
+			icon: { Count: 8, id: "croptopia:lemon" }
+			id: "0FB8E0C5CBBB36B0"
+			rewards: [{
+				id: "71B3FAFBEE129FE8"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Collect limes, lemons and mangos"
+			tasks: [
+				{
+					count: 8L
+					id: "69F98AB46A519137"
+					item: "croptopia:lime"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1A2F685DB5B4A4B5"
+					item: "croptopia:lemon"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0D8B71CAED0D6C07"
+					item: "croptopia:mango"
+					type: "item"
+				}
+			]
+			title: "Intruder"
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0A96869D676BDBB5"
+				"42463DE1888CC21E"
+			]
+			icon: { Count: 100, id: "croptopia:avocado" }
+			id: "36B5CA699F8ECACA"
+			rewards: [
+				{
+					count: 8
+					id: "62D57627474F1646"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "50D3751671DC0EEE"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "459B169C5A108E71"
+					table_id: 4663029009880983731L
+					type: "random"
+				}
+			]
+			subtitle: "Collect avocados"
+			tasks: [{
+				count: 100L
+				id: "439ACCCD5D1137AD"
+				item: { Count: 100, id: "croptopia:avocado" }
+				type: "item"
+			}]
+			title: "Chilos of Avocados"
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0A96869D676BDBB5"
+				"42463DE1888CC21E"
+			]
+			icon: { Count: 2, id: "croptopia:coconut" }
+			id: "49E94B2EB2A6A39C"
+			rewards: [
+				{
+					count: 2
+					id: "56BCE222FB9412CF"
+					item: "croptopia:milk_bottle"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45A70D1DB2A7053F"
+					table_id: 7581829726403832622L
+					type: "random"
+				}
+			]
+			subtitle: "Collect dates and coconuts"
+			tasks: [
+				{
+					count: 2L
+					id: "6F3B4236BFC16F9A"
+					item: "croptopia:date"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "05116E69EDCDFDC7"
+					item: "croptopia:coconut"
+					type: "item"
+				}
+			]
+			title: "Date of Coconut"
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0A96869D676BDBB5"
+				"42463DE1888CC21E"
+			]
+			icon: { Count: 9, id: "croptopia:plum" }
+			id: "7722F53D8A505DA3"
+			rewards: [
+				{
+					id: "6D97721B95DAE3B1"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "5B3C3EAF07F8E4CE"
+					item: "coinsje:copper_coin"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Collect apples"
+			tasks: [
+				{
+					count: 9L
+					id: "23DE0F69E50D7F09"
+					item: { Count: 9, id: "croptopia:fig" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "48910BBE2A28049B"
+					item: { Count: 9, id: "croptopia:plum" }
+					type: "item"
+				}
+			]
+			title: "Plum n' Fig"
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0A96869D676BDBB5"
+				"42463DE1888CC21E"
+			]
+			icon: { Count: 400, id: "croptopia:cherry" }
+			id: "49F6E4C27FD96D67"
+			rewards: [
+				{
+					id: "0DA2EEE52408244C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "61FF96D81A211B5B"
+					table_id: 4663029009880983731L
+					type: "random"
+				}
+			]
+			subtitle: "Collect cherries"
+			tasks: [{
+				count: 400L
+				id: "40B90BE7A994AFEE"
+				item: { Count: 400, id: "croptopia:cherry" }
+				type: "item"
+			}]
+			title: "Cherry Challenge"
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0A96869D676BDBB5"
+				"42463DE1888CC21E"
+			]
+			icon: { Count: 40, id: "minecraft:apple" }
+			id: "1B5B7191B33B771F"
+			rewards: [
+				{
+					id: "7EE1BEF46F3C5D68"
+					type: "xp"
+					xp: 2
+				}
+				{
+					count: 2
+					id: "100C187672A87802"
+					item: "coinsje:copper_coin"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "169F9F73A6953D8D"
+					table_id: 4663029009880983731L
+					type: "random"
+				}
+			]
+			subtitle: "Collect apples"
+			tasks: [{
+				count: 40L
+				id: "4A605DC117164374"
+				item: { Count: 40, id: "minecraft:apple" }
+				type: "item"
+			}]
+			title: "Apples Raining"
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0A96869D676BDBB5"
+				"42463DE1888CC21E"
+			]
+			icon: { Count: 3, id: "quark:seed_pouch" }
+			id: "177455E584446D88"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A669490021EDB2B"
+				table_id: 2333760661471233681L
+				type: "choice"
+			}]
+			subtitle: "Collect a Fragment of the Earth"
+			tasks: [{
+				id: "0E97B30F5BEF5F43"
+				item: "enigmaticaddons:earth_heart_fragment"
+				type: "item"
+			}]
+			title: "Any Seed"
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0A96869D676BDBB5"
+				"42463DE1888CC21E"
+			]
+			icon: "coinsje:iron_coin"
+			id: "27417842656E5AD7"
+			rewards: [{
+				id: "3FA704708E7209B3"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			subtitle: "Collect a Fragment of the Earth"
+			tasks: [{
+				id: "3076D3BE2B63B18D"
+				item: "enigmaticaddons:earth_heart_fragment"
+				type: "item"
+			}]
+			title: "Iron Coin"
+			x: 11.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0A96869D676BDBB5"
+				"42463DE1888CC21E"
+			]
+			icon: {
+				Count: 1
+				id: "iter_rpg:earth_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "67C6E83A14E99B10"
+			rewards: [
+				{
+					id: "76CE97899A6468BB"
+					item: {
+						Count: 1
+						id: "iter_rpg:earth_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3737E805759115A4"
+					item: {
+						Count: 1
+						id: "iter_rpg:earth_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6291BB7938111B75"
+					item: {
+						Count: 1
+						id: "iter_rpg:earth_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D77E53A70A83BB3"
+					item: {
+						Count: 1
+						id: "iter_rpg:earth_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E07FE4843C9D2FC"
+					table_id: 3987767590869248313L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "148384905D4FE3E5"
+					table_id: 6345943489056925862L
+					type: "choice"
+				}
+			]
+			subtitle: "Collect a Fragment of the Earth"
+			tasks: [{
+				id: "30B5F7B7E6246FC8"
+				item: "enigmaticaddons:earth_heart_fragment"
+				type: "item"
+			}]
+			title: "Earth Set"
+			x: 13.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"4DF06510F7AA7E23"
+				"42463DE1888CC21E"
+			]
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "apotheosis:overworld/earth"
+				}
+			}
+			id: "10913A3CD3DCF62D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56B9FDC78D9B7B29"
+				table_id: 4062429789607057815L
+				type: "random"
+			}]
+			subtitle: "Collect a Fragment of the Earth"
+			tasks: [{
+				id: "08EDEA378F87EF01"
+				item: "enigmaticaddons:earth_heart_fragment"
+				type: "item"
+			}]
+			title: "Random Gem of the Earth"
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"4DF06510F7AA7E23"
+				"42463DE1888CC21E"
+			]
+			icon: "iter_rpg:earth_elemental_spawn_egg"
+			id: "33AAC0351C197499"
+			rewards: [{
+				id: "6EA622C04303B3E6"
+				item: "iter_rpg:earth_elemental_spawn_egg"
+				type: "item"
+			}]
+			subtitle: "Collect a Fragment of the Earth"
+			tasks: [{
+				id: "6585C3F0599ADF41"
+				item: "enigmaticaddons:earth_heart_fragment"
+				type: "item"
+			}]
+			title: "Earth Elemental Egg"
+			x: 13.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"26409B3A680FCFF8"
+				"42463DE1888CC21E"
+			]
+			icon: "iter_rpg:primordial_fragment"
+			id: "35889A1327710ACD"
+			rewards: [{
+				id: "0C306DFFA6CE884D"
+				item: "iter_rpg:primordial_fragment"
+				type: "item"
+			}]
+			subtitle: "Collect a Fragment of the Earth"
+			tasks: [{
+				id: "334235819805F9BB"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:earth_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Elemental Fragment"
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"4DF06510F7AA7E23"
+				"42463DE1888CC21E"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:luck"
+				}
+			}
+			id: "5DD166DB405F88E0"
+			rewards: [{
+				id: "63CA4EF22DDA012D"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:luck"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Collect a Fragment of the Earth"
+			tasks: [{
+				id: "3FFD1F5FD02FDB50"
+				item: "enigmaticaddons:earth_heart_fragment"
+				type: "item"
+			}]
+			title: "Potion of Luck"
+			x: 11.0d
+			y: -3.5d
 		}
 	]
 	title: "Farmer"

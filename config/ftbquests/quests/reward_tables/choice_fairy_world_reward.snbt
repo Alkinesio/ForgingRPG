@@ -1,0 +1,26 @@
+{
+	id: "1B078B81FED8F32F"
+	loot_size: 1
+	order_index: 30
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "relics:magic_mirror"
+				tag: {
+					abilities: {
+						teleport: {
+							points: 0
+							stats: {
+								cooldown: 62.66796d
+								distance: 872.07677d
+							}
+						}
+					}
+				}
+			}
+		}
+		{ item: "coinsje:iron_coin" }
+	]
+	title: "Choice Fairy World Reward"
+}

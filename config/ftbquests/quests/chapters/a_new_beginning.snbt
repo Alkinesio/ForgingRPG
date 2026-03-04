@@ -1463,7 +1463,7 @@
 			shape: "rsquare"
 			subtitle: "Collect Iron Gloves"
 			tasks: [{
-				id: "346A8EA03B6863C9"
+				id: "66A233D813CECF9D"
 				item: {
 					Count: 1
 					id: "aether:iron_gloves"
@@ -1589,7 +1589,7 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "208CB835AB34B8CA"
+					id: "64A1C9A3A92271F1"
 					table_id: 6893051207903385251L
 					type: "choice"
 				}

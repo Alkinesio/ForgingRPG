@@ -3,6 +3,16 @@
 	default_quest_shape: ""
 	filename: "ultimate_age"
 	group: "4EAC48A88230D604"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"undermod:capability_item_life_leech": {
+				power: 1
+			}
+		}
+		id: "tdmweaponsreforged:debugstick"
+		tag: { }
+	}
 	id: "13348C0C96ECBBB8"
 	order_index: 9
 	quest_links: [ ]

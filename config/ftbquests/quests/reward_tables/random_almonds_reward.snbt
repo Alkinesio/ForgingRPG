@@ -1,0 +1,13 @@
+{
+	id: "167532F46046F44F"
+	loot_size: 1
+	order_index: 27
+	rewards: [
+		{ item: "enigmaticaddons:earth_heart_fragment", weight: 0.02f }
+		{ count: 3, item: "minecraft:bone_meal" }
+		{ count: 9, item: "minecraft:bone_meal", weight: 0.1f }
+		{ count: 3, item: "minecraft:iron_nugget", weight: 0.15f }
+		{ count: 3, item: "minecraft:gold_nugget", weight: 0.05f }
+	]
+	title: "Random Almonds Reward"
+}

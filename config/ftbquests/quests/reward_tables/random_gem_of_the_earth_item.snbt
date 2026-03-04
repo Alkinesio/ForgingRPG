@@ -1,0 +1,46 @@
+{
+	id: "3860A65EB67E5997"
+	loot_size: 1
+	order_index: 26
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "apotheosis:overworld/earth"
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "apotheosis:overworld/earth"
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:rare"
+					}
+					gem: "apotheosis:overworld/earth"
+				}
+			}
+		}
+	]
+	title: "Random Gem of the Earth Item"
+}

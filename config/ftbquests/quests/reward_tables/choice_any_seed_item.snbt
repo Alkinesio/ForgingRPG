@@ -1,0 +1,87 @@
+{
+	id: "20632EF4F1C60691"
+	loot_size: 1
+	order_index: 23
+	rewards: [
+		{ count: 3, item: "minecraft:wheat_seeds" }
+		{ count: 3, item: "minecraft:pumpkin_seeds", weight: 3.0f }
+		{ count: 3, item: "minecraft:melon_seeds" }
+		{ count: 3, item: "minecraft:beetroot_seeds" }
+		{ count: 3, item: "minecraft:torchflower_seeds" }
+		{ count: 3, item: "croptopia:artichoke_seed" }
+		{ count: 3, item: "croptopia:asparagus_seed" }
+		{ count: 3, item: "croptopia:barley_seed" }
+		{ count: 3, item: "croptopia:basil_seed" }
+		{ count: 3, item: "croptopia:bellpepper_seed" }
+		{ count: 3, item: "croptopia:blackbean_seed" }
+		{ count: 3, item: "croptopia:blackberry_seed" }
+		{ count: 3, item: "croptopia:blueberry_seed" }
+		{ count: 3, item: "croptopia:broccoli_seed" }
+		{ count: 3, item: "croptopia:cabbage_seed" }
+		{ count: 3, item: "croptopia:cantaloupe_seed" }
+		{ count: 3, item: "croptopia:cauliflower_seed" }
+		{ count: 3, item: "croptopia:celery_seed" }
+		{ count: 3, item: "croptopia:chile_pepper_seed" }
+		{ count: 3, item: "croptopia:coffee_seed" }
+		{ count: 3, item: "croptopia:corn_seed" }
+		{ count: 3, item: "croptopia:cranberry_seed" }
+		{ count: 3, item: "croptopia:cucumber_seed" }
+		{ count: 3, item: "croptopia:currant_seed" }
+		{ count: 3, item: "croptopia:eggplant_seed" }
+		{ count: 3, item: "croptopia:elderberry_seed" }
+		{ count: 3, item: "croptopia:garlic_seed" }
+		{ count: 3, item: "croptopia:ginger_seed" }
+		{ count: 3, item: "croptopia:grape_seed" }
+		{ count: 3, item: "croptopia:greenbean_seed" }
+		{ count: 3, item: "croptopia:greenonion_seed" }
+		{ count: 3, item: "croptopia:honeydew_seed" }
+		{ count: 3, item: "croptopia:hops_seed" }
+		{ count: 3, item: "croptopia:kale_seed" }
+		{ count: 3, item: "croptopia:kiwi_seed" }
+		{ count: 3, item: "croptopia:leek_seed" }
+		{ count: 3, item: "croptopia:lettuce_seed" }
+		{ count: 3, item: "croptopia:mustard_seed" }
+		{ count: 3, item: "croptopia:oat_seed" }
+		{ count: 3, item: "croptopia:olive_seed" }
+		{ count: 3, item: "croptopia:onion_seed" }
+		{ count: 3, item: "croptopia:peanut_seed" }
+		{ count: 3, item: "croptopia:pepper_seed" }
+		{ count: 3, item: "croptopia:pineapple_seed" }
+		{ count: 3, item: "croptopia:radish_seed" }
+		{ count: 3, item: "croptopia:raspberry_seed" }
+		{ count: 3, item: "croptopia:rhubarb_seed" }
+		{ count: 3, item: "croptopia:rice_seed" }
+		{ count: 3, item: "croptopia:rutabaga_seed" }
+		{ count: 3, item: "croptopia:saguaro_seed" }
+		{ count: 3, item: "croptopia:soybean_seed" }
+		{ count: 3, item: "croptopia:spinach_seed" }
+		{ count: 3, item: "croptopia:squash_seed" }
+		{ count: 3, item: "croptopia:strawberry_seed" }
+		{ count: 3, item: "croptopia:sweetpotato_seed" }
+		{ count: 3, item: "croptopia:tea_seed" }
+		{ count: 3, item: "croptopia:tomatillo_seed" }
+		{ count: 3, item: "croptopia:tomato_seed" }
+		{ count: 3, item: "croptopia:turmeric_seed" }
+		{ count: 3, item: "croptopia:turnip_seed" }
+		{ count: 3, item: "croptopia:vanilla_seeds" }
+		{ count: 3, item: "croptopia:yam_seed" }
+		{ count: 3, item: "croptopia:zucchini_seed" }
+		{ count: 3, item: "farmersrespite:tea_seeds" }
+		{ item: "born_in_chaos_v1:seedof_chaos" }
+		{ count: 3, item: "blue_skies:pine_fruit_seeds" }
+		{ count: 3, item: "blue_skies:winter_leaf_seeds" }
+		{ count: 3, item: "blue_skies:scalefruit_seeds" }
+		{ count: 3, item: "blue_skies:fiery_bean_seeds" }
+		{ item: "deep_aether:squash_seeds" }
+		{ item: "deep_aether:golden_grass_seeds" }
+		{ count: 3, item: "farmersdelight:cabbage_seeds" }
+		{ count: 3, item: "farmersdelight:tomato_seeds" }
+		{ item: "enigmaticdelicacy:enigmatic_seed" }
+		{ count: 8, item: "iter_rpg:seeds_round" }
+		{ item: "quark:seed_pouch" }
+		{ item: "goety:quick_growing_seed" }
+		{ item: "goety:poison_quill_seed" }
+		{ item: "tombstone:bag_of_seeds" }
+	]
+	title: "Choice Any Seed Item"
+}
