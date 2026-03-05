@@ -39,7 +39,8 @@
     "com.github.alexthe666.alexsmobs.client.gui.GUIAnimalDictionary": true,
     "net.minecraft.client.gui.screens.packs.PackSelectionScreen": true,
     "net.mcreator.realmrpgquests.client.gui.QuestBookPageAScreen": true,
-    "betteradvancements.common.gui.BetterAdvancementsScreen": true
+    "betteradvancements.common.gui.BetterAdvancementsScreen": true,
+    "net.thetct.tctcore.client.gui.TCTcoreScreen": true
   },
   "hideBackground": {
     "net.mcreator.monsterhuntervillager.client.gui.HuntersTableGuiScreen": true,

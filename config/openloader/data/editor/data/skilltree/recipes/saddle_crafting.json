@@ -1,27 +1,33 @@
 {
-  "type": "skilltree:workbench_crafting",
+  "type": "skilltree:workbench_item_bonus",
+  "base_item_condition":
+    {
+      "type": "skilltree:equipment_type",
+      "equipment_type": "axe"
+    },
   "ingredients": [
     {
       "ingredient": {
-        "tag": "forge:ingots/iron"
+        "tag": "forge:gems/diamond"
       },
-      "required_amount": 2
-    },
-    {
-      "ingredient": {
-        "tag": "forge:leather"
-      },
-      "required_amount": 8
-    },
-    {
-      "ingredient": {
-        "tag": "forge:nuggets/iron"
-      },
-      "required_amount": 4
+      "required_amount": 1
     }
   ],
-  "requires_passive_skill": true,
-  "result": {
-    "item": "minecraft:saddle"
-  }
+  "item_bonus": {
+    "type": "skilltree:item_bonus_list",
+    "inner_bonuses": [
+      {
+        "type": "skilltree:skill_bonus",
+        "skill_bonus": {
+          "type": "skilltree:attribute",
+          "name": "Workbench Upgrade",
+          "attribute": "minecraft:generic.max_health",
+          "operation": "1",
+          "amount": "5.0",
+          "id": "a9afd96f-7808-4ee2-83b7-15a0ab8df583"
+        }
+      }
+    ]
+  },
+  "requires_passive_skill": false
 }
