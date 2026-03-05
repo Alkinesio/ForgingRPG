@@ -19,8 +19,10 @@
           "divisor": 1.0,
           "type": "skilltree:numeric_value"
         },
+        "cooldown": 10,
         "type": "skilltree:ticking"
-      }
+      },
+      "percentage_healing": false
     },
     {
       "type": "skilltree:incoming_healing",
@@ -116,7 +118,7 @@
           "translate": "living_condition.skilltree.has_effect",
           "with": [
             {
-              "translate": "event_listener.skilltree.ticking",
+              "translate": "event_listener.skilltree.ticking.second",
               "with": [
                 {
                   "translate": "skill_bonus.skilltree.healing.player",

@@ -132,17 +132,6 @@
         "value": 1
       }
     },
-    "irons_spellbooks:cast_time_reduction": {
-      "enabled": false,
-      "min": {
-        "default": -100,
-        "value": -100
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "caverns_and_chasms:lifesteal": {
       "enabled": false,
       "min": {
@@ -152,6 +141,17 @@
       "max": {
         "default": 5,
         "value": 5
+      }
+    },
+    "irons_spellbooks:cast_time_reduction": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "goety:spell_potency": {
@@ -374,17 +374,6 @@
         "value": 1024
       }
     },
-    "irons_spellbooks:lightning_spell_power": {
-      "enabled": false,
-      "min": {
-        "default": -100,
-        "value": -100
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "x_player_info:attribute.name.extend.attack.bow_damage_bonus": {
       "enabled": false,
       "min": {
@@ -394,6 +383,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "irons_spellbooks:lightning_spell_power": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "goety:casting_speed": {
@@ -803,6 +803,17 @@
         "value": 1024
       }
     },
+    "reach-entity-attributes:attack_range": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "irons_spellbooks:fire_magic_resist": {
       "enabled": false,
       "min": {
@@ -823,17 +834,6 @@
       "max": {
         "default": 100,
         "value": 100
-      }
-    },
-    "reach-entity-attributes:attack_range": {
-      "enabled": false,
-      "min": {
-        "default": -1024,
-        "value": -1024
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
       }
     },
     "tinkersjewelry:subspace": {
@@ -2057,17 +2057,6 @@
         "value": 100
       }
     },
-    "combatroll:count": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 20,
-        "value": 20
-      }
-    },
     "additionalentityattributes:lava_speed": {
       "enabled": false,
       "min": {
@@ -2077,6 +2066,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "combatroll:count": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 20,
+        "value": 20
       }
     },
     "tconstruct:generic.protection_cap": {

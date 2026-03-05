@@ -4,7 +4,8 @@
   "bookData": {
     "simplyswords:runic_grimoire": {
       "viewedEntries": [
-        "simplyswords:weapon_variants/entry_cutlass"
+        "simplyswords:weapon_variants/entry_cutlass",
+        "simplyswords:gem_socketing/entry_empowered_remnant"
       ],
       "bookmarks": [],
       "completedManualQuests": []

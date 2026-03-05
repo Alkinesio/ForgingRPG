@@ -1,0 +1,45 @@
+{
+  "type": "skilltree:workbench_item_bonus",
+  "base_item_condition":
+    {
+      "type": "skilltree:equipment_type",
+      "equipment_type": "armor"
+    },
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "apotheosis:gem_dust"
+      },
+      "required_amount": 15
+    },
+	{
+      "ingredient": {
+        "tag": "deeperdarker:resonarium_plate"
+      },
+      "required_amount": 1
+    },
+	{
+      "ingredient": {
+        "tag": "iceandfire:siren_tear"
+      },
+      "required_amount": 1
+    }
+  ],
+  "item_bonus": {
+    "type": "skilltree:item_bonus_list",
+    "inner_bonuses": [
+      {
+        "type": "skilltree:skill_bonus",
+        "skill_bonus": {
+          "type": "skilltree:attribute",
+          "name": "Workbench Upgrade",
+          "attribute": "minecraft:generic.armor",
+          "operation": "0",
+          "amount": "1.0",
+          "id": "a9afd96f-7808-4ee2-83b7-15a0ab8df583"
+        }
+      }
+    ]
+  },
+  "requires_passive_skill": true
+}

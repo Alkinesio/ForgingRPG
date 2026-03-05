@@ -14,8 +14,10 @@
           "divisor": 20.0,
           "type": "skilltree:numeric_value"
         },
+        "cooldown": 10,
         "type": "skilltree:ticking"
-      }
+      },
+      "percentage_healing": false
     },
     {
       "type": "skilltree:inflict_effect",
@@ -33,6 +35,7 @@
           "divisor": 40.0,
           "type": "skilltree:numeric_value"
         },
+        "cooldown": 10,
         "type": "skilltree:ticking"
       }
     },
@@ -81,7 +84,7 @@
       "translate": "value_provider.skilltree.attribute_value.multiplier.player.plural",
       "with": [
         {
-          "translate": "event_listener.skilltree.ticking",
+          "translate": "event_listener.skilltree.ticking.second",
           "with": [
             {
               "translate": "skill_bonus.skilltree.healing.player",
@@ -104,7 +107,7 @@
       "translate": "value_provider.skilltree.attribute_value.multiplier.player.plural",
       "with": [
         {
-          "translate": "event_listener.skilltree.ticking",
+          "translate": "event_listener.skilltree.ticking.second",
           "with": [
             {
               "translate": "skill_bonus.skilltree.inflict_effect.player",
@@ -127,7 +130,21 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "+1% Incoming Healing per 1 Armor Toughness"
+      "translate": "value_provider.skilltree.attribute_value.multiplier.player",
+      "with": [
+        {
+          "translate": "attribute.modifier.plus.1",
+          "with": [
+            "1",
+            {
+              "translate": "skill_bonus.skilltree.incoming_healing"
+            }
+          ]
+        },
+        {
+          "translate": "attribute.name.generic.armor_toughness"
+        }
+      ]
     },
     {
       "f_131101_": {

@@ -251,7 +251,8 @@
     "skilltree:warrior_198",
     "skilltree:warrior_256",
     "skilltree:warrior_257",
-    "skilltree:warrior_253"
+    "skilltree:warrior_253",
+    "skilltree:warrior_254"
   ],
   "id": "skilltree:warrior",
   "skillLimitations": {
