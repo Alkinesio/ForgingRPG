@@ -18,7 +18,9 @@
   ],
   "directConnections": [],
   "longConnections": [],
-  "oneWayConnections": [],
+  "oneWayConnections": [
+    "skilltree:utility_2"
+  ],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/class.png",
   "iconTexture": "minecraft:textures/item/excalibur/enchanted_book/fortune.png",

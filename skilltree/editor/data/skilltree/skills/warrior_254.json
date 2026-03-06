@@ -1,6 +1,11 @@
 {
   "id": "skilltree:warrior_254",
-  "bonuses": [],
+  "bonuses": [
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:name_tag_crafting"
+    }
+  ],
   "requirements": [
     {
       "type": "skilltree:learned_skill",

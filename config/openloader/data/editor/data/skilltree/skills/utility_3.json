@@ -2,9 +2,7 @@
   "id": "skilltree:utility_3",
   "bonuses": [],
   "requirements": [],
-  "directConnections": [
-    "skilltree:utility_1"
-  ],
+  "directConnections": [],
   "longConnections": [],
   "oneWayConnections": [],
   "tags": [],

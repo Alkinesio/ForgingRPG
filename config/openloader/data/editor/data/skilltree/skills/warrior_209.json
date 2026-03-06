@@ -48,7 +48,8 @@
           "type": "skilltree:numeric_value"
         },
         "type": "skilltree:on_kill"
-      }
+      },
+      "percentage_healing": false
     },
     {
       "type": "skilltree:attribute",

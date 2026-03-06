@@ -31,5 +31,8 @@
     "skilltree:utility_28",
     "skilltree:utility_30"
   ],
-  "id": "skilltree:utility"
+  "id": "skilltree:utility",
+  "skillLimitations": {
+    "Sub-class": 1
+  }
 }

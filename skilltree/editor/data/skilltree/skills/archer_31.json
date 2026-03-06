@@ -18,7 +18,7 @@
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "minecraft:textures/item/excalibur/bow/infinity_pulling_1.png",
+  "iconTexture": "the_pillager_legion_:textures/item/legion_toth_bow_pulling_2.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Attack Speed",
   "positionX": 350.615,

@@ -86,6 +86,9 @@
   "twilightforest": {
     "quest_ram_wool": true
   },
+  "supplementaries": {
+    "hat_stand": true
+  },
   "waystones": {
     "waystone": true
   },

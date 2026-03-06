@@ -10,11 +10,20 @@
     "skilltree:utility_30"
   ],
   "tags": [],
-  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "skilltree:textures/icons/void.png",
+  "backgroundTexture": "skilltree:textures/icons/background/recipe.png",
+  "iconTexture": "uniquedungeons:textures/item/ancient_note.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Class Recipes",
   "positionX": 172.0,
   "positionY": -26.0,
   "buttonSize": 14,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Unlocks Tier I Main Class Recipes"
+    }
+  ]
 }

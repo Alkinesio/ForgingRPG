@@ -1,6 +1,23 @@
 {
   "id": "skilltree:utility_13",
-  "bonuses": [],
+  "bonuses": [
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:base_flat_armor"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:base_flat_maximum_health"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:base_flat_armor_toughness"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:base_flat_attack_damage"
+    }
+  ],
   "requirements": [],
   "directConnections": [
     "skilltree:utility_12"
@@ -9,8 +26,9 @@
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "stalwart_dungeons:textures/void.png",
+  "iconTexture": "uniquedungeons:textures/item/note.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Workbench Upgrade",
   "positionX": 120.0,
   "positionY": -26.0,
   "buttonSize": 14,
