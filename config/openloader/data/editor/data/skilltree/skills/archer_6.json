@@ -51,13 +51,16 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "translate": "event_listener.skilltree.attack",
+      "translate": "event_listener.skilltree.attack.damage",
       "with": [
         {
           "translate": "skill_bonus.skilltree.inflict_ignite.enemy",
           "with": [
             "00:08"
           ]
+        },
+        {
+          "translate": "damage_condition.skilltree.projectile.type"
         }
       ]
     },

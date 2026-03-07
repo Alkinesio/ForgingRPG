@@ -3,7 +3,11 @@
   "bonuses": [
     {
       "type": "skilltree:recipe_unlock",
-      "recipe_id": "skilltree:shields_thorns_bonus"
+      "recipe_id": "skilltree:lifestealer_tier_one_weapon"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:lifestealer_tier_one_magic_variant"
     }
   ],
   "requirements": [

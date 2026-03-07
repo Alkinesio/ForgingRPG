@@ -33,7 +33,7 @@
         "skill_bonus": {
           "type": "skilltree:damage_taken",
 		  "damage_condition": {
-			"type": "skilltree:thorns"
+			"type": "skilltree:poison"
 		  },
           "operation": "1",
           "amount": "-0.05"
