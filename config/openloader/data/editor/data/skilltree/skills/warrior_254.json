@@ -1,6 +1,11 @@
 {
   "id": "skilltree:warrior_254",
-  "bonuses": [],
+  "bonuses": [
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:shields_thorns_bonus"
+    }
+  ],
   "requirements": [
     {
       "type": "skilltree:learned_skill",
@@ -22,6 +27,5 @@
   "positionX": 26.163,
   "positionY": -147.837,
   "buttonSize": 16,
-  "isStartingPoint": false,
-  "description": []
+  "isStartingPoint": false
 }

@@ -18,7 +18,7 @@
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "minecraft:textures/item/excalibur/enchanted_book/power.png",
+  "iconTexture": "minecraft:textures/item/enchanted_book.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Utility",
   "positionX": 179.595,

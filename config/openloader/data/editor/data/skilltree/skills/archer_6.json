@@ -7,7 +7,7 @@
       "duration": 8,
       "event_listener": {
         "damage_condition": {
-          "type": "skilltree:none"
+          "type": "skilltree:projectile"
         },
         "target": "enemy",
         "type": "skilltree:attack"

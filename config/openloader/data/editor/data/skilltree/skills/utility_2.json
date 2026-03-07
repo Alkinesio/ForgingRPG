@@ -32,7 +32,7 @@
     "Sub-class"
   ],
   "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
-  "iconTexture": "minecraft:textures/item/excalibur/custom_name/netherite_hammer.png",
+  "iconTexture": "ancient_tools:textures/item/ancient_hammer.png",
   "borderTexture": "skilltree:textures/tooltip/keystone.png",
   "title": "The Blacksmith",
   "positionX": 40.0,

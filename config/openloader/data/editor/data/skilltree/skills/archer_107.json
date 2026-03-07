@@ -28,7 +28,7 @@
   ],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "minecraft:textures/item/excalibur/firework_rocket/flight_duration_2.png",
+  "iconTexture": "iter_rpg:textures/item/fireball_elemental.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Fire Damage",
   "positionX": 18.175,

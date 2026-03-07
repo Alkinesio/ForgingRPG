@@ -40,7 +40,8 @@
     "net.minecraft.client.gui.screens.packs.PackSelectionScreen": true,
     "net.mcreator.realmrpgquests.client.gui.QuestBookPageAScreen": true,
     "betteradvancements.common.gui.BetterAdvancementsScreen": true,
-    "net.thetct.tctcore.client.gui.TCTcoreScreen": true
+    "net.thetct.tctcore.client.gui.TCTcoreScreen": true,
+    "com.aetherteam.aether.client.gui.screen.inventory.LoreBookScreen": true
   },
   "hideBackground": {
     "net.mcreator.monsterhuntervillager.client.gui.HuntersTableGuiScreen": true,
@@ -67,6 +68,7 @@
     "vazkii.patchouli.client.book.gui.GuiBookLanding": true,
     "io.wispforest.accessories.client.gui.AccessoriesScreen": true,
     "com.github.alexthe666.alexsmobs.client.gui.GUIAnimalDictionary": true,
-    "net.mcreator.realmrpgquests.client.gui.QuestBookPageAScreen": true
+    "net.mcreator.realmrpgquests.client.gui.QuestBookPageAScreen": true,
+    "com.aetherteam.aether.client.gui.screen.inventory.LoreBookScreen": true
   }
 }

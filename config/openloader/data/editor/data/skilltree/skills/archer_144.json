@@ -16,7 +16,7 @@
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "raccompat:textures/item/polar_boot_red.png",
+  "iconTexture": "relics:textures/item/magma_walker.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Movement Speed",
   "positionX": 0.0,

@@ -21,7 +21,7 @@
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "minecraft:textures/item/bolt_armor_trim_smithing_template.png",
+  "iconTexture": "minecraft:textures/item/rib_armor_trim_smithing_template.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Damage Reduction",
   "positionX": 128.691,

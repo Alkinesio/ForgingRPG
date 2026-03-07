@@ -3,7 +3,7 @@
   "base_item_condition":
     {
       "type": "skilltree:equipment_type",
-      "equipment_type": "armor"
+      "equipment_type": "weapon"
     },
   "ingredients": [
     {
@@ -14,13 +14,13 @@
     },
 	{
       "ingredient": {
-        "tag": "deeperdarker:resonarium_plate"
+        "tag": "alexscaves:scarlet_neodymium_ingot"
       },
       "required_amount": 1
     },
 	{
       "ingredient": {
-        "tag": "iceandfire:siren_tear"
+        "tag": "iceandfire:born_in_chaos_v1:bloody_gadfly_eye"
       },
       "required_amount": 1
     }
@@ -28,13 +28,25 @@
   "item_bonus": {
     "type": "skilltree:item_bonus_list",
     "inner_bonuses": [
+	  {
+        "type": "skilltree:skill_bonus",
+        "skill_bonus": {
+          "type": "skilltree:attribute",
+          "name": "Workbench Upgrade",
+          "attribute": "minecraft:generic.attack_damage",
+          "operation": "1",
+          "amount": "0.05",
+          "id": "a9afd96f-7808-4ee2-83b7-15a0ab8df583"
+        }
+      },
       {
         "type": "skilltree:skill_bonus",
         "skill_bonus": {
-          "type": "skilltree:incoming_healing",
+          "type": "skilltree:attribute",
           "name": "Workbench Upgrade",
+          "attribute": "x_player_info:attribute.name.extend.attack.attack_healing",
           "operation": "1",
-          "amount": "0.5",
+          "amount": "0.05",
           "id": "a9afd96f-7808-4ee2-83b7-15a0ab8df583"
         }
       }

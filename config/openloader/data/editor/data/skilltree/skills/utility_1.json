@@ -23,7 +23,7 @@
   ],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/class.png",
-  "iconTexture": "minecraft:textures/item/excalibur/enchanted_book/fortune.png",
+  "iconTexture": "artifacts:textures/item/power_glove.png",
   "borderTexture": "skilltree:textures/tooltip/keystone.png",
   "title": "The Worker",
   "positionX": 0.0,

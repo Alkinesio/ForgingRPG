@@ -16,7 +16,7 @@
   ],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "minecraft:textures/item/excalibur/custom_name/iron_hammer.png",
+  "iconTexture": "ancient_tools:textures/item/ancient_hammer.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Item Restoration",
   "positionX": 174.536,
