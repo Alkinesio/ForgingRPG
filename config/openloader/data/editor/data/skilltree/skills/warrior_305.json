@@ -1,0 +1,24 @@
+{
+  "id": "skilltree:warrior_305",
+  "bonuses": [],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:utility_15"
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [
+    "skilltree:warrior_173"
+  ],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/recipe.png",
+  "iconTexture": "uniquedungeons:textures/item/ancient_note.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Tier I Main Class Recipe",
+  "positionX": -39.1,
+  "positionY": 59.721,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

@@ -2,28 +2,35 @@
   "id": "skilltree:warrior_188",
   "bonuses": [
     {
-      "type": "skilltree:damage",
-      "amount": 0.05,
-      "operation": 1,
-      "damage_condition": {
-        "type": "skilltree:thorns"
+      "type": "skilltree:inflict_effect",
+      "chance": 0.2,
+      "max_stacks": 1,
+      "effect": "relics:stun",
+      "duration": 20,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:melee"
+        },
+        "enemy_condition": {
+          "type": "skilltree:burning"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
       }
     }
   ],
-  "requirements": [
-    {
-      "type": "skilltree:learned_skill",
-      "skill_id": "skilltree:warrior_173"
-    }
-  ],
+  "requirements": [],
   "directConnections": [
     "skilltree:warrior_186"
   ],
   "longConnections": [],
   "oneWayConnections": [],
-  "tags": [],
+  "tags": [
+    "Third Branch"
+  ],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "alexscaves:textures/item/thornwood_branch.png",
+  "iconTexture": "macabre:textures/item/plasmamace.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Thorns Damage",
   "positionX": -27.929,

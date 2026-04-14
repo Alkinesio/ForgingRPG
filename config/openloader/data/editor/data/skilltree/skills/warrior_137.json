@@ -4,9 +4,9 @@
     {
       "type": "skilltree:attribute",
       "attribute": "minecraft:generic.armor",
-      "id": "a189c365-545d-4948-8652-9d30201c7b9e",
+      "id": "ee7ab605-a86d-4631-9056-a8b76a0c777c",
       "name": "Skill",
-      "amount": 2.0,
+      "amount": 1.2,
       "operation": 0,
       "player_condition": {
         "item_condition": {

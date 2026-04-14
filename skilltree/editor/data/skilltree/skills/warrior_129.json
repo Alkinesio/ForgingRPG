@@ -4,9 +4,9 @@
     {
       "type": "skilltree:attribute",
       "attribute": "minecraft:generic.armor",
-      "id": "94304901-96cc-47c5-acff-b3b9f9a440f7",
+      "id": "ac7960d5-c26a-4337-858d-d1305151542e",
       "name": "Skill",
-      "amount": 2.0,
+      "amount": 1.2,
       "operation": 0,
       "player_condition": {
         "item_condition": {
@@ -28,7 +28,7 @@
   "iconTexture": "undead_unleashed:textures/item/grave_iron_chestplate.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Armor",
-  "positionX": 249.0,
+  "positionX": 249.18518,
   "positionY": -21.0,
   "buttonSize": 14,
   "isStartingPoint": false

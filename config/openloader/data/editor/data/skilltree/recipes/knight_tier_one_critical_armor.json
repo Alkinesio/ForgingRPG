@@ -1,0 +1,70 @@
+{
+  "type": "skilltree:workbench_item_bonus",
+  "base_item_condition":
+    {
+      "type": "skilltree:equipment_type",
+      "equipment_type": "armor"
+    },
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "apotheosis:gem_dust"
+      },
+      "required_amount": 40
+    },
+	{
+      "ingredient": {
+        "tag": "minecraft:obsidian"
+      },
+      "required_amount": 4
+    },
+	{
+      "ingredient": {
+        "tag": "minecraft:wither_skeleton_skull"
+      },
+      "required_amount": 1
+    }
+  ],
+  "item_bonus": {
+    "type": "skilltree:item_bonus_list",
+    "inner_bonuses": [
+	  {
+        "type": "skilltree:skill_bonus",
+        "skill_bonus": {
+		  "type": "skilltree:attribute",
+		  "name": "Workbench Upgrade",
+		  "attribute": "minecraft:generic.armor_toughness",
+		  "amount": "4",
+		  "operation": "0",
+		  "player_condition": {
+			  "item_condition": {
+			  "equipment_type": "armor",
+			  "type": "skilltree:equipment_type"
+            },
+            "type": "skilltree:has_item_equipped"
+          },
+		  "id": "a9afd96f-7808-4ee2-83b7-15a0ab8df584"
+		}
+      },
+	  {
+        "type": "skilltree:skill_bonus",
+        "skill_bonus": {
+		  "type": "skilltree:attribute",
+		  "name": "Workbench Upgrade",
+		  "attribute": "minecraft:generic.armor",
+		  "amount": "2",
+		  "operation": "0",
+		  "player_condition": {
+			  "item_condition": {
+			  "equipment_type": "armor",
+			  "type": "skilltree:equipment_type"
+            },
+            "type": "skilltree:has_item_equipped"
+          },
+		  "id": "a9afd96f-7808-4ee2-83b7-15a0ab8df584"
+		}
+      }
+    ]
+  },
+  "requires_passive_skill": true
+}

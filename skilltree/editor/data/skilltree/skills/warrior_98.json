@@ -3,7 +3,7 @@
   "bonuses": [
     {
       "type": "skilltree:damage",
-      "amount": 0.008,
+      "amount": 0.01,
       "operation": 1,
       "player_multiplier": {
         "value_provider": {
@@ -20,9 +20,9 @@
     {
       "type": "skilltree:attribute",
       "attribute": "minecraft:generic.attack_speed",
-      "id": "89d0693d-b35e-4b5e-a1ca-eeef13662d39",
+      "id": "0c7cf72f-ef3a-4648-a7c3-a84ee1749be0",
       "name": "Skill",
-      "amount": 0.008,
+      "amount": 0.01,
       "operation": 1,
       "player_multiplier": {
         "value_provider": {
@@ -35,7 +35,7 @@
     },
     {
       "type": "skilltree:inflict_effect",
-      "chance": 0.12,
+      "chance": 0.15,
       "max_stacks": 1,
       "effect": "minecraft:speed",
       "duration": 100,
@@ -79,41 +79,19 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "+0.8% Melee Damage per 20% Base Speed"
+      "text": "+1.0% Melee Damage per 20% Base Speed"
     },
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "+0.8% Attack Speed per 20% Base Speed"
+      "text": "+1.0% Attack Speed per 20% Base Speed"
     },
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "translate": "event_listener.skilltree.on_kill",
-      "with": [
-        {
-          "translate": "attribute.modifier.plus.1",
-          "with": [
-            "12",
-            {
-              "translate": "skill_bonus.skilltree.inflict_effect.player.chance",
-              "with": [
-                {
-                  "translate": "effect.minecraft.speed"
-                },
-                {
-                  "translate": "skill_bonus.skilltree.inflict_effect.seconds",
-                  "with": [
-                    "5"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "text": "+15% Chance to gain Speed for 5 seconds on kill"
     },
     {
       "f_131101_": {

@@ -4,17 +4,17 @@
     {
       "type": "skilltree:attribute",
       "attribute": "minecraft:generic.max_health",
-      "id": "d420a9b3-2dda-4c81-95bc-0b3063fc6aec",
+      "id": "8ae4b52d-92a9-4d5d-be43-5d361d65b95e",
       "name": "Skill",
-      "amount": 0.4,
+      "amount": 0.5,
       "operation": 0
     },
     {
       "type": "skilltree:attribute",
       "attribute": "minecraft:generic.max_health",
-      "id": "b04305c9-caa6-466b-9d38-800e6ab8d34c",
+      "id": "c9e47602-fd80-4f9b-bd7b-6deae2db006a",
       "name": "Skill",
-      "amount": 0.002,
+      "amount": 0.0025,
       "operation": 1
     }
   ],

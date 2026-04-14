@@ -3,10 +3,18 @@
   "bonuses": [
     {
       "type": "skilltree:damage_taken",
-      "amount": -0.04,
+      "amount": -0.05,
       "operation": 1,
       "damage_condition": {
-        "type": "skilltree:fall"
+        "type": "skilltree:fire"
+      }
+    },
+    {
+      "type": "skilltree:damage_taken",
+      "amount": 0.02,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:poison"
       }
     }
   ],
@@ -18,7 +26,7 @@
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "ftblibrary:textures/icons/feather.png",
+  "iconTexture": "stalwart_dungeons:textures/item/ancient_fire.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Damage Reduction",
   "positionX": 261.861,

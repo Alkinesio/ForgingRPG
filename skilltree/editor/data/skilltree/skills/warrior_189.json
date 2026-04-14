@@ -14,7 +14,9 @@
   ],
   "longConnections": [],
   "oneWayConnections": [],
-  "tags": [],
+  "tags": [
+    "Third Branch"
+  ],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "alexscaves:textures/item/ferrouslime_ball.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",

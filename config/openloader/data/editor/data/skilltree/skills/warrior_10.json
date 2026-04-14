@@ -16,12 +16,13 @@
           },
           "type": "skilltree:has_item_in_hand"
         },
+        "cooldown": 10,
         "type": "skilltree:ticking"
       }
     },
     {
       "type": "skilltree:inflict_effect",
-      "chance": 0.8,
+      "chance": 0.5,
       "max_stacks": 1,
       "effect": "relics:stun",
       "duration": 20,
@@ -43,7 +44,7 @@
       "amplifier": 0,
       "event_listener": {
         "damage_condition": {
-          "type": "skilltree:none"
+          "type": "skilltree:melee"
         },
         "target": "enemy",
         "type": "skilltree:block"
@@ -78,7 +79,7 @@
       "translate": "living_condition.skilltree.has_item_in_hand",
       "with": [
         {
-          "translate": "event_listener.skilltree.ticking",
+          "translate": "event_listener.skilltree.ticking.second",
           "with": [
             {
               "translate": "skill_bonus.skilltree.inflict_effect.player",
@@ -111,54 +112,14 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "translate": "event_listener.skilltree.attack.damage",
-      "with": [
-        {
-          "translate": "attribute.modifier.plus.1",
-          "with": [
-            "80",
-            {
-              "translate": "skill_bonus.skilltree.inflict_effect.enemy.chance",
-              "with": [
-                {
-                  "translate": "effect.relics.stun"
-                },
-                {
-                  "translate": "skill_bonus.skilltree.inflict_effect.seconds",
-                  "with": [
-                    "1"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "translate": "damage_condition.skilltree.melee.type"
-        }
-      ]
+      "text": "+50% Chance to inflict Stun for 1 seconds on Melee hit"
     },
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "translate": "event_listener.skilltree.block",
-      "with": [
-        {
-          "translate": "skill_bonus.skilltree.inflict_effect.enemy",
-          "with": [
-            {
-              "translate": "effect.relics.stun"
-            },
-            {
-              "translate": "skill_bonus.skilltree.inflict_effect.seconds",
-              "with": [
-                "1.5"
-              ]
-            }
-          ]
-        }
-      ]
+      "f_131102_": false,
+      "text": "Inflict Stun for 1.5 seconds on Melee block"
     },
     {
       "f_131101_": {

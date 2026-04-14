@@ -1,0 +1,35 @@
+{
+  "id": "skilltree:warrior_264",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "75d66a6e-7bad-4b7f-84e9-97699a016b5e",
+      "name": "Skill",
+      "amount": 1.2,
+      "operation": 0,
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "armor",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_262"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "undead_unleashed:textures/item/grave_iron_chestplate.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Armor",
+  "positionX": 404.0,
+  "positionY": -42.213,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

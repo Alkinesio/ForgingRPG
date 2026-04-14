@@ -15,7 +15,7 @@
     },
     {
       "type": "skilltree:damage_taken",
-      "amount": -0.8,
+      "amount": -0.4,
       "operation": 1,
       "player_condition": {
         "item_condition": {
@@ -81,29 +81,7 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "translate": "living_condition.skilltree.has_item_equipped",
-      "with": [
-        {
-          "translate": "attribute.modifier.take.1",
-          "with": [
-            "80",
-            {
-              "translate": "skill_bonus.skilltree.damage_taken",
-              "with": [
-                {
-                  "translate": "damage_condition.skilltree.fire"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "translate": "living_condition.skilltree.has_item_equipped.target.player"
-        },
-        {
-          "translate": "item_condition.skilltree.equipment_type.armor"
-        }
-      ]
+      "text": "-40% Fire Damage taken with Armor equipped"
     },
     {
       "f_131101_": {

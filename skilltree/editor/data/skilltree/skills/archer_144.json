@@ -21,14 +21,6 @@
   "title": "Movement Speed",
   "positionX": 0.0,
   "positionY": -103.0,
-  "buttonSize": 16,
-  "isStartingPoint": false,
-  "description": [
-    {
-      "f_131101_": {
-        "f_131257_": 8092645
-      },
-      "text": "+6% Lava Speed"
-    }
-  ]
+  "buttonSize": 14,
+  "isStartingPoint": false
 }

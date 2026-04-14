@@ -4,17 +4,17 @@
     {
       "type": "skilltree:attribute",
       "attribute": "minecraft:generic.max_health",
-      "id": "14c406c5-6ec5-4647-bd7e-7fbf889a37b4",
+      "id": "4000c225-3f06-482e-9bef-2a5cd90d80ad",
       "name": "Skill",
-      "amount": 0.4,
+      "amount": 0.5,
       "operation": 0
     },
     {
       "type": "skilltree:attribute",
       "attribute": "minecraft:generic.max_health",
-      "id": "65ceb5a3-f6e0-4746-ba15-1c18416ee8da",
+      "id": "006df9aa-97d0-4067-a3d0-a21897f9c05c",
       "name": "Skill",
-      "amount": 0.002,
+      "amount": 0.0025,
       "operation": 1
     }
   ],
@@ -30,7 +30,7 @@
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Maximum Life",
   "positionX": 111.015,
-  "positionY": -187.388,
+  "positionY": -190.0,
   "buttonSize": 14,
   "isStartingPoint": false
 }

@@ -9,6 +9,7 @@
       "duration": 20,
       "amplifier": 0,
       "event_listener": {
+        "cooldown": 10,
         "type": "skilltree:ticking"
       }
     },
@@ -20,6 +21,7 @@
       "duration": 20,
       "amplifier": 0,
       "event_listener": {
+        "cooldown": 10,
         "type": "skilltree:ticking"
       }
     },
@@ -32,6 +34,31 @@
           "type": "skilltree:attribute_value"
         },
         "divisor": 10.0,
+        "type": "skilltree:numeric_value"
+      },
+      "player_condition": {
+        "value_provider": {
+          "attribute": "minecraft:generic.max_health",
+          "type": "skilltree:attribute_value"
+        },
+        "required_value": 500.0,
+        "logic": "LESS",
+        "type": "skilltree:numeric_value"
+      },
+      "damage_condition": {
+        "type": "skilltree:melee"
+      }
+    },
+    {
+      "type": "skilltree:crit_chance",
+      "chance": 0.5,
+      "player_condition": {
+        "value_provider": {
+          "attribute": "minecraft:generic.max_health",
+          "type": "skilltree:attribute_value"
+        },
+        "required_value": 500.0,
+        "logic": "AT_LEAST",
         "type": "skilltree:numeric_value"
       },
       "damage_condition": {
@@ -49,7 +76,9 @@
   ],
   "directConnections": [],
   "longConnections": [],
-  "oneWayConnections": [],
+  "oneWayConnections": [
+    "skilltree:warrior_270"
+  ],
   "tags": [
     "Holy Knight"
   ],
@@ -66,51 +95,22 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "Gain Regeneration I permanently"
+      "f_131102_": false,
+      "text": "Gain Regeneration permanently"
     },
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "Gain Absorption I permanently"
+      "f_131102_": false,
+      "text": "Gain Absorption permanently"
     },
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "translate": "value_provider.skilltree.attribute_value.multiplier.player.plural",
-      "with": [
-        {
-          "translate": "attribute.modifier.plus.1",
-          "with": [
-            "1",
-            {
-              "translate": "skill_bonus.skilltree.crit_chance.damage",
-              "with": [
-                {
-                  "translate": "damage_condition.skilltree.melee.type"
-                }
-              ]
-            }
-          ]
-        },
-        "10",
-        {
-          "translate": "attribute.name.generic.max_health"
-        }
-      ]
-    },
-    {
-      "f_131101_": {
-        "f_131257_": 8092645
-      },
-      "text": ""
-    },
-    {
-      "f_131101_": {
-        "f_131257_": 16777215
-      },
-      "text": "Holy Knight specializes on the use of Shield scaling damage and mainly defense."
+      "f_131102_": false,
+      "text": "+1% Melee Critical Hit Chance per 10 Max Health up to +50%"
     }
   ]
 }

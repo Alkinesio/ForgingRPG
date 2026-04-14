@@ -50,7 +50,7 @@
       "amplifier": 0,
       "event_listener": {
         "damage_condition": {
-          "type": "skilltree:none"
+          "type": "skilltree:melee"
         },
         "target": "enemy",
         "type": "skilltree:damage_taken"
@@ -176,38 +176,8 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "translate": "skill_bonus.skilltree.inflict_effect.stacks",
-      "with": [
-        {
-          "translate": "event_listener.skilltree.damage_taken",
-          "with": [
-            {
-              "translate": "attribute.modifier.plus.1",
-              "with": [
-                "10",
-                {
-                  "translate": "skill_bonus.skilltree.inflict_effect.enemy.chance",
-                  "with": [
-                    {
-                      "translate": "effect.minecraft.poison"
-                    },
-                    {
-                      "translate": "skill_bonus.skilltree.inflict_effect.seconds",
-                      "with": [
-                        "8"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "translate": "damage_condition.skilltree.none"
-            }
-          ]
-        },
-        "5"
-      ]
+      "f_131102_": false,
+      "text": "+10% Chance to inflict Poison for 8 seconds when you take Melee Damage, stacks up to 5 times"
     },
     {
       "f_131101_": {

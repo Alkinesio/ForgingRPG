@@ -55,18 +55,6 @@
           "translate": "item_condition.skilltree.equipment_type.armor"
         }
       ]
-    },
-    {
-      "f_131101_": {
-        "f_131257_": 8092645
-      },
-      "text": ""
-    },
-    {
-      "f_131101_": {
-        "f_131257_": 16777215
-      },
-      "text": "Take this path to focus on offense."
     }
   ]
 }

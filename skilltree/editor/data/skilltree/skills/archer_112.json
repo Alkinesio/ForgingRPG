@@ -51,7 +51,9 @@
     "skilltree:archer_111",
     "skilltree:archer_126"
   ],
-  "longConnections": [],
+  "longConnections": [
+    "skilltree:archer_204"
+  ],
   "oneWayConnections": [],
   "tags": [
     "Notable Skill"

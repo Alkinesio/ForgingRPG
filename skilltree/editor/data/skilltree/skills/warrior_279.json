@@ -1,0 +1,31 @@
+{
+  "id": "skilltree:warrior_279",
+  "bonuses": [
+    {
+      "type": "skilltree:healing",
+      "chance": 0.05,
+      "amount": 0.02,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:poison"
+        },
+        "target": "player",
+        "type": "skilltree:damage_taken"
+      },
+      "percentage_healing": true
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/stone.png",
+  "iconTexture": "iceandfire:textures/item/armor_green_chestplate.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Healing",
+  "positionX": 13.612,
+  "positionY": 254.67,
+  "buttonSize": 15,
+  "isStartingPoint": false
+}

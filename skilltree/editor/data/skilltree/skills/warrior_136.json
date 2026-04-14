@@ -2,11 +2,11 @@
   "id": "skilltree:warrior_136",
   "bonuses": [
     {
-      "type": "skilltree:item_use_movement_speed",
-      "multiplier": -0.2,
-      "item_condition": {
-        "potion_type": "any",
-        "type": "skilltree:potion"
+      "type": "skilltree:damage_taken",
+      "amount": -0.01,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:none"
       }
     }
   ],
@@ -16,9 +16,9 @@
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "twilightforest:textures/item/fiery_boots.png",
+  "iconTexture": "magistuarmory:textures/item/steel_plate.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Tenacity",
+  "title": "Damage Reduction",
   "positionX": 431.0,
   "positionY": -21.0,
   "buttonSize": 14,

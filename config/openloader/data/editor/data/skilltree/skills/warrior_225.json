@@ -41,7 +41,7 @@
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
-  "iconTexture": "mobstein:textures/item/bat_spawn_egg.png",
+  "iconTexture": "minecraft:textures/item/bat_spawn_egg.png",
   "borderTexture": "skilltree:textures/tooltip/keystone.png",
   "title": "Vampiric Lifestealer",
   "positionX": 0.0,

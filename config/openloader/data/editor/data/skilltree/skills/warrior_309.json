@@ -1,0 +1,27 @@
+{
+  "id": "skilltree:warrior_309",
+  "bonuses": [
+    {
+      "type": "skilltree:damage_taken",
+      "amount": -1.0,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:melee"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -53.626465,
+  "positionY": -44.991135,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

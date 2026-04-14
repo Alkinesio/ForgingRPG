@@ -1,0 +1,70 @@
+{
+  "id": "skilltree:warrior_283",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:overheal",
+      "id": "2f31f5ee-473f-4e90-a051-492c2d27df6c",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 0,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "minecraft:generic.max_health",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 1.0,
+        "type": "skilltree:numeric_value"
+      },
+      "player_condition": {
+        "type": "skilltree:burning"
+      }
+    },
+    {
+      "type": "skilltree:damage_taken",
+      "amount": 0.05,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:fall"
+      }
+    },
+    {
+      "type": "skilltree:damage_taken",
+      "amount": 0.05,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:poison"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_178"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/gold.png",
+  "iconTexture": "uniqueaccessories:textures/item/shiny_stone.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Overheal",
+  "positionX": -52.678,
+  "positionY": 181.127,
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+50% Overheal if you are burning"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "f_131102_": false,
+      "text": "+5% Fall and Poison Damage taken"
+    }
+  ]
+}

@@ -2,30 +2,31 @@
   "id": "skilltree:warrior_116",
   "bonuses": [
     {
-      "type": "skilltree:attribute",
-      "attribute": "minecraft:generic.movement_speed",
-      "id": "e0df6485-aab9-4aba-80ab-5eaf89a27b00",
-      "name": "Skill",
-      "amount": 0.048,
-      "operation": 1,
-      "player_condition": {
-        "type": "skilltree:burning"
+      "type": "skilltree:inflict_effect",
+      "chance": 0.2,
+      "max_stacks": 1,
+      "effect": "relics:anti_heal",
+      "duration": 160,
+      "amplifier": 0,
+      "event_listener": {
+        "target": "enemy",
+        "type": "skilltree:critical_hit"
       }
     }
   ],
   "requirements": [],
   "directConnections": [
-    "skilltree:warrior_114"
+    "skilltree:warrior_115"
   ],
   "longConnections": [],
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "cataclysm:textures/item/ignitium_boots.png",
+  "iconTexture": "fantasy_weapons:textures/item/weapon_crimson_reaper.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Burning Speed",
-  "positionX": 347.861,
-  "positionY": -281.931,
+  "title": "Antiheal",
+  "positionX": 300.0,
+  "positionY": 42.211,
   "buttonSize": 14,
   "isStartingPoint": false
 }

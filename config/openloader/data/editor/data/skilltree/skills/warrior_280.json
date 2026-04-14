@@ -1,0 +1,45 @@
+{
+  "id": "skilltree:warrior_280",
+  "bonuses": [
+    {
+      "type": "skilltree:healing",
+      "chance": 1.0,
+      "amount": 0.012,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:melee"
+        },
+        "enemy_condition": {
+          "effect": "minecraft:poison",
+          "amplifier": 0,
+          "type": "skilltree:has_effect"
+        },
+        "target": "player",
+        "type": "skilltree:attack"
+      },
+      "percentage_healing": true
+    },
+    {
+      "type": "skilltree:item_usage_speed",
+      "multiplier": -0.08,
+      "item_condition": {
+        "type": "skilltree:food"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_179"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/gold.png",
+  "iconTexture": "upgrade_aquatic:textures/item/green_jelly_torch.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Healing",
+  "positionX": 52.678,
+  "positionY": 181.129,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

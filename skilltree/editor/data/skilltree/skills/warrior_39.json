@@ -4,24 +4,26 @@
     {
       "type": "skilltree:attribute",
       "attribute": "minecraft:generic.max_health",
-      "id": "3ce47854-2e7e-400e-be94-39ad826d2d3f",
+      "id": "5ea39a90-eeef-4a09-a9cf-1a698fe99d12",
       "name": "Skill",
-      "amount": 0.4,
+      "amount": 0.5,
       "operation": 0
     },
     {
       "type": "skilltree:attribute",
       "attribute": "minecraft:generic.max_health",
-      "id": "449d0d0f-2185-424f-a80d-b10fdbd1c034",
+      "id": "0c142afa-3a1e-4907-9893-5e3154920af2",
       "name": "Skill",
-      "amount": 0.002,
+      "amount": 0.0025,
       "operation": 1
     }
   ],
   "requirements": [],
   "directConnections": [],
   "longConnections": [],
-  "oneWayConnections": [],
+  "oneWayConnections": [
+    "skilltree:warrior_41"
+  ],
   "tags": [
     "Primary Branch"
   ],

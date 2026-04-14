@@ -3,16 +3,24 @@
   "bonuses": [
     {
       "type": "skilltree:attribute",
-      "attribute": "minecraft:generic.attack_speed",
-      "id": "11219ede-c8e7-4659-bafa-bc31e56e4a79",
+      "attribute": "minecraft:generic.max_health",
+      "id": "9e835381-aec3-472d-a0bf-fed2e04decce",
       "name": "Skill",
-      "amount": 0.024,
-      "operation": 2
+      "amount": 0.5,
+      "operation": 0
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "5e22f777-3476-4eab-ac1a-a8efad659e6f",
+      "name": "Skill",
+      "amount": 0.0025,
+      "operation": 1
     }
   ],
   "requirements": [],
   "directConnections": [
-    "skilltree:warrior_41"
+    "skilltree:warrior_44"
   ],
   "longConnections": [],
   "oneWayConnections": [
@@ -20,11 +28,11 @@
   ],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "goety:textures/item/fanged_dagger.png",
+  "iconTexture": "mobstein:textures/item/heart.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Attack Speed",
-  "positionX": 68.587,
-  "positionY": -68.593,
+  "title": "Maximum Life",
+  "positionX": 72.829,
+  "positionY": -95.835,
   "buttonSize": 14,
   "isStartingPoint": false
 }

@@ -154,11 +154,13 @@
     "skilltree:archer_152",
     "skilltree:archer_153",
     "skilltree:archer_154",
-    "skilltree:archer_155"
+    "skilltree:archer_155",
+    "skilltree:archer_156"
   ],
   "id": "skilltree:archer",
   "skillLimitations": {
-    "Archer Sub-class": 1,
+    "Main Class": 1,
+    "Sub-class": 1,
     "Notable Skill": 2,
     "Primary Branch": 1,
     "Secondary Branch": 1,

@@ -14,8 +14,10 @@
           "divisor": 5.0,
           "type": "skilltree:numeric_value"
         },
+        "cooldown": 10,
         "type": "skilltree:ticking"
-      }
+      },
+      "percentage_healing": false
     },
     {
       "type": "skilltree:damage_taken",
@@ -82,7 +84,7 @@
       "translate": "value_provider.skilltree.attribute_value.multiplier.player.plural",
       "with": [
         {
-          "translate": "event_listener.skilltree.ticking",
+          "translate": "event_listener.skilltree.ticking.second",
           "with": [
             {
               "translate": "attribute.modifier.plus.1",
@@ -168,6 +170,7 @@
       "f_131101_": {
         "f_131257_": 16777215
       },
+      "f_131102_": false,
       "text": "Get this to reduce damage via Attack Damage and reduce poison damage."
     }
   ]

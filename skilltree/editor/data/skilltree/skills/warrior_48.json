@@ -3,25 +3,27 @@
   "bonuses": [
     {
       "type": "skilltree:healing",
-      "chance": 0.04,
+      "chance": 0.05,
       "amount": 2.0,
       "event_listener": {
         "player_condition": {
           "type": "skilltree:burning"
         },
+        "cooldown": 10,
         "type": "skilltree:ticking"
-      }
+      },
+      "percentage_healing": false
     },
     {
       "type": "skilltree:damage",
-      "amount": 0.04,
+      "amount": 0.05,
       "operation": 1,
       "enemy_multiplier": {
         "value_provider": {
           "attribute": "minecraft:generic.max_health",
           "type": "skilltree:attribute_value"
         },
-        "divisor": 10.0,
+        "divisor": 20.0,
         "type": "skilltree:numeric_value"
       },
       "player_condition": {
@@ -33,8 +35,18 @@
     },
     {
       "type": "skilltree:damage_taken",
-      "amount": -0.12,
+      "amount": -0.1,
       "operation": 2,
+      "player_condition": {
+        "value_provider": {
+          "percentage": true,
+          "missing": false,
+          "type": "skilltree:health_level"
+        },
+        "required_value": 0.4,
+        "logic": "LESS",
+        "type": "skilltree:numeric_value"
+      },
       "damage_condition": {
         "type": "skilltree:fire"
       }
@@ -62,7 +74,7 @@
     "Primary Notable Skill"
   ],
   "backgroundTexture": "skilltree:textures/icons/background/notable.png",
-  "iconTexture": "moreartifacts:textures/item/fire_stonebase.png",
+  "iconTexture": "uniqueaccessories:textures/item/burning_soul.png",
   "borderTexture": "skilltree:textures/tooltip/notable.png",
   "title": "Firing Spirit",
   "positionX": 96.081,
@@ -77,12 +89,12 @@
       "translate": "living_condition.skilltree.burning",
       "with": [
         {
-          "translate": "event_listener.skilltree.ticking",
+          "translate": "event_listener.skilltree.ticking.second",
           "with": [
             {
               "translate": "attribute.modifier.plus.1",
               "with": [
-                "4",
+                "5",
                 {
                   "translate": "skill_bonus.skilltree.healing.player.chance",
                   "with": [
@@ -110,13 +122,13 @@
             {
               "translate": "attribute.modifier.plus.1",
               "with": [
-                "4",
+                "5",
                 {
                   "translate": "damage_condition.skilltree.melee"
                 }
               ]
             },
-            "10",
+            "20",
             {
               "translate": "attribute.name.generic.max_health"
             }
@@ -131,16 +143,30 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "translate": "attribute.modifier.take.2",
+      "translate": "value_provider.skilltree.health_level.condition.player",
       "with": [
-        "12",
         {
-          "translate": "skill_bonus.skilltree.damage_taken",
+          "translate": "attribute.modifier.take.2",
           "with": [
+            "10",
             {
-              "translate": "damage_condition.skilltree.fire"
+              "translate": "skill_bonus.skilltree.damage_taken",
+              "with": [
+                {
+                  "translate": "damage_condition.skilltree.fire"
+                }
+              ]
             }
           ]
+        },
+        {
+          "translate": "living_condition.skilltree.numeric_value.less",
+          "with": [
+            "40%"
+          ]
+        },
+        {
+          "translate": "value_provider.skilltree.health_level.percentage.plural"
         }
       ]
     },
@@ -154,6 +180,7 @@
       "f_131101_": {
         "f_131257_": 16777215
       },
+      "f_131102_": false,
       "text": "ThE BaRbArIaN iS a TrUe FiRiNg SpIrIt!"
     }
   ]

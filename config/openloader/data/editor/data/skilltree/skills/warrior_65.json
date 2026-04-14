@@ -3,7 +3,7 @@
   "bonuses": [
     {
       "type": "skilltree:inflict_effect",
-      "chance": 0.12,
+      "chance": 0.15,
       "max_stacks": 1,
       "effect": "minecraft:speed",
       "duration": 160,

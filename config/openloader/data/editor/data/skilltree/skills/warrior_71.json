@@ -3,8 +3,18 @@
   "bonuses": [
     {
       "type": "skilltree:damage_taken",
-      "amount": -0.016,
+      "amount": -0.0125,
       "operation": 1,
+      "player_condition": {
+        "value_provider": {
+          "percentage": true,
+          "missing": false,
+          "type": "skilltree:health_level"
+        },
+        "required_value": 0.4,
+        "logic": "LESS",
+        "type": "skilltree:numeric_value"
+      },
       "damage_condition": {
         "type": "skilltree:none"
       }
@@ -18,10 +28,10 @@
   ],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "magistuarmory:textures/item/steel_plate.png",
+  "iconTexture": "minecraft:textures/item/coast_armor_trim_smithing_template.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Damage Reduction",
-  "positionX": 111.724,
+  "positionX": 111.015,
   "positionY": -249.452,
   "buttonSize": 14,
   "isStartingPoint": false

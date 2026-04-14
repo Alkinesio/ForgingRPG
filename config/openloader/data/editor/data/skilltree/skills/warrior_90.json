@@ -4,10 +4,14 @@
     {
       "type": "skilltree:attribute",
       "attribute": "minecraft:generic.movement_speed",
-      "id": "274aeff8-b6f2-4708-8a5a-e46ff2f5a851",
+      "id": "7a1b1014-e74f-4628-8a9a-ea3a158901fd",
       "name": "Skill",
-      "amount": 0.032,
+      "amount": 0.02,
       "operation": 1
+    },
+    {
+      "type": "skilltree:jump_height",
+      "multiplier": 0.03
     }
   ],
   "requirements": [],
@@ -20,7 +24,7 @@
   ],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "magistuarmory:textures/item/brigandine_boots.png",
+  "iconTexture": "iter_rpg:textures/item/ragged_boots.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Movement Speed",
   "titleColor": "",

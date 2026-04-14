@@ -3,7 +3,7 @@
   "bonuses": [
     {
       "type": "skilltree:damage_taken",
-      "amount": -0.024,
+      "amount": -0.0125,
       "operation": 1,
       "player_condition": {
         "effect": "minecraft:fire_resistance",

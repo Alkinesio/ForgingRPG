@@ -2,12 +2,12 @@
   "id": "skilltree:warrior_77",
   "bonuses": [
     {
-      "type": "skilltree:damage_taken",
-      "amount": -0.04,
-      "operation": 1,
-      "damage_condition": {
-        "type": "skilltree:magic"
-      }
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor_toughness",
+      "id": "dd7b068b-2af9-4b49-bfe3-26ee20306f9a",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 0
     }
   ],
   "requirements": [],
@@ -20,9 +20,9 @@
   ],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "irons_spellbooks:textures/item/wandering_magician_chestplate.png",
+  "iconTexture": "advancednetherite:textures/item/netherite_iron_chestplate.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Damage Reduction",
+  "title": "Armor Toughness",
   "positionX": 104.402,
   "positionY": -268.544,
   "buttonSize": 14,

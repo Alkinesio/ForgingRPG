@@ -4,24 +4,22 @@
     {
       "type": "skilltree:attribute",
       "attribute": "minecraft:generic.max_health",
-      "id": "434a1f69-42ce-46e7-87ad-5b88eb5f2360",
+      "id": "4950f750-3447-4b83-b1f6-08d945646eaf",
       "name": "Skill",
-      "amount": 0.4,
+      "amount": 0.5,
       "operation": 0
     },
     {
       "type": "skilltree:attribute",
       "attribute": "minecraft:generic.max_health",
-      "id": "c2c0992c-606d-451c-b865-03937dcaac56",
+      "id": "3a71da6a-924f-4dc5-87ed-a7a731471659",
       "name": "Skill",
-      "amount": 0.002,
+      "amount": 0.0025,
       "operation": 1
     }
   ],
   "requirements": [],
-  "directConnections": [
-    "skilltree:warrior_56"
-  ],
+  "directConnections": [],
   "longConnections": [],
   "oneWayConnections": [],
   "tags": [

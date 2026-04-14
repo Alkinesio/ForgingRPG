@@ -3,7 +3,7 @@
   "bonuses": [
     {
       "type": "skilltree:damage",
-      "amount": 0.4,
+      "amount": 0.5,
       "operation": 0,
       "player_condition": {
         "item_condition": {
@@ -19,13 +19,13 @@
   ],
   "requirements": [],
   "directConnections": [
-    "skilltree:warrior_102"
+    "skilltree:warrior_100"
   ],
   "longConnections": [],
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "macabre:textures/item/axe.png",
+  "iconTexture": "iter_rpg:textures/item/dwarven_battleaxe.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Flat Damage",
   "positionX": 349.242,

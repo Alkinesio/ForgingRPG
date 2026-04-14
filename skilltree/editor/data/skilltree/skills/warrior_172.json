@@ -14,8 +14,10 @@
           "divisor": 2.0,
           "type": "skilltree:numeric_value"
         },
+        "cooldown": 10,
         "type": "skilltree:ticking"
-      }
+      },
+      "percentage_healing": false
     },
     {
       "type": "skilltree:damage_taken",
@@ -50,7 +52,7 @@
     },
     {
       "type": "skilltree:damage_taken",
-      "amount": -0.15,
+      "amount": -0.12,
       "operation": 2,
       "damage_condition": {
         "type": "skilltree:projectile"
@@ -88,7 +90,7 @@
       "translate": "value_provider.skilltree.attribute_value.multiplier.player.plural",
       "with": [
         {
-          "translate": "event_listener.skilltree.ticking",
+          "translate": "event_listener.skilltree.ticking.second",
           "with": [
             {
               "translate": "attribute.modifier.plus.1",
@@ -170,7 +172,7 @@
       },
       "translate": "attribute.modifier.take.2",
       "with": [
-        "15",
+        "12",
         {
           "translate": "skill_bonus.skilltree.damage_taken",
           "with": [
@@ -191,6 +193,7 @@
       "f_131101_": {
         "f_131257_": 16777215
       },
+      "f_131102_": false,
       "text": "More armor for more resistance for the ultimate tank."
     }
   ]

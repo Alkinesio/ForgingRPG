@@ -56,5 +56,76 @@
   "positionX": 496.082,
   "positionY": -77.922,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "value_provider.skilltree.attribute_value.multiplier.player",
+      "with": [
+        {
+          "translate": "attribute.modifier.plus.1",
+          "with": [
+            "20",
+            {
+              "translate": "damage_condition.skilltree.fall"
+            }
+          ]
+        },
+        {
+          "translate": "attribute.name.extend.jump.extra_count"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "attribute.modifier.take.1",
+      "with": [
+        "20",
+        {
+          "translate": "skill_bonus.skilltree.damage_taken",
+          "with": [
+            {
+              "translate": "damage_condition.skilltree.fall"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "text": "Doubled Jump Height"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "attribute.modifier.plus.0",
+      "with": [
+        "1",
+        {
+          "translate": "attribute.name.extend.jump.extra_count"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "f_131102_": false,
+      "text": "Jump, jump and jump still!"
+    }
+  ]
 }

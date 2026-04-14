@@ -4,21 +4,40 @@
     {
       "type": "skilltree:attribute",
       "attribute": "minecraft:generic.armor",
-      "id": "4d0d2468-b9e2-4ba9-901b-903956b109fc",
+      "id": "1abdb558-34ed-4694-a00d-707407135b88",
       "name": "Skill",
-      "amount": 0.8,
-      "operation": 0
+      "amount": 1.0,
+      "operation": 0,
+      "player_condition": {
+        "value_provider": {
+          "percentage": true,
+          "missing": false,
+          "type": "skilltree:health_level"
+        },
+        "required_value": 0.4,
+        "logic": "LESS",
+        "type": "skilltree:numeric_value"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "8993150b-a447-47c5-8814-90e2a405d51b",
+      "name": "Skill",
+      "amount": 0.0015,
+      "operation": 1
     }
   ],
   "requirements": [],
   "directConnections": [
-    "skilltree:warrior_38"
+    "skilltree:warrior_38",
+    "skilltree:warrior_35"
   ],
   "longConnections": [],
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "minecraft:textures/item/iron_chestplate.png",
+  "iconTexture": "immersive_armors:textures/item/warrior_chestplate.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Armor",
   "positionX": 48.081,

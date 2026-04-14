@@ -1,0 +1,40 @@
+{
+  "id": "skilltree:archer_181",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "aa85b108-a975-4afc-853b-405e30eaf6ae",
+      "name": "Skill",
+      "amount": 0.024,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:jump_height",
+      "multiplier": 0.024
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:archer_188"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "iceandfire:textures/item/tide_green_boots.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Movement Speed \u0026 Jump",
+  "positionX": 219.609,
+  "positionY": 129.247,
+  "buttonSize": 14,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+2.4% Speed and Jump Height"
+    }
+  ]
+}

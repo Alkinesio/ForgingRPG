@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:warrior_260",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "x_player_info:attribute.name.extend.healing_per_bonus",
+      "id": "b94182bf-7087-4b48-9805-54a7edd0b486",
+      "name": "Skill",
+      "amount": 0.02,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_258"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "born_in_chaos_v1:textures/item/chaos.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Healing",
+  "positionX": 352.0,
+  "positionY": -42.213,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

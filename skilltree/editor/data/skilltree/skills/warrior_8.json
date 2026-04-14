@@ -2,24 +2,24 @@
   "id": "skilltree:warrior_8",
   "bonuses": [
     {
-      "type": "skilltree:damage",
-      "amount": 0.12,
-      "operation": 1,
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "78e764f4-ce09-4808-893d-d4fc814ec4da",
+      "name": "Skill",
+      "amount": 3.0,
+      "operation": 0,
       "player_condition": {
         "item_condition": {
           "equipment_type": "armor",
           "type": "skilltree:equipment_type"
         },
         "type": "skilltree:has_item_equipped"
-      },
-      "damage_condition": {
-        "type": "skilltree:melee"
       }
     },
     {
       "type": "skilltree:attribute",
       "attribute": "attributeslib:experience_gained",
-      "id": "341ad945-ce3a-41e4-b65b-07835f29e855",
+      "id": "ffc180ea-1607-4c1b-91f2-47ac593022e1",
       "name": "Skill",
       "amount": -0.3,
       "operation": 1
@@ -61,7 +61,8 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "+12% Melee Damage with Armor equipped"
+      "f_131102_": false,
+      "text": "+3 Armor with Armor equipped"
     },
     {
       "f_131101_": {
@@ -79,7 +80,8 @@
       "f_131101_": {
         "f_131257_": 16777215
       },
-      "text": "The Knight is specialized to deal damage with sword while shielding."
+      "f_131102_": false,
+      "text": "The Knight is specialized to deal melee damage and on-hit effects."
     },
     {
       "f_131101_": {

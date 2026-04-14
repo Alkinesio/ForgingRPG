@@ -33,8 +33,10 @@
         "player_condition": {
           "type": "skilltree:burning"
         },
+        "cooldown": 10,
         "type": "skilltree:ticking"
-      }
+      },
+      "percentage_healing": false
     },
     {
       "type": "skilltree:healing",
@@ -49,7 +51,8 @@
         },
         "target": "player",
         "type": "skilltree:attack"
-      }
+      },
+      "percentage_healing": false
     }
   ],
   "requirements": [],
@@ -69,5 +72,96 @@
   "positionX": 518.0,
   "positionY": -56.0,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "event_listener.skilltree.damage_taken",
+      "with": [
+        {
+          "translate": "skill_bonus.skilltree.inflict_ignite.enemy",
+          "with": [
+            "00:08"
+          ]
+        },
+        {
+          "translate": "damage_condition.skilltree.none"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "event_listener.skilltree.attack",
+      "with": [
+        {
+          "translate": "skill_bonus.skilltree.inflict_ignite.enemy",
+          "with": [
+            "00:08"
+          ]
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "living_condition.skilltree.burning",
+      "with": [
+        {
+          "translate": "event_listener.skilltree.ticking.second",
+          "with": [
+            {
+              "translate": "skill_bonus.skilltree.healing.player",
+              "with": [
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "translate": "living_condition.skilltree.burning.target.player"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "living_condition.skilltree.burning",
+      "with": [
+        {
+          "translate": "event_listener.skilltree.attack",
+          "with": [
+            {
+              "translate": "skill_bonus.skilltree.healing.player",
+              "with": [
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "translate": "living_condition.skilltree.burning.target.enemy"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "f_131102_": false,
+      "f_131103_": false,
+      "text": "Regenerate life on burning enemies."
+    }
+  ]
 }

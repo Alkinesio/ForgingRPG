@@ -28,7 +28,7 @@
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "born_in_chaos_v1:textures/item/shell_mace.png",
+  "iconTexture": "macabre:textures/item/plasmamace.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Stun",
   "positionX": -67.728,

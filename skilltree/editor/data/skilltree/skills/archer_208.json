@@ -1,0 +1,108 @@
+{
+  "id": "skilltree:archer_208",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_damage",
+      "chance": 1.0,
+      "damage": 2.0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:projectile"
+        },
+        "enemy_condition": {
+          "effect": "minecraft:poison",
+          "amplifier": 0,
+          "type": "skilltree:has_effect"
+        },
+        "enemy_multiplier": {
+          "value_provider": {
+            "attribute": "minecraft:generic.max_health",
+            "type": "skilltree:attribute_value"
+          },
+          "divisor": 30.0,
+          "type": "skilltree:numeric_value"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      },
+      "damage_type": {
+        "type": "skilltree:magic"
+      }
+    },
+    {
+      "type": "skilltree:crit_chance",
+      "chance": -0.2,
+      "damage_condition": {
+        "type": "skilltree:projectile"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:archer_191"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:archer_207"
+  ],
+  "tags": [
+    "Third Branch"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/gold.png",
+  "iconTexture": "uniqueaccessories:textures/item/magick_quiver.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Boss Slayer",
+  "positionX": 26.471,
+  "positionY": 198.247,
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "value_provider.skilltree.attribute_value.multiplier.enemy.plural",
+      "with": [
+        {
+          "translate": "living_condition.skilltree.has_effect",
+          "with": [
+            {
+              "translate": "event_listener.skilltree.attack.damage",
+              "with": [
+                {
+                  "translate": "skill_bonus.skilltree.inflict_damage.enemy",
+                  "with": [
+                    "2",
+                    {
+                      "translate": "damage_condition.skilltree.magic.type"
+                    }
+                  ]
+                },
+                {
+                  "translate": "damage_condition.skilltree.projectile.type"
+                }
+              ]
+            },
+            {
+              "translate": "living_condition.skilltree.has_effect.target.enemy"
+            },
+            {
+              "translate": "effect.minecraft.poison"
+            }
+          ]
+        },
+        "30",
+        {
+          "translate": "attribute.name.generic.max_health"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "f_131102_": false,
+      "text": "-20% Total Projectile Critical Hit Chance"
+    }
+  ]
+}

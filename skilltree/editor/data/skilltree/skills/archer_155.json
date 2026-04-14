@@ -10,7 +10,7 @@
       "amplifier": 0,
       "event_listener": {
         "damage_condition": {
-          "type": "skilltree:none"
+          "type": "skilltree:projectile"
         },
         "player_condition": {
           "item_condition": {
@@ -29,7 +29,9 @@
     "skilltree:archer_154"
   ],
   "longConnections": [],
-  "oneWayConnections": [],
+  "oneWayConnections": [
+    "skilltree:archer_158"
+  ],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "born_in_chaos_v1:textures/item/shell_mace.png",

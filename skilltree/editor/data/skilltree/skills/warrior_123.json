@@ -13,7 +13,7 @@
         "type": "skilltree:numeric_value"
       },
       "damage_condition": {
-        "type": "skilltree:none"
+        "type": "skilltree:melee"
       }
     },
     {
@@ -83,7 +83,12 @@
           "with": [
             "1.2",
             {
-              "translate": "skill_bonus.skilltree.crit_damage"
+              "translate": "skill_bonus.skilltree.crit_damage.damage",
+              "with": [
+                {
+                  "translate": "damage_condition.skilltree.melee.type"
+                }
+              ]
             }
           ]
         },
@@ -99,7 +104,7 @@
       "translate": "value_provider.skilltree.attribute_value.multiplier.player",
       "with": [
         {
-          "translate": "attribute.modifier.plus.2",
+          "translate": "attribute.modifier.plus.1",
           "with": [
             "0.6",
             {
@@ -116,7 +121,7 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "translate": "attribute.modifier.take.2",
+      "translate": "attribute.modifier.take.1",
       "with": [
         "10",
         {
@@ -139,6 +144,7 @@
       "f_131101_": {
         "f_131257_": 16777215
       },
+      "f_131102_": false,
       "text": "Get this to scale damage via Armor and reduce fire damage."
     }
   ]

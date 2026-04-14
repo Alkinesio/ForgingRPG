@@ -3,14 +3,7 @@
   "bonuses": [
     {
       "type": "skilltree:incoming_healing",
-      "multiplier": 0.08,
-      "player_condition": {
-        "item_condition": {
-          "equipment_type": "armor",
-          "type": "skilltree:equipment_type"
-        },
-        "type": "skilltree:has_item_equipped"
-      }
+      "multiplier": 0.05
     }
   ],
   "requirements": [],

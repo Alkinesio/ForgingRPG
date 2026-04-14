@@ -81,6 +81,7 @@
   "iconTexture": "dungeonnowloading:textures/item/redstone_core.png",
   "borderTexture": "skilltree:textures/tooltip/notable.png",
   "title": "Crimson Duty",
+  "titleColor": "",
   "positionX": 0.0,
   "positionY": -174.0,
   "buttonSize": 18,
@@ -90,97 +91,66 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "translate": "event_listener.skilltree.attack",
-      "with": [
-        {
-          "translate": "attribute.modifier.plus.1",
-          "with": [
-            "50",
-            {
-              "translate": "skill_bonus.skilltree.inflict_effect.enemy.chance",
-              "with": [
-                {
-                  "translate": "effect.born_in_chaos_v1.lifesteal"
-                },
-                {
-                  "translate": "skill_bonus.skilltree.inflict_effect.seconds",
-                  "with": [
-                    "4"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "f_131102_": false,
+      "f_131103_": false,
+      "f_131104_": false,
+      "f_131105_": false,
+      "f_131106_": false,
+      "text": "+50% Chance to inflict §cLifesteal for 4 seconds on hit"
     },
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "translate": "event_listener.skilltree.attack",
-      "with": [
-        {
-          "translate": "attribute.modifier.plus.1",
-          "with": [
-            "50",
-            {
-              "translate": "skill_bonus.skilltree.inflict_effect.enemy.chance",
-              "with": [
-                {
-                  "translate": "effect.relics.anti_heal"
-                },
-                {
-                  "translate": "skill_bonus.skilltree.inflict_effect.seconds",
-                  "with": [
-                    "4"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "f_131102_": false,
+      "f_131103_": false,
+      "f_131104_": false,
+      "f_131105_": false,
+      "f_131106_": false,
+      "text": "+50% Chance to inflict Anti-Heal for 4 seconds on hit"
     },
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "translate": "value_provider.skilltree.attribute_value.multiplier.enemy.plural",
-      "with": [
-        {
-          "translate": "event_listener.skilltree.on_kill",
-          "with": [
-            {
-              "translate": "skill_bonus.skilltree.healing.player",
-              "with": [
-                "1"
-              ]
-            }
-          ]
-        },
-        "20",
-        {
-          "translate": "attribute.name.generic.max_health"
-        }
-      ]
+      "f_131102_": false,
+      "f_131103_": false,
+      "f_131104_": false,
+      "f_131105_": false,
+      "f_131106_": false,
+      "text": "Recover 1 life on kill per 20 enemy\u0027s Max Health"
     },
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
+      "f_131102_": false,
+      "f_131103_": false,
+      "f_131104_": false,
+      "f_131105_": false,
+      "f_131106_": false,
       "text": "+15% Armor Penetration"
     },
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
+      "f_131102_": false,
+      "f_131103_": false,
+      "f_131104_": false,
+      "f_131105_": false,
+      "f_131106_": false,
       "text": ""
     },
     {
       "f_131101_": {
         "f_131257_": 16777215
       },
+      "f_131102_": false,
+      "f_131103_": false,
+      "f_131104_": false,
+      "f_131105_": false,
+      "f_131106_": false,
       "text": "Reminds me of Mortal Reminder, a mortal reminder... yea..."
     }
   ]

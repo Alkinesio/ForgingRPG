@@ -2,15 +2,11 @@
   "id": "skilltree:warrior_257",
   "bonuses": [
     {
-      "type": "skilltree:healing",
-      "chance": 1.0,
-      "amount": 1.0,
-      "event_listener": {
-        "item_condition": {
-          "potion_type": "any",
-          "type": "skilltree:potion"
-        },
-        "type": "skilltree:item_used"
+      "type": "skilltree:damage_taken",
+      "amount": -0.03,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:thorns"
       }
     }
   ],
@@ -25,9 +21,9 @@
   ],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "irons_spellbooks:textures/item/greater_healing_potion.png",
+  "iconTexture": "bosses_of_mass_destruction:textures/item/void_thorn.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Healing",
+  "title": "Damage Reduction",
   "positionX": 32.901,
   "positionY": 185.758,
   "buttonSize": 14,

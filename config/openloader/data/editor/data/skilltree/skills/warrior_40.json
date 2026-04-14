@@ -4,21 +4,27 @@
     {
       "type": "skilltree:attribute",
       "attribute": "minecraft:generic.movement_speed",
-      "id": "d4f7e046-6dc2-45da-a4e6-b8bc76d52a67",
+      "id": "4c51b70b-685f-4b19-812d-7ae5ef8d2fbd",
       "name": "Skill",
-      "amount": 0.032,
+      "amount": 0.02,
       "operation": 1
+    },
+    {
+      "type": "skilltree:jump_height",
+      "multiplier": 0.03
     }
   ],
   "requirements": [],
   "directConnections": [],
   "longConnections": [],
-  "oneWayConnections": [],
+  "oneWayConnections": [
+    "skilltree:warrior_41"
+  ],
   "tags": [
     "Primary Branch"
   ],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "magistuarmory:textures/item/brigandine_boots.png",
+  "iconTexture": "iter_rpg:textures/item/ragged_boots.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Movement Speed",
   "positionX": 53.403,

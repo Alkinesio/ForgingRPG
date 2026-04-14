@@ -1,0 +1,24 @@
+{
+  "id": "skilltree:warrior_307",
+  "bonuses": [],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:utility_22"
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [
+    "skilltree:warrior_196"
+  ],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/recipe.png",
+  "iconTexture": "uniquedungeons:textures/item/ancient_note.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Tier II Main Class Recipe",
+  "positionX": -15.0,
+  "positionY": 187.5,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

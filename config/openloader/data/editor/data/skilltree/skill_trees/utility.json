@@ -28,11 +28,11 @@
     "skilltree:utility_29",
     "skilltree:utility_26",
     "skilltree:utility_27",
-    "skilltree:utility_28",
-    "skilltree:utility_30"
+    "skilltree:utility_28"
   ],
   "id": "skilltree:utility",
   "skillLimitations": {
-    "Sub-class": 1
+    "Utility class": 1,
+    "Utility Sub-class": 1
   }
 }

@@ -3,7 +3,7 @@
   "bonuses": [
     {
       "type": "skilltree:item_usage_speed",
-      "multiplier": 0.02
+      "multiplier": 0.025
     }
   ],
   "requirements": [],
@@ -14,12 +14,12 @@
   "longConnections": [],
   "oneWayConnections": [],
   "tags": [],
-  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "backgroundTexture": "skilltree:textures/icons/background/stone.png",
   "iconTexture": "artifacts:textures/item/vampiric_glove.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Utility",
   "positionX": 87.08,
   "positionY": -21.92,
-  "buttonSize": 14,
+  "buttonSize": 15,
   "isStartingPoint": false
 }

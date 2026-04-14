@@ -67,7 +67,8 @@
       "f_131101_": {
         "f_131257_": 16777215
       },
-      "text": "The Lifestealer is specialized to deal damage while healing self."
+      "f_131102_": false,
+      "text": "The Lifestealer is specialized to heal self dealing damage."
     },
     {
       "f_131101_": {

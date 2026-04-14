@@ -15,7 +15,7 @@
     },
     {
       "type": "skilltree:damage_taken",
-      "amount": -0.8,
+      "amount": -0.5,
       "operation": 1,
       "player_condition": {
         "item_condition": {
@@ -86,7 +86,7 @@
         {
           "translate": "attribute.modifier.take.1",
           "with": [
-            "80",
+            "50",
             {
               "translate": "skill_bonus.skilltree.damage_taken",
               "with": [

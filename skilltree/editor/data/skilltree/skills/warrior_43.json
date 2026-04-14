@@ -4,10 +4,14 @@
     {
       "type": "skilltree:attribute",
       "attribute": "minecraft:generic.movement_speed",
-      "id": "4818c740-b853-455e-b414-bce1f96b6c9a",
+      "id": "3e317cfa-7901-46f2-b2f8-5eefc119db0d",
       "name": "Skill",
-      "amount": 0.032,
+      "amount": 0.02,
       "operation": 1
+    },
+    {
+      "type": "skilltree:jump_height",
+      "multiplier": 0.03
     }
   ],
   "requirements": [],
@@ -20,9 +24,9 @@
   ],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "magistuarmory:textures/item/brigandine_boots.png",
+  "iconTexture": "iter_rpg:textures/item/ragged_boots.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Movement Speed",
+  "title": "Movement Speed \u0026 Jump",
   "positionX": 96.081,
   "positionY": -74.087,
   "buttonSize": 14,

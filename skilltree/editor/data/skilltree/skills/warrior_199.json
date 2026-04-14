@@ -8,10 +8,16 @@
   ],
   "requirements": [],
   "directConnections": [
-    "skilltree:warrior_192"
+    "skilltree:warrior_192",
+    "skilltree:warrior_276",
+    "skilltree:warrior_279"
   ],
   "longConnections": [],
-  "oneWayConnections": [],
+  "oneWayConnections": [
+    "skilltree:warrior_274",
+    "skilltree:warrior_189",
+    "skilltree:warrior_188"
+  ],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "artifacts:textures/item/crystal_heart.png",

@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:warrior_266",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor_toughness",
+      "id": "d9bf6d3c-4ffa-4c70-a503-a1d7d2d57a63",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:warrior_264"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "advancednetherite:textures/item/netherite_iron_chestplate.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Armor Thoughness",
+  "positionX": 430.0,
+  "positionY": -42.213,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

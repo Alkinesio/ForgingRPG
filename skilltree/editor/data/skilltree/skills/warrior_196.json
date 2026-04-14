@@ -4,40 +4,12 @@
     {
       "type": "skilltree:healing",
       "chance": 1.0,
-      "amount": 2.0,
+      "amount": 0.002,
       "event_listener": {
-        "player_multiplier": {
-          "value_provider": {
-            "attribute": "minecraft:generic.max_health",
-            "type": "skilltree:attribute_value"
-          },
-          "divisor": 20.0,
-          "type": "skilltree:numeric_value"
-        },
         "cooldown": 10,
         "type": "skilltree:ticking"
       },
-      "percentage_healing": false
-    },
-    {
-      "type": "skilltree:inflict_effect",
-      "chance": 1.0,
-      "max_stacks": 1,
-      "effect": "minecraft:regeneration",
-      "duration": 20,
-      "amplifier": 0,
-      "event_listener": {
-        "player_multiplier": {
-          "value_provider": {
-            "attribute": "minecraft:generic.armor",
-            "type": "skilltree:attribute_value"
-          },
-          "divisor": 40.0,
-          "type": "skilltree:numeric_value"
-        },
-        "cooldown": 10,
-        "type": "skilltree:ticking"
-      }
+      "percentage_healing": true
     },
     {
       "type": "skilltree:incoming_healing",
@@ -81,48 +53,13 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "translate": "value_provider.skilltree.attribute_value.multiplier.player.plural",
+      "translate": "event_listener.skilltree.ticking.second",
       "with": [
         {
-          "translate": "event_listener.skilltree.ticking.second",
+          "translate": "skill_bonus.skilltree.healing.player",
           "with": [
-            {
-              "translate": "skill_bonus.skilltree.healing.player",
-              "with": [
-                "2"
-              ]
-            }
+            "0.2%"
           ]
-        },
-        "20",
-        {
-          "translate": "attribute.name.generic.max_health"
-        }
-      ]
-    },
-    {
-      "f_131101_": {
-        "f_131257_": 8092645
-      },
-      "translate": "value_provider.skilltree.attribute_value.multiplier.player.plural",
-      "with": [
-        {
-          "translate": "event_listener.skilltree.ticking.second",
-          "with": [
-            {
-              "translate": "skill_bonus.skilltree.inflict_effect.player",
-              "with": [
-                {
-                  "translate": "effect.minecraft.regeneration"
-                },
-                ""
-              ]
-            }
-          ]
-        },
-        "40",
-        {
-          "translate": "attribute.name.generic.armor"
         }
       ]
     },
@@ -156,7 +93,6 @@
       "f_131101_": {
         "f_131257_": 16777215
       },
-      "f_131102_": false,
       "text": "Time to heal based on your defenses."
     }
   ]

@@ -3,10 +3,17 @@
   "bonuses": [
     {
       "type": "skilltree:damage",
-      "amount": 0.04,
+      "amount": 0.05,
       "operation": 1,
       "player_condition": {
-        "type": "skilltree:burning"
+        "value_provider": {
+          "percentage": true,
+          "missing": false,
+          "type": "skilltree:food_level"
+        },
+        "required_value": 1.0,
+        "logic": "EQUAL",
+        "type": "skilltree:numeric_value"
       },
       "damage_condition": {
         "type": "skilltree:melee"
@@ -15,15 +22,16 @@
   ],
   "requirements": [],
   "directConnections": [
-    "skilltree:warrior_107"
+    "skilltree:warrior_106",
+    "skilltree:warrior_110"
   ],
   "longConnections": [],
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "moreartifacts:textures/item/fire_stone.png",
+  "iconTexture": "cnc:textures/item/parcooked_game_a.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Burning Damage",
+  "title": "Saturation Damage",
   "positionX": 386.011,
   "positionY": -280.017,
   "buttonSize": 14,

@@ -3,9 +3,9 @@
   "bonuses": [
     {
       "type": "skilltree:all_attributes",
-      "id": "58d4d6f2-8eb3-44c2-bbb4-01bfee3c28f1",
+      "id": "7aba4f4c-adab-4924-b777-40cd4c96aa88",
       "name": "Skill",
-      "amount": 0.04,
+      "amount": 0.05,
       "operation": 2,
       "player_condition": {
         "value_provider": {
@@ -49,18 +49,7 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "translate": "value_provider.skilltree.food_level.condition.player.full",
-      "with": [
-        {
-          "translate": "attribute.modifier.plus.2",
-          "with": [
-            "4",
-            {
-              "translate": "skill_bonus.skilltree.all_attributes"
-            }
-          ]
-        }
-      ]
+      "text": "+5% All Attributes if you are not hungry"
     },
     {
       "f_131101_": {

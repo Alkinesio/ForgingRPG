@@ -3,7 +3,7 @@
   "bonuses": [
     {
       "type": "skilltree:damage_taken",
-      "amount": -0.024,
+      "amount": -0.0125,
       "operation": 1,
       "player_condition": {
         "type": "skilltree:burning"
@@ -16,7 +16,7 @@
   "requirements": [],
   "directConnections": [
     "skilltree:warrior_56",
-    "skilltree:warrior_71"
+    "skilltree:warrior_81"
   ],
   "longConnections": [],
   "oneWayConnections": [],

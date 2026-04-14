@@ -4,9 +4,9 @@
     {
       "type": "skilltree:attribute",
       "attribute": "minecraft:generic.max_health",
-      "id": "44e2f8eb-02f0-4671-a60a-ca49f0c36281",
+      "id": "7b9f42df-2b23-401d-8270-64a3f82bad02",
       "name": "Skill",
-      "amount": 1.5,
+      "amount": 1.2,
       "operation": 0,
       "player_condition": {
         "item_condition": {

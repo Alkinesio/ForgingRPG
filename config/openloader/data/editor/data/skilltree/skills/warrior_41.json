@@ -4,25 +4,30 @@
     {
       "type": "skilltree:attribute",
       "attribute": "minecraft:generic.attack_speed",
-      "id": "fd8c201c-346a-4338-aa8e-c53b76344669",
+      "id": "dc52810f-cabf-4764-82f4-bdf8a7ea57fd",
       "name": "Skill",
-      "amount": 0.024,
-      "operation": 1
+      "amount": 0.033,
+      "operation": 1,
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "axe",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
     }
   ],
   "requirements": [],
   "directConnections": [],
   "longConnections": [],
   "oneWayConnections": [],
-  "tags": [
-    "Primary Branch"
-  ],
+  "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "goety:textures/item/fanged_dagger.png",
+  "iconTexture": "deep_aether:textures/item/skyjade_axe.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Attack Speed",
-  "positionX": 50.202,
-  "positionY": -50.208,
+  "positionX": 53.403,
+  "positionY": -53.409,
   "buttonSize": 14,
   "isStartingPoint": false
 }

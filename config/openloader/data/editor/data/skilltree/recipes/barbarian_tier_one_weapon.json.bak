@@ -1,0 +1,45 @@
+{
+  "type": "skilltree:workbench_item_bonus",
+  "base_item_condition":
+    {
+      "type": "skilltree:equipment_type",
+      "equipment_type": "axe"
+    },
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "apotheosis:gem_dust"
+      },
+      "required_amount": 50
+    },
+	{
+      "ingredient": {
+        "tag": "lowlands_clothing:axolotliron"
+      },
+      "required_amount": 2
+    },
+	{
+      "ingredient": {
+        "tag": "mobstein:warden_head"
+      },
+      "required_amount": 1
+    }
+  ],
+  "item_bonus": {
+    "type": "skilltree:item_bonus_list",
+    "inner_bonuses": [
+      {
+        "type": "skilltree:damage",
+        "amount": 0.05,
+        "operation": 1,
+        "player_condition": {
+          "type": "skilltree:burning"
+        },
+        "damage_condition": {
+          "type": "skilltree:melee"
+        }
+      }
+    ]
+  },
+  "requires_passive_skill": true
+}

@@ -7,7 +7,7 @@
       "damage": 1.0,
       "event_listener": {
         "damage_condition": {
-          "type": "skilltree:none"
+          "type": "skilltree:melee"
         },
         "player_multiplier": {
           "value_provider": {
@@ -40,7 +40,7 @@
       "damage": 5.0,
       "event_listener": {
         "damage_condition": {
-          "type": "skilltree:none"
+          "type": "skilltree:melee"
         },
         "target": "enemy",
         "type": "skilltree:block"
@@ -51,7 +51,7 @@
     },
     {
       "type": "skilltree:damage_taken",
-      "amount": -0.1,
+      "amount": -0.08,
       "operation": 2,
       "damage_condition": {
         "type": "skilltree:melee"
@@ -99,7 +99,7 @@
               ]
             },
             {
-              "translate": "damage_condition.skilltree.none"
+              "translate": "damage_condition.skilltree.melee"
             }
           ]
         },
@@ -113,13 +113,22 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "50% of Melee Damage is being converted to Thorns Damage"
+      "translate": "skill_bonus.skilltree.damage_conversion",
+      "with": [
+        "50",
+        {
+          "translate": "damage_condition.skilltree.melee"
+        },
+        {
+          "translate": "damage_condition.skilltree.thorns"
+        }
+      ]
     },
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "translate": "event_listener.skilltree.block",
+      "translate": "event_listener.skilltree.block.damage",
       "with": [
         {
           "translate": "attribute.modifier.plus.1",
@@ -135,6 +144,9 @@
               ]
             }
           ]
+        },
+        {
+          "translate": "damage_condition.skilltree.melee.type"
         }
       ]
     },
@@ -142,18 +154,7 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "translate": "attribute.modifier.take.2",
-      "with": [
-        "10",
-        {
-          "translate": "skill_bonus.skilltree.damage_taken",
-          "with": [
-            {
-              "translate": "damage_condition.skilltree.melee"
-            }
-          ]
-        }
-      ]
+      "text": "-8% Melee Damage taken"
     },
     {
       "f_131101_": {

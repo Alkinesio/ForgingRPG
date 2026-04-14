@@ -3,7 +3,7 @@
   "bonuses": [
     {
       "type": "skilltree:inflict_effect",
-      "chance": 0.08,
+      "chance": 0.1,
       "max_stacks": 1,
       "effect": "aethergearexpansion:berserk",
       "duration": 160,

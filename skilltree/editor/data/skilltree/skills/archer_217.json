@@ -1,0 +1,18 @@
+{
+  "id": "skilltree:archer_217",
+  "bonuses": [],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [
+    "skilltree:archer_70"
+  ],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/recipe.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/blacksmith.png",
+  "positionX": 160.516,
+  "positionY": 241.51,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

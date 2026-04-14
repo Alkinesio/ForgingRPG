@@ -16,11 +16,11 @@
   ],
   "longConnections": [],
   "oneWayConnections": [
-    "skilltree:warrior_200"
+    "skilltree:warrior_274"
   ],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "alexsmobs:textures/item/poison_bottle.png",
+  "iconTexture": "iceandfire:textures/item/hydra_venom.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Poison Damage",
   "positionX": 37.879,

@@ -4,13 +4,21 @@
     {
       "type": "skilltree:attribute",
       "attribute": "minecraft:generic.movement_speed",
-      "id": "d433bdc0-8c5f-4e06-bdce-3c884f6d7bbd",
+      "id": "e26930ef-5e8c-405c-9088-bcb89d380961",
       "name": "Skill",
-      "amount": 0.048,
+      "amount": 0.024,
       "operation": 1,
       "player_condition": {
         "type": "skilltree:burning"
       }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "additionalentityattributes:lava_speed",
+      "id": "8c97d670-2ab1-48ce-9d4b-c68de871895a",
+      "name": "Skill",
+      "amount": 0.024,
+      "operation": 1
     }
   ],
   "requirements": [],

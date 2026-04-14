@@ -41,7 +41,11 @@
     "net.mcreator.realmrpgquests.client.gui.QuestBookPageAScreen": true,
     "betteradvancements.common.gui.BetterAdvancementsScreen": true,
     "net.thetct.tctcore.client.gui.TCTcoreScreen": true,
-    "com.aetherteam.aether.client.gui.screen.inventory.LoreBookScreen": true
+    "com.aetherteam.aether.client.gui.screen.inventory.LoreBookScreen": true,
+    "dev.shadowsoffire.apotheosis.adventure.affix.reforging.ReforgingScreen": true,
+    "ovh.corail.tombstone.gui.ScreenReadableScroll": true,
+    "com.voxelforge.homesteads.screen.LumberJackScreen": true,
+    "tictim.paraglider.client.screen.BargainScreen": true
   },
   "hideBackground": {
     "net.mcreator.monsterhuntervillager.client.gui.HuntersTableGuiScreen": true,
@@ -69,6 +73,8 @@
     "io.wispforest.accessories.client.gui.AccessoriesScreen": true,
     "com.github.alexthe666.alexsmobs.client.gui.GUIAnimalDictionary": true,
     "net.mcreator.realmrpgquests.client.gui.QuestBookPageAScreen": true,
-    "com.aetherteam.aether.client.gui.screen.inventory.LoreBookScreen": true
+    "com.aetherteam.aether.client.gui.screen.inventory.LoreBookScreen": true,
+    "dev.shadowsoffire.apotheosis.adventure.affix.reforging.ReforgingScreen": true,
+    "com.voxelforge.homesteads.screen.LumberJackScreen": true
   }
 }

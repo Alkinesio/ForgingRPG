@@ -3,11 +3,28 @@
   "bonuses": [
     {
       "type": "skilltree:damage_taken",
-      "amount": -0.016,
+      "amount": -0.005,
       "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "percentage": true,
+          "missing": true,
+          "type": "skilltree:health_level"
+        },
+        "divisor": 0.05,
+        "type": "skilltree:numeric_value"
+      },
       "damage_condition": {
         "type": "skilltree:none"
       }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:dodge_chance",
+      "id": "e28ebb23-c168-4368-8892-25c3f44dc974",
+      "name": "Skill",
+      "amount": -1.0,
+      "operation": 2
     }
   ],
   "requirements": [],
@@ -18,12 +35,47 @@
   "longConnections": [],
   "oneWayConnections": [],
   "tags": [],
-  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "magistuarmory:textures/item/steel_plate.png",
+  "backgroundTexture": "skilltree:textures/icons/background/gold.png",
+  "iconTexture": "minecraft:textures/item/vex_armor_trim_smithing_template.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Damage Reduction",
   "positionX": 206.54,
   "positionY": -318.447,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "value_provider.skilltree.health_level.multiplier.player.plural.missing",
+      "with": [
+        {
+          "translate": "attribute.modifier.take.1",
+          "with": [
+            "0.5",
+            {
+              "translate": "skill_bonus.skilltree.damage_taken",
+              "with": [
+                {
+                  "translate": "damage_condition.skilltree.none"
+                }
+              ]
+            }
+          ]
+        },
+        "5%",
+        {
+          "translate": "value_provider.skilltree.health_level.percentage.plural"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "f_131102_": false,
+      "text": "You cannot dodge anymore (-100% Dodge Chance)"
+    }
+  ]
 }

@@ -3,14 +3,14 @@
   "bonuses": [
     {
       "type": "skilltree:damage",
-      "amount": 0.4,
+      "amount": 0.5,
       "operation": 0,
       "player_condition": {
         "item_condition": {
           "equipment_type": "axe",
           "type": "skilltree:equipment_type"
         },
-        "type": "skilltree:has_item_in_hand"
+        "type": "skilltree:has_item_equipped"
       },
       "damage_condition": {
         "type": "skilltree:melee"
@@ -19,13 +19,14 @@
   ],
   "requirements": [],
   "directConnections": [
-    "skilltree:warrior_40"
+    "skilltree:warrior_40",
+    "skilltree:warrior_45"
   ],
   "longConnections": [],
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "macabre:textures/item/axe.png",
+  "iconTexture": "iter_rpg:textures/item/dwarven_battleaxe.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Flat Damage",
   "positionX": 78.403,

@@ -3,8 +3,8 @@
   "bonuses": [
     {
       "type": "skilltree:attribute",
-      "attribute": "minecraft:generic.armor",
-      "id": "eeffaf23-0237-4252-8c0b-cea0fc28083b",
+      "attribute": "minecraft:generic.armor_toughness",
+      "id": "20f10086-957d-44ee-94ef-26a896c396c5",
       "name": "Skill",
       "amount": 1.0,
       "operation": 0,
@@ -13,32 +13,24 @@
           "attribute": "minecraft:generic.attack_damage",
           "type": "skilltree:attribute_value"
         },
-        "divisor": 4.0,
+        "divisor": 8.0,
         "type": "skilltree:numeric_value"
       }
     },
     {
       "type": "skilltree:attribute",
       "attribute": "attributeslib:current_hp_damage",
-      "id": "8581c778-dde3-4cac-ad12-e2d24ed88b2b",
+      "id": "07da34ff-391a-4094-bf45-8ae9b4a5519c",
       "name": "Skill",
-      "amount": 0.08,
+      "amount": 0.02,
       "operation": 0
     },
     {
       "type": "skilltree:all_attributes",
-      "id": "b5500d83-13be-4c9e-80ed-cddfbb9a4a60",
+      "id": "fb2ac217-8b81-4dca-a5a6-be55e9b50a62",
       "name": "Skill",
-      "amount": 0.04,
+      "amount": 0.05,
       "operation": 2
-    },
-    {
-      "type": "skilltree:attribute",
-      "attribute": "minecraft:generic.attack_damage",
-      "id": "8621329a-b418-43db-a211-2994ad0135d3",
-      "name": "Skill",
-      "amount": 4.0,
-      "operation": 0
     }
   ],
   "requirements": [
@@ -79,51 +71,28 @@
           "with": [
             "1",
             {
-              "translate": "attribute.name.generic.armor"
+              "translate": "attribute.name.generic.armor_toughness"
             }
           ]
         },
-        "4",
-        {
-          "translate": "attribute.name.generic.attack_damage"
-        }
-      ]
-    },
-    {
-      "f_131101_": {
-        "f_131257_": 8092645
-      },
-      "translate": "attribute.modifier.plus.2",
-      "with": [
         "8",
         {
-          "translate": "attributeslib:current_hp_damage"
-        }
-      ]
-    },
-    {
-      "f_131101_": {
-        "f_131257_": 8092645
-      },
-      "translate": "attribute.modifier.plus.1",
-      "with": [
-        "4",
-        {
-          "translate": "skill_bonus.skilltree.all_attributes"
-        }
-      ]
-    },
-    {
-      "f_131101_": {
-        "f_131257_": 8092645
-      },
-      "translate": "attribute.modifier.plus.0",
-      "with": [
-        "4",
-        {
           "translate": "attribute.name.generic.attack_damage"
         }
       ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "text": "+2% Current HP Damage"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+5% All Attributes"
     },
     {
       "f_131101_": {
@@ -133,7 +102,7 @@
     },
     {
       "f_131101_": {
-        "f_131257_": 16777215
+        "f_131257_": 8092645
       },
       "text": "Dark Knight increases overall statistics, mostly offensive and damage on percentage health."
     }

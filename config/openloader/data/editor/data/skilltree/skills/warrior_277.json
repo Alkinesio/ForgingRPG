@@ -1,0 +1,33 @@
+{
+  "id": "skilltree:warrior_277",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 0.05,
+      "max_stacks": 1,
+      "effect": "goety:flammable",
+      "duration": 400,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:melee"
+        },
+        "target": "enemy",
+        "type": "skilltree:damage_taken"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "iter_rpg:textures/item/fire_fragment.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Debuff",
+  "positionX": -29.933,
+  "positionY": 248.109,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

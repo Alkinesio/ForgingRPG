@@ -16,8 +16,10 @@
           "logic": "LESS",
           "type": "skilltree:numeric_value"
         },
+        "cooldown": 10,
         "type": "skilltree:ticking"
-      }
+      },
+      "percentage_healing": false
     },
     {
       "type": "skilltree:damage_taken",
@@ -89,7 +91,7 @@
       "translate": "value_provider.skilltree.health_level.condition.player",
       "with": [
         {
-          "translate": "event_listener.skilltree.ticking",
+          "translate": "event_listener.skilltree.ticking.second",
           "with": [
             {
               "translate": "skill_bonus.skilltree.healing.player",
@@ -145,7 +147,8 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "Double Knockback Resistance if you have less than 40% health"
+      "f_131102_": false,
+      "text": "Doubled Knockback Resistance if you have less than 40% health"
     },
     {
       "f_131101_": {
@@ -157,6 +160,7 @@
       "f_131101_": {
         "f_131257_": 16777215
       },
+      "f_131102_": false,
       "text": "Barbarian is now harder to kill on rage."
     }
   ]

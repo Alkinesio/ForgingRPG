@@ -2,8 +2,45 @@
   "id": "skilltree:warrior_29",
   "bonuses": [
     {
-      "type": "skilltree:item_usage_speed",
-      "multiplier": 0.016
+      "type": "skilltree:damage_taken",
+      "amount": -0.15,
+      "operation": 1,
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "axe",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      },
+      "damage_condition": {
+        "type": "skilltree:none"
+      },
+      "attacker_condition": {
+        "value_provider": {
+          "attribute": "minecraft:generic.max_health",
+          "type": "skilltree:attribute_value"
+        },
+        "required_value": 200.0,
+        "logic": "AT_LEAST",
+        "type": "skilltree:numeric_value"
+      }
+    },
+    {
+      "type": "skilltree:damage_taken",
+      "amount": 0.12,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:none"
+      },
+      "attacker_condition": {
+        "value_provider": {
+          "attribute": "minecraft:generic.max_health",
+          "type": "skilltree:attribute_value"
+        },
+        "required_value": 200.0,
+        "logic": "LESS",
+        "type": "skilltree:numeric_value"
+      }
     }
   ],
   "requirements": [],
@@ -14,10 +51,10 @@
   "longConnections": [],
   "oneWayConnections": [],
   "tags": [],
-  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "artifacts:textures/item/vampiric_glove.png",
+  "backgroundTexture": "skilltree:textures/icons/background/gold.png",
+  "iconTexture": "immersive_armors:textures/item/warrior_helmet.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Utility",
+  "title": "Damage Reduction",
   "positionX": 263.137,
   "positionY": -261.85,
   "buttonSize": 16,

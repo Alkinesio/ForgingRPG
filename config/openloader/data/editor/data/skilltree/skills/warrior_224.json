@@ -25,6 +25,7 @@
   "iconTexture": "irons_spellbooks:textures/item/wandering_magician_chestplate.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Damage Reduction",
+  "titleColor": "",
   "positionX": 28.283,
   "positionY": -252.738,
   "buttonSize": 14,

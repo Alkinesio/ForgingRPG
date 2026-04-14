@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:warrior_290",
+  "bonuses": [],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:utility_22"
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [
+    "skilltree:warrior_98"
+  ],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/recipe.png",
+  "iconTexture": "uniquedungeons:textures/item/ancient_note.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Tier II Main Class Recipe",
+  "positionX": 203.705,
+  "positionY": -64.806,
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Unlocks Recipe: +10% Melee Damage if you are burning, +6% Attack Speed [Axes]"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Unlocks Recipe: +8% Speed, +12% Jump Heigth [Boots]"
+    }
+  ]
+}

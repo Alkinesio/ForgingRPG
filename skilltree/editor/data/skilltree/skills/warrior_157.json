@@ -10,7 +10,7 @@
       "amplifier": 0,
       "event_listener": {
         "damage_condition": {
-          "type": "skilltree:none"
+          "type": "skilltree:melee"
         },
         "target": "enemy",
         "type": "skilltree:damage_taken"
@@ -33,7 +33,7 @@
     },
     {
       "type": "skilltree:damage_taken",
-      "amount": -0.2,
+      "amount": -0.15,
       "operation": 1,
       "damage_condition": {
         "type": "skilltree:magic"
@@ -44,7 +44,9 @@
   "directConnections": [
     "skilltree:warrior_24"
   ],
-  "longConnections": [],
+  "longConnections": [
+    "skilltree:warrior_300"
+  ],
   "oneWayConnections": [],
   "tags": [
     "Notable Skill",
@@ -63,65 +65,22 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "translate": "event_listener.skilltree.damage_taken",
-      "with": [
-        {
-          "translate": "skill_bonus.skilltree.inflict_effect.enemy",
-          "with": [
-            {
-              "translate": "effect.minecraft.wither"
-            },
-            {
-              "translate": "skill_bonus.skilltree.inflict_effect.seconds",
-              "with": [
-                "8"
-              ]
-            }
-          ]
-        },
-        {
-          "translate": "damage_condition.skilltree.none"
-        }
-      ]
+      "f_131102_": false,
+      "text": "Inflict Wither for 8 seconds when you take Melee Damage"
     },
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "translate": "event_listener.skilltree.attack",
-      "with": [
-        {
-          "translate": "skill_bonus.skilltree.inflict_effect.enemy",
-          "with": [
-            {
-              "translate": "effect.goety.freezing"
-            },
-            {
-              "translate": "skill_bonus.skilltree.inflict_effect.seconds",
-              "with": [
-                "8"
-              ]
-            }
-          ]
-        }
-      ]
+      "f_131102_": false,
+      "text": "Inflict Freezing for 8 seconds on Melee hit"
     },
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "translate": "attribute.modifier.take.1",
-      "with": [
-        "20",
-        {
-          "translate": "skill_bonus.skilltree.damage_taken",
-          "with": [
-            {
-              "translate": "damage_condition.skilltree.magic"
-            }
-          ]
-        }
-      ]
+      "f_131102_": false,
+      "text": "-15% Magic Damage taken"
     },
     {
       "f_131101_": {

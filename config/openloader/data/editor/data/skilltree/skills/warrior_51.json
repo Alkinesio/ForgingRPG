@@ -3,7 +3,7 @@
   "bonuses": [
     {
       "type": "skilltree:healing",
-      "chance": 0.04,
+      "chance": 0.05,
       "amount": 1.0,
       "event_listener": {
         "damage_condition": {
@@ -11,11 +11,12 @@
         },
         "target": "player",
         "type": "skilltree:attack"
-      }
+      },
+      "percentage_healing": false
     },
     {
       "type": "skilltree:inflict_effect",
-      "chance": 0.032,
+      "chance": 0.04,
       "max_stacks": 1,
       "effect": "minecraft:weakness",
       "duration": 160,
@@ -30,7 +31,7 @@
     },
     {
       "type": "skilltree:inflict_effect",
-      "chance": 0.032,
+      "chance": 0.04,
       "max_stacks": 1,
       "effect": "minecraft:slowness",
       "duration": 160,
@@ -46,7 +47,7 @@
     {
       "type": "skilltree:healing",
       "chance": 1.0,
-      "amount": 6.0,
+      "amount": 8.0,
       "event_listener": {
         "damage_condition": {
           "type": "skilltree:none"
@@ -61,7 +62,8 @@
           "type": "skilltree:numeric_value"
         },
         "type": "skilltree:on_kill"
-      }
+      },
+      "percentage_healing": false
     },
     {
       "type": "skilltree:healing",
@@ -81,7 +83,8 @@
           "type": "skilltree:numeric_value"
         },
         "type": "skilltree:on_kill"
-      }
+      },
+      "percentage_healing": false
     }
   ],
   "requirements": [
@@ -126,7 +129,7 @@
         {
           "translate": "attribute.modifier.plus.1",
           "with": [
-            "4",
+            "5",
             {
               "translate": "skill_bonus.skilltree.healing.player.chance",
               "with": [
@@ -146,7 +149,7 @@
         {
           "translate": "attribute.modifier.plus.1",
           "with": [
-            "3.2",
+            "4",
             {
               "translate": "skill_bonus.skilltree.inflict_effect.enemy.chance",
               "with": [
@@ -174,7 +177,7 @@
         {
           "translate": "attribute.modifier.plus.1",
           "with": [
-            "3.2",
+            "4",
             {
               "translate": "skill_bonus.skilltree.inflict_effect.enemy.chance",
               "with": [
@@ -205,7 +208,7 @@
             {
               "translate": "skill_bonus.skilltree.healing.player",
               "with": [
-                "6"
+                "8"
               ]
             }
           ]
@@ -259,6 +262,7 @@
       "f_131101_": {
         "f_131257_": 16777215
       },
+      "f_131102_": false,
       "text": "Debuff your opponents, heal on attacking and killing based on their maximum health."
     }
   ]

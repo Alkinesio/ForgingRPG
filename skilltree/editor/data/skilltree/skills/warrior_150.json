@@ -4,17 +4,10 @@
     {
       "type": "skilltree:attribute",
       "attribute": "attributeslib:life_steal",
-      "id": "c5d4d45a-2765-4bfd-afb3-df5ea2907e39",
+      "id": "da12cd24-c427-43b4-b75e-a3a1aa8f5386",
       "name": "Skill",
-      "amount": 0.03,
-      "operation": 1,
-      "player_condition": {
-        "item_condition": {
-          "equipment_type": "armor",
-          "type": "skilltree:equipment_type"
-        },
-        "type": "skilltree:has_item_equipped"
-      }
+      "amount": 0.02,
+      "operation": 1
     }
   ],
   "requirements": [],

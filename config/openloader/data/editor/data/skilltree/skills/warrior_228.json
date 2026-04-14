@@ -20,9 +20,9 @@
     {
       "type": "skilltree:attribute",
       "attribute": "attributeslib:current_hp_damage",
-      "id": "54940b4a-f2b5-430a-b1e1-0cde48f74313",
+      "id": "0c75969b-f0d5-413e-85c6-c5c3e8fc4e92",
       "name": "Skill",
-      "amount": 0.02,
+      "amount": 0.005,
       "operation": 0
     },
     {
@@ -83,7 +83,8 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "+2% Current HP Damage"
+      "f_131102_": false,
+      "text": "+0.5% Current HP Damage"
     },
     {
       "f_131101_": {

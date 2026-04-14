@@ -3,7 +3,7 @@
   "bonuses": [
     {
       "type": "skilltree:damage",
-      "amount": 1.5,
+      "amount": 0.5,
       "operation": 0,
       "player_condition": {
         "value_provider": {

@@ -20,7 +20,7 @@
   ],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "minecraft:textures/item/flint_and_steel.png",
+  "iconTexture": "iter_rpg:textures/item/fireball_elemental.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Fire Damage",
   "positionX": -17.979,

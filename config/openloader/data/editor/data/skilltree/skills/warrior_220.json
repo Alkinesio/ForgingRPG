@@ -10,7 +10,8 @@
           "type": "skilltree:food"
         },
         "type": "skilltree:item_used"
-      }
+      },
+      "percentage_healing": false
     }
   ],
   "requirements": [],
@@ -18,9 +19,7 @@
     "skilltree:warrior_217"
   ],
   "longConnections": [],
-  "oneWayConnections": [
-    "skilltree:warrior_222"
-  ],
+  "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "ice_and_fire_delight:textures/item/fire_heart_with_mushroom_sauce.png",

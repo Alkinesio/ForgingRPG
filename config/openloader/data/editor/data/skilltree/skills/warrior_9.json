@@ -2,9 +2,7 @@
   "id": "skilltree:warrior_9",
   "bonuses": [],
   "requirements": [],
-  "directConnections": [
-    "skilltree:warrior_17"
-  ],
+  "directConnections": [],
   "longConnections": [],
   "oneWayConnections": [],
   "tags": [

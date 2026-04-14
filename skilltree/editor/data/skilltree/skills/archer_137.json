@@ -42,10 +42,10 @@
     {
       "type": "skilltree:attribute",
       "attribute": "attributeslib:arrow_damage",
-      "id": "fff26277-ae99-4c5b-a2c8-c55e542e0c72",
+      "id": "a0d5bd38-a44b-49cb-88f6-fb6bf33a0087",
       "name": "Skill",
       "amount": 0.3,
-      "operation": 1
+      "operation": 0
     },
     {
       "type": "skilltree:jump_height",

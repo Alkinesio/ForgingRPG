@@ -4,9 +4,9 @@
     {
       "type": "skilltree:attribute",
       "attribute": "minecraft:generic.max_health",
-      "id": "42341c61-06a7-48c3-816e-1e16b95670dd",
+      "id": "96088f25-f5c8-4b75-8138-9a47d93986f2",
       "name": "Skill",
-      "amount": 1.5,
+      "amount": 1.2,
       "operation": 0,
       "player_condition": {
         "item_condition": {
@@ -31,42 +31,5 @@
   "positionX": 68.87,
   "positionY": -11.215,
   "buttonSize": 14,
-  "isStartingPoint": false,
-  "description": [
-    {
-      "f_131101_": {
-        "f_131257_": 8092645
-      },
-      "translate": "living_condition.skilltree.has_item_equipped",
-      "with": [
-        {
-          "translate": "attribute.modifier.plus.0",
-          "with": [
-            "1.5",
-            {
-              "translate": "attribute.name.generic.max_health"
-            }
-          ]
-        },
-        {
-          "translate": "living_condition.skilltree.has_item_equipped.target.player"
-        },
-        {
-          "translate": "item_condition.skilltree.equipment_type.armor"
-        }
-      ]
-    },
-    {
-      "f_131101_": {
-        "f_131257_": 8092645
-      },
-      "text": ""
-    },
-    {
-      "f_131101_": {
-        "f_131257_": 16777215
-      },
-      "text": "Take this path to focus on defense."
-    }
-  ]
+  "isStartingPoint": false
 }

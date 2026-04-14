@@ -2,27 +2,38 @@
   "id": "skilltree:archer_73",
   "bonuses": [
     {
-      "type": "skilltree:damage",
-      "amount": 0.05,
-      "operation": 1,
-      "damage_condition": {
-        "type": "skilltree:projectile"
-      }
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:dodge_chance",
+      "id": "bebe0a8f-176f-4718-9434-a92955b7eab2",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 0
     }
   ],
   "requirements": [],
   "directConnections": [
     "skilltree:archer_52"
   ],
-  "longConnections": [],
+  "longConnections": [
+    "skilltree:archer_171"
+  ],
   "oneWayConnections": [],
   "tags": [],
-  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "iceandfire:textures/item/dragonbone_bow_pulling_1.png",
+  "backgroundTexture": "skilltree:textures/icons/background/gateway.png",
+  "iconTexture": "ftblibrary:textures/icons/online.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Damage",
+  "title": "Dodge Chance Teleport",
   "positionX": 106.07,
   "positionY": 70.708,
-  "buttonSize": 14,
-  "isStartingPoint": false
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "text": "+1% Dodge Chance"
+    }
+  ]
 }

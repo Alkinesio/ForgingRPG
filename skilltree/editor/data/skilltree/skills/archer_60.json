@@ -56,7 +56,9 @@
   "directConnections": [
     "skilltree:archer_54"
   ],
-  "longConnections": [],
+  "longConnections": [
+    "skilltree:archer_215"
+  ],
   "oneWayConnections": [],
   "tags": [
     "Notable Skill"
@@ -86,7 +88,8 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "+1 Shoes Slots in the inventory"
+      "f_131102_": false,
+      "text": "+1 Shoes Slots"
     },
     {
       "f_131101_": {

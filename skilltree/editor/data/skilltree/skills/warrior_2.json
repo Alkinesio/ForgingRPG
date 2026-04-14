@@ -4,18 +4,18 @@
     {
       "type": "skilltree:attribute",
       "attribute": "minecraft:generic.armor",
-      "id": "306d6e75-13d9-47fb-bb48-966d00601653",
+      "id": "504e52e2-852e-4445-b3e7-907696aba3a7",
       "name": "Skill",
-      "amount": 0.08,
-      "operation": 1
+      "amount": 3.0,
+      "operation": 0
     },
     {
       "type": "skilltree:attribute",
       "attribute": "minecraft:generic.armor_toughness",
-      "id": "a1b872f2-3ba9-4f13-830a-1cce02d1d75a",
+      "id": "e0cb8339-2ea8-4e5a-86cb-ade6229d2101",
       "name": "Skill",
-      "amount": 0.08,
-      "operation": 1
+      "amount": 1.5,
+      "operation": 0
     },
     {
       "type": "skilltree:cant_use_item",
@@ -40,7 +40,7 @@
     "Sub-class"
   ],
   "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
-  "iconTexture": "goety:textures/item/magic_shield.png",
+  "iconTexture": "knightquest:textures/item/shield_main_icon.png",
   "borderTexture": "skilltree:textures/tooltip/keystone.png",
   "title": "The Tank",
   "positionX": 0.0,
@@ -52,25 +52,13 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "translate": "attribute.modifier.plus.2",
-      "with": [
-        "8",
-        {
-          "translate": "attribute.name.generic.armor"
-        }
-      ]
+      "text": "+3 Armor"
     },
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "translate": "attribute.modifier.plus.2",
-      "with": [
-        "8",
-        {
-          "translate": "attribute.name.generic.armor_toughness"
-        }
-      ]
+      "text": "+1.5 Armor Toughness"
     },
     {
       "f_131101_": {
@@ -93,7 +81,8 @@
       "f_131101_": {
         "f_131257_": 16777215
       },
-      "text": "The Tank is specialized to resist damage while dealing based on it."
+      "f_131102_": false,
+      "text": "The Tank is specialized to resist damage and inflict crowd controls."
     },
     {
       "f_131101_": {

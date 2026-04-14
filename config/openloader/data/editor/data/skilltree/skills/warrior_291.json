@@ -1,0 +1,52 @@
+{
+  "id": "skilltree:warrior_291",
+  "bonuses": [],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:utility_15"
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [
+    "skilltree:warrior_48"
+  ],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/recipe.png",
+  "iconTexture": "uniquedungeons:textures/item/ancient_note.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Tier I Main Class Recipe",
+  "positionX": 117.899925,
+  "positionY": -75.245735,
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "text": "Unlocks Recipe: +10% Melee Damage if you are burning [Axes]"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Unlocks Recipe: -3% Fire and Projectile Damage Taken [Armor]"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Unlocks Recipe: -3% Fire and Magic Damage Taken [Armor]"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "text": "Unlocks Recipe: -3% Fire and Fall Damage Taken [Armor]"
+    }
+  ]
+}

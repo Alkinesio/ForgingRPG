@@ -2,24 +2,31 @@
   "id": "skilltree:archer_67",
   "bonuses": [
     {
-      "type": "skilltree:lethal_poison"
+      "type": "skilltree:damage",
+      "amount": 0.02,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:projectile"
+      }
     }
   ],
   "requirements": [],
   "directConnections": [
     "skilltree:archer_66"
   ],
-  "longConnections": [],
+  "longConnections": [
+    "skilltree:archer_189"
+  ],
   "oneWayConnections": [],
   "tags": [
     ""
   ],
-  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "enigmaticlegacy:textures/item/twisted_potion.png",
+  "backgroundTexture": "skilltree:textures/icons/background/gateway.png",
+  "iconTexture": "ftblibrary:textures/icons/offline.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Utility",
+  "title": "Damage Teleport",
   "positionX": 105.362,
   "positionY": 159.356,
-  "buttonSize": 14,
+  "buttonSize": 20,
   "isStartingPoint": false
 }

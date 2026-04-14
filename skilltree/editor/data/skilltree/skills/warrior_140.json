@@ -3,7 +3,7 @@
   "bonuses": [
     {
       "type": "skilltree:damage_taken",
-      "amount": -0.075,
+      "amount": -0.036,
       "operation": 1,
       "player_condition": {
         "item_condition": {
@@ -23,9 +23,7 @@
   ],
   "longConnections": [],
   "oneWayConnections": [],
-  "tags": [
-    "Secondary Branch"
-  ],
+  "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "irons_spellbooks:textures/item/wandering_magician_chestplate.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",

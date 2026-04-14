@@ -3,11 +3,29 @@
   "bonuses": [
     {
       "type": "skilltree:attribute",
-      "attribute": "minecraft:generic.armor_toughness",
-      "id": "50b3593c-d835-4896-97d4-2fa477089413",
+      "attribute": "minecraft:generic.armor",
+      "id": "6678fd40-bae5-43a5-a044-dd86892f2bd9",
       "name": "Skill",
-      "amount": 0.4,
-      "operation": 0
+      "amount": 1.0,
+      "operation": 0,
+      "player_condition": {
+        "value_provider": {
+          "percentage": true,
+          "missing": false,
+          "type": "skilltree:health_level"
+        },
+        "required_value": 0.4,
+        "logic": "LESS",
+        "type": "skilltree:numeric_value"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "f80f7d8f-2e51-4a15-ba0d-fe0402362766",
+      "name": "Skill",
+      "amount": 0.0015,
+      "operation": 1
     }
   ],
   "requirements": [],
@@ -18,9 +36,9 @@
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "advancednetherite:textures/item/netherite_iron_chestplate.png",
+  "iconTexture": "immersive_armors:textures/item/warrior_chestplate.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Armor Thoughness",
+  "title": "Armor",
   "positionX": 30.403,
   "positionY": -73.409,
   "buttonSize": 14,

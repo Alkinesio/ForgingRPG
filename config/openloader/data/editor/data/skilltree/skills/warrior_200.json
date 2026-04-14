@@ -3,7 +3,7 @@
   "bonuses": [
     {
       "type": "skilltree:damage_taken",
-      "amount": -0.02,
+      "amount": -0.01,
       "operation": 1,
       "damage_condition": {
         "type": "skilltree:none"
@@ -11,9 +11,7 @@
     }
   ],
   "requirements": [],
-  "directConnections": [
-    "skilltree:warrior_199"
-  ],
+  "directConnections": [],
   "longConnections": [],
   "oneWayConnections": [
     "skilltree:warrior_193"
@@ -24,7 +22,7 @@
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Damage Reduction",
   "positionX": 0.0,
-  "positionY": 298.311,
+  "positionY": 323.311,
   "buttonSize": 14,
   "isStartingPoint": false
 }

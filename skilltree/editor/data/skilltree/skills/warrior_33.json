@@ -79,7 +79,9 @@
   ],
   "directConnections": [],
   "longConnections": [],
-  "oneWayConnections": [],
+  "oneWayConnections": [
+    "skilltree:warrior_270"
+  ],
   "tags": [
     "Blacknight"
   ],

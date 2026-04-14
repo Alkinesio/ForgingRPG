@@ -22,7 +22,9 @@
     "skilltree:archer_130"
   ],
   "longConnections": [],
-  "oneWayConnections": [],
+  "oneWayConnections": [
+    "skilltree:archer_159"
+  ],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "hunters_return:textures/item/mini_crossbow_arrow.png",

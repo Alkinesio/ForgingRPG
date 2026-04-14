@@ -4,9 +4,9 @@
     {
       "type": "skilltree:attribute",
       "attribute": "attributeslib:life_steal",
-      "id": "fb4d02f2-fd0a-40da-8017-c9f69646c410",
+      "id": "ba6de920-de71-4eeb-a573-5d67225c3728",
       "name": "Skill",
-      "amount": 0.05,
+      "amount": 0.02,
       "operation": 2
     }
   ],
@@ -30,7 +30,8 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "+5% Total Life Steal"
+      "f_131102_": false,
+      "text": "+2% Total Life Steal"
     }
   ]
 }

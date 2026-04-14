@@ -2,10 +2,22 @@
   "id": "skilltree:warrior_250",
   "bonuses": [
     {
-      "type": "skilltree:curio_slots",
-      "slot": "belt",
-      "amount": 1,
-      "modifier_id": "ee0fc05f-3e09-4152-9f38-b71732dfe9c1"
+      "type": "skilltree:attribute",
+      "attribute": "x_player_info:attribute.name.extend.healing_per_bonus",
+      "id": "133798e8-650a-4b48-8063-80760dd0a239",
+      "name": "Skill",
+      "amount": 0.03,
+      "operation": 0,
+      "player_condition": {
+        "value_provider": {
+          "percentage": true,
+          "missing": false,
+          "type": "skilltree:health_level"
+        },
+        "required_value": 0.4,
+        "logic": "LESS",
+        "type": "skilltree:numeric_value"
+      }
     }
   ],
   "requirements": [],
@@ -16,19 +28,11 @@
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "uniqueaccessories:textures/item/tool_belt.png",
+  "iconTexture": "born_in_chaos_v1:textures/item/charmrage.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Utility",
+  "title": "Healing",
   "positionX": 131.521,
   "positionY": -245.882,
   "buttonSize": 14,
-  "isStartingPoint": false,
-  "description": [
-    {
-      "f_131101_": {
-        "f_131257_": 8092645
-      },
-      "text": "+1 Belt Slots"
-    }
-  ]
+  "isStartingPoint": false
 }

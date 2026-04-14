@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:archer_197",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 0.05,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:poison"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:archer_190"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "iceandfire:textures/item/hydra_venom.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Poison Damage",
+  "positionX": 84.15,
+  "positionY": 215.923,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

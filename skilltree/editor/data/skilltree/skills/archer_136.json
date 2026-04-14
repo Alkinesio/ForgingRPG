@@ -86,31 +86,99 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "Inflict Instant Damage V on Projectile hit if enemy is affected by Levitation"
+      "translate": "skill_bonus.skilltree.damage_conversion",
+      "with": [
+        "50",
+        {
+          "translate": "damage_condition.skilltree.projectile"
+        },
+        {
+          "translate": "damage_condition.skilltree.fall"
+        }
+      ]
     },
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "50% of Projectile Damage is being converted to Fall Damage"
+      "f_131102_": false,
+      "text": "+25% Critical Fall Damage Multiplier"
     },
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "Inflict Levitation for 8 seconds on Projectile hit"
+      "f_131102_": false,
+      "text": "Fall Damage is always critical (+100% Critical Fall Damage Multiplier)"
     },
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "+100% Critical Fall Damage Multiplier"
+      "translate": "event_listener.skilltree.attack.damage",
+      "with": [
+        {
+          "translate": "skill_bonus.skilltree.inflict_effect.enemy",
+          "with": [
+            {
+              "translate": "effect.minecraft.levitation"
+            },
+            {
+              "translate": "skill_bonus.skilltree.inflict_effect.seconds",
+              "with": [
+                "8"
+              ]
+            }
+          ]
+        },
+        {
+          "translate": "damage_condition.skilltree.projectile.type"
+        }
+      ]
     },
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "+100% Fall Critical Hit Chance"
+      "translate": "living_condition.skilltree.has_effect",
+      "with": [
+        {
+          "translate": "event_listener.skilltree.attack.damage",
+          "with": [
+            {
+              "translate": "skill_bonus.skilltree.inflict_effect.enemy",
+              "with": [
+                {
+                  "translate": "potion.withAmplifier",
+                  "with": [
+                    {
+                      "translate": "effect.minecraft.instant_damage"
+                    },
+                    {
+                      "translate": "potion.potency.4"
+                    }
+                  ]
+                },
+                {
+                  "translate": "skill_bonus.skilltree.inflict_effect.seconds",
+                  "with": [
+                    "2"
+                  ]
+                }
+              ]
+            },
+            {
+              "translate": "damage_condition.skilltree.projectile.type"
+            }
+          ]
+        },
+        {
+          "translate": "living_condition.skilltree.has_effect.target.enemy"
+        },
+        {
+          "translate": "effect.minecraft.levitation"
+        }
+      ]
     },
     {
       "f_131101_": {

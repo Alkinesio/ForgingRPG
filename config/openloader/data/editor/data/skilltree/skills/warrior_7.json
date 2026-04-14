@@ -4,9 +4,9 @@
     {
       "type": "skilltree:attribute",
       "attribute": "minecraft:generic.attack_speed",
-      "id": "223c0ac7-f87d-4545-af9c-85f8ab4223af",
+      "id": "b879ce3b-57b0-481c-92f7-2b281d24a97e",
       "name": "Skill",
-      "amount": 0.004,
+      "amount": 0.005,
       "operation": 1,
       "player_multiplier": {
         "value_provider": {
@@ -49,7 +49,6 @@
   ],
   "directConnections": [
     "skilltree:warrior_39",
-    "skilltree:warrior_41",
     "skilltree:warrior_40"
   ],
   "longConnections": [],
@@ -70,33 +69,8 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "translate": "living_condition.skilltree.has_item_in_hand",
-      "with": [
-        {
-          "translate": "value_provider.skilltree.health_level.multiplier.player.plural.missing",
-          "with": [
-            {
-              "translate": "attribute.modifier.plus.1",
-              "with": [
-                "0.4",
-                {
-                  "translate": "attribute.name.generic.attack_speed"
-                }
-              ]
-            },
-            "2%",
-            {
-              "translate": "value_provider.skilltree.health_level.percentage.plural"
-            }
-          ]
-        },
-        {
-          "translate": "living_condition.skilltree.has_item_in_hand.target.player"
-        },
-        {
-          "translate": "item_condition.skilltree.equipment_type.axe"
-        }
-      ]
+      "f_131102_": false,
+      "text": "+0.5% Attack Speed per 2% missing health with Axe in hand"
     },
     {
       "f_131101_": {
@@ -119,14 +93,16 @@
       "f_131101_": {
         "f_131257_": 16777215
       },
-      "text": "The Barbarian is specialized to deal damage while taking damage with axe."
+      "f_131102_": false,
+      "text": "The Barbarian is specialized to deal melee damage against bosses."
     },
     {
       "f_131101_": {
         "f_131257_": 12632256
       },
+      "f_131102_": false,
       "f_131103_": true,
-      "text": "Pro: Many skill points, fire resistance \\ Cons: 20% less skill points effects, poison damage"
+      "text": "Pro: Mobility, Fire resistance \\ Cons: Poison resistance"
     },
     {
       "f_131101_": {

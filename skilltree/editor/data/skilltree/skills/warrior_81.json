@@ -3,7 +3,7 @@
   "bonuses": [
     {
       "type": "skilltree:incoming_healing",
-      "multiplier": 0.04
+      "multiplier": 0.05
     }
   ],
   "requirements": [],

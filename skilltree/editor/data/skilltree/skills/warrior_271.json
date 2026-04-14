@@ -1,0 +1,46 @@
+{
+  "id": "skilltree:warrior_271",
+  "bonuses": [
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:lifestealer_tier_two_light_weapon"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:lifestealer_tier_two_light_armor"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:utility_22"
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/recipe.png",
+  "iconTexture": "uniquedungeons:textures/item/ancient_note.png",
+  "borderTexture": "skilltree:textures/tooltip/blacksmith.png",
+  "title": "Tier II Main Class Recipe",
+  "positionX": 64.052,
+  "positionY": -289.507,
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "text": "Unlocks Recipe: +1.5 Attack Damage, +2% Life Steal [Weapons]"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Unlocks Recipe: +6% Total Lifesteal, +5% Incoming Healing [Armor]"
+    }
+  ]
+}

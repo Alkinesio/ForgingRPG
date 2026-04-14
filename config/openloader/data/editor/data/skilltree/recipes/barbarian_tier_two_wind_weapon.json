@@ -1,0 +1,56 @@
+{
+  "type": "skilltree:workbench_item_bonus",
+  "base_item_condition":
+    {
+      "type": "skilltree:equipment_type",
+      "equipment_type": "axe"
+    },
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "apotheosis:gem_dust"
+      },
+      "required_amount": 100
+    },
+	{
+      "ingredient": {
+        "tag": "deep_aether:stratus_ingot"
+      },
+      "required_amount": 2
+    },
+	{
+      "ingredient": {
+        "tag": "goety:empty_focus"
+      },
+      "required_amount": 1
+    }
+  ],
+  "item_bonus": {
+    "type": "skilltree:item_bonus_list",
+    "inner_bonuses": [
+	  {
+        "type": "skilltree:skill_bonus",
+        "skill_bonus": {
+          "type": "skilltree:attribute",
+          "name": "Workbench Upgrade",
+          "attribute": "minecraft:generic.attack_speed",
+          "operation": "1",
+          "amount": "0.09",
+          "id": "a9afd96f-7808-4ee2-83b7-15a0ab8df584"
+        }
+      },
+	  {
+        "type": "skilltree:skill_bonus",
+        "skill_bonus": {
+          "type": "skilltree:attribute",
+          "name": "Workbench Upgrade",
+          "attribute": "minecraft:generic.attack_damage",
+          "operation": "1",
+          "amount": "0.05",
+          "id": "a9afd96f-7808-4ee2-83b7-15a0ab8df584"
+        }
+      }
+    ]
+  },
+  "requires_passive_skill": true
+}

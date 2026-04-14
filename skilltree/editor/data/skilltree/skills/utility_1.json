@@ -4,10 +4,6 @@
     {
       "type": "skilltree:item_usage_speed",
       "multiplier": 0.05
-    },
-    {
-      "type": "skilltree:item_durability_loss_avoidance",
-      "chance": -0.1
     }
   ],
   "requirements": [
@@ -41,23 +37,6 @@
           "translate": "item_condition.skilltree.none.plural"
         },
         "5"
-      ]
-    },
-    {
-      "f_131101_": {
-        "f_131257_": 14834266
-      },
-      "translate": "attribute.modifier.take.1",
-      "with": [
-        "10",
-        {
-          "translate": "skill_bonus.skilltree.item_durability_loss_avoidance.chance",
-          "with": [
-            {
-              "translate": "item_condition.skilltree.none"
-            }
-          ]
-        }
       ]
     },
     {
