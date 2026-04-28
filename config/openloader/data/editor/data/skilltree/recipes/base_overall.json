@@ -23,12 +23,9 @@
     "type": "skilltree:item_bonus_list",
     "inner_bonuses": [
 	  {
-        "type": "skilltree:skill_bonus",
-        "skill_bonus": {
-          "type": "all_attributes",
-          "operation": "2",
-		  "amount": "0.01"
-        }
+        "type": "skilltree:all_attributes",
+        "operation": "2",
+		"amount": "0.01"
       }
     ]
   },

@@ -1,0 +1,45 @@
+{
+  "type": "skilltree:workbench_item_bonus",
+  "base_item_condition":
+    {
+      "type": "skilltree:equipment_type",
+      "equipment_type": "boots"
+    },
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "apotheosis:gem_dust"
+      },
+      "required_amount": 80
+    },
+	{
+      "ingredient": {
+        "tag": "deep_aether:stratus_ingot"
+      },
+      "required_amount": 2
+    },
+	{
+      "ingredient": {
+        "tag": "iter_rpg:fire_ingot"
+      },
+      "required_amount": 4
+    }
+  ],
+  "item_bonus": {
+    "type": "skilltree:item_bonus_list",
+    "inner_bonuses": [
+      {
+		"type": "skilltree:skill_bonus",
+        "skill_bonus": {
+          "type": "skilltree:attribute",
+          "attribute": "x_player_info:attribute.name.extend.jump.extra_count",
+          "id": "b7432825-81d7-4ac0-a787-769cce337764",
+          "name": "Skill",
+          "amount": 1.0,
+          "operation": 0
+		}
+      }
+    ]
+  },
+  "requires_passive_skill": true
+}

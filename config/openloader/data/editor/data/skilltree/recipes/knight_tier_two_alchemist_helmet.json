@@ -3,7 +3,7 @@
   "base_item_condition":
     {
       "type": "skilltree:equipment_type",
-      "equipment_type": "axe"
+      "equipment_type": "chestplate"
     },
   "ingredients": [
     {
@@ -14,13 +14,13 @@
     },
 	{
       "ingredient": {
-        "tag": "darkerdepths:copper_ingot"
+        "tag": "minecraft:obsidian"
       },
-      "required_amount": 2
+      "required_amount": 8
     },
 	{
       "ingredient": {
-        "tag": "realmrpg_quests:necklace_of_satiety"
+        "tag": "born_in_chaos_v1:bone_heart"
       },
       "required_amount": 1
     }
@@ -28,15 +28,14 @@
   "item_bonus": {
     "type": "skilltree:item_bonus_list",
     "inner_bonuses": [
-	  {
-        "type": "skilltree:skill_bonus",
-        "skill_bonus": {
-          "type": "skilltree:attribute",
-          "name": "Workbench Upgrade",
-          "attribute": "minecraft:generic.attack_damage",
-          "operation": "2",
-          "amount": "0.2",
-          "id": "a9afd96f-7808-4ee2-83b7-15a0ab8df584"
+      {
+		"type": "skilltree:skill_bonus",
+        "skill_bonus":
+        {
+          "type": "skilltree:effect_duration",
+          "effect_type": "harmful",
+          "duration": 0.2,
+          "target": "enemy"
         }
       }
     ]

@@ -16,7 +16,9 @@
     "skilltree:warrior_234"
   ],
   "longConnections": [],
-  "oneWayConnections": [],
+  "oneWayConnections": [
+    "skilltree:warrior_290"
+  ],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "bosses_of_mass_destruction:textures/item/void_thorn.png",

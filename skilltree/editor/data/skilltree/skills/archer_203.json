@@ -11,7 +11,8 @@
   "backgroundTexture": "skilltree:textures/icons/background/recipe.png",
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/blacksmith.png",
-  "positionX": 106.602005,
+  "titleColor": "00FFFF",
+  "positionX": 106.602,
   "positionY": -154.608,
   "buttonSize": 16,
   "isStartingPoint": false

@@ -35,19 +35,11 @@
           "name": "Workbench Upgrade",
           "attribute": "minecraft:generic.attack_speed",
           "operation": "1",
-          "amount": "0.075",
-          "id": "a9afd96f-7808-4ee2-83b7-15a0ab8df584"
-        }
-      },
-	  {
-        "type": "skilltree:skill_bonus",
-        "skill_bonus": {
-		  "type": "skilltree:item_usage_speed",
-		  "base_item_condition": {
-			"type": "skilltree:equipment_type",
-		    "equipment_type": "potion"
+          "amount": "0.15",
+		  "player_condition": {
+		    "type": "skilltree:burning"
 		  },
-		  "multiplier": 0.05
+          "id": "a9afd96f-7808-4ee2-83b7-15a0ab8df584"
         }
       }
     ]

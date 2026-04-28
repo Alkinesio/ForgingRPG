@@ -1,0 +1,10 @@
+#Enable the CombatReset mod
+enabled = true
+#Radius to detect players near boss
+#Range: 1 ~ 128
+distance = 64
+#List of boss entity IDs
+bossList = ["minecraft:wither", "irons_spellbooks:dead_king", "mowziesmobs:umvuthi", "mowziesmobs:ferrous_wroughtnaut", "mowziesmobs:frostmaw", "block_factorys_bosses:yeti", "block_factorys_bosses:sandworm", "block_factorys_bosses:infernal_dragon", "block_factorys_bosses:underworld_knight", "dungeons_and_combat:kamath", "dungeons_and_combat:sunleia", "cataclysm:ancient_remnant", "cataclysm:ender_golem", "cataclysm:ender_guardian", "cataclysm:ignis", "cataclysm:maledictus", "cataclysm:netherite_monstrosity", "cataclysm:scylla", "cataclysm:the_harbinger", "cataclysm:the_leviathan", "aquamirae:captain_cornelia", "terramity:gob", "terramity:gundalf", "terramity:super_sniffer", "terramity:trial_guardian", "terramity:ultra_sniffer", "terramity:virtue", "aether:valkyrie_queen", "aether:slider", "aether:sun_spirit", "blue_skies:summoner", "blue_skies:alchemist", "meetyourfight:swampjaw", "meetyourfight:bellringer", "meetyourfight:dame_fortuna", "meetyourfight:rosalyne", "eeeabsmobs:nameless_guardian", "divinerpg:king_of_scorchers", "divinerpg:the_watcher", "divinerpg:ancient_entity", "divinerpg:hive_queen", "divinerpg:quadro", "divinerpg:lady_luna", "divinerpg:wreck", "divinerpg:raglok", "divinerpg:reyvor", "divinerpg:karot", "divinerpg:vamacheron", "divinerpg:soul_fiend", "divinerpg:twilight_demon", "divinerpg:parasecta", "divinerpg:dramix"]
+#Mode can be: darksouls or rpg
+mode = "rpg"
+

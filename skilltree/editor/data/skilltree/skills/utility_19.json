@@ -2,11 +2,11 @@
   "id": "skilltree:utility_19",
   "bonuses": [
     {
-      "type": "skilltree:item_durability_loss_avoidance",
-      "chance": 0.03,
-      "item_condition": {
-        "equipment_type": "any",
-        "type": "skilltree:equipment_type"
+      "type": "skilltree:command",
+      "command": "tag add blacksmith_salvaging_table",
+      "description": "You can now craft and use Salvaging Tables",
+      "event_listener": {
+        "type": "skilltree:skill_learned"
       }
     }
   ],
@@ -18,9 +18,9 @@
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "skilltree:textures/icons/glove_steel.png",
+  "iconTexture": "apotheosis:textures/blocks/salvaging_table_front.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Equipment Durability",
+  "title": "Mechanics",
   "positionX": 224.0,
   "positionY": 0.0,
   "buttonSize": 14,

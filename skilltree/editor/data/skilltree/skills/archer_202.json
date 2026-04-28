@@ -9,6 +9,7 @@
   "backgroundTexture": "skilltree:textures/icons/background/recipe.png",
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/blacksmith.png",
+  "titleColor": "00FFFF",
   "positionX": 135.0,
   "positionY": -27.0,
   "buttonSize": 16,

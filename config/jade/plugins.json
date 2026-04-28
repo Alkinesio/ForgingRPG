@@ -51,9 +51,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "opposing_force": {
-    "skyvern_segment": true
-  },
   "tombstone": {
     "decorative_graves": true,
     "player_graves": true

@@ -1,0 +1,48 @@
+{
+  "type": "skilltree:workbench_item_bonus",
+  "base_item_condition":
+    {
+      "type": "skilltree:equipment_type",
+      "equipment_type": "axe"
+    },
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "apotheosis:gem_dust"
+      },
+      "required_amount": 100
+    },
+	{
+      "ingredient": {
+        "tag": "iter_rpg:primordial_ingot"
+      },
+      "required_amount": 2
+    },
+	{
+      "ingredient": {
+        "tag": "minecraft:blaze_rod"
+      },
+      "required_amount": 2
+    }
+  ],
+  "item_bonus": {
+    "type": "skilltree:item_bonus_list",
+    "inner_bonuses": [
+	  {
+        "type": "skilltree:skill_bonus",
+        "skill_bonus": {
+          "type": "skilltree:attribute",
+          "name": "Workbench Upgrade",
+          "attribute": "minecraft:generic.attack_speed",
+          "operation": "1",
+          "amount": "0.075",
+		  "player_condition": {
+		    "type": "skilltree:burning"
+		  },
+          "id": "a9afd96f-7808-4ee2-83b7-15a0ab8df584"
+        }
+      }
+    ]
+  },
+  "requires_passive_skill": true
+}

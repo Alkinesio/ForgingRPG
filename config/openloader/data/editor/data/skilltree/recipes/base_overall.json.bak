@@ -1,0 +1,33 @@
+{
+  "type": "skilltree:workbench_item_bonus",
+  "base_item_condition":
+    {
+      "type": "skilltree:equipment_type",
+      "equipment_type": "any"
+    },
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "apotheosis:gem_dust"
+      },
+      "required_amount": 20
+    },
+	{
+      "ingredient": {
+        "tag": "minecraft:nether_star"
+      },
+      "required_amount": 1
+    }
+  ],
+  "item_bonus": {
+    "type": "skilltree:item_bonus_list",
+    "inner_bonuses": [
+	  {
+          "type": "skilltree:all_attributes",
+          "operation": "2",
+		  "amount": "0.01"
+      }
+    ]
+  },
+  "requires_passive_skill": true
+}

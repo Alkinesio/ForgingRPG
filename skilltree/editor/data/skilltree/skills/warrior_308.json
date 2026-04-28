@@ -1,6 +1,15 @@
 {
   "id": "skilltree:warrior_308",
-  "bonuses": [],
+  "bonuses": [
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:knight_tier_one_critical_weapon"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:knight_tier_one_critical_armor"
+    }
+  ],
   "requirements": [
     {
       "type": "skilltree:learned_skill",
@@ -17,6 +26,7 @@
   "iconTexture": "uniquedungeons:textures/item/ancient_note.png",
   "borderTexture": "skilltree:textures/tooltip/blacksmith.png",
   "title": "Tier I Main Class Recipe",
+  "titleColor": "00ffff",
   "positionX": 78.189,
   "positionY": 25.0,
   "buttonSize": 16,

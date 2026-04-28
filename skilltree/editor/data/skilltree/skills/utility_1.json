@@ -3,7 +3,11 @@
   "bonuses": [
     {
       "type": "skilltree:item_usage_speed",
-      "multiplier": 0.05
+      "multiplier": 0.05,
+      "item_condition": {
+        "equipment_type": "tool",
+        "type": "skilltree:equipment_type"
+      }
     }
   ],
   "requirements": [
@@ -31,13 +35,8 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "translate": "skill_bonus.skilltree.item_usage_speed.positive",
-      "with": [
-        {
-          "translate": "item_condition.skilltree.none.plural"
-        },
-        "5"
-      ]
+      "f_131102_": false,
+      "text": "You use Tools 5% faster"
     },
     {
       "f_131101_": {

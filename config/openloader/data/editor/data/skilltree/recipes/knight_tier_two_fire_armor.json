@@ -3,7 +3,7 @@
   "base_item_condition":
     {
       "type": "skilltree:equipment_type",
-      "equipment_type": "armor"
+      "equipment_type": "chestplate"
     },
   "ingredients": [
     {
@@ -28,42 +28,25 @@
   "item_bonus": {
     "type": "skilltree:item_bonus_list",
     "inner_bonuses": [
-	  {
-        "type": "skilltree:skill_bonus",
+      {
+		"type": "skilltree:skill_bonus",
         "skill_bonus": {
-		  "type": "skilltree:attribute",
-		  "name": "Workbench Upgrade",
-		  "attribute": "minecraft:generic.armor_toughness",
-		  "amount": "4",
-		  "operation": "0",
-		  "player_condition": {
-			  "item_condition": {
-			  "equipment_type": "armor",
-			  "type": "skilltree:equipment_type"
+          "type": "skilltree:healing",
+          "chance": 1.0,
+          "amount": 0.002,
+          "event_listener": {
+            "damage_condition": {
+              "type": "skilltree:melee"
             },
-            "type": "skilltree:has_item_equipped"
-          },
-		  "id": "a9afd96f-7808-4ee2-83b7-15a0ab8df584"
-		}
-      },
-	  {
-        "type": "skilltree:skill_bonus",
-        "skill_bonus": {
-		  "type": "skilltree:attribute",
-		  "name": "Workbench Upgrade",
-		  "attribute": "minecraft:generic.armor",
-		  "amount": "2",
-		  "operation": "0",
-		  "player_condition": {
-			  "item_condition": {
-			  "equipment_type": "armor",
-			  "type": "skilltree:equipment_type"
+            "enemy_condition": {
+              "type": "skilltree:burning"
             },
-            "type": "skilltree:has_item_equipped"
+            "target": "player",
+            "type": "skilltree:damage_taken"
           },
-		  "id": "a9afd96f-7808-4ee2-83b7-15a0ab8df584"
-		}
-      }
+          "percentage_healing": true
+        }
+	  }
     ]
   },
   "requires_passive_skill": true

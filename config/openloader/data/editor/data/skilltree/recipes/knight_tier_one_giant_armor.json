@@ -28,24 +28,28 @@
   "item_bonus": {
     "type": "skilltree:item_bonus_list",
     "inner_bonuses": [
-	  {
-        "type": "skilltree:skill_bonus",
+      {
+		"type": "skilltree:skill_bonus",
         "skill_bonus": {
-		  "type": "skilltree:attribute",
-		  "name": "Workbench Upgrade",
-		  "attribute": "minecraft:generic.max_health",
-		  "amount": "0.015",
-		  "operation": "1",
-		  "player_condition": {
-			  "item_condition": {
-			  "equipment_type": "armor",
-			  "type": "skilltree:equipment_type"
-            },
-            "type": "skilltree:has_item_equipped"
-          },
-		  "id": "a9afd96f-7808-4ee2-83b7-15a0ab8df584"
+          "type": "skilltree:damage_taken",
+          "amount": -0.01,
+          "operation": 1,
+          "damage_condition": {
+            "type": "skilltree:none"
+		  }
+        }
+      },
+	  {
+		"type": "skilltree:skill_bonus",
+        "skill_bonus": {
+          "type": "skilltree:damage_taken",
+          "amount": -0.03,
+          "operation": 1,
+          "damage_condition": {
+            "type": "skilltree:melee"
+          }
 		}
-      }
+	  }
     ]
   },
   "requires_passive_skill": true

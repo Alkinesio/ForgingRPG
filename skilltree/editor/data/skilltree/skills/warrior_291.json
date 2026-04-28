@@ -1,6 +1,23 @@
 {
   "id": "skilltree:warrior_291",
-  "bonuses": [],
+  "bonuses": [
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:barbarian_tier_one_weapon"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:barbarian_tier_one_projectile_variant"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:barbarian_tier_one_magic_variant"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:barbarian_tier_one_fall_variant"
+    }
+  ],
   "requirements": [
     {
       "type": "skilltree:learned_skill",
@@ -17,8 +34,9 @@
   "iconTexture": "uniquedungeons:textures/item/ancient_note.png",
   "borderTexture": "skilltree:textures/tooltip/blacksmith.png",
   "title": "Tier I Main Class Recipe",
-  "positionX": 117.899925,
-  "positionY": -75.245735,
+  "titleColor": "00ffff",
+  "positionX": 117.9,
+  "positionY": -75.246,
   "buttonSize": 16,
   "isStartingPoint": false,
   "description": [

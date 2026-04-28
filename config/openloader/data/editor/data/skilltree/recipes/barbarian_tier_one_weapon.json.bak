@@ -28,16 +28,12 @@
   "item_bonus": {
     "type": "skilltree:item_bonus_list",
     "inner_bonuses": [
-      {
-        "type": "skilltree:damage",
-        "amount": 0.05,
-        "operation": 1,
-        "player_condition": {
-          "type": "skilltree:burning"
-        },
-        "damage_condition": {
-          "type": "skilltree:melee"
-        }
+	  {
+      "type": "skilltree:all_attributes",
+      "id": "86a6fe70-5dae-46c8-b6f0-5324ceb33d87",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 2
       }
     ]
   },

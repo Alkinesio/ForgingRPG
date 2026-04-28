@@ -1,0 +1,10 @@
+BlockEvents.rightClicked('minecraft:anvil', event => {
+  let player = event.player
+
+  let pstPlayer = PassiveSkillTreeJS.player(player)
+
+  if (!pstPlayer.hasSkill('skilltree:utility_10')) {
+    player.tell("Only Blacksmiths can use the anvil!")
+    event.cancel()
+  }
+})

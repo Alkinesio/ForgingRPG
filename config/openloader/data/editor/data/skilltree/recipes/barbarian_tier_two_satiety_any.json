@@ -1,0 +1,42 @@
+{
+  "type": "skilltree:workbench_item_bonus",
+  "base_item_condition":
+    {
+      "type": "skilltree:equipment_type",
+      "equipment_type": "any"
+    },
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "apotheosis:gem_dust"
+      },
+      "required_amount": 100
+    },
+	{
+      "ingredient": {
+        "tag": "darkerdepths:copper_ingot"
+      },
+      "required_amount": 2
+    },
+	{
+      "ingredient": {
+        "tag": "realmrpg_quests:necklace_of_satiety"
+      },
+      "required_amount": 1
+    }
+  ],
+  "item_bonus": {
+    "type": "skilltree:item_bonus_list",
+    "inner_bonuses": [
+	  {
+        "type": "skilltree:skill_bonus",
+        "skill_bonus": {
+          "type": "skilltree:all_attributes",
+          "amount": 0.02,
+          "operation": 2
+        }
+      }
+    ]
+  },
+  "requires_passive_skill": true
+}

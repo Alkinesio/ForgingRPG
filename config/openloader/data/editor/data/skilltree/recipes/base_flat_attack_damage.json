@@ -3,7 +3,7 @@
   "base_item_condition":
     {
       "type": "skilltree:equipment_type",
-      "equipment_type": "weapon"
+      "equipment_type": "melee_weapon"
     },
   "ingredients": [
     {

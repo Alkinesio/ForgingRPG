@@ -1,6 +1,15 @@
 {
   "id": "skilltree:warrior_297",
-  "bonuses": [],
+  "bonuses": [
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:knight_tier_one_immortal_weapon"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:knight_tier_one_immortal_armor"
+    }
+  ],
   "requirements": [
     {
       "type": "skilltree:learned_skill",
@@ -17,6 +26,7 @@
   "iconTexture": "uniquedungeons:textures/item/ancient_note.png",
   "borderTexture": "skilltree:textures/tooltip/blacksmith.png",
   "title": "Tier I Main Class Recipe",
+  "titleColor": "00ffff",
   "positionX": 150.891,
   "positionY": 31.428,
   "buttonSize": 16,
@@ -27,7 +37,7 @@
         "f_131257_": 8092645
       },
       "f_131102_": false,
-      "text": "Unlocks Recipe: +1 Attack Damage [Melee Weapons]"
+      "text": "Unlocks Recipe: +5% Total Attack Damage with Armor equipped [Melee Weapons]"
     },
     {
       "f_131101_": {

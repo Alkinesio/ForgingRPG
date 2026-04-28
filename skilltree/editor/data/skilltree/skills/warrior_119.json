@@ -30,7 +30,7 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "cnc:textures/item/parcooked_game_a.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Damage",
+  "title": "Saturation Damage",
   "positionX": 272.468,
   "positionY": -291.716,
   "buttonSize": 14,

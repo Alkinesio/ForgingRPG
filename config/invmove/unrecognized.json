@@ -45,7 +45,8 @@
     "dev.shadowsoffire.apotheosis.adventure.affix.reforging.ReforgingScreen": true,
     "ovh.corail.tombstone.gui.ScreenReadableScroll": true,
     "com.voxelforge.homesteads.screen.LumberJackScreen": true,
-    "tictim.paraglider.client.screen.BargainScreen": true
+    "tictim.paraglider.client.screen.BargainScreen": true,
+    "dev.latvian.mods.kubejs.client.KubeJSErrorScreen": true
   },
   "hideBackground": {
     "net.mcreator.monsterhuntervillager.client.gui.HuntersTableGuiScreen": true,

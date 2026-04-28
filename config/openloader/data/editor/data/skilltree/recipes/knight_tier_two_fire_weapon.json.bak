@@ -1,0 +1,53 @@
+{
+  "type": "skilltree:workbench_item_bonus",
+  "base_item_condition":
+    {
+      "type": "skilltree:equipment_type",
+      "equipment_type": "melee_weapon"
+    },
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "apotheosis:gem_dust"
+      },
+      "required_amount": 80
+    },
+	{
+      "ingredient": {
+        "tag": "deep_aether:stratus_ingot"
+      },
+      "required_amount": 2
+    },
+	{
+      "ingredient": {
+        "tag": "iter_rpg:fire_ingot"
+      },
+      "required_amount": 4
+    }
+  ],
+  "item_bonus": {
+    "type": "skilltree:item_bonus_list",
+    "inner_bonuses": [
+      {
+		"type": "skilltree:skill_bonus",
+        "skill_bonus": {
+          "type": "skilltree:healing",
+          "chance": 1.0,
+          "amount": 0.002,
+          "event_listener": {
+            "damage_condition": {
+              "type": "skilltree:none"
+            },
+            "enemy_condition": {
+              "type": "skilltree:burning"
+            },
+            "target": "player",
+            "type": "skilltree:attack"
+          },
+          "percentage_healing": true
+        }
+	  }
+    ]
+  },
+  "requires_passive_skill": true
+}

@@ -34,7 +34,7 @@
   "iconTexture": "uniquedungeons:textures/item/ancient_note.png",
   "borderTexture": "skilltree:textures/tooltip/blacksmith.png",
   "title": "Tier I Main Class Recipe",
-  "titleColor": "",
+  "titleColor": "00ffff",
   "positionX": 26.163,
   "positionY": -147.837,
   "buttonSize": 16,

@@ -18,7 +18,12 @@
       "recipe_id": "skilltree:base_flat_attack_damage"
     }
   ],
-  "requirements": [],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:utility_12"
+    }
+  ],
   "directConnections": [
     "skilltree:utility_12"
   ],

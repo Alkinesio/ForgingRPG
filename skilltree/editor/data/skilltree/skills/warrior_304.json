@@ -1,6 +1,27 @@
 {
   "id": "skilltree:warrior_304",
-  "bonuses": [],
+  "bonuses": [
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:tank_tier_one_flat_armor_flat_armor_toughness"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:tank_tier_one_armor_variant"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:tank_tier_one_armor_toughness_variant"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:tank_tier_one_armor_and_damage_reduction_variant"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:tank_tier_one_armor_toughness_and_damage_reduction_variant"
+    }
+  ],
   "requirements": [
     {
       "type": "skilltree:learned_skill",
@@ -17,6 +38,7 @@
   "iconTexture": "uniquedungeons:textures/item/ancient_note.png",
   "borderTexture": "skilltree:textures/tooltip/blacksmith.png",
   "title": "Tier I Main Class Recipe",
+  "titleColor": "00ffff",
   "positionX": 39.1,
   "positionY": 59.721,
   "buttonSize": 16,

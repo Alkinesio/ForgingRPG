@@ -1,6 +1,15 @@
 {
   "id": "skilltree:warrior_302",
-  "bonuses": [],
+  "bonuses": [
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:tank_tier_two_poison_damage_reduction_variant"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:tank_tier_two_poison_damage_variant"
+    }
+  ],
   "requirements": [
     {
       "type": "skilltree:learned_skill",
@@ -18,8 +27,9 @@
   "iconTexture": "uniquedungeons:textures/item/ancient_note.png",
   "borderTexture": "skilltree:textures/tooltip/blacksmith.png",
   "title": "Tier II Main Class Recipe",
-  "positionX": 77.23356,
-  "positionY": 124.46469,
+  "titleColor": "00ffff",
+  "positionX": 77.234,
+  "positionY": 124.465,
   "buttonSize": 16,
   "isStartingPoint": false,
   "description": [

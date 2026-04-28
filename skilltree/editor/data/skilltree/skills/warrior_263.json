@@ -2,8 +2,11 @@
   "id": "skilltree:warrior_263",
   "bonuses": [
     {
-      "type": "skilltree:damage",
-      "amount": 0.5,
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "2c0f2c93-d1f6-451e-98f2-c2d596dc1aa5",
+      "name": "Skill",
+      "amount": 0.75,
       "operation": 0,
       "player_condition": {
         "value_provider": {
@@ -13,9 +16,23 @@
         "required_value": 20.0,
         "logic": "AT_LEAST",
         "type": "skilltree:numeric_value"
-      },
-      "damage_condition": {
-        "type": "skilltree:melee"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "f2d601ee-76a3-43cf-b633-9271fbd7c18a",
+      "name": "Skill",
+      "amount": -0.15,
+      "operation": 0,
+      "player_condition": {
+        "value_provider": {
+          "attribute": "minecraft:generic.max_health",
+          "type": "skilltree:attribute_value"
+        },
+        "required_value": 1.0,
+        "logic": "EQUAL",
+        "type": "skilltree:numeric_value"
       }
     }
   ],

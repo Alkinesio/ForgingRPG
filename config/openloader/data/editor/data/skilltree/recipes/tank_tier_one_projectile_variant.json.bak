@@ -1,0 +1,57 @@
+{
+  "type": "skilltree:workbench_item_bonus",
+  "base_item_condition":
+    {
+      "type": "skilltree:equipment_type",
+      "equipment_type": "armor"
+    },
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "apotheosis:gem_dust"
+      },
+      "required_amount": 40
+    },
+	{
+      "ingredient": {
+        "tag": "iter_rpg:fire_ingot"
+      },
+      "required_amount": 2
+    },
+	{
+      "ingredient": {
+        "tag": "iter_rpg:air_ingot"
+      },
+      "required_amount": 4
+    }
+  ],
+  "item_bonus": {
+    "type": "skilltree:item_bonus_list",
+    "inner_bonuses": [
+	  {
+        "type": "skilltree:skill_bonus",
+        "skill_bonus":
+    {
+      "type": "skilltree:damage",
+      "amount": 0.05,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:thorns"
+      }
+    }
+      },
+	  {
+        "type": "skilltree:skill_bonus",
+        "skill_bonus": {
+          "type": "skilltree:damage_taken",
+		  "damage_condition": {
+			"type": "skilltree:projectile"
+		  },
+          "operation": "1",
+          "amount": "-0.03"
+        }
+      }
+    ]
+  },
+  "requires_passive_skill": true
+}

@@ -4,9 +4,9 @@
     {
       "type": "skilltree:attribute",
       "attribute": "attributeslib:life_steal",
-      "id": "a8c3fff6-5adb-40ac-9c14-cd3e045c2945",
+      "id": "294d03b5-a808-4fc4-9b78-9ee0f5445092",
       "name": "Skill",
-      "amount": 0.02,
+      "amount": 0.025,
       "operation": 0
     }
   ],
@@ -17,20 +17,20 @@
   "longConnections": [],
   "oneWayConnections": [],
   "tags": [],
-  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "backgroundTexture": "skilltree:textures/icons/background/stone.png",
   "iconTexture": "uniqueaccessories:textures/item/bloody_knife.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Lifesteal",
   "positionX": 10.575,
   "positionY": -396.877,
-  "buttonSize": 14,
+  "buttonSize": 15,
   "isStartingPoint": false,
   "description": [
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "+2% Life Steal"
+      "text": "+2.5% Life Steal"
     }
   ]
 }

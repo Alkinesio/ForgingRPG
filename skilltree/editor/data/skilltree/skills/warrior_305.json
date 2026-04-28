@@ -1,6 +1,31 @@
 {
   "id": "skilltree:warrior_305",
-  "bonuses": [],
+  "bonuses": [
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:tank_tier_one_thorns_variant_armor"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:tank_tier_one_melee_variant_armor"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:tank_tier_one_projectile_variant_armor"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:tank_tier_one_poison_variant_armor"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:tank_tier_one_magic_variant_armor"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:tank_tier_one_fall_variant_armor"
+    }
+  ],
   "requirements": [
     {
       "type": "skilltree:learned_skill",
@@ -17,6 +42,7 @@
   "iconTexture": "uniquedungeons:textures/item/ancient_note.png",
   "borderTexture": "skilltree:textures/tooltip/blacksmith.png",
   "title": "Tier I Main Class Recipe",
+  "titleColor": "00ffff",
   "positionX": -39.1,
   "positionY": 59.721,
   "buttonSize": 16,

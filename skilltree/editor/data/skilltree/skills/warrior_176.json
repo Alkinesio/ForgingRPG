@@ -4,10 +4,10 @@
     {
       "type": "skilltree:inflict_ignite",
       "chance": 1.0,
-      "duration": 8,
+      "duration": 10,
       "event_listener": {
         "damage_condition": {
-          "type": "skilltree:none"
+          "type": "skilltree:melee"
         },
         "target": "enemy",
         "type": "skilltree:damage_taken"
@@ -64,18 +64,8 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "translate": "event_listener.skilltree.damage_taken",
-      "with": [
-        {
-          "translate": "skill_bonus.skilltree.inflict_ignite.enemy",
-          "with": [
-            "00:08"
-          ]
-        },
-        {
-          "translate": "damage_condition.skilltree.none"
-        }
-      ]
+      "f_131102_": false,
+      "text": "Set enemies on fire for 00:10 when you take Melee Damage with Armor equipped"
     },
     {
       "f_131101_": {

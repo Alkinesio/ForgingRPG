@@ -18,7 +18,12 @@
       "recipe_id": "skilltree:base_mining_speed"
     }
   ],
-  "requirements": [],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:utility_12"
+    }
+  ],
   "directConnections": [
     "skilltree:utility_20"
   ],

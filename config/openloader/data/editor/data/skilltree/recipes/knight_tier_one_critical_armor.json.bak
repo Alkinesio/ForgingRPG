@@ -1,0 +1,56 @@
+{
+  "type": "skilltree:workbench_item_bonus",
+  "base_item_condition":
+    {
+      "type": "skilltree:equipment_type",
+      "equipment_type": "armor"
+    },
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "apotheosis:gem_dust"
+      },
+      "required_amount": 40
+    },
+	{
+      "ingredient": {
+        "tag": "minecraft:obsidian"
+      },
+      "required_amount": 4
+    },
+	{
+      "ingredient": {
+        "tag": "minecraft:wither_skeleton_skull"
+      },
+      "required_amount": 1
+    }
+  ],
+  "item_bonus": {
+    "type": "skilltree:item_bonus_list",
+    "inner_bonuses": [
+      {
+		"type": "skilltree:skill_bonus",
+        "skill_bonus": {
+        "type": "skilltree:damage_taken",
+        "amount": -0.01,
+        "operation": 1,
+        "damage_condition": {
+          "type": "skilltree:none"
+        }
+		}
+      },
+	  {
+		"type": "skilltree:skill_bonus",
+        "skill_bonus": {
+          "type": "skilltree:damage_taken",
+          "amount": -0.03,
+          "operation": 1,
+          "damage_condition": {
+            "type": "skilltree:fire"
+          }
+		}
+	  }
+    ]
+  },
+  "requires_passive_skill": true
+}

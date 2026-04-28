@@ -2,12 +2,8 @@
   "id": "skilltree:utility_24",
   "bonuses": [
     {
-      "type": "skilltree:item_durability_loss_avoidance",
-      "chance": 0.03,
-      "item_condition": {
-        "equipment_type": "any",
-        "type": "skilltree:equipment_type"
-      }
+      "type": "skilltree:repair_efficiency",
+      "multiplier": 0.05
     }
   ],
   "requirements": [],
@@ -18,9 +14,9 @@
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "skilltree:textures/icons/glove_steel.png",
+  "iconTexture": "ancient_tools:textures/item/ancient_hammer.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Equipment Durability",
+  "title": "Item Restoration",
   "positionX": 156.187,
   "positionY": 80.055,
   "buttonSize": 14,
