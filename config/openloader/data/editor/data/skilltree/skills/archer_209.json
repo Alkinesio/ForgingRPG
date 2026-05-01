@@ -1,0 +1,35 @@
+{
+  "id": "skilltree:archer_209",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 0.075,
+      "operation": 1,
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "ranged_weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      },
+      "damage_condition": {
+        "type": "skilltree:magic"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:archer_208"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/stone.png",
+  "iconTexture": "iter_rpg:textures/item/magebane_arrow.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Magic Damage",
+  "positionX": 38.187,
+  "positionY": 169.963,
+  "buttonSize": 15,
+  "isStartingPoint": false
+}

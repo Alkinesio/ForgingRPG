@@ -3,7 +3,7 @@
   "bonuses": [
     {
       "type": "skilltree:crit_damage",
-      "amount": 0.12,
+      "amount": 0.07,
       "player_condition": {
         "value_provider": {
           "attribute": "attributeslib:life_steal",
@@ -23,7 +23,9 @@
     "skilltree:warrior_231"
   ],
   "longConnections": [],
-  "oneWayConnections": [],
+  "oneWayConnections": [
+    "skilltree:warrior_290"
+  ],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "born_in_chaos_v1:textures/item/intoxicating_dagger.png",
@@ -38,7 +40,7 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "+12% Critical Melee Damage Multiplier if Life Steal is more than 10%"
+      "text": "+7% Critical Melee Damage Multiplier if Life Steal is more than 10%"
     }
   ]
 }

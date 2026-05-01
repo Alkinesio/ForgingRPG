@@ -2,26 +2,39 @@
   "id": "skilltree:warrior_306",
   "bonuses": [
     {
-      "type": "skilltree:damage_taken",
-      "amount": -1.0,
-      "operation": 0,
-      "damage_condition": {
-        "type": "skilltree:melee"
-      }
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:life_steal",
+      "id": "89d89383-0e32-4ba7-82ec-7c6f243ecc2b",
+      "name": "Skill",
+      "amount": 0.025,
+      "operation": 0
     }
   ],
   "requirements": [],
   "directConnections": [
-    "skilltree:warrior_1"
+    "skilltree:warrior_209",
+    "skilltree:warrior_212"
   ],
   "longConnections": [],
   "oneWayConnections": [],
-  "tags": [],
-  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "skilltree:textures/icons/void.png",
+  "tags": [
+    "Secondary Branch"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/stone.png",
+  "iconTexture": "uniqueaccessories:textures/item/bloody_knife.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "positionX": -63.44186,
-  "positionY": -29.582603,
-  "buttonSize": 16,
-  "isStartingPoint": false
+  "title": "Lifesteal",
+  "positionX": -24.946,
+  "positionY": -184.33,
+  "buttonSize": 15,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "text": "+2.5% Life Steal"
+    }
+  ]
 }

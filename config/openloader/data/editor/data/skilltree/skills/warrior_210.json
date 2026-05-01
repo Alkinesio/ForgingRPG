@@ -2,31 +2,44 @@
   "id": "skilltree:warrior_210",
   "bonuses": [
     {
+      "type": "skilltree:curio_slots",
+      "slot": "ring",
+      "amount": 1,
+      "modifier_id": "3e0721ef-c078-4d02-89ed-5590fef2ee9c"
+    },
+    {
       "type": "skilltree:attribute",
-      "attribute": "attributeslib:life_steal",
-      "id": "7ede5963-9819-4889-8c92-da5baba2131f",
+      "attribute": "minecraft:generic.armor",
+      "id": "e6653671-19d6-4cc5-a1d5-6bab304825d6",
       "name": "Skill",
-      "amount": 0.02,
-      "operation": 0
+      "amount": -0.05,
+      "operation": 2
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor_toughness",
+      "id": "2e36ae4e-c566-469e-83a7-de346f303801",
+      "name": "Skill",
+      "amount": -0.05,
+      "operation": 2
     }
   ],
   "requirements": [],
   "directConnections": [
-    "skilltree:warrior_209"
+    "skilltree:warrior_208"
   ],
   "longConnections": [],
   "oneWayConnections": [],
   "tags": [
     "Primary Branch"
   ],
-  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "uniqueaccessories:textures/item/bloody_knife.png",
+  "backgroundTexture": "skilltree:textures/icons/background/gold.png",
+  "iconTexture": "enigmaticaddons:textures/item/avarice_ring.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Lifesteal",
-  "titleColor": "",
-  "positionX": -24.946,
-  "positionY": -184.33,
-  "buttonSize": 14,
+  "title": "Utility",
+  "positionX": -73.213,
+  "positionY": -143.213,
+  "buttonSize": 16,
   "isStartingPoint": false,
   "description": [
     {
@@ -34,11 +47,14 @@
         "f_131257_": 8092645
       },
       "f_131102_": false,
-      "f_131103_": false,
-      "f_131104_": false,
-      "f_131105_": false,
-      "f_131106_": false,
-      "text": "+2% Life Steal"
+      "text": "+1 Ring Slots"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "f_131102_": false,
+      "text": "-5% Total Armor and Armor Toughness"
     }
   ]
 }

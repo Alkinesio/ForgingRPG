@@ -7,10 +7,11 @@
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
-  "iconTexture": "ftblibrary:textures/icons/online_red.png",
+  "iconTexture": "iter_rpg:textures/item/coin_pile_item.png",
   "borderTexture": "skilltree:textures/tooltip/keystone.png",
-  "positionX": 28.281559,
-  "positionY": -28.286983,
+  "title": "The Banker",
+  "positionX": 28.282,
+  "positionY": -28.287,
   "buttonSize": 20,
   "isStartingPoint": false
 }

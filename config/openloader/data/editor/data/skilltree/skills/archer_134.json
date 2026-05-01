@@ -3,7 +3,7 @@
   "bonuses": [
     {
       "type": "skilltree:damage_taken",
-      "amount": -0.05,
+      "amount": -0.03,
       "operation": 1,
       "damage_condition": {
         "type": "skilltree:fall"
@@ -16,7 +16,8 @@
   ],
   "longConnections": [],
   "oneWayConnections": [
-    "skilltree:archer_136"
+    "skilltree:archer_136",
+    "skilltree:archer_166"
   ],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",

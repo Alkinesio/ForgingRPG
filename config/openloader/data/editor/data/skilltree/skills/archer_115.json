@@ -25,7 +25,7 @@
       "amplifier": 0,
       "event_listener": {
         "damage_condition": {
-          "type": "skilltree:none"
+          "type": "skilltree:projectile"
         },
         "target": "enemy",
         "type": "skilltree:attack"
@@ -33,7 +33,7 @@
     },
     {
       "type": "skilltree:damage",
-      "amount": 0.8,
+      "amount": 0.2,
       "operation": 2,
       "damage_condition": {
         "type": "skilltree:projectile"
@@ -42,14 +42,14 @@
     {
       "type": "skilltree:attribute",
       "attribute": "iter_rpg:bullet_damage",
-      "id": "27597366-623b-4763-8ef3-0d832efe7f3c",
+      "id": "d095b488-8dec-40bc-8e3c-90717ec53777",
       "name": "Skill",
-      "amount": 0.8,
+      "amount": 0.2,
       "operation": 2
     },
     {
       "type": "skilltree:damage",
-      "amount": 0.8,
+      "amount": 0.2,
       "operation": 2,
       "damage_condition": {
         "type": "skilltree:fire"
@@ -103,47 +103,26 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "translate": "skill_bonus.skilltree.inflict_effect.stacks",
-      "with": [
-        {
-          "translate": "event_listener.skilltree.attack",
-          "with": [
-            {
-              "translate": "skill_bonus.skilltree.inflict_effect.enemy",
-              "with": [
-                {
-                  "translate": "effect.minecraft.poison"
-                },
-                {
-                  "translate": "skill_bonus.skilltree.inflict_effect.seconds",
-                  "with": [
-                    "20"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        "20"
-      ]
+      "f_131102_": false,
+      "text": "Inflict Poison for 20 seconds on Projectile hit, stacks up to 20 times"
     },
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "+80% Total Projectile Damage"
+      "text": "+20% Total Projectile Damage"
     },
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "+80% Total Bullet Damage"
+      "text": "+20% Total Bullet Damage"
     },
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "+80% Total Fire Damage"
+      "text": "+20% Total Fire Damage"
     },
     {
       "f_131101_": {

@@ -1,24 +1,68 @@
 {
   "id": "skilltree:warrior_290",
-  "bonuses": [],
-  "requirements": [
+  "bonuses": [
     {
-      "type": "skilltree:learned_skill",
-      "skill_id": "skilltree:utility_22"
+      "type": "skilltree:incoming_healing",
+      "multiplier": 0.15,
+      "player_condition": {
+        "value_provider": {
+          "percentage": true,
+          "missing": false,
+          "type": "skilltree:health_level"
+        },
+        "required_value": 0.4,
+        "logic": "LESS",
+        "type": "skilltree:numeric_value"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:dodge_chance",
+      "id": "34eef9e5-0bb6-4e13-b8a8-cc57c5f0ae81",
+      "name": "Skill",
+      "amount": 0.15,
+      "operation": 0,
+      "player_condition": {
+        "value_provider": {
+          "percentage": true,
+          "missing": false,
+          "type": "skilltree:health_level"
+        },
+        "required_value": 0.4,
+        "logic": "LESS",
+        "type": "skilltree:numeric_value"
+      }
+    },
+    {
+      "type": "skilltree:damage_taken",
+      "amount": 0.1,
+      "operation": 2,
+      "player_condition": {
+        "value_provider": {
+          "percentage": true,
+          "missing": false,
+          "type": "skilltree:health_level"
+        },
+        "required_value": 0.4,
+        "logic": "AT_LEAST",
+        "type": "skilltree:numeric_value"
+      },
+      "damage_condition": {
+        "type": "skilltree:none"
+      }
     }
   ],
+  "requirements": [],
   "directConnections": [],
-  "longConnections": [
-    "skilltree:warrior_98"
-  ],
+  "longConnections": [],
   "oneWayConnections": [],
   "tags": [],
-  "backgroundTexture": "skilltree:textures/icons/background/recipe.png",
-  "iconTexture": "uniquedungeons:textures/item/ancient_note.png",
+  "backgroundTexture": "skilltree:textures/icons/background/gold.png",
+  "iconTexture": "deeperdarker:textures/item/soul_elytra.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Tier II Main Class Recipe",
-  "positionX": 203.705,
-  "positionY": -64.806,
+  "title": "Incoming Healing \u0026 Dodge Chance",
+  "positionX": 0.0,
+  "positionY": -374.0,
   "buttonSize": 16,
   "isStartingPoint": false,
   "description": [
@@ -26,13 +70,65 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "Unlocks Recipe: +10% Melee Damage if you are burning, +6% Attack Speed [Axes]"
+      "translate": "value_provider.skilltree.health_level.condition.player",
+      "with": [
+        {
+          "translate": "attribute.modifier.plus.1",
+          "with": [
+            "15",
+            {
+              "translate": "skill_bonus.skilltree.incoming_healing"
+            }
+          ]
+        },
+        {
+          "translate": "living_condition.skilltree.numeric_value.less",
+          "with": [
+            "40%"
+          ]
+        },
+        {
+          "translate": "value_provider.skilltree.health_level.percentage.plural"
+        }
+      ]
     },
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "Unlocks Recipe: +8% Speed, +12% Jump Heigth [Boots]"
+      "f_131102_": false,
+      "text": "+15% Dodge Chance if you have less than 40% health"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "translate": "value_provider.skilltree.health_level.condition.player",
+      "with": [
+        {
+          "translate": "attribute.modifier.plus.2",
+          "with": [
+            "10",
+            {
+              "translate": "skill_bonus.skilltree.damage_taken",
+              "with": [
+                {
+                  "translate": "damage_condition.skilltree.none"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "translate": "living_condition.skilltree.numeric_value.at_least",
+          "with": [
+            "40%"
+          ]
+        },
+        {
+          "translate": "value_provider.skilltree.health_level.percentage.plural"
+        }
+      ]
     }
   ]
 }

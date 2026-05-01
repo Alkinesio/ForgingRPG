@@ -19,9 +19,7 @@
     }
   ],
   "requirements": [],
-  "directConnections": [
-    "skilltree:warrior_210"
-  ],
+  "directConnections": [],
   "longConnections": [],
   "oneWayConnections": [
     "skilltree:warrior_217"

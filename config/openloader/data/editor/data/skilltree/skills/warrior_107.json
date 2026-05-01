@@ -16,6 +16,22 @@
       "damage_condition": {
         "type": "skilltree:melee"
       }
+    },
+    {
+      "type": "skilltree:crit_chance",
+      "chance": -0.05,
+      "player_condition": {
+        "value_provider": {
+          "attribute": "minecraft:generic.attack_damage",
+          "type": "skilltree:attribute_value"
+        },
+        "required_value": 20.0,
+        "logic": "LESS",
+        "type": "skilltree:numeric_value"
+      },
+      "damage_condition": {
+        "type": "skilltree:melee"
+      }
     }
   ],
   "requirements": [],

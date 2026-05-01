@@ -15,11 +15,12 @@
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/recipe.png",
   "iconTexture": "uniquedungeons:textures/item/ancient_note.png",
-  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "borderTexture": "skilltree:textures/tooltip/blacksmith.png",
   "title": "Tier II Main Class Recipe",
+  "titleColor": "00ffff",
   "positionX": 249.86,
-  "positionY": -154.58925,
-  "buttonSize": 16,
+  "positionY": -154.589,
+  "buttonSize": 80,
   "isStartingPoint": false,
   "description": [
     {

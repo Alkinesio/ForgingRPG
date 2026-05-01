@@ -7,7 +7,7 @@
       "duration": 8,
       "event_listener": {
         "damage_condition": {
-          "type": "skilltree:none"
+          "type": "skilltree:melee"
         },
         "target": "enemy",
         "type": "skilltree:damage_taken"
@@ -19,7 +19,7 @@
       "duration": 8,
       "event_listener": {
         "damage_condition": {
-          "type": "skilltree:none"
+          "type": "skilltree:melee"
         },
         "target": "enemy",
         "type": "skilltree:attack"
@@ -78,32 +78,15 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "translate": "event_listener.skilltree.damage_taken",
-      "with": [
-        {
-          "translate": "skill_bonus.skilltree.inflict_ignite.enemy",
-          "with": [
-            "00:08"
-          ]
-        },
-        {
-          "translate": "damage_condition.skilltree.none"
-        }
-      ]
+      "f_131102_": false,
+      "text": "Set enemies on fire for 00:08 when you take Melee Damage"
     },
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "translate": "event_listener.skilltree.attack",
-      "with": [
-        {
-          "translate": "skill_bonus.skilltree.inflict_ignite.enemy",
-          "with": [
-            "00:08"
-          ]
-        }
-      ]
+      "f_131102_": false,
+      "text": "Set enemies on fire for 00:08 on Melee hit"
     },
     {
       "f_131101_": {

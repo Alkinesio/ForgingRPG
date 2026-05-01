@@ -38,9 +38,7 @@
   ],
   "longConnections": [],
   "oneWayConnections": [],
-  "tags": [
-    "Main Skill"
-  ],
+  "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/class.png",
   "iconTexture": "the_pillager_legion_:textures/item/legion_toth_bow_pulling_2.png",
   "borderTexture": "skilltree:textures/tooltip/keystone.png",

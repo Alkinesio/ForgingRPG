@@ -1,6 +1,15 @@
 {
   "id": "skilltree:warrior_298",
-  "bonuses": [],
+  "bonuses": [
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:knight_tier_two_rabbit_weapon"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:knight_tier_two_rabbit_boots"
+    }
+  ],
   "requirements": [
     {
       "type": "skilltree:learned_skill",
@@ -15,8 +24,9 @@
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/recipe.png",
   "iconTexture": "uniquedungeons:textures/item/ancient_note.png",
-  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "borderTexture": "skilltree:textures/tooltip/blacksmith.png",
   "title": "Tier II Main Class Recipe",
+  "titleColor": "00ffff",
   "positionX": 474.162,
   "positionY": -56.002,
   "buttonSize": 16,
@@ -26,8 +36,7 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "f_131102_": false,
-      "text": "Unlocks Recipe: +10% Fall Damage [Melee Weapons]"
+      "text": "Unlocks Recipe: +20% Fall Damage [Melee Weapons]"
     },
     {
       "f_131101_": {

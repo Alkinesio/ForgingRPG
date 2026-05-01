@@ -1,6 +1,27 @@
 {
   "id": "skilltree:warrior_304",
-  "bonuses": [],
+  "bonuses": [
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:tank_tier_one_flat_armor_flat_armor_toughness"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:tank_tier_one_armor_variant"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:tank_tier_one_armor_toughness_variant"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:tank_tier_one_armor_and_damage_reduction_variant"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:tank_tier_one_armor_toughness_and_damage_reduction_variant"
+    }
+  ],
   "requirements": [
     {
       "type": "skilltree:learned_skill",
@@ -15,10 +36,48 @@
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/recipe.png",
   "iconTexture": "uniquedungeons:textures/item/ancient_note.png",
-  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "borderTexture": "skilltree:textures/tooltip/blacksmith.png",
   "title": "Tier I Main Class Recipe",
+  "titleColor": "00ffff",
   "positionX": 39.1,
   "positionY": 59.721,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "text": "Unlocks Recipe: +1 Armor, +0.5 Armor Toughness [Armor]"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "text": "Unlocks Recipe: +1 Armor, +1% Total Armor [Armor]"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "text": "Unlocks Recipe: +0.5 Armor Toughness, +1% Total Armor Toughness [Armor]"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "text": "Unlocks Recipe: +1 Armor, -1% Damage Taken [Armor]"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "text": "Unlocks Recipe: +0.5 Armor Toughness, -1% Damage Taken [Armor]"
+    }
+  ]
 }

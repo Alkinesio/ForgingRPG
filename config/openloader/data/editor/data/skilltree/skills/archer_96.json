@@ -10,7 +10,7 @@
       "amplifier": 0,
       "event_listener": {
         "damage_condition": {
-          "type": "skilltree:none"
+          "type": "skilltree:projectile"
         },
         "player_condition": {
           "item_condition": {

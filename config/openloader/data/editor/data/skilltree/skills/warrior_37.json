@@ -3,7 +3,7 @@
   "bonuses": [
     {
       "type": "skilltree:item_use_movement_speed",
-      "multiplier": -0.25,
+      "multiplier": -0.2,
       "item_condition": {
         "type": "skilltree:food"
       }

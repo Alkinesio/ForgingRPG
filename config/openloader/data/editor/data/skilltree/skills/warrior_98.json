@@ -59,7 +59,9 @@
   "directConnections": [
     "skilltree:warrior_93"
   ],
-  "longConnections": [],
+  "longConnections": [
+    "skilltree:warrior_309"
+  ],
   "oneWayConnections": [],
   "tags": [
     "Notable Skill",

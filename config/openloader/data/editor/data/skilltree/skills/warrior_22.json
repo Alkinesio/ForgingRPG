@@ -28,7 +28,8 @@
         },
         "target": "player",
         "type": "skilltree:attack"
-      }
+      },
+      "percentage_healing": false
     },
     {
       "type": "skilltree:healing",
@@ -49,7 +50,8 @@
         },
         "target": "player",
         "type": "skilltree:attack"
-      }
+      },
+      "percentage_healing": false
     },
     {
       "type": "skilltree:incoming_healing",
@@ -94,9 +96,9 @@
     {
       "type": "skilltree:attribute",
       "attribute": "attributeslib:dodge_chance",
-      "id": "156b1849-61a8-4b8d-b0b0-69218b31598d",
+      "id": "f7f13917-0bfa-4ed3-9e96-4826de5236e2",
       "name": "Skill",
-      "amount": 0.09,
+      "amount": 0.05,
       "operation": 0
     },
     {
@@ -259,7 +261,8 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "+9% Dodge Chance"
+      "f_131102_": false,
+      "text": "+5% Dodge Chance"
     },
     {
       "f_131101_": {

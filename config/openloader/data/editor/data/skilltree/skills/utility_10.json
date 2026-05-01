@@ -3,8 +3,8 @@
   "bonuses": [
     {
       "type": "skilltree:command",
-      "command": "give @p minecraft:anvil",
-      "description": "Grants an anvil when learned",
+      "command": "tag add blacksmith_anvil",
+      "description": "You can now craft and use Anvils",
       "event_listener": {
         "type": "skilltree:skill_learned"
       }
@@ -20,7 +20,7 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "minecraft:textures/block/anvil_top.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Utility",
+  "title": "Mechanics",
   "positionX": 68.0,
   "positionY": 0.0,
   "buttonSize": 14,

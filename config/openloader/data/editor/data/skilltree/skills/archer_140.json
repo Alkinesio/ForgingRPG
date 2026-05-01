@@ -24,13 +24,5 @@
   "positionX": 0.0,
   "positionY": -78.0,
   "buttonSize": 14,
-  "isStartingPoint": false,
-  "description": [
-    {
-      "f_131101_": {
-        "f_131257_": 8092645
-      },
-      "text": "+6% Lava Speed"
-    }
-  ]
+  "isStartingPoint": false
 }

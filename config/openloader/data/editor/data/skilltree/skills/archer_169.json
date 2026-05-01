@@ -1,0 +1,61 @@
+{
+  "id": "skilltree:archer_169",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "x_player_info:attribute.name.extend.healing_per_bonus",
+      "id": "a6123088-1caf-4f70-9235-6e740a85f13f",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 0,
+      "player_multiplier": {
+        "value_provider": {
+          "attribute": "attributeslib:dodge_chance",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 0.01,
+        "type": "skilltree:numeric_value"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:dodge_chance",
+      "id": "541875fa-5777-4cef-a744-5e3ee296ea44",
+      "name": "Skill",
+      "amount": 0.005,
+      "operation": 2
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:archer_167",
+    "skilltree:archer_164"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/stone.png",
+  "iconTexture": "aquamirae_delight:textures/item/wisteria_leaves.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Healing \u0026 Dodge Chance",
+  "positionX": 228.127,
+  "positionY": -278.147,
+  "buttonSize": 15,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "text": "+0.01 Regenerate Per Second per 1% Dodge Chance"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "text": "+0.5% Total Dodge Chance"
+    }
+  ]
+}

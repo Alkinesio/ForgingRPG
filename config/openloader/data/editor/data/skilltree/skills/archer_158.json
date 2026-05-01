@@ -1,0 +1,96 @@
+{
+  "id": "skilltree:archer_158",
+  "bonuses": [
+    {
+      "type": "skilltree:crit_chance",
+      "chance": 1.0,
+      "damage_condition": {
+        "type": "skilltree:fire"
+      }
+    },
+    {
+      "type": "skilltree:crit_damage",
+      "amount": 0.02,
+      "enemy_multiplier": {
+        "value_provider": {
+          "attribute": "minecraft:generic.max_health",
+          "type": "skilltree:attribute_value"
+        },
+        "divisor": 40.0,
+        "type": "skilltree:numeric_value"
+      },
+      "damage_condition": {
+        "type": "skilltree:fire"
+      }
+    },
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 1.0,
+      "max_stacks": 1,
+      "effect": "goety:freezing",
+      "duration": 160,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:melee"
+        },
+        "target": "player",
+        "type": "skilltree:damage_taken"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/gold.png",
+  "iconTexture": "better_armory_mod:textures/item/dragonfire_projectile.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Critical Fire Damage",
+  "positionX": 0.0,
+  "positionY": -240.0,
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "text": "Fire Damage is always critical (+100% Critical Fire Damage Multiplier)"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "text": "+1.5% Critical Fire Damage Multiplier per 40 enemy\u0027s Max Health"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "translate": "event_listener.skilltree.damage_taken",
+      "with": [
+        {
+          "translate": "skill_bonus.skilltree.inflict_effect.player",
+          "with": [
+            {
+              "translate": "effect.goety.freezing"
+            },
+            {
+              "translate": "skill_bonus.skilltree.inflict_effect.seconds",
+              "with": [
+                "8"
+              ]
+            }
+          ]
+        },
+        {
+          "translate": "damage_condition.skilltree.melee"
+        }
+      ]
+    }
+  ]
+}

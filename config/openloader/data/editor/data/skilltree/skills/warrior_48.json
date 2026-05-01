@@ -77,6 +77,7 @@
   "iconTexture": "uniqueaccessories:textures/item/burning_soul.png",
   "borderTexture": "skilltree:textures/tooltip/notable.png",
   "title": "Firing Spirit",
+  "titleColor": "",
   "positionX": 96.081,
   "positionY": -99.087,
   "buttonSize": 18,

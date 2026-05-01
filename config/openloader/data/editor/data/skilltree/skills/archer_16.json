@@ -42,7 +42,9 @@
   "directConnections": [
     "skilltree:archer_11"
   ],
-  "longConnections": [],
+  "longConnections": [
+    "skilltree:archer_202"
+  ],
   "oneWayConnections": [],
   "tags": [
     "Notable Skill",

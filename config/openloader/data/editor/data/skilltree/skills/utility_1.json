@@ -3,20 +3,18 @@
   "bonuses": [
     {
       "type": "skilltree:item_usage_speed",
-      "multiplier": 0.05
+      "multiplier": 0.05,
+      "item_condition": {
+        "equipment_type": "tool",
+        "type": "skilltree:equipment_type"
+      }
     }
   ],
-  "requirements": [
-    {
-      "type": "skilltree:advancement",
-      "advancement": "morevillagers:first_trade"
-    }
+  "directConnections": [
+	"skilltree:utility_2"
   ],
-  "directConnections": [],
   "longConnections": [],
-  "oneWayConnections": [
-    "skilltree:utility_2"
-  ],
+  "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/class.png",
   "iconTexture": "artifacts:textures/item/power_glove.png",
@@ -25,19 +23,14 @@
   "positionX": 0.0,
   "positionY": 0.0,
   "buttonSize": 24,
-  "isStartingPoint": false,
+  "isStartingPoint": true,
   "description": [
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "translate": "skill_bonus.skilltree.item_usage_speed.positive",
-      "with": [
-        {
-          "translate": "item_condition.skilltree.none.plural"
-        },
-        "5"
-      ]
+      "f_131102_": false,
+      "text": "You use Tools 5% faster"
     },
     {
       "f_131101_": {

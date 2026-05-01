@@ -8,6 +8,12 @@
       "name": "Skill",
       "amount": 1.0,
       "operation": 0
+    },
+    {
+      "type": "skilltree:effect_duration",
+      "effect_type": "harmful",
+      "duration": 0.15,
+      "target": "player"
     }
   ],
   "requirements": [],
@@ -17,12 +23,12 @@
   "longConnections": [],
   "oneWayConnections": [],
   "tags": [],
-  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "backgroundTexture": "skilltree:textures/icons/background/gold.png",
   "iconTexture": "ftblibrary:textures/icons/right.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Roll Count",
   "positionX": 125.161,
   "positionY": 125.155,
-  "buttonSize": 14,
+  "buttonSize": 16,
   "isStartingPoint": false
 }

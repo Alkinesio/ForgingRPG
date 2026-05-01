@@ -1,6 +1,15 @@
 {
   "id": "skilltree:warrior_269",
-  "bonuses": [],
+  "bonuses": [
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:lifestealer_tier_two_darkness_weapon"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:lifestealer_tier_two_darkness_armor"
+    }
+  ],
   "requirements": [
     {
       "type": "skilltree:learned_skill",
@@ -15,8 +24,9 @@
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/recipe.png",
   "iconTexture": "uniquedungeons:textures/item/ancient_note.png",
-  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "borderTexture": "skilltree:textures/tooltip/blacksmith.png",
   "title": "Tier II Main Class Recipe",
+  "titleColor": "00ffff",
   "positionX": -64.052,
   "positionY": -289.504,
   "buttonSize": 16,

@@ -3,9 +3,9 @@
   "bonuses": [
     {
       "type": "skilltree:crit_damage",
-      "amount": 0.1,
+      "amount": 0.05,
       "damage_condition": {
-        "type": "skilltree:none"
+        "type": "skilltree:melee"
       }
     }
   ],

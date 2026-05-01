@@ -2,27 +2,16 @@
   "id": "skilltree:utility_2",
   "bonuses": [
     {
-      "type": "skilltree:item_durability_loss_avoidance",
-      "chance": 0.1,
-      "item_condition": {
-        "equipment_type": "any",
-        "type": "skilltree:equipment_type"
-      }
-    },
-    {
-      "type": "skilltree:cant_use_item",
-      "item_condition": {
-        "potion_type": "any",
-        "type": "skilltree:potion"
-      }
+      "type": "skilltree:repair_efficiency",
+      "multiplier": 0.1
     }
   ],
   "requirements": [
     {
       "type": "skilltree:stat_value",
-      "statTypeId": "minecraft:mined",
-      "statId": "minecraft:iron_ore",
-      "minValue": 9
+      "statTypeId": "minecraft:crafted",
+      "statId": "minecraft:iron_block",
+      "minValue": 2
     }
   ],
   "directConnections": [],
@@ -44,27 +33,22 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "translate": "attribute.modifier.plus.1",
+      "translate": "skill_bonus.skilltree.repair_efficiency",
       "with": [
-        "10",
         {
-          "translate": "skill_bonus.skilltree.item_durability_loss_avoidance.chance",
+          "translate": "item_condition.skilltree.none"
+        },
+        {
+          "f_131101_": {
+            "f_131257_": 8041442
+          },
+          "translate": "attribute.modifier.plus.1",
           "with": [
+            "10",
             {
-              "translate": "item_condition.skilltree.equipment_type.any"
+              "translate": "skill_bonus.skilltree.repair_efficiency.bonus"
             }
           ]
-        }
-      ]
-    },
-    {
-      "f_131101_": {
-        "f_131257_": 14834266
-      },
-      "translate": "skill_bonus.skilltree.cant_use_item",
-      "with": [
-        {
-          "translate": "item_condition.skilltree.potion.any.plural"
         }
       ]
     },
@@ -78,7 +62,8 @@
       "f_131101_": {
         "f_131257_": 16777215
       },
-      "text": "The Blacksmith allow you to reduce item consuming and upgrade equipment."
+      "f_131102_": false,
+      "text": "The Blacksmith allow you to repair and upgrade equipment items."
     }
   ]
 }

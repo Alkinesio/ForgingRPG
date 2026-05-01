@@ -19,6 +19,14 @@
       "player_condition": {
         "type": "skilltree:burning"
       }
+    },
+    {
+      "type": "skilltree:damage_taken",
+      "amount": 0.15,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:fire"
+      }
     }
   ],
   "requirements": [],

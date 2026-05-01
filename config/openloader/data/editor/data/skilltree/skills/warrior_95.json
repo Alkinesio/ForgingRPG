@@ -60,7 +60,7 @@
   ],
   "backgroundTexture": "skilltree:textures/icons/background/notable.png",
   "iconTexture": "vanillacookbook:textures/item/cherry_blossom_tea_a.png",
-  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
   "title": "Alchemist Barbarian",
   "titleColor": "",
   "positionX": 187.382,

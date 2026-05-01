@@ -1,0 +1,26 @@
+{
+  "id": "skilltree:archer_162",
+  "bonuses": [
+    {
+      "type": "skilltree:item_usage_speed",
+      "multiplier": 0.02
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:archer_170"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:archer_163"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "artifacts:textures/item/vampiric_glove.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Utility",
+  "positionX": 253.127,
+  "positionY": -228.147,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

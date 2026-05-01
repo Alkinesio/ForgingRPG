@@ -1,6 +1,15 @@
 {
   "id": "skilltree:warrior_302",
-  "bonuses": [],
+  "bonuses": [
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:tank_tier_two_poison_damage_reduction_variant"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:tank_tier_two_poison_damage_variant"
+    }
+  ],
   "requirements": [
     {
       "type": "skilltree:learned_skill",
@@ -16,10 +25,27 @@
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/recipe.png",
   "iconTexture": "uniquedungeons:textures/item/ancient_note.png",
-  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "borderTexture": "skilltree:textures/tooltip/blacksmith.png",
   "title": "Tier II Main Class Recipe",
-  "positionX": 77.678,
-  "positionY": 123.129,
+  "titleColor": "00ffff",
+  "positionX": 77.234,
+  "positionY": 124.465,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "text": "Unlocks Recipe: -8% Total Poison Damage taken [Armor]"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "text": "Unlocks Recipe: +4% Total Poison Damage, -4% Total Poison Damage taken [Armor]"
+    }
+  ]
 }

@@ -23,7 +23,8 @@
         },
         "target": "player",
         "type": "skilltree:attack"
-      }
+      },
+      "percentage_healing": false
     },
     {
       "type": "skilltree:healing",
@@ -43,11 +44,20 @@
             "attribute": "minecraft:generic.max_health",
             "type": "skilltree:attribute_value"
           },
-          "divisor": 20.0,
+          "divisor": 50.0,
+          "type": "skilltree:numeric_value"
+        },
+        "player_multiplier": {
+          "value_provider": {
+            "attribute": "minecraft:generic.max_health",
+            "type": "skilltree:attribute_value"
+          },
+          "divisor": 50.0,
           "type": "skilltree:numeric_value"
         },
         "type": "skilltree:on_kill"
-      }
+      },
+      "percentage_healing": false
     },
     {
       "type": "skilltree:damage",
@@ -140,56 +150,15 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "translate": "value_provider.skilltree.attribute_value.multiplier.enemy.plural",
-      "with": [
-        {
-          "translate": "living_condition.skilltree.has_effect",
-          "with": [
-            {
-              "translate": "event_listener.skilltree.on_kill",
-              "with": [
-                {
-                  "translate": "skill_bonus.skilltree.healing.player",
-                  "with": [
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "translate": "living_condition.skilltree.has_effect.target.enemy"
-            },
-            {
-              "translate": "effect.minecraft.poison"
-            }
-          ]
-        },
-        "20",
-        {
-          "translate": "attribute.name.generic.max_health"
-        }
-      ]
+      "f_131102_": false,
+      "text": "Recover 1 life on kill if enemy is affected by Poison per 50 enemy\u0027s Max Health"
     },
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "translate": "value_provider.skilltree.attribute_value.multiplier.player.plural",
-      "with": [
-        {
-          "translate": "attribute.modifier.plus.2",
-          "with": [
-            "5",
-            {
-              "translate": "damage_condition.skilltree.poison"
-            }
-          ]
-        },
-        "0.05",
-        {
-          "translate": "attributeslib:dodge_chance"
-        }
-      ]
+      "f_131102_": false,
+      "text": "+5% Poison Damage per 5% Dodge Chance"
     },
     {
       "f_131101_": {

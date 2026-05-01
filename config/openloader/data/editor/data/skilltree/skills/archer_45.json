@@ -28,7 +28,8 @@
         },
         "target": "player",
         "type": "skilltree:attack"
-      }
+      },
+      "percentage_healing": false
     },
     {
       "type": "skilltree:attribute",

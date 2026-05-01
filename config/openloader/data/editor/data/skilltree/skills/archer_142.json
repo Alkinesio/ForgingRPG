@@ -22,7 +22,8 @@
   ],
   "longConnections": [],
   "oneWayConnections": [
-    "skilltree:archer_145"
+    "skilltree:archer_145",
+    "skilltree:archer_163"
   ],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",

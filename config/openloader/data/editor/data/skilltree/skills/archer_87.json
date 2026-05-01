@@ -12,9 +12,9 @@
     {
       "type": "skilltree:attribute",
       "attribute": "minecraft:generic.max_health",
-      "id": "bebe5c25-ebca-435b-bd8f-6a90115cae59",
+      "id": "205afae0-de46-46f3-8400-e5608606c68f",
       "name": "Skill",
-      "amount": -0.02,
+      "amount": -0.002,
       "operation": 1
     }
   ],

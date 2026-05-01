@@ -3,7 +3,7 @@
   "bonuses": [
     {
       "type": "skilltree:damage_taken",
-      "amount": -0.05,
+      "amount": -0.01,
       "operation": 1,
       "damage_condition": {
         "type": "skilltree:fall"
@@ -12,17 +12,19 @@
   ],
   "requirements": [],
   "directConnections": [
-    "skilltree:archer_56"
+    "skilltree:archer_187"
   ],
-  "longConnections": [],
+  "longConnections": [
+    "skilltree:archer_55"
+  ],
   "oneWayConnections": [],
   "tags": [],
-  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "ftblibrary:textures/icons/feather.png",
+  "backgroundTexture": "skilltree:textures/icons/background/gateway.png",
+  "iconTexture": "chiselsandbits:textures/icons/sphere_large.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Damage Reduction",
-  "positionX": 179.609,
-  "positionY": 144.247,
-  "buttonSize": 14,
+  "title": "Damage Reduction Teleport",
+  "positionX": 247.609,
+  "positionY": 129.247,
+  "buttonSize": 20,
   "isStartingPoint": false
 }

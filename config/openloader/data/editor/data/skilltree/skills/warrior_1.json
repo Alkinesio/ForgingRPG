@@ -44,9 +44,7 @@
   ],
   "longConnections": [],
   "oneWayConnections": [],
-  "tags": [
-    "Main Skill"
-  ],
+  "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/class.png",
   "iconTexture": "the_pillager_legion_:textures/item/lpt_sword.png",
   "borderTexture": "skilltree:textures/tooltip/keystone.png",

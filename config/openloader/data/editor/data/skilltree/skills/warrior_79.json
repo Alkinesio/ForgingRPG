@@ -3,7 +3,7 @@
   "bonuses": [
     {
       "type": "skilltree:item_use_movement_speed",
-      "multiplier": -0.2,
+      "multiplier": -0.15,
       "item_condition": {
         "potion_type": "any",
         "type": "skilltree:potion"

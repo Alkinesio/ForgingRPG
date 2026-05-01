@@ -3,7 +3,7 @@
   "bonuses": [
     {
       "type": "skilltree:item_usage_speed",
-      "multiplier": 0.003,
+      "multiplier": 0.0025,
       "player_multiplier": {
         "value_provider": {
           "attribute": "combatroll:recharge",
@@ -25,20 +25,21 @@
   "longConnections": [],
   "oneWayConnections": [],
   "tags": [],
-  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "the_pillager_legion_:textures/item/legion_toth_bow_pulling_2.png",
+  "backgroundTexture": "skilltree:textures/icons/background/stone.png",
+  "iconTexture": "the_pillager_legion_:textures/item/legion_bow_toth_pulling_1.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Attack Speed",
   "positionX": 106.776,
   "positionY": 106.77,
-  "buttonSize": 14,
+  "buttonSize": 15,
   "isStartingPoint": false,
   "description": [
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "You use Bows 0.3% faster per 10% Roll Recharge (by default +3% base)"
+      "f_131102_": false,
+      "text": "You use Bows 0.25% faster per 10% Base Roll Recharge (by default +2.5% faster)"
     }
   ]
 }
