@@ -1,4 +1,4 @@
-291 possible biomes found:
+290 possible biomes found:
 - "alexscaves:abyssal_chasm"
 - "deep_aether:aerglow_forest"
 - "deep_aether:aerlavender_fields"
@@ -185,7 +185,6 @@
 - "biomeswevegone:orchard"
 - "regions_unexplored:orchard"
 - "blueprint:original_source_marker"
-- "lionfishapi:original_source_marker"
 - "regions_unexplored:outback"
 - "deeperdarker:overcast_columns"
 - "biomeswevegone:overgrowth_woodlands"
