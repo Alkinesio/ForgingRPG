@@ -3,7 +3,7 @@
   "bonuses": [
     {
       "type": "skilltree:inflict_effect",
-      "chance": 0.04,
+      "chance": 0.05,
       "max_stacks": 1,
       "effect": "minecraft:poison",
       "duration": 160,

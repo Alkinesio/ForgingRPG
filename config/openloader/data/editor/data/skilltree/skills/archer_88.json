@@ -11,7 +11,8 @@
           "type": "skilltree:item_id"
         },
         "type": "skilltree:item_used"
-      }
+      },
+      "percentage_healing": false
     }
   ],
   "requirements": [],

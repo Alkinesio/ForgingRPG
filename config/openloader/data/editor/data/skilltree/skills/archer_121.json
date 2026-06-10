@@ -4,7 +4,7 @@
     {
       "type": "skilltree:attribute",
       "attribute": "x_player_info:attribute.name.extend.armor_penetration",
-      "id": "0add7cd4-5131-4b00-8802-d23d450e1791",
+      "id": "cf7486ea-d63d-45c0-8d1c-24a14376fc9e",
       "name": "Skill",
       "amount": 0.05,
       "operation": 0

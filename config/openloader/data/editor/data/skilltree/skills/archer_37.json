@@ -4,7 +4,7 @@
     {
       "type": "skilltree:effect_duration",
       "effect_type": "harmful",
-      "duration": 0.1,
+      "duration": 0.125,
       "target": "enemy"
     }
   ],
@@ -15,12 +15,12 @@
   "longConnections": [],
   "oneWayConnections": [],
   "tags": [],
-  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "backgroundTexture": "skilltree:textures/icons/background/stone.png",
   "iconTexture": "alexscaves:textures/item/ferrouslime_ball.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Debuff",
   "positionX": 220.615,
   "positionY": -18.385,
-  "buttonSize": 14,
+  "buttonSize": 15,
   "isStartingPoint": false
 }

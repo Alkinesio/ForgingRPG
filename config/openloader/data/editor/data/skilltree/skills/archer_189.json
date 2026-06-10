@@ -18,7 +18,7 @@
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/gateway.png",
-  "iconTexture": "ftblibrary:textures/icons/offline.png",
+  "iconTexture": "iceandfire:textures/item/dragonbone_bow_pulling_1.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Damage Teleport",
   "positionX": 66.471,

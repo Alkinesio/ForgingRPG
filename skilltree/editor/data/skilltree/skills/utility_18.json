@@ -5,7 +5,7 @@
       "type": "skilltree:recipe_unlock",
       "recipe_id": "skilltree:base_movement_speed"
     },
-	{
+    {
       "type": "skilltree:recipe_unlock",
       "recipe_id": "skilltree:base_water_speed"
     },
@@ -25,7 +25,7 @@
       "type": "skilltree:recipe_unlock",
       "recipe_id": "skilltree:base_mining_speed"
     },
-	{
+    {
       "type": "skilltree:recipe_unlock",
       "recipe_id": "skilltree:base_dig_speed"
     }

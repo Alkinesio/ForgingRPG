@@ -1,6 +1,15 @@
 {
   "id": "skilltree:archer_216",
-  "bonuses": [],
+  "bonuses": [
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:ranger_tier_one_poison_weapon_debuff_variant"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:ranger_tier_one_poison_weapon_poison_variant"
+    }
+  ],
   "requirements": [],
   "directConnections": [],
   "longConnections": [
@@ -23,7 +32,7 @@
         "f_131257_": 8092645
       },
       "f_131102_": false,
-      "text": "Unlocks Recipe: +15% Duration of inflicted harmful effects if enemy is affected by Poison [Ranged Weapons]"
+      "text": "Unlocks Recipe: +30% Duration of inflicted harmful effects if enemy is affected by Poison [Ranged Weapons]"
     },
     {
       "f_131101_": {

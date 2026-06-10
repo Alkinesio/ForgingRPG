@@ -1,6 +1,23 @@
 {
   "id": "skilltree:archer_211",
-  "bonuses": [],
+  "bonuses": [
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:steel_archer_tier_two_steel_helmet"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:steel_archer_tier_two_steel_chestplate"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:steel_archer_tier_two_steel_leggings"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:steel_archer_tier_two_steel_boots"
+    }
+  ],
   "requirements": [],
   "directConnections": [],
   "longConnections": [
@@ -23,21 +40,21 @@
         "f_131257_": 8092645
       },
       "f_131102_": false,
-      "text": "Unlocks Recipe: +4 Max Health with Chainmail Helmet or Leather Cap equipped [Helmets]"
+      "text": "Unlocks Recipe: +5 Max Health with Chainmail Helmet or Leather Cap equipped [Helmets]"
     },
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
       "f_131102_": false,
-      "text": "Unlocks Recipe: +4 Max Health with Chainmail Chestplates or Leather Tunic equipped [Chestplates]"
+      "text": "Unlocks Recipe: +8 Max Health with Chainmail Chestplates or Leather Tunic equipped [Chestplates]"
     },
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
       "f_131102_": false,
-      "text": "Unlocks Recipe: +4 Max Health with Chainmail Leggings or Leather Pants equipped [Leggings]"
+      "text": "Unlocks Recipe: +7 Max Health with Chainmail Leggings or Leather Pants equipped [Leggings]"
     },
     {
       "f_131101_": {

@@ -3,7 +3,7 @@
   "bonuses": [
     {
       "type": "skilltree:damage_taken",
-      "amount": -0.03,
+      "amount": -0.015,
       "operation": 1,
       "player_condition": {
         "item_condition": {
@@ -18,7 +18,7 @@
     },
     {
       "type": "skilltree:damage_taken",
-      "amount": -0.03,
+      "amount": -0.015,
       "operation": 1,
       "player_condition": {
         "item_condition": {
@@ -53,7 +53,7 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "-3% Damage taken with Chainmail Chestplate or Leather Tunic equipped"
+      "text": "-1.5% Damage taken with Chainmail Chestplate or Leather Tunic equipped"
     }
   ]
 }

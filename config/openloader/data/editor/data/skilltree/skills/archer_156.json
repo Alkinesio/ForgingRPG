@@ -4,7 +4,7 @@
     {
       "type": "skilltree:attribute",
       "attribute": "additionalentityattributes:lava_speed",
-      "id": "95f25eb7-5890-4627-8e7b-afa21a51bba2",
+      "id": "055bec8b-81d3-43d2-b2cd-7f1455f0b61b",
       "name": "Skill",
       "amount": 0.15,
       "operation": 1
@@ -12,7 +12,7 @@
     {
       "type": "skilltree:attribute",
       "attribute": "minecraft:generic.movement_speed",
-      "id": "a4ca4eb6-9692-47e5-ad60-114119cb7593",
+      "id": "4b5c988f-1408-46d9-9760-5c3d2f3041b4",
       "name": "Skill",
       "amount": 0.15,
       "operation": 1,
@@ -22,10 +22,10 @@
     },
     {
       "type": "skilltree:damage_taken",
-      "amount": 0.15,
+      "amount": 0.1,
       "operation": 1,
       "damage_condition": {
-        "type": "skilltree:fire"
+        "type": "skilltree:melee"
       }
     }
   ],

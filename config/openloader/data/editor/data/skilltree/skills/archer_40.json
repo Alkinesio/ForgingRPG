@@ -3,7 +3,7 @@
   "bonuses": [
     {
       "type": "skilltree:incoming_healing",
-      "multiplier": 0.1,
+      "multiplier": 0.075,
       "player_condition": {
         "item_condition": {
           "id": "minecraft:leather_helmet",
@@ -14,7 +14,7 @@
     },
     {
       "type": "skilltree:incoming_healing",
-      "multiplier": 0.1,
+      "multiplier": 0.075,
       "player_condition": {
         "item_condition": {
           "id": "minecraft:chainmail_helmet",
@@ -44,7 +44,8 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "+10% Incoming Healing with Chainmail Helmet or Leather Cap equipped"
+      "f_131102_": false,
+      "text": "+7.5% Incoming Healing with Chainmail Helmet or Leather Cap equipped"
     }
   ]
 }

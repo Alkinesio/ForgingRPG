@@ -31,8 +31,8 @@
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Movement Speed",
   "titleColor": "",
-  "positionX": 237.49167,
-  "positionY": -111.01933,
+  "positionX": 237.492,
+  "positionY": -111.019,
   "buttonSize": 14,
   "isStartingPoint": false
 }

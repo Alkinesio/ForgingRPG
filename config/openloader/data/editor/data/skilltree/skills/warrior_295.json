@@ -1,6 +1,15 @@
 {
   "id": "skilltree:warrior_295",
-  "bonuses": [],
+  "bonuses": [
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:barbarian_tier_two_satiety_weapon"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:barbarian_tier_two_satiety_armor"
+    }
+  ],
   "requirements": [
     {
       "type": "skilltree:learned_skill",
@@ -20,7 +29,7 @@
   "titleColor": "00ffff",
   "positionX": 249.86,
   "positionY": -154.589,
-  "buttonSize": 60,
+  "buttonSize": 16,
   "isStartingPoint": false,
   "description": [
     {

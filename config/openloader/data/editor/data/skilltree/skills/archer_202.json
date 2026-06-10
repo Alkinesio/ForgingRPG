@@ -1,6 +1,27 @@
 {
   "id": "skilltree:archer_202",
-  "bonuses": [],
+  "bonuses": [
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:steel_archer_tier_one_weapon"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:steel_archer_tier_one_helmet"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:steel_archer_tier_one_chestplate"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:steel_archer_tier_one_leggings"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:steel_archer_tier_one_boots"
+    }
+  ],
   "requirements": [],
   "directConnections": [],
   "longConnections": [],
@@ -28,7 +49,28 @@
         "f_131257_": 8092645
       },
       "f_131102_": false,
-      "text": "Unlocks Recipe: +12% Speed with Chainmail or Leather Boots equipped [Boots]"
+      "text": "Unlocks Recipe: +15% Incoming Healing with Chainmail Helmet or Leather Cap equipped [Helmets]"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "text": "Unlocks Recipe: +1 Armor and Armor Toughness with Chainmail Chestplate or Leather Tunic equipped [Chestplates]"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "text": "Unlocks Recipe: -2% Damage taken and +3% Dodge Chance with Chainmail Leggings or Leather Pants equipped [Leggings]"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "text": "Unlocks Recipe: +10% Movement Speed in Water and Lava with Chainmail or Leather Boots equipped [Boots]"
     }
   ]
 }

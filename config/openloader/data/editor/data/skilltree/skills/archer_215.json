@@ -1,6 +1,19 @@
 {
   "id": "skilltree:archer_215",
-  "bonuses": [],
+  "bonuses": [
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:ranger_tier_one_dodge_weapon"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:ranger_tier_one_dodge_boots_dodge_variant"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:ranger_tier_one_dodge_boots_mobility_variant"
+    }
+  ],
   "requirements": [],
   "directConnections": [],
   "longConnections": [],

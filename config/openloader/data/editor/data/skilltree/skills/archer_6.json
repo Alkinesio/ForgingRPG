@@ -14,8 +14,16 @@
       }
     },
     {
+      "type": "skilltree:damage_taken",
+      "amount": 0.1,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:melee"
+      }
+    },
+    {
       "type": "skilltree:damage",
-      "amount": -0.2,
+      "amount": -0.1,
       "operation": 1,
       "damage_condition": {
         "type": "skilltree:melee"
@@ -68,9 +76,26 @@
       "f_131101_": {
         "f_131257_": 14834266
       },
+      "translate": "attribute.modifier.plus.1",
+      "with": [
+        "10",
+        {
+          "translate": "skill_bonus.skilltree.damage_taken",
+          "with": [
+            {
+              "translate": "damage_condition.skilltree.melee"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
       "translate": "attribute.modifier.take.1",
       "with": [
-        "20",
+        "10",
         {
           "translate": "damage_condition.skilltree.melee"
         }
@@ -86,8 +111,14 @@
       "f_131101_": {
         "f_131257_": 16777215
       },
-      "f_131102_": false,
-      "text": "The Pyrotechnician is specialized to deal splash damage and on-hit effects."
+      "text": "The Pyrotechnician is specialized to deal splash damage and fire damage."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 12632256
+      },
+      "f_131103_": true,
+      "text": "Pro: Splash and fire damage \\ Cons: Melee fights and lack of armor penetration"
     },
     {
       "f_131101_": {

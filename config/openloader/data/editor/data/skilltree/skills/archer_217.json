@@ -1,6 +1,15 @@
 {
   "id": "skilltree:archer_217",
-  "bonuses": [],
+  "bonuses": [
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:ranger_tier_two_poison_weapon_effect_variant"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:ranger_tier_two_poison_weapon_critical_variant"
+    }
+  ],
   "requirements": [],
   "directConnections": [],
   "longConnections": [
@@ -23,7 +32,7 @@
         "f_131257_": 8092645
       },
       "f_131102_": false,
-      "text": "Unlocks Recipe: +20% Chance to inflict Poison II for 8 seconds on Projectile hit [Ranged Weapons]"
+      "text": "Unlocks Recipe: +20% Chance to inflict Poison for 8 seconds on Projectile hit [Ranged Weapons]"
     },
     {
       "f_131101_": {
