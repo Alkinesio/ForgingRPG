@@ -30,9 +30,9 @@ const skillStages = {
 
 ServerEvents.recipes(event => {
 
-  for (let skill in blacksmithBlocks) {
+  for (let skill in blacksmithRecipes) {
 
-    let recipes = blacksmithBlocks[skill]
+    let recipes = blacksmithRecipes[skill]
 
     recipes.forEach(recipeId => {
       event.remove({ output: recipeId })

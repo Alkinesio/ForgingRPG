@@ -2,7 +2,7 @@ const classSkills = {
   'Blacksmith': 'skilltree:utility_2'
 }
 
-const blacksmithBlocks = {
+const blacksmithRecipes = {
   'skilltree:utility_10': ['minecraft:anvil', 'goety:dark_anvil', 'irons_spellbooks:arcane_anvil', 'cataclysm:mechanical_fusion_anvil', 'sophisticatedbackpacks:anvil_upgrade'],
   'skilltree:utility_12': ['skilltree:workbench'],
   'skilltree:utility_14': ['apotheosis:simple_reforging_table', 'apotheosis:reforging_table', 'ze_apotheosis:artisanal_reforging_table', 'ze_apotheosis:enhanced_reforging_table', 'ze_apotheosis:ultimate_reforging_table', 'ze_apotheosis:god_reforging_table'],

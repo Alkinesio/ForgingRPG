@@ -10,12 +10,7 @@
       }
     }
   ],
-  "requirements": [
-    {
-      "type": "skilltree:advancement",
-      "advancement": "morevillagers:first_trade"
-    }
-  ],
+  "requirements": [],
   "directConnections": [],
   "longConnections": [],
   "oneWayConnections": [
