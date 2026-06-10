@@ -113,8 +113,17 @@
     },
     {
       "f_131101_": {
+        "f_131257_": 12632256
+      },
+      "f_131102_": false,
+      "f_131103_": true,
+      "text": "Pro: Damage resistance and on-hit effects \\ Cons: Chainmail or leather set only"
+    },
+    {
+      "f_131101_": {
         "f_131257_": 13434624
       },
+      "f_131102_": false,
       "text": "[Early-Mid Game, PvP]"
     }
   ]

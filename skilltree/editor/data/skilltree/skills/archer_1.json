@@ -10,7 +10,7 @@
     },
     {
       "type": "skilltree:damage",
-      "amount": -0.6,
+      "amount": -0.5,
       "operation": 1,
       "damage_condition": {
         "type": "skilltree:melee"
@@ -58,13 +58,8 @@
       "f_131101_": {
         "f_131257_": 14834266
       },
-      "translate": "attribute.modifier.take.1",
-      "with": [
-        "60",
-        {
-          "translate": "damage_condition.skilltree.melee"
-        }
-      ]
+      "f_131102_": false,
+      "text": "-50% Melee Damage"
     },
     {
       "f_131101_": {

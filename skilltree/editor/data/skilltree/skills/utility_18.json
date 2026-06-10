@@ -5,6 +5,14 @@
       "type": "skilltree:recipe_unlock",
       "recipe_id": "skilltree:base_movement_speed"
     },
+	{
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:base_water_speed"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:base_lava_speed"
+    },
     {
       "type": "skilltree:recipe_unlock",
       "recipe_id": "skilltree:base_attack_speed"
@@ -16,6 +24,10 @@
     {
       "type": "skilltree:recipe_unlock",
       "recipe_id": "skilltree:base_mining_speed"
+    },
+	{
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:base_dig_speed"
     }
   ],
   "requirements": [
@@ -33,7 +45,7 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "uniquedungeons:textures/item/note.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Workbench Upgrade",
+  "title": "Workbench Recipe",
   "positionX": 174.536,
   "positionY": 13.253,
   "buttonSize": 14,

@@ -1,0 +1,52 @@
+{
+  "type": "skilltree:workbench_item_bonus",
+  "base_item_condition":
+    {
+      "type": "skilltree:equipment_type",
+      "equipment_type": "ranged_weapon"
+    },
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "apotheosis:gem_dust"
+      },
+      "required_amount": 100
+    },
+	{
+      "ingredient": {
+        "tag": "deep_aether:purple_squash"
+      },
+      "required_amount": 2
+    },
+	{
+      "ingredient": {
+        "tag": "ice_and_fire_delight:hydra_venom_soup"
+      },
+      "required_amount": 1
+    }
+  ],
+  "item_bonus": {
+    "type": "skilltree:item_bonus_list",
+    "inner_bonuses": [
+	  {
+		"type": "skilltree:skill_bonus",
+        "skill_bonus": {
+		"type": "skilltree:inflict_effect",
+		"chance": 0.2,
+		"max_stacks": 1,
+		"effect": "minecraft:poison",
+		"duration": 160,
+		"amplifier": 0,
+		"event_listener": {
+			"damage_condition": {
+			"type": "skilltree:projectile"
+			},
+			"target": "enemy",
+			"type": "skilltree:attack"
+		}
+		}
+	  }
+    ]
+  },
+  "requires_passive_skill": true
+}

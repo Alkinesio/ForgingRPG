@@ -3,24 +3,24 @@
   "base_item_condition":
     {
       "type": "skilltree:equipment_type",
-      "equipment_type": "any"
+      "equipment_type": "ranged_weapon"
     },
   "ingredients": [
     {
       "ingredient": {
         "tag": "apotheosis:gem_dust"
       },
-      "required_amount": 100
+      "required_amount": 50
     },
 	{
       "ingredient": {
-        "tag": "darkerdepths:copper_ingot"
+        "tag": "minecraft:slime_block"
       },
       "required_amount": 2
     },
 	{
       "ingredient": {
-        "tag": "realmrpg_quests:necklace_of_satiety"
+        "tag": "minecraft:crying_obsidian"
       },
       "required_amount": 1
     }
@@ -28,12 +28,18 @@
   "item_bonus": {
     "type": "skilltree:item_bonus_list",
     "inner_bonuses": [
-	  {
+      {
         "type": "skilltree:skill_bonus",
         "skill_bonus": {
-          "type": "skilltree:all_attributes",
-          "amount": 0.02,
-          "operation": 2
+          "type": "skilltree:effect_duration",
+          "effect_type": "harmful",
+          "duration": 0.3,
+          "enemy_condition": {
+            "effect": "minecraft:poison",
+            "amplifier": 0,
+            "type": "skilltree:has_effect"
+          },
+          "target": "enemy"
         }
       }
     ]

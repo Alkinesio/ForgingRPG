@@ -20,9 +20,39 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "minecraft:textures/block/smithing_table_front.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Mechanics",
+  "title": "Mechanics Unlocked",
   "positionX": 163.802,
   "positionY": 61.67,
   "buttonSize": 14,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "You can now craft and use Smithing Tables"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "f_131102_": false,
+      "f_131103_": true,
+      "text": "A Smithing Table can be crafted using wooden logs and iron ingots in"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "f_131102_": false,
+      "f_131103_": true,
+      "text": "a Crafting Table and permit to upgrade equipment using templates."
+    }
+  ]
 }

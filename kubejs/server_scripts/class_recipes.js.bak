@@ -1,0 +1,596 @@
+const classSkills = {
+  'Blacksmith': 'skilltree:utility_2'
+}
+
+const blacksmithBlocks = {
+  'skilltree:utility_10': ['minecraft:anvil', 'goety:dark_anvil', 'irons_spellbooks:arcane_anvil', 'cataclysm:mechanical_fusion_anvil', 'sophisticatedbackpacks:anvil_upgrade'],
+  'skilltree:utility_12': ['skilltree:workbench'],
+  'skilltree:utility_14': ['apotheosis:simple_reforging_table', 'apotheosis:reforging_table', 'ze_apotheosis:artisanal_reforging_table', 'ze_apotheosis:enhanced_reforging_table', 'ze_apotheosis:ultimate_reforging_table', 'ze_apotheosis:god_reforging_table'],
+  'skilltree:utility_16': ['minecraft:enchanting_table'],
+  'skilltree:utility_19': ['apotheosis:salvaging_table'],
+  'skilltree:utility_21': ['minecraft:smithing_table'],
+  'skilltree:utility_27': ['minecraft:smoker', 'twilightforest:smoker', 'twilightforest:encased_smoker', 'sophisticatedbackpacks:smoking_upgrade', 'sophisticatedbackpacks:auto_smoking_upgrade'],
+  'skilltree:utility_29': ['minecraft:blast_furnace', 'sophisticatedbackpacks:blasting_upgrade', 'sophisticatedbackpacks:auto_blasting_upgrade']
+}
+
+const skillStages = {
+  'skilltree:utility_10': 'blacksmith_anvil',
+  'skilltree:utility_12': 'blacksmith_workbench',
+  'skilltree:utility_14': 'blacksmith_reforging_table',
+  'skilltree:utility_16': 'blacksmith_enchanting_table',
+  'skilltree:utility_19': 'blacksmith_salvaging_table',
+  'skilltree:utility_21': 'blacksmith_smithing_table',
+  'skilltree:utility_27': 'blacksmith_smoker',
+  'skilltree:utility_29': 'blacksmith_blast_furnace'
+}
+
+// ---------------------------------------
+// REMOVE ORIGINAL RECIPES
+// ---------------------------------------
+
+ServerEvents.recipes(event => {
+
+  for (let skill in blacksmithBlocks) {
+
+    let recipes = blacksmithBlocks[skill]
+
+    recipes.forEach(recipeId => {
+      event.remove({ output: recipeId })
+    })
+  }
+
+  // ---------------------------------------
+  // RE-ADD RECIPES WITH STAGES
+  // ---------------------------------------
+  
+  // Anvils recipe unlock
+
+  event.recipes.minecraft.crafting_shaped(
+  
+    'minecraft:anvil',
+    [
+      'BBB',
+      ' I ',
+      'III'
+    ],
+    {
+      B: 'minecraft:iron_block',
+      I: 'minecraft:iron_ingot'
+    }
+  ).stage('blacksmith_anvil')
+  
+  event.recipes.minecraft.crafting_shaped(
+    'goety:dark_anvil',
+    [
+      'BBB',
+      ' I ',
+      'III'
+    ],
+    {
+      B: 'goety:dark_metal_block',
+      I: 'goety:dark_ingot'
+    }
+  ).stage('blacksmith_anvil')
+  
+  event.recipes.minecraft.crafting_shaped(
+    'irons_spellbooks:arcane_anvil',
+    [
+      'DBD',
+      ' I ',
+      'III'
+    ],
+    {
+      B: 'minecraft:amethyst_block',
+	  D: 'minecraft:diamond',
+      I: 'minecraft:iron_ingot'
+    }
+  ).stage('blacksmith_anvil')
+  
+  event.recipes.minecraft.crafting_shaped(
+    'cataclysm:mechanical_fusion_anvil',
+    [
+      'III',
+      'BAB',
+      'III'
+    ],
+    {
+      A: 'minecraft:anvil',
+	  B: 'minecraft:redstone_block',
+      I: 'cataclysm:witherite_ingot'
+    }
+  ).stage('blacksmith_anvil')
+  
+  event.recipes.minecraft.crafting_shaped(
+    'sophisticatedbackpacks:anvil_upgrade',
+    [
+      'RAR',
+      'RUR',
+      'RCR'
+    ],
+    {
+      A: 'minecraft:anvil',
+	  R: 'minecraft:redstone',
+	  U: 'sophisticatedbackpacks:upgrade_base',
+      C: 'minecraft:chest'
+    }
+  ).stage('blacksmith_anvil')
+  
+  // Workbenchs recipe unlock
+  
+  event.recipes.minecraft.crafting_shaped(
+    'skilltree:workbench',
+    [
+      'CCC',
+      'GRG',
+      'III'
+    ],
+    {
+      C: 'minecraft:copper_ingot',
+	  G: 'minecraft:gold_ingot',
+	  R: 'minecraft:crafting_table',
+      I: 'minecraft:iron_ingot'
+    }
+  ).stage('blacksmith_workbench')
+  
+  // Reforging Tables recipe unlock
+  
+  event.recipes.minecraft.crafting_shaped(
+    'apotheosis:simple_reforging_table',
+    [
+      ' B ',
+      'CTC',
+      'SSS'
+    ],
+    {
+      B: 'minecraft:book',
+	  C: 'apotheosis:common_material',
+	  T: 'minecraft:smithing_table',
+      S: 'minecraft:smooth_stone'
+    }
+  ).stage('blacksmith_reforging_table')
+  
+  event.recipes.minecraft.crafting_shaped(
+    'apotheosis:reforging_table',
+    [
+      ' B ',
+      'ETE',
+      'NNN'
+    ],
+    {
+      B: 'minecraft:book',
+	  E: 'apotheosis:epic_material',
+	  T: 'apotheosis:simple_reforging_table',
+      N: 'minecraft:nether_bricks'
+    }
+  ).stage('blacksmith_reforging_table')
+  
+  event.recipes.minecraft.crafting_shaped(
+    'ze_apotheosis:artisanal_reforging_table',
+    [
+      'HBH',
+      'MTM',
+      'POP'
+    ],
+    {
+      B: 'minecraft:book',
+	  H: 'minecraft:nautilus_shell',
+	  M: 'apotheosis:mythic_material',
+	  T: 'apotheosis:reforging_table',
+      O: 'minecraft:obsidian',
+	  P: 'minecraft:prismarine'
+    }
+  ).stage('blacksmith_reforging_table')
+  
+  event.recipes.minecraft.crafting_shaped(
+    'ze_apotheosis:enhanced_reforging_table',
+    [
+      'RBR',
+      'HTH',
+      'PDP'
+    ],
+    {
+      B: 'minecraft:book',
+	  R: 'ze_apotheosis:radiant_material',
+	  H: 'minecraft:heart_of_the_sea',
+	  T: 'ze_apotheosis:artisanal_reforging_table',
+	  P: 'minecraft:dark_prismarine',
+	  D: 'minecraft:diamond_block'
+    }
+  ).stage('blacksmith_reforging_table')
+  
+  event.recipes.minecraft.crafting_shaped(
+    'ze_apotheosis:ultimate_reforging_table',
+    [
+      'CBC',
+      'WTW',
+      'SSS'
+    ],
+    {
+      B: 'minecraft:book',
+	  C: 'ze_apotheosis:celestial_material',
+	  W: 'ze_apotheosis:ender_dragon_wing',
+	  T: 'ze_apotheosis:enhanced_reforging_table',
+	  S: 'minecraft:end_stone_bricks'
+    }
+  ).stage('blacksmith_reforging_table')
+  
+  event.recipes.minecraft.crafting_shaped(
+    'ze_apotheosis:god_reforging_table',
+    [
+      'BEB',
+      'VTV',
+      'PPP'
+    ],
+    {
+      E: 'ze_apotheosis:godly_material',
+	  B: 'enigmaticlegacy:angel_blessing',
+	  T: 'ze_apotheosis:ultimate_reforging_table',
+	  V: 'aether_treasure_reforging:valkyrum_block',
+	  P: 'aether_treasure_reforging:pyral_block'
+    }
+  ).stage('blacksmith_reforging_table')
+  
+  // Enchanting Tables recipe unlock
+  
+  event.recipes.minecraft.crafting_shaped(
+    'minecraft:enchanting_table',
+    [
+      ' B ',
+      'DOD',
+      'OOO'
+    ],
+    {
+      B: 'minecraft:book',
+	  D: 'minecraft:diamond',
+	  O: 'minecraft:obsidian'
+    }
+  ).stage('blacksmith_enchanting_table')
+  
+  // Salvaging Tables recipe unlock
+  
+  event.recipes.minecraft.crafting_shaped(
+    'apotheosis:salvaging_table',
+    [
+      'CCC',
+      'PTA',
+      'GLG'
+    ],
+    {
+      C: 'minecraft:copper_ingot',
+	  P: 'minecraft:iron_pickaxe',
+	  A: 'minecraft:iron_axe',
+	  T: 'minecraft:smithing_table',
+	  G: 'apotheosis:gem_dust',
+	  L: 'minecraft:lava_bucket'
+    }
+  ).stage('blacksmith_salvaging_table')
+  
+  // Smithing Tables recipe unlock
+  
+  event.recipes.minecraft.crafting_shaped(
+    'minecraft:smithing_table',
+    [
+      'II ',
+      'WW ',
+      'WW '
+    ],
+    {
+      I: 'minecraft:iron_ingot',
+	  W: '#minecraft:planks'
+    }
+  ).stage('blacksmith_smithing_table')
+  
+  event.recipes.minecraft.crafting_shaped(
+    'minecraft:smithing_table',
+    [
+      'II ',
+      'TT ',
+      'TT  '
+    ],
+    {
+      I: 'minecraft:iron_ingot',
+	  T: '#aether:skyroot_tool_crafting'
+    }
+  ).stage('blacksmith_smithing_table')
+  
+  // Smokers recipe unlock
+  
+  event.recipes.minecraft.crafting_shaped(
+    'minecraft:smoker',
+    [
+      ' L ',
+      'LFL',
+      ' L '
+    ],
+    {
+      L: '#minecraft:logs',
+	  F: 'minecraft:furnace'
+    }
+  ).stage('blacksmith_smoker')
+  
+  event.recipes.minecraft.crafting_shaped(
+    'minecraft:smoker',
+    [
+      ' L ',
+      'LFL',
+      ' L '
+    ],
+    {
+      L: '#minecraft:logs',
+	  F: 'quark:deepslate_furnace'
+    }
+  ).stage('blacksmith_smoker')
+  
+  event.recipes.minecraft.crafting_shaped(
+    'minecraft:smoker',
+    [
+      ' L ',
+      'LFL',
+      ' L '
+    ],
+    {
+      L: '#minecraft:logs',
+	  F: 'quark:blackstone_furnace'
+    }
+  ).stage('blacksmith_smoker')
+  
+  event.recipes.minecraft.crafting_shaped(
+    'twilightforest:encased_smoker',
+    [
+      'PRP',
+      'RSR',
+      'PRP'
+    ],
+    {
+      P: 'twilightforest:encased_towerwood',
+	  R: 'minecraft:redstone',
+	  S: 'twilightforest:smoker'
+    }
+  ).stage('blacksmith_smoker')
+  
+  event.recipes.minecraft.crafting_shaped(
+    'sophisticatedbackpacks:smoking_upgrade',
+    [
+      ' L ',
+      'LSL',
+      ' L '
+    ],
+    {
+      L: '#minecraft:logs',
+	  S: 'sophisticatedbackpacks:smelting_upgrade'
+    }
+  ).stage('blacksmith_smoker')
+  
+  event.recipes.minecraft.crafting_shaped(
+    'sophisticatedbackpacks:smoking_upgrade',
+    [
+      'RIR',
+      'IUI',
+      'RSR'
+    ],
+    {
+      R: 'minecraft:redstone',
+	  I: 'minecraft:iron_ingot',
+	  U: 'sophisticatedbackpacks:upgrade_base',
+	  S: 'minecraft:smoker'
+    }
+  ).stage('blacksmith_smoker')
+  
+  event.recipes.minecraft.crafting_shaped(
+    'sophisticatedbackpacks:auto_smoking_upgrade',
+    [
+      ' L ',
+      'LSL',
+      ' L '
+    ],
+    {
+      L: '#minecraft:logs',
+	  S: 'sophisticatedbackpacks:auto_smelting_upgrade'
+    }
+  ).stage('blacksmith_smoker')
+  
+  event.recipes.minecraft.crafting_shaped(
+    'sophisticatedbackpacks:auto_smoking_upgrade',
+    [
+      'DHD',
+      'RUH',
+      'GHG'
+    ],
+    {
+	  D: 'minecraft:diamond',
+      R: 'minecraft:redstone',
+	  H: 'minecraft:hopper',
+	  U: 'sophisticatedbackpacks:smoking_upgrade',
+	  G: 'minecraft:gold_ingot'
+    }
+  ).stage('blacksmith_smoker')
+  
+  // Blast Furnaces recipe unlock
+  
+  event.recipes.minecraft.crafting_shaped(
+    'minecraft:blast_furnace',
+    [
+      'III',
+      'IFI',
+      'SSS'
+    ],
+    {
+	  I: 'minecraft:iron_ingot',
+      F: 'minecraft:furnace',
+	  S: 'minecraft:smooth_stone'
+    }
+  ).stage('blacksmith_blast_furnace')
+  
+  event.recipes.minecraft.crafting_shaped(
+    'minecraft:blast_furnace',
+    [
+      'III',
+      'IFI',
+      'SSS'
+    ],
+    {
+	  I: 'minecraft:iron_ingot',
+      F: 'quark:blackstone_furnace',
+	  S: 'minecraft:smooth_stone'
+    }
+  ).stage('blacksmith_blast_furnace')
+  
+  event.recipes.minecraft.crafting_shaped(
+    'minecraft:blast_furnace',
+    [
+      'III',
+      'IFI',
+      'SSS'
+    ],
+    {
+	  I: 'minecraft:iron_ingot',
+      F: 'minecraft:deepslate_furnace',
+	  S: 'minecraft:smooth_stone'
+    }
+  ).stage('blacksmith_blast_furnace')
+  
+  event.recipes.minecraft.crafting_shaped(
+    'sophisticatedbackpacks:blasting_upgrade',
+    [
+      'RIR',
+      'IUI',
+      'RFR'
+    ],
+    {
+      I: 'minecraft:iron_ingot',
+	  R: 'minecraft:redstone',
+	  U: 'sophisticatedbackpacks:upgrade_base',
+	  F: 'minecraft:blast_furnace'
+    }
+  ).stage('blacksmith_blast_furnace')
+  
+  event.recipes.minecraft.crafting_shaped(
+    'sophisticatedbackpacks:blasting_upgrade',
+    [
+      'RIR',
+      'IUI',
+      'RFR'
+    ],
+    {
+      I: 'minecraft:iron_ingot',
+	  R: 'minecraft:redstone',
+	  U: 'sophisticatedbackpacks:upgrade_base',
+	  F: 'minecraft:blackstone_furnace'
+    }
+  ).stage('blacksmith_blast_furnace')
+  
+  event.recipes.minecraft.crafting_shaped(
+    'sophisticatedbackpacks:blasting_upgrade',
+    [
+      'RIR',
+      'IUI',
+      'RFR'
+    ],
+    {
+      I: 'minecraft:iron_ingot',
+	  R: 'minecraft:redstone',
+	  U: 'sophisticatedbackpacks:upgrade_base',
+	  F: 'minecraft:deepslate_furnace'
+    }
+  ).stage('blacksmith_blast_furnace')
+  
+  event.recipes.minecraft.crafting_shaped(
+    'sophisticatedbackpacks:blasting_upgrade',
+    [
+      'III',
+      'IUI',
+      'SSS'
+    ],
+    {
+      I: 'minecraft:iron_ingot',
+	  U: 'sophisticatedbackpacks:smelting_upgrade',
+	  S: 'minecraft:smooth_stone'
+    }
+  ).stage('blacksmith_blast_furnace')
+  
+  //
+  
+  event.recipes.minecraft.crafting_shaped(
+    'sophisticatedbackpacks:auto_blasting_upgrade',
+    [
+      'III',
+      'IUI',
+      'SSS'
+    ],
+    {
+      I: 'minecraft:iron_ingot',
+	  U: 'sophisticatedbackpacks:auto_smelting_upgrade',
+	  S: 'minecraft:smooth_stone'
+    }
+  ).stage('blacksmith_blast_furnace')
+  
+  event.recipes.minecraft.crafting_shaped(
+    'sophisticatedbackpacks:auto_blasting_upgrade',
+    [
+      'DHD',
+      'RUH',
+      'GHG'
+    ],
+    {
+	  D: 'minecraft:diamond',
+      R: 'minecraft:redstone',
+	  H: 'minecraft:hopper',
+	  U: 'sophisticatedbackpacks:blasting_upgrade',
+	  G: 'minecraft:gold_ingot'
+    }
+  ).stage('blacksmith_blast_furnace')
+  
+})
+
+// ---------------------------------------
+// AUTO SYNC PLAYER STAGES
+// ---------------------------------------
+
+PlayerEvents.tick(event => {
+
+  let player = event.player
+  let pstPlayer = PassiveSkillTreeJS.player(player)
+
+  // --- class detection ---
+  let hasAnyClass = false
+  let playerBaseSkill = null
+
+  for (let className in classSkills) {
+
+    let baseSkill = classSkills[className]
+
+    if (pstPlayer.hasSkill(baseSkill)) {
+      hasAnyClass = true
+      playerBaseSkill = baseSkill
+      break
+    }
+  }
+
+  // ---------------------------------------
+  // HANDLE BLACKSMITH RECIPE STAGES
+  // ---------------------------------------
+
+  for (let skill in blacksmithBlocks) {
+
+    let stageName = skill.replace(':', '_')
+
+    // player is blacksmith + owns skill
+    let unlocked =
+      hasAnyClass &&
+      playerBaseSkill === classSkills['Blacksmith'] &&
+      pstPlayer.hasSkill(skill)
+
+    if (unlocked) {
+
+      if (!player.stages.has(stageName)) {
+        player.stages.add(stageName)
+      }
+
+    } else {
+
+      if (player.stages.has(stageName)) {
+        player.stages.remove(stageName)
+      }
+    }
+  }
+})

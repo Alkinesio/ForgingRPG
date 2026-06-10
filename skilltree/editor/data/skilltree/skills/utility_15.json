@@ -23,6 +23,20 @@
         "f_131257_": 8092645
       },
       "text": "Unlocks Tier I Main Class Recipes"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "f_131102_": false,
+      "f_131103_": true,
+      "text": "Class recipes are powerful Workbench recipes can be found reaching Notable Skills."
     }
   ]
 }

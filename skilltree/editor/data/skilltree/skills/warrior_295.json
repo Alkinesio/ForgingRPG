@@ -1,6 +1,15 @@
 {
   "id": "skilltree:warrior_295",
-  "bonuses": [],
+  "bonuses": [
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:barbarian_tier_two_satiety_weapon"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:barbarian_tier_two_satiety_armor"
+    }
+  ],
   "requirements": [
     {
       "type": "skilltree:learned_skill",
@@ -20,14 +29,21 @@
   "titleColor": "00ffff",
   "positionX": 249.86,
   "positionY": -154.589,
-  "buttonSize": 80,
+  "buttonSize": 16,
   "isStartingPoint": false,
   "description": [
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "Unlocks Recipe: +2% All Attributes if you are not hungry [Any]"
+      "f_131102_": false,
+      "text": "Unlocks Recipe: Recover 2 life on Melee hit if you are not hungry [Axes]"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Unlocks Recipe: +10% Overheal if you are not hungry [Armor]"
     }
   ]
 }

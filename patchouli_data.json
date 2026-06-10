@@ -2,6 +2,13 @@
   "bookGuiScale": 4,
   "clickedVisualize": false,
   "bookData": {
+    "apotheosis:apoth_chronicle": {
+      "viewedEntries": [
+        "apotheosis:adventure/affix_loot/salvaging"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
     "simplyswords:runic_grimoire": {
       "viewedEntries": [
         "simplyswords:weapon_variants/entry_cutlass",
@@ -17,7 +24,8 @@
     },
     "irons_spellbooks:iss_guide_book": {
       "viewedEntries": [
-        "irons_spellbooks:spell_books/casting_implements"
+        "irons_spellbooks:spell_books/casting_implements",
+        "irons_spellbooks:progression/late_game"
       ],
       "bookmarks": [],
       "completedManualQuests": []

@@ -1,0 +1,45 @@
+{
+  "type": "skilltree:workbench_item_bonus",
+  "base_item_condition":
+    {
+      "type": "skilltree:equipment_type",
+      "equipment_type": "ranged_weapon"
+    },
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "apotheosis:gem_dust"
+      },
+      "required_amount": 100
+    },
+	{
+      "ingredient": {
+        "tag": "aethergearexpansion:moa_feather"
+      },
+      "required_amount": 2
+    },
+	{
+      "ingredient": {
+        "tag": "blue_skies:frostbright_wood"
+      },
+      "required_amount": 8
+    }
+  ],
+  "item_bonus": {
+    "type": "skilltree:item_bonus_list",
+    "inner_bonuses": [
+      {
+        "type": "skilltree:skill_bonus",
+        "skill_bonus": {
+		  "type": "skilltree:attribute",
+		  "name": "Workbench Upgrade",
+		  "attribute": "iter_rpg:flat_ranged_damage",
+		  "amount": 2,
+		  "operation": 0,
+		  "id": "a9afd96f-7808-4ee2-83b7-16b0ab9df584"
+		}
+      }
+    ]
+  },
+  "requires_passive_skill": true
+}

@@ -1,13 +1,9 @@
-let classSkills = {
-  'Blacksmith': 'skilltree:utility_10'
-}
-
-let blacksmithBlocks = {
-  'skilltree:utility_10': ['minecraft:anvil'],
+const blacksmithBlocks = {
+  'skilltree:utility_10': ['minecraft:anvil', 'minecraft:chipped_anvil', 'minecraft:damaged_anvil', 'goety:dark_anvil', 'goety:chipped_dark_anvil', 'goety:damaged_dark_anvil', 'irons_spellbooks:arcane_anvil', 'cataclysm:mechanical_fusion_anvil', 'sophisticatedbackpacks:anvil_upgrade'],
   'skilltree:utility_12': ['skilltree:workbench'],
-  'skilltree:utility_14': ['apotheosis:reforging_table'],
+  'skilltree:utility_14': ['apotheosis:simple_reforging_table', 'apotheosis:reforging_table', 'ze_apotheosis:artisanal_reforging_table', 'ze_apotheosis:enhanced_reforging_table', 'ze_apotheosis:ultimate_reforging_table', 'ze_apotheosis:god_reforging_table'],
   'skilltree:utility_19': ['apotheosis:salvaging_table'],
-  'skilltree:utility_21': ['minecraft:smithing_table']
+  'skilltree:utility_21': ['minecraft:smithing_table'],
 }
 
 BlockEvents.rightClicked(event => {
@@ -18,14 +14,12 @@ BlockEvents.rightClicked(event => {
 
   // --- check if player has ANY class ---
   let hasAnyClass = false
-  let playerClassName = null
   let playerBaseSkill = null
 
   for (let className in classSkills) {
     let baseSkill = classSkills[className]
     if (pstPlayer.hasSkill(baseSkill)) {
       hasAnyClass = true
-      playerClassName = className
       playerBaseSkill = baseSkill
       break
     }

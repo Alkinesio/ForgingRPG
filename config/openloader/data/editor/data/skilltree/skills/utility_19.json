@@ -20,9 +20,47 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "apotheosis:textures/blocks/salvaging_table_front.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Mechanics",
+  "title": "Mechanics Unlocked",
   "positionX": 224.0,
-  "positionY": 0.0,
+  "positionY": 0.2154348,
   "buttonSize": 14,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "You can now craft and use Salvaging Tables"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "f_131102_": false,
+      "f_131103_": true,
+      "text": "A Salvaging Table can be crafted using copper ingots, iron axe and pickaxe,"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "f_131102_": false,
+      "f_131103_": true,
+      "text": "smithing table, gem dust and a lava bucket in a Crafting Table and permit"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "f_131102_": false,
+      "f_131103_": true,
+      "text": "to salvage items."
+    }
+  ]
 }

@@ -3,7 +3,7 @@
   "bonuses": [
     {
       "type": "skilltree:inflict_effect",
-      "chance": 0.12,
+      "chance": 0.15,
       "max_stacks": 1,
       "effect": "minecraft:poison",
       "duration": 160,
@@ -33,7 +33,7 @@
     },
     {
       "type": "skilltree:crit_damage",
-      "amount": 0.1,
+      "amount": 0.02,
       "player_multiplier": {
         "value_provider": {
           "item_condition": {
@@ -42,7 +42,7 @@
           },
           "type": "skilltree:enchantment_levels"
         },
-        "divisor": 5.0,
+        "divisor": 1.0,
         "type": "skilltree:numeric_value"
       },
       "damage_condition": {
@@ -89,32 +89,8 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "translate": "event_listener.skilltree.attack.damage",
-      "with": [
-        {
-          "translate": "attribute.modifier.plus.1",
-          "with": [
-            "12",
-            {
-              "translate": "skill_bonus.skilltree.inflict_effect.enemy.chance",
-              "with": [
-                {
-                  "translate": "effect.minecraft.poison"
-                },
-                {
-                  "translate": "skill_bonus.skilltree.inflict_effect.seconds",
-                  "with": [
-                    "8"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "translate": "damage_condition.skilltree.projectile.type"
-        }
-      ]
+      "f_131102_": false,
+      "text": "+15% Chance to inflict Poison for 8 seconds on Projectile hit"
     },
     {
       "f_131101_": {
@@ -126,27 +102,8 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "translate": "value_provider.skilltree.enchantment_levels.multiplier.player.plural",
-      "with": [
-        {
-          "translate": "attribute.modifier.plus.1",
-          "with": [
-            "10",
-            {
-              "translate": "skill_bonus.skilltree.crit_damage.damage",
-              "with": [
-                {
-                  "translate": "damage_condition.skilltree.poison.type"
-                }
-              ]
-            }
-          ]
-        },
-        "5",
-        {
-          "translate": "item_condition.skilltree.equipment_type.bow"
-        }
-      ]
+      "f_131102_": false,
+      "text": "+2% Critical Poison Damage Multiplier per enchantment level on your Bow"
     },
     {
       "f_131101_": {

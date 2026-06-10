@@ -3,24 +3,24 @@
   "base_item_condition":
     {
       "type": "skilltree:equipment_type",
-      "equipment_type": "any"
+      "equipment_type": "boots"
     },
   "ingredients": [
     {
       "ingredient": {
         "tag": "apotheosis:gem_dust"
       },
-      "required_amount": 100
+      "required_amount": 15
     },
 	{
       "ingredient": {
-        "tag": "darkerdepths:copper_ingot"
+        "tag": "alexscaves:rock_candy_white"
       },
-      "required_amount": 2
+      "required_amount": 1
     },
 	{
       "ingredient": {
-        "tag": "realmrpg_quests:necklace_of_satiety"
+        "tag": "croptopia:water_bottle"
       },
       "required_amount": 1
     }
@@ -28,12 +28,15 @@
   "item_bonus": {
     "type": "skilltree:item_bonus_list",
     "inner_bonuses": [
-	  {
+      {
         "type": "skilltree:skill_bonus",
         "skill_bonus": {
-          "type": "skilltree:all_attributes",
-          "amount": 0.02,
-          "operation": 2
+          "type": "skilltree:attribute",
+          "name": "Workbench Upgrade",
+          "attribute": "additionalentityattributes:lava_speed",
+          "operation": "1",
+          "amount": "0.06",
+          "id": "a9afd96f-7808-4ee2-83b7-15a0ab8df583"
         }
       }
     ]

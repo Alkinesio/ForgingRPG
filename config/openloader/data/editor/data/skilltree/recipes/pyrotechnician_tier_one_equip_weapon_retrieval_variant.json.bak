@@ -1,0 +1,41 @@
+{
+  "type": "skilltree:workbench_item_bonus",
+  "base_item_condition":
+    {
+      "type": "skilltree:equipment_type",
+      "equipment_type": "ranged_weapon"
+    },
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "apotheosis:gem_dust"
+      },
+      "required_amount": 50
+    },
+	{
+      "ingredient": {
+        "tag": "minecraft:iron_ingot"
+      },
+      "required_amount": 2
+    },
+	{
+      "ingredient": {
+        "tag": "minecraft:nether_brick"
+      },
+      "required_amount": 5
+    }
+  ],
+  "item_bonus": {
+    "type": "skilltree:item_bonus_list",
+    "inner_bonuses": [
+      {
+		"type": "skilltree:skill_bonus",
+		"skill_bonus": {
+        "type": "skilltree:arrow_retrieval",
+        "chance": 0.1
+		}
+      }
+    ]
+  },
+  "requires_passive_skill": true
+}

@@ -20,9 +20,47 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "minecraft:textures/block/enchanting_table_base.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Crafting",
-  "positionX": 198.0,
-  "positionY": -26.0,
+  "title": "Crafting Recipe",
+  "positionX": 197.80952,
+  "positionY": -25.809187,
   "buttonSize": 14,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "You can now craft Enchanting Tables"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "f_131102_": false,
+      "f_131103_": true,
+      "text": "An Enchanting Table can be crafted using obsidian blocks,"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "f_131102_": false,
+      "f_131103_": true,
+      "text": "diamonds and a book in a Crafting Table and permit to"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "f_131102_": false,
+      "f_131103_": true,
+      "text": "enchant items for Enchanter class."
+    }
+  ]
 }

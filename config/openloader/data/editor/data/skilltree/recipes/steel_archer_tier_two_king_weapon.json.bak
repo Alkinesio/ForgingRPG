@@ -1,0 +1,54 @@
+{
+  "type": "skilltree:workbench_item_bonus",
+  "base_item_condition":
+    {
+      "type": "skilltree:equipment_type",
+      "equipment_type": "ranged_weapon"
+    },
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "apotheosis:gem_dust"
+      },
+      "required_amount": 100
+    },
+	{
+      "ingredient": {
+        "tag": "iter_rpg:netherite_ring_magmanum"
+      },
+      "required_amount": 1
+    },
+	{
+      "ingredient": {
+        "tag": "ender_dragon_loot:dragon_scale"
+      },
+      "required_amount": 2
+    }
+  ],
+  "item_bonus": {
+    "type": "skilltree:item_bonus_list",
+    "inner_bonuses": [
+      {
+		"type": "skilltree:skill_bonus",
+          "skill_bonus": {
+          "type": "skilltree:item_usage_speed",
+          "multiplier": 0.02,
+          "item_condition": {
+            "equipment_type": "ranged_weapon",
+            "type": "skilltree:equipment_type"
+          },
+		  "player_multiplier": {
+            "value_provider": {
+              "attribute": "obscure_api:accuracy",
+              "type": "skilltree:attribute_value"
+            },
+            "divisor": 0.05,
+            "type": "skilltree:numeric_value"
+          },
+		  "id": "a9afd96f-7808-8ee8-83b7-16b0ab9df584"
+		}
+      }
+    ]
+  },
+  "requires_passive_skill": true
+}

@@ -16,6 +16,10 @@
     {
       "type": "skilltree:recipe_unlock",
       "recipe_id": "skilltree:base_attack_damage"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:base_projectile_damage"
     }
   ],
   "requirements": [
@@ -33,67 +37,9 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "uniquedungeons:textures/item/note.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Workbench Upgrade",
+  "title": "Workbench Recipe",
   "positionX": 148.572,
   "positionY": 35.67,
   "buttonSize": 14,
-  "isStartingPoint": false,
-  "description": [
-    {
-      "f_131101_": {
-        "f_131257_": 8092645
-      },
-      "translate": "skill_bonus.skilltree.recipe_unlock",
-      "with": [
-        {
-          "f_131101_": {
-            "f_131257_": 15515206
-          },
-          "text": "+5% Armor [Armor]"
-        }
-      ]
-    },
-    {
-      "f_131101_": {
-        "f_131257_": 8092645
-      },
-      "translate": "skill_bonus.skilltree.recipe_unlock",
-      "with": [
-        {
-          "f_131101_": {
-            "f_131257_": 15515206
-          },
-          "text": "+5% Max Health [Armor]"
-        }
-      ]
-    },
-    {
-      "f_131101_": {
-        "f_131257_": 8092645
-      },
-      "translate": "skill_bonus.skilltree.recipe_unlock",
-      "with": [
-        {
-          "f_131101_": {
-            "f_131257_": 15515206
-          },
-          "text": "+5% Armor Toughness [Armor]"
-        }
-      ]
-    },
-    {
-      "f_131101_": {
-        "f_131257_": 8092645
-      },
-      "translate": "skill_bonus.skilltree.recipe_unlock",
-      "with": [
-        {
-          "f_131101_": {
-            "f_131257_": 15515206
-          },
-          "text": "+5% Attack Damage [Weapons]"
-        }
-      ]
-    }
-  ]
+  "isStartingPoint": false
 }

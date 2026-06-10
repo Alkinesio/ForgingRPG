@@ -15,14 +15,54 @@
     "skilltree:utility_13"
   ],
   "longConnections": [],
-  "oneWayConnections": [],
+  "oneWayConnections": [
+    "skilltree:utility_31"
+  ],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "apotheosis:textures/blocks/reforging/table_side.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Mechanics",
+  "title": "Mechanics Unlocked",
   "positionX": 146.0,
   "positionY": -26.0,
   "buttonSize": 14,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "You can now craft and use Reforging Tables"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "f_131102_": false,
+      "f_131103_": true,
+      "text": "A Reforging Table can be crafted using iron and stone blocks,"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "f_131102_": false,
+      "f_131103_": true,
+      "text": "scrap metals, smithing table and a book in a Crafting Table"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "f_131102_": false,
+      "f_131103_": true,
+      "text": "and permit to reforge items which provide bonus to equipments."
+    }
+  ]
 }

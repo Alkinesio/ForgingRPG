@@ -7,11 +7,28 @@
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/recipe.png",
-  "iconTexture": "skilltree:textures/icons/void.png",
+  "iconTexture": "uniquedungeons:textures/item/ancient_note.png",
   "borderTexture": "skilltree:textures/tooltip/blacksmith.png",
+  "title": "Tier I Main Class Recipe",
   "titleColor": "00FFFF",
   "positionX": 135.0,
   "positionY": -27.0,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "text": "Unlocks Recipe: +10% Projectile Damage [Ranged Weapons]"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "text": "Unlocks Recipe: +12% Speed with Chainmail or Leather Boots equipped [Boots]"
+    }
+  ]
 }

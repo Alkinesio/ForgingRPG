@@ -15,14 +15,47 @@
     "skilltree:utility_26"
   ],
   "longConnections": [],
-  "oneWayConnections": [],
+  "oneWayConnections": [
+    "skilltree:utility_31"
+  ],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "minecraft:textures/block/smoker_front.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Crafting",
+  "title": "Crafting Recipe",
   "positionX": 140.023,
   "positionY": 12.177,
   "buttonSize": 14,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "You can now craft Smokers"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "f_131102_": false,
+      "f_131103_": true,
+      "text": "A Smoker can be crafted using wooden logs and furnace blocks in"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "f_131102_": false,
+      "f_131103_": true,
+      "f_131104_": false,
+      "text": "a Crafting Table and permit to cook items faster for Chef class."
+    }
+  ]
 }

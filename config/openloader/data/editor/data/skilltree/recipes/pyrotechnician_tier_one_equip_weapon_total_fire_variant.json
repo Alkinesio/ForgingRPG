@@ -3,29 +3,41 @@
   "base_item_condition":
     {
       "type": "skilltree:equipment_type",
-      "equipment_type": "any"
+      "equipment_type": "ranged_weapon"
     },
   "ingredients": [
     {
       "ingredient": {
         "tag": "apotheosis:gem_dust"
       },
-      "required_amount": 20
+      "required_amount": 50
     },
 	{
       "ingredient": {
-        "tag": "minecraft:nether_star"
+        "tag": "minecraft:soul_sand"
       },
       "required_amount": 1
+    },
+	{
+      "ingredient": {
+        "tag": "minecraft:flint"
+      },
+      "required_amount": 2
     }
   ],
   "item_bonus": {
     "type": "skilltree:item_bonus_list",
     "inner_bonuses": [
 	  {
-        "type": "skilltree:all_attributes",
-        "operation": "2",
-		"amount": "0.01"
+        "type": "skilltree:skill_bonus",
+        "skill_bonus": {
+		  "type": "skilltree:damage",
+		  "amount": 0.04,
+		  "operation": 2,
+          "damage_condition": {
+            "type": "skilltree:fire"
+		  }
+		}
       }
     ]
   },

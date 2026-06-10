@@ -16,6 +16,633 @@
 		}
 	}
 	id: "67FEE081225A10EA"
+	images: [
+		{
+			height: 1.15d
+			image: "apotheosis:blocks/blazing_hellshelf"
+			rotation: 0.0d
+			width: 1.15d
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "apotheosis:blocks/blazing_hellshelf"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "apotheosis:blocks/blazing_hellshelf"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "apotheosis:blocks/blazing_hellshelf"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "apotheosis:blocks/blazing_hellshelf"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "apotheosis:blocks/blazing_hellshelf"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "apotheosis:blocks/blazing_hellshelf"
+			rotation: 0.0d
+			width: 1.15d
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "apotheosis:blocks/blazing_hellshelf"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "apotheosis:blocks/hellshelf"
+			rotation: 0.0d
+			width: 1.15d
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "apotheosis:blocks/hellshelf"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "apotheosis:blocks/hellshelf"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "apotheosis:blocks/hellshelf"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "apotheosis:blocks/hellshelf"
+			rotation: 0.0d
+			width: 1.15d
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "apotheosis:blocks/hellshelf"
+			rotation: 0.0d
+			width: 1.15d
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "apotheosis:blocks/hellshelf"
+			rotation: 0.0d
+			width: 1.15d
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "apotheosis:blocks/hellshelf"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "apotheosis:blocks/hellshelf"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "apotheosis:blocks/hellshelf"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "apotheosis:blocks/hellshelf"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "apotheosis:blocks/hellshelf"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "apotheosis:blocks/hellshelf"
+			rotation: 0.0d
+			width: 1.15d
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "apotheosis:blocks/hellshelf"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "aether:block/dungeon/hellfire_stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "aether:block/dungeon/hellfire_stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "aether:block/dungeon/hellfire_stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "aether:block/dungeon/hellfire_stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "aether:block/dungeon/hellfire_stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "aether:block/dungeon/hellfire_stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			height: 1.15d
+			image: "aether:block/dungeon/hellfire_stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "aether:block/dungeon/hellfire_stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "aether:block/dungeon/hellfire_stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "aether:block/dungeon/hellfire_stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			height: 1.15d
+			image: "aether:block/dungeon/hellfire_stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "aether:block/dungeon/hellfire_stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "aether:block/dungeon/hellfire_stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "aether:block/dungeon/hellfire_stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "aether:block/dungeon/hellfire_stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "aether:block/dungeon/hellfire_stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "aether:block/dungeon/hellfire_stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "aether:block/dungeon/hellfire_stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "aether:block/dungeon/hellfire_stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "aether:block/dungeon/hellfire_stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			order: 1
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			height: 4.0d
+			image: "macabre:block/macabreicon"
+			rotation: 0.0d
+			width: 4.0d
+			x: -10.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/p1"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/p1"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/p1"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/p1"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/p1"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/p1"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/p1"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/p1"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/p1"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/p1"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/p1"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/p1"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/p1"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/p1"
+			rotation: 0.0d
+			width: 1.15d
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/p1"
+			rotation: 0.0d
+			width: 1.15d
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/p1"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/p1"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			height: 1.15d
+			image: "macabre:block/p1"
+			rotation: 0.0d
+			width: 1.15d
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:block/misc/black_fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:block/misc/black_fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:block/misc/black_fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "ec_iaf_plugin:item_large/katana/fire_dragon_steel"
+			rotation: 135.0d
+			width: 1.0d
+			x: 1.75d
+			y: 1.75d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -98,7 +725,7 @@
 				}
 			]
 			title: "Ring of the Seven Curses"
-			x: -2.0d
+			x: -1.5d
 			y: -0.5d
 		}
 		{

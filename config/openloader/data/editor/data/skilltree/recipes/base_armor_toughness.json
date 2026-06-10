@@ -35,7 +35,7 @@
           "name": "Workbench Upgrade",
           "attribute": "minecraft:generic.armor_toughness",
           "operation": "1",
-          "amount": "0.05",
+          "amount": "0.02",
           "id": "a9afd96f-7808-4ee2-83b7-15a0ab8df583"
         }
       }

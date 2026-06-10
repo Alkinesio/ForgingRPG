@@ -1,0 +1,45 @@
+{
+  "type": "skilltree:workbench_item_bonus",
+  "base_item_condition":
+    {
+      "type": "skilltree:equipment_type",
+      "equipment_type": "ranged_weapon"
+    },
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "apotheosis:gem_dust"
+      },
+      "required_amount": 50
+    },
+	{
+      "ingredient": {
+        "tag": "minecraft:feather"
+      },
+      "required_amount": 1
+    },
+	{
+      "ingredient": {
+        "tag": "lowlands_clothing:axolotliron"
+      },
+      "required_amount": 4
+    }
+  ],
+  "item_bonus": {
+    "type": "skilltree:item_bonus_list",
+    "inner_bonuses": [
+      {
+        "type": "skilltree:skill_bonus",
+        "skill_bonus": {
+		  "type": "skilltree:damage",
+		  "amount": 0.1,
+		  "operation": 1,
+		  "damage_condition": {
+		 	 "type": "skilltree:projectile"
+		  }
+		}
+      }
+    ]
+  },
+  "requires_passive_skill": true
+}

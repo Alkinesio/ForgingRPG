@@ -20,9 +20,47 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "minecraft:textures/block/blast_furnace_front.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Crafting",
+  "title": "Crafting Recipe",
   "positionX": 148.572,
   "positionY": 61.67,
   "buttonSize": 14,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "text": "You can now craft Blast Furnaces"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "f_131102_": false,
+      "f_131103_": true,
+      "text": "A Blast Furnace can be crafted using iron ingots, smooth stones"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "f_131102_": false,
+      "text": "and furnace block in a Crafting Table and permit to smelt ores"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "f_131102_": false,
+      "f_131103_": true,
+      "text": "faster for Miner class."
+    }
+  ]
 }

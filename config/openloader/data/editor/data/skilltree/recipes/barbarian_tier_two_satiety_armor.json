@@ -1,0 +1,55 @@
+{
+  "type": "skilltree:workbench_item_bonus",
+  "base_item_condition":
+    {
+      "type": "skilltree:equipment_type",
+      "equipment_type": "armor"
+    },
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "apotheosis:gem_dust"
+      },
+      "required_amount": 120
+    },
+	{
+      "ingredient": {
+        "tag": "minecraft:gold_block"
+      },
+      "required_amount": 4
+    },
+	{
+      "ingredient": {
+        "tag": "minecraft:enchanted_golden_apple"
+      },
+      "required_amount": 1
+    }
+  ],
+  "item_bonus": {
+    "type": "skilltree:item_bonus_list",
+    "inner_bonuses": [
+	  {
+		"type": "skilltree:skill_bonus",
+        "skill_bonus": {
+		  "type": "skilltree:attribute",
+		  "name": "Workbench Upgrade",
+          "attribute": "attributeslib:overheal",
+		  "player_condition": {
+		 	 "value_provider": {
+		 	 "percentage": true,
+		 	 "missing": false,
+		 	 "type": "skilltree:food_level"
+		 	 },
+		 	 "required_value": 1.0,
+		 	 "logic": "EQUAL",
+		 	 "type": "skilltree:numeric_value"
+		  },
+		  "operation": "1",
+		  "amount": "0.1",
+		  "id": "a9afd96f-7808-4ee2-83b7-15a0ab8df582"
+		}
+      }
+    ]
+  },
+  "requires_passive_skill": true
+}

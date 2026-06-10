@@ -3,14 +3,20 @@
   "base_item_condition":
     {
       "type": "skilltree:equipment_type",
-      "equipment_type": "any"
+      "equipment_type": "chestplate"
     },
   "ingredients": [
     {
       "ingredient": {
         "tag": "apotheosis:gem_dust"
       },
-      "required_amount": 20
+      "required_amount": 80
+    },
+	{
+      "ingredient": {
+        "tag": "minecraft:end_stone_bricks"
+      },
+      "required_amount": 4
     },
 	{
       "ingredient": {
@@ -22,10 +28,16 @@
   "item_bonus": {
     "type": "skilltree:item_bonus_list",
     "inner_bonuses": [
-	  {
-          "type": "skilltree:all_attributes",
+      {
+        "type": "skilltree:skill_bonus",
+        "skill_bonus": {
+          "type": "skilltree:attribute",
+          "name": "Workbench Upgrade",
+          "attribute": "minecraft:generic.max_health",
           "operation": "2",
-		  "amount": "0.01"
+          "amount": "0.08",
+          "id": "a9afd96f-7808-4ee2-83b7-15a0ab8df585"
+        }
       }
     ]
   },

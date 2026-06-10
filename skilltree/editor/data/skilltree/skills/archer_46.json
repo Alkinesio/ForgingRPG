@@ -3,7 +3,7 @@
   "bonuses": [
     {
       "type": "skilltree:damage_taken",
-      "amount": -0.05,
+      "amount": -0.025,
       "operation": 1,
       "player_condition": {
         "item_condition": {
@@ -21,7 +21,7 @@
     },
     {
       "type": "skilltree:damage_taken",
-      "amount": -0.08,
+      "amount": -0.04,
       "operation": 1,
       "player_condition": {
         "item_condition": {
@@ -39,7 +39,7 @@
     },
     {
       "type": "skilltree:damage_taken",
-      "amount": -0.07,
+      "amount": -0.035,
       "operation": 1,
       "player_condition": {
         "item_condition": {
@@ -57,7 +57,7 @@
     },
     {
       "type": "skilltree:damage_taken",
-      "amount": -0.04,
+      "amount": -0.02,
       "operation": 1,
       "player_condition": {
         "item_condition": {
@@ -76,9 +76,9 @@
     {
       "type": "skilltree:attribute",
       "attribute": "attributeslib:dodge_chance",
-      "id": "b6bbbb50-7e87-4faf-8cbc-b0b6d1704c09",
+      "id": "97b114c7-4c56-4a09-8c8f-d8df3037399d",
       "name": "Skill",
-      "amount": 0.05,
+      "amount": 0.0375,
       "operation": 0,
       "player_condition": {
         "item_condition": {
@@ -94,9 +94,9 @@
     {
       "type": "skilltree:attribute",
       "attribute": "attributeslib:dodge_chance",
-      "id": "39e364e8-5114-4542-8209-d14dc5e7b984",
+      "id": "1687d6f2-5ae3-4dc9-9243-bc43b9887c1e",
       "name": "Skill",
-      "amount": 0.08,
+      "amount": 0.06,
       "operation": 0,
       "player_condition": {
         "item_condition": {
@@ -112,9 +112,9 @@
     {
       "type": "skilltree:attribute",
       "attribute": "attributeslib:dodge_chance",
-      "id": "1a30d4cc-5185-4d9f-9ad4-5848543ec206",
+      "id": "d73c42a4-3d4a-4823-8b67-bcda40ce23e1",
       "name": "Skill",
-      "amount": 0.07,
+      "amount": 0.0525,
       "operation": 0,
       "player_condition": {
         "item_condition": {
@@ -130,9 +130,9 @@
     {
       "type": "skilltree:attribute",
       "attribute": "attributeslib:dodge_chance",
-      "id": "737b1825-8bfd-458d-b59c-de8196e8731c",
+      "id": "7cb0d125-1a29-4d1b-a353-8f44805981a9",
       "name": "Skill",
-      "amount": 0.04,
+      "amount": 0.03,
       "operation": 0,
       "player_condition": {
         "item_condition": {
@@ -176,8 +176,8 @@
   "iconTexture": "iceandfire:textures/item/forest_troll_leather_leggings.png",
   "borderTexture": "skilltree:textures/tooltip/notable.png",
   "title": "Leather of S.T.E.E.L",
-  "positionX": 314.72858,
-  "positionY": 60.096123,
+  "positionX": 314.729,
+  "positionY": 60.096,
   "buttonSize": 18,
   "isStartingPoint": false,
   "description": [
@@ -185,49 +185,52 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "-5% Damage taken with Enchanted Chainmail Helmet equipped"
+      "text": "-2.5% Damage taken with Enchanted Chainmail Helmet equipped"
     },
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "-8% Damage taken with Enchanted Chainmail Chestplate equipped"
+      "text": "-4% Damage taken with Enchanted Chainmail Chestplate equipped"
     },
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "-7% Damage taken with Enchanted Chainmail Leggings equipped"
+      "text": "-3.5% Damage taken with Enchanted Chainmail Leggings equipped"
     },
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "-4% Damage taken with Enchanted Chainmail Boots equipped"
+      "f_131102_": false,
+      "text": "-2% Damage taken with Enchanted Chainmail Boots equipped"
     },
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "+5% Dodge Chance with Enchanted Leather Cap equipped"
+      "text": "+3.75% Dodge Chance with Enchanted Leather Cap equipped"
     },
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "+8% Dodge Chance with Enchanted Leather Tunic equipped"
+      "text": "+6% Dodge Chance with Enchanted Leather Tunic equipped"
     },
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "+7% Dodge Chance with Enchanted Leather Pants equipped"
+      "f_131102_": false,
+      "text": "+5.25% Dodge Chance with Enchanted Leather Pants equipped"
     },
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "+4% Dodge Chance with Enchanted Leather Boots equipped"
+      "f_131102_": false,
+      "text": "+3% Dodge Chance with Enchanted Leather Boots equipped"
     },
     {
       "f_131101_": {

@@ -10,11 +10,17 @@
       }
     }
   ],
-  "directConnections": [
-	"skilltree:utility_2"
+  "requirements": [
+    {
+      "type": "skilltree:advancement",
+      "advancement": "morevillagers:first_trade"
+    }
   ],
+  "directConnections": [],
   "longConnections": [],
-  "oneWayConnections": [],
+  "oneWayConnections": [
+    "skilltree:utility_2"
+  ],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/class.png",
   "iconTexture": "artifacts:textures/item/power_glove.png",
@@ -23,7 +29,7 @@
   "positionX": 0.0,
   "positionY": 0.0,
   "buttonSize": 24,
-  "isStartingPoint": true,
+  "isStartingPoint": false,
   "description": [
     {
       "f_131101_": {

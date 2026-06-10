@@ -7,7 +7,7 @@
       "amount": 1.0,
       "event_listener": {
         "damage_condition": {
-          "type": "skilltree:none"
+          "type": "skilltree:melee"
         },
         "target": "player",
         "type": "skilltree:attack"
@@ -124,21 +124,8 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "translate": "event_listener.skilltree.attack",
-      "with": [
-        {
-          "translate": "attribute.modifier.plus.1",
-          "with": [
-            "5",
-            {
-              "translate": "skill_bonus.skilltree.healing.player.chance",
-              "with": [
-                "1"
-              ]
-            }
-          ]
-        }
-      ]
+      "f_131102_": false,
+      "text": "+5% Chance to recover 1 life on Melee hit"
     },
     {
       "f_131101_": {

@@ -46,7 +46,11 @@
     "ovh.corail.tombstone.gui.ScreenReadableScroll": true,
     "com.voxelforge.homesteads.screen.LumberJackScreen": true,
     "tictim.paraglider.client.screen.BargainScreen": true,
-    "dev.latvian.mods.kubejs.client.KubeJSErrorScreen": true
+    "dev.latvian.mods.kubejs.client.KubeJSErrorScreen": true,
+    "com.github.L_Ender.cataclysm.client.gui.GUIWeponfusion": true,
+    "dev.shadowsoffire.apotheosis.adventure.affix.salvaging.SalvagingScreen": true,
+    "com.Polarice3.Goety.client.gui.screen.inventory.DarkAnvilScreen": true,
+    "io.redspace.ironsspellbooks.gui.arcane_anvil.ArcaneAnvilScreen": true
   },
   "hideBackground": {
     "net.mcreator.monsterhuntervillager.client.gui.HuntersTableGuiScreen": true,
@@ -76,6 +80,10 @@
     "net.mcreator.realmrpgquests.client.gui.QuestBookPageAScreen": true,
     "com.aetherteam.aether.client.gui.screen.inventory.LoreBookScreen": true,
     "dev.shadowsoffire.apotheosis.adventure.affix.reforging.ReforgingScreen": true,
-    "com.voxelforge.homesteads.screen.LumberJackScreen": true
+    "com.voxelforge.homesteads.screen.LumberJackScreen": true,
+    "com.github.L_Ender.cataclysm.client.gui.GUIWeponfusion": true,
+    "dev.shadowsoffire.apotheosis.adventure.affix.salvaging.SalvagingScreen": true,
+    "com.Polarice3.Goety.client.gui.screen.inventory.DarkAnvilScreen": true,
+    "io.redspace.ironsspellbooks.gui.arcane_anvil.ArcaneAnvilScreen": true
   }
 }

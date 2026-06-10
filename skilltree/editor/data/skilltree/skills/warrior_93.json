@@ -26,8 +26,8 @@
   "iconTexture": "iter_rpg:textures/item/dwarven_battleaxe.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Flat Damage",
-  "positionX": 276.01,
-  "positionY": -105.111,
+  "positionX": 278.857,
+  "positionY": -111.019,
   "buttonSize": 14,
   "isStartingPoint": false
 }

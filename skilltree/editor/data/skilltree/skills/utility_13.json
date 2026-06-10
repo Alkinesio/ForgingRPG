@@ -16,6 +16,10 @@
     {
       "type": "skilltree:recipe_unlock",
       "recipe_id": "skilltree:base_flat_attack_damage"
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:base_flat_projectile_damage"
     }
   ],
   "requirements": [
@@ -33,7 +37,7 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "uniquedungeons:textures/item/note.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Workbench Upgrade",
+  "title": "Workbench Recipe",
   "positionX": 120.0,
   "positionY": -26.0,
   "buttonSize": 14,

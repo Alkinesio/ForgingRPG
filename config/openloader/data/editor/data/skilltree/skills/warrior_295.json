@@ -20,14 +20,21 @@
   "titleColor": "00ffff",
   "positionX": 249.86,
   "positionY": -154.589,
-  "buttonSize": 80,
+  "buttonSize": 60,
   "isStartingPoint": false,
   "description": [
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "Unlocks Recipe: +2% All Attributes if you are not hungry [Any]"
+      "f_131102_": false,
+      "text": "Unlocks Recipe: Recover 2 life on Melee hit if you are not hungry [Axes]"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Unlocks Recipe: +10% Overheal if you are not hungry [Armor]"
     }
   ]
 }

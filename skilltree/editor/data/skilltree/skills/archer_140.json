@@ -4,9 +4,9 @@
     {
       "type": "skilltree:attribute",
       "attribute": "additionalentityattributes:lava_speed",
-      "id": "047c941c-e20c-4c37-a10c-1031db7b0f18",
+      "id": "68e384d7-67ca-4948-836c-af05098c9860",
       "name": "Skill",
-      "amount": 0.06,
+      "amount": 0.075,
       "operation": 1
     }
   ],

@@ -20,9 +20,39 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "minecraft:textures/block/anvil_top.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Mechanics",
+  "title": "Mechanics Unlocked",
   "positionX": 68.0,
   "positionY": 0.0,
   "buttonSize": 14,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "You can now craft and use Anvils"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "f_131102_": false,
+      "f_131103_": true,
+      "text": "An Anvil can be crafted using iron ingots and blocks in a"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16777215
+      },
+      "f_131102_": false,
+      "f_131103_": true,
+      "text": "Crafting Table and permit to repair and rename items."
+    }
+  ]
 }

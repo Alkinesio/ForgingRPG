@@ -1,0 +1,49 @@
+{
+  "type": "skilltree:workbench_item_bonus",
+  "base_item_condition":
+    {
+      "type": "skilltree:equipment_type",
+      "equipment_type": "armor"
+    },
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "apotheosis:gem_dust"
+      },
+      "required_amount": 40
+    },
+	{
+      "ingredient": {
+        "tag": "minecraft:coal_block"
+      },
+      "required_amount": 8
+    },
+	{
+      "ingredient": {
+        "tag": "minecraft:glistering_melon_slice"
+      },
+      "required_amount": 2
+    }
+  ],
+  "item_bonus": {
+    "type": "skilltree:item_bonus_list",
+    "inner_bonuses": [
+	{
+	  "type": "skilltree:skill_bonus",
+	  "skill_bonus": {
+	    "type": "skilltree:healing",
+	    "chance": 1.0,
+	    "amount": 2.0,
+	    "event_listener": {
+	 	   "item_condition": {
+	 	     "id": "iter_rpg:dwarven_handcannon",
+	 	     "type": "skilltree:item_id"
+	 	   },
+	 	   "type": "skilltree:item_used"
+	    }
+	  }
+	}
+	]
+  },
+  "requires_passive_skill": true
+}

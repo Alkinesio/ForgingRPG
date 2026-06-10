@@ -92,7 +92,15 @@
         "f_131257_": 16777215
       },
       "f_131102_": false,
-      "text": "The Crossbower is specialized to deal flat and critical damage."
+      "text": "The Crossbower is specialized to deal massive damage using crossbow."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 12632256
+      },
+      "f_131102_": false,
+      "f_131103_": true,
+      "text": "Pro: Flat damage and armor penetration \\ Cons: Crossbow only"
     },
     {
       "f_131101_": {

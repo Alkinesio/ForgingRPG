@@ -4,9 +4,9 @@
     {
       "type": "skilltree:attribute",
       "attribute": "minecraft:generic.movement_speed",
-      "id": "3703dc9e-98ff-4b28-9b41-771f80540c59",
+      "id": "a7444c0e-d26e-44f9-a3f6-6bbef1630c50",
       "name": "Skill",
-      "amount": 0.06,
+      "amount": 0.05,
       "operation": 1,
       "player_condition": {
         "item_condition": {
@@ -19,9 +19,9 @@
     {
       "type": "skilltree:attribute",
       "attribute": "minecraft:generic.movement_speed",
-      "id": "80939516-50d8-4baa-9008-f04ffc0c6047",
+      "id": "962d0d9e-511c-41a9-beec-838855642cf3",
       "name": "Skill",
-      "amount": 0.06,
+      "amount": 0.05,
       "operation": 1,
       "player_condition": {
         "item_condition": {
@@ -52,7 +52,7 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "text": "+6% Speed with Chainmail or Leather Boots equipped"
+      "text": "+5% Speed with Chainmail or Leather Boots equipped"
     }
   ]
 }

@@ -1,0 +1,45 @@
+{
+  "type": "skilltree:workbench_item_bonus",
+  "base_item_condition":
+    {
+      "type": "skilltree:equipment_type",
+      "equipment_type": "boots"
+    },
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "apotheosis:gem_dust"
+      },
+      "required_amount": 80
+    },
+	{
+      "ingredient": {
+        "tag": "minecraft:dragon_breath"
+      },
+      "required_amount": 1
+    },
+	{
+      "ingredient": {
+        "tag": "aether_treasure_reforging:valkyrum_ingot"
+      },
+      "required_amount": 4
+    }
+  ],
+  "item_bonus": {
+    "type": "skilltree:item_bonus_list",
+    "inner_bonuses": [
+      {
+		"type": "skilltree:skill_bonus",
+        "skill_bonus": {
+          "type": "skilltree:damage_avoidance",
+          "chance": 0.15,
+          "damage_condition": {
+            "type": "skilltree:fall"
+          },
+		  "id": "a9afd96f-7808-6ee4-83b7-16b0ab9df584"
+		}
+      }
+    ]
+  },
+  "requires_passive_skill": true
+}

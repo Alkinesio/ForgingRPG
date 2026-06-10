@@ -1,0 +1,43 @@
+{
+  "type": "skilltree:workbench_item_bonus",
+  "base_item_condition":
+    {
+      "type": "skilltree:equipment_type",
+      "equipment_type": "crossbow"
+    },
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "apotheosis:gem_dust"
+      },
+      "required_amount": 50
+    },
+	{
+      "ingredient": {
+        "tag": "minecraft:copper_block"
+      },
+      "required_amount": 2
+    },
+	{
+      "ingredient": {
+        "tag": "minecraft:crying_obsidian"
+      },
+      "required_amount": 1
+    }
+  ],
+  "item_bonus": {
+    "type": "skilltree:item_bonus_list",
+    "inner_bonuses": [
+      {
+        "type": "skilltree:skill_bonus",
+        "skill_bonus": {
+          "type": "skilltree:effect_duration",
+          "effect_type": "harmful",
+          "duration": 0.3,
+          "target": "enemy"
+        }
+      }
+    ]
+  },
+  "requires_passive_skill": true
+}

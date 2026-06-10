@@ -1,0 +1,61 @@
+{
+  "type": "skilltree:workbench_item_bonus",
+  "base_item_condition":
+    {
+      "type": "skilltree:equipment_type",
+      "equipment_type": "axe"
+    },
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "apotheosis:gem_dust"
+      },
+      "required_amount": 80
+    },
+	{
+      "ingredient": {
+        "tag": "ec_iaf_plugin:gold_wither_bone"
+      },
+      "required_amount": 2
+    },
+	{
+      "ingredient": {
+        "tag": "aquamirae_delight:golden_puree_pasta"
+      },
+      "required_amount": 1
+    }
+  ],
+  "item_bonus": {
+	"type": "skilltree:item_bonus_list",
+    "inner_bonuses": [
+	  {
+		"type": "skilltree:skill_bonus",
+        "skill_bonus":
+		{
+		  "type": "skilltree:healing",
+		  "chance": 1,
+		  "amount": 2,
+		  "event_listener": {
+		  	"damage_condition": {
+		  	"type": "skilltree:melee"
+		  	},
+		  	"target": "player",
+		  	"type": "skilltree:attack"
+		  },
+		  "player_condition": {
+		 	 "value_provider": {
+		 	 "percentage": true,
+		 	 "missing": false,
+		 	 "type": "skilltree:food_level"
+		 	 },
+		 	 "required_value": 1.0,
+		 	 "logic": "EQUAL",
+		 	 "type": "skilltree:numeric_value"
+		  },
+		  "percentage_healing": false
+		}
+	  }
+	]
+  },
+  "requires_passive_skill": true
+}
